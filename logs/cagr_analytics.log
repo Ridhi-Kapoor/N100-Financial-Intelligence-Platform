@@ -1,0 +1,14 @@
+2026-07-14 14:46:15,406 - WARNING - CAGR calculation failed: Number of years n=0 must be greater than 0.
+2026-07-14 14:46:15,406 - WARNING - CAGR calculation failed: Invalid input types (beg=abc, end=150.0, n=3). Error: could not convert string to float: 'abc'
+2026-07-14 14:51:33,258 - WARNING - CAGR calculation failed: Number of years n=0 must be greater than 0.
+2026-07-14 14:51:33,258 - WARNING - CAGR calculation failed: Invalid input types (beg=abc, end=150.0, n=3). Error: could not convert string to float: 'abc'
+2026-07-14 14:53:31,631 - WARNING - CAGR calculation failed: Number of years n=0 must be greater than 0.
+2026-07-14 14:53:31,633 - WARNING - CAGR calculation failed: Invalid input types (beg=abc, end=150.0, n=3). Error: could not convert string to float: 'abc'
+2026-07-14 14:54:38,970 - WARNING - CAGR calculation failed: Number of years n=0 must be greater than 0.
+2026-07-14 14:54:38,972 - WARNING - CAGR calculation failed: Invalid input types (beg=abc, end=150.0, n=3). Error: could not convert string to float: 'abc'
+2026-07-14 15:03:08,337 - WARNING - CAGR calculation failed: Number of years n=0 must be greater than 0.
+2026-07-14 15:03:08,339 - WARNING - CAGR calculation failed: Invalid input types (beg=abc, end=150.0, n=3). Error: could not convert string to float: 'abc'
+2026-07-14 18:20:01,040 - WARNING - CAGR calculation failed: Number of years n=0 must be greater than 0.
+2026-07-14 18:20:01,040 - WARNING - CAGR calculation failed: Invalid input types (beg=abc, end=150.0, n=3). Error: could not convert string to float: 'abc'
+2026-07-14 18:29:31,403 - WARNING - CAGR calculation failed: Number of years n=0 must be greater than 0.
+2026-07-14 18:29:31,404 - WARNING - CAGR calculation failed: Invalid input types (beg=abc, end=150.0, n=3). Error: could not convert string to float: 'abc'

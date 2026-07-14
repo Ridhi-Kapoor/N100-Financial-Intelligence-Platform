@@ -1,0 +1,538 @@
+2026-07-14 14:09:34,475 - WARNING - OPM Mismatch - Company ID: COMP1, Company Name: Company One, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 14:10:15,986 - WARNING - OPM Mismatch - Company ID: ADANIENSOL, Company Name: Adani Energy Solutions Ltd, Year: 2024, Calculated OPM: 34.39%, Source OPM: 30.00%, Difference: 4.39%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2013, Calculated OPM: 30.58%, Source OPM: 1353.00%, Difference: 1322.42%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2014, Calculated OPM: 31.47%, Source OPM: 2307.00%, Difference: 2275.53%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2015, Calculated OPM: 31.36%, Source OPM: 3097.00%, Difference: 3065.64%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2016, Calculated OPM: 32.61%, Source OPM: 3466.00%, Difference: 3433.39%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2017, Calculated OPM: 53.45%, Source OPM: -5715.00%, Difference: 5768.45%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2018, Calculated OPM: 63.12%, Source OPM: -10277.00%, Difference: 10340.12%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2019, Calculated OPM: 49.39%, Source OPM: -5447.00%, Difference: 5496.39%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2020, Calculated OPM: 55.98%, Source OPM: -9859.00%, Difference: 9914.98%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2021, Calculated OPM: 50.12%, Source OPM: -2510.00%, Difference: 2560.12%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2022, Calculated OPM: 44.47%, Source OPM: 3170.00%, Difference: 3125.53%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2023, Calculated OPM: 34.16%, Source OPM: 13857.00%, Difference: 13822.84%
+2026-07-14 14:10:15,994 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2024, Calculated OPM: 34.69%, Source OPM: 11952.00%, Difference: 11917.31%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2015, Calculated OPM: 32.49%, Source OPM: 1367.00%, Difference: 1334.51%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2016, Calculated OPM: 32.25%, Source OPM: 1986.00%, Difference: 1953.75%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2017, Calculated OPM: 32.60%, Source OPM: 2867.00%, Difference: 2834.40%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2018, Calculated OPM: 32.28%, Source OPM: 3935.00%, Difference: 3902.72%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2019, Calculated OPM: 29.50%, Source OPM: 6310.00%, Difference: 6280.50%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2020, Calculated OPM: 34.73%, Source OPM: 7608.00%, Difference: 7573.27%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2021, Calculated OPM: 40.64%, Source OPM: 6314.00%, Difference: 6273.36%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2022, Calculated OPM: 37.55%, Source OPM: 9906.00%, Difference: 9868.45%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2023, Calculated OPM: 30.65%, Source OPM: 16018.00%, Difference: 15987.35%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2024, Calculated OPM: 29.29%, Source OPM: 19987.00%, Difference: 19957.71%
+2026-07-14 14:10:15,997 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2013, Calculated OPM: 30.05%, Source OPM: 1006.00%, Difference: 975.95%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2014, Calculated OPM: 29.78%, Source OPM: 809.00%, Difference: 779.22%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2015, Calculated OPM: 29.98%, Source OPM: 902.00%, Difference: 872.02%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2016, Calculated OPM: 55.44%, Source OPM: -11700.00%, Difference: 11755.44%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2017, Calculated OPM: 43.28%, Source OPM: -4372.00%, Difference: 4415.28%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2018, Calculated OPM: 56.65%, Source OPM: -9197.00%, Difference: 9253.65%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2019, Calculated OPM: 48.79%, Source OPM: -5414.00%, Difference: 5462.79%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2020, Calculated OPM: 51.44%, Source OPM: -11728.00%, Difference: 11779.44%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2021, Calculated OPM: 51.23%, Source OPM: -6957.00%, Difference: 7008.23%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2022, Calculated OPM: 51.12%, Source OPM: -2948.00%, Difference: 2999.12%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2023, Calculated OPM: 40.45%, Source OPM: 6329.00%, Difference: 6288.55%
+2026-07-14 14:10:15,998 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2024, Calculated OPM: 37.49%, Source OPM: 4102.00%, Difference: 4064.51%
+2026-07-14 14:10:16,005 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2013, Calculated OPM: 21.18%, Source OPM: 655.00%, Difference: 633.82%
+2026-07-14 14:10:16,005 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2014, Calculated OPM: 24.35%, Source OPM: -672.00%, Difference: 696.35%
+2026-07-14 14:10:16,005 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2015, Calculated OPM: 23.51%, Source OPM: -621.00%, Difference: 644.51%
+2026-07-14 14:10:16,005 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2016, Calculated OPM: 40.38%, Source OPM: -8008.00%, Difference: 8048.38%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2017, Calculated OPM: 37.85%, Source OPM: -5775.00%, Difference: 5812.85%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2018, Calculated OPM: 61.87%, Source OPM: -13350.00%, Difference: 13411.87%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2019, Calculated OPM: 56.73%, Source OPM: -11590.00%, Difference: 11646.73%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2020, Calculated OPM: 53.88%, Source OPM: -12867.00%, Difference: 12920.88%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2021, Calculated OPM: 61.83%, Source OPM: -18367.00%, Difference: 18428.83%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2022, Calculated OPM: 58.39%, Source OPM: -13657.00%, Difference: 13715.39%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2023, Calculated OPM: 49.80%, Source OPM: -9877.00%, Difference: 9926.80%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2024, Calculated OPM: 41.75%, Source OPM: -7745.00%, Difference: 7786.75%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2013, Calculated OPM: 26.77%, Source OPM: 472.00%, Difference: 445.23%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2014, Calculated OPM: 28.42%, Source OPM: 578.00%, Difference: 549.58%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2015, Calculated OPM: 28.56%, Source OPM: 696.00%, Difference: 667.44%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2016, Calculated OPM: 30.04%, Source OPM: 899.00%, Difference: 868.96%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2017, Calculated OPM: 28.16%, Source OPM: 1143.00%, Difference: 1114.84%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2018, Calculated OPM: 26.10%, Source OPM: 1451.00%, Difference: 1424.90%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2019, Calculated OPM: 22.96%, Source OPM: 1888.00%, Difference: 1865.04%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2020, Calculated OPM: 27.79%, Source OPM: 1699.00%, Difference: 1671.21%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2021, Calculated OPM: 30.40%, Source OPM: 2094.00%, Difference: 2063.60%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2022, Calculated OPM: 28.83%, Source OPM: 2924.00%, Difference: 2895.17%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2023, Calculated OPM: 28.10%, Source OPM: 3515.00%, Difference: 3486.90%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2024, Calculated OPM: 28.10%, Source OPM: 4548.00%, Difference: 4519.90%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2013, Calculated OPM: 73.26%, Source OPM: 2214.00%, Difference: 2140.74%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2014, Calculated OPM: 78.90%, Source OPM: 2147.00%, Difference: 2068.10%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2015, Calculated OPM: 80.94%, Source OPM: 2163.00%, Difference: 2082.06%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2016, Calculated OPM: 82.02%, Source OPM: 2480.00%, Difference: 2397.98%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2017, Calculated OPM: 82.66%, Source OPM: 2496.00%, Difference: 2413.34%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2018, Calculated OPM: 81.35%, Source OPM: 2826.00%, Difference: 2744.65%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2019, Calculated OPM: 81.07%, Source OPM: 3097.00%, Difference: 3015.93%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2020, Calculated OPM: 81.29%, Source OPM: 3206.00%, Difference: 3124.71%
+2026-07-14 14:10:16,006 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2021, Calculated OPM: 77.80%, Source OPM: 4252.00%, Difference: 4174.20%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2022, Calculated OPM: 79.08%, Source OPM: 4553.00%, Difference: 4473.92%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2023, Calculated OPM: 77.91%, Source OPM: 5027.00%, Difference: 4949.09%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2024, Calculated OPM: 75.59%, Source OPM: 6291.00%, Difference: 6215.41%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2013, Calculated OPM: 73.52%, Source OPM: 18087.00%, Difference: 18013.48%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2014, Calculated OPM: 74.84%, Source OPM: 17766.00%, Difference: 17691.16%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2015, Calculated OPM: 76.60%, Source OPM: 17343.00%, Difference: 17266.40%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2016, Calculated OPM: 75.96%, Source OPM: 18714.00%, Difference: 18638.04%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2017, Calculated OPM: 84.07%, Source OPM: 12448.00%, Difference: 12363.93%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2018, Calculated OPM: 89.10%, Source OPM: 9288.00%, Difference: 9198.90%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2019, Calculated OPM: 74.89%, Source OPM: 25007.00%, Difference: 24932.11%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2020, Calculated OPM: 77.54%, Source OPM: 21581.00%, Difference: 21503.46%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2021, Calculated OPM: 79.31%, Source OPM: 18628.00%, Difference: 18548.69%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2022, Calculated OPM: 77.47%, Source OPM: 24721.00%, Difference: 24643.53%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2023, Calculated OPM: 68.01%, Source OPM: 44232.00%, Difference: 44163.99%
+2026-07-14 14:10:16,008 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2024, Calculated OPM: 66.29%, Source OPM: 47971.00%, Difference: 47904.71%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2013, Calculated OPM: 35.22%, Source OPM: 3534.00%, Difference: 3498.78%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2014, Calculated OPM: 31.74%, Source OPM: 5602.00%, Difference: 5570.26%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2015, Calculated OPM: 31.90%, Source OPM: 7214.00%, Difference: 7182.10%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2016, Calculated OPM: 31.75%, Source OPM: 9037.00%, Difference: 9005.25%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2017, Calculated OPM: 32.56%, Source OPM: 11374.00%, Difference: 11341.44%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2018, Calculated OPM: 34.63%, Source OPM: 13374.00%, Difference: 13339.37%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2019, Calculated OPM: 33.15%, Source OPM: 16592.00%, Difference: 16558.85%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2020, Calculated OPM: 37.20%, Source OPM: 14593.00%, Difference: 14555.80%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2021, Calculated OPM: 40.81%, Source OPM: 16848.00%, Difference: 16807.19%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2022, Calculated OPM: 41.61%, Source OPM: 20795.00%, Difference: 20753.39%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2023, Calculated OPM: 36.92%, Source OPM: 29932.00%, Difference: 29895.08%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2024, Calculated OPM: 61.41%, Source OPM: -44685.00%, Difference: 44746.41%
+2026-07-14 14:10:16,015 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2013, Calculated OPM: 96.27%, Source OPM: 525.00%, Difference: 428.73%
+2026-07-14 14:10:16,016 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2014, Calculated OPM: 96.48%, Source OPM: 605.00%, Difference: 508.52%
+2026-07-14 14:10:16,016 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2015, Calculated OPM: 96.79%, Source OPM: 874.00%, Difference: 777.21%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2016, Calculated OPM: 94.74%, Source OPM: 953.00%, Difference: 858.26%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2017, Calculated OPM: 96.83%, Source OPM: 972.00%, Difference: 875.17%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2018, Calculated OPM: 96.67%, Source OPM: 1074.00%, Difference: 977.33%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2019, Calculated OPM: 96.87%, Source OPM: 1215.00%, Difference: 1118.13%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2020, Calculated OPM: 96.12%, Source OPM: 1141.00%, Difference: 1044.88%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2021, Calculated OPM: 98.27%, Source OPM: 1235.00%, Difference: 1136.73%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2022, Calculated OPM: 98.84%, Source OPM: 778.00%, Difference: 679.16%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2023, Calculated OPM: 99.89%, Source OPM: 80.00%, Difference: 19.89%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2024, Calculated OPM: 99.48%, Source OPM: 531.00%, Difference: 431.52%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2014, Calculated OPM: 85.94%, Source OPM: 3553.00%, Difference: 3467.06%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2015, Calculated OPM: 87.22%, Source OPM: 3520.00%, Difference: 3432.78%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2016, Calculated OPM: 84.45%, Source OPM: 4424.00%, Difference: 4339.55%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2017, Calculated OPM: 83.97%, Source OPM: 4585.00%, Difference: 4501.03%
+2026-07-14 14:10:16,017 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2018, Calculated OPM: 83.57%, Source OPM: 5334.00%, Difference: 5250.43%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2019, Calculated OPM: 85.21%, Source OPM: 5025.00%, Difference: 4939.79%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2020, Calculated OPM: 86.09%, Source OPM: 4070.00%, Difference: 3983.91%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2021, Calculated OPM: 86.90%, Source OPM: 4058.00%, Difference: 3971.10%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2022, Calculated OPM: 88.98%, Source OPM: 3256.00%, Difference: 3167.02%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2023, Calculated OPM: 88.00%, Source OPM: 4099.00%, Difference: 4011.00%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2024, Calculated OPM: 86.15%, Source OPM: 5235.00%, Difference: 5148.85%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2013, Calculated OPM: 90.40%, Source OPM: 7699.00%, Difference: 7608.60%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2014, Calculated OPM: 90.85%, Source OPM: 8024.00%, Difference: 7933.15%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2015, Calculated OPM: 91.52%, Source OPM: 8844.00%, Difference: 8752.48%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2016, Calculated OPM: 92.12%, Source OPM: 7778.00%, Difference: 7685.88%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2017, Calculated OPM: 87.71%, Source OPM: 12317.00%, Difference: 12229.29%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2018, Calculated OPM: 88.11%, Source OPM: 13695.00%, Difference: 13606.89%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2019, Calculated OPM: 88.12%, Source OPM: 15511.00%, Difference: 15422.88%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2020, Calculated OPM: 87.89%, Source OPM: 14306.00%, Difference: 14218.11%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2021, Calculated OPM: 86.70%, Source OPM: 17559.00%, Difference: 17472.30%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2022, Calculated OPM: 85.47%, Source OPM: 28347.00%, Difference: 28261.53%
+2026-07-14 14:10:16,018 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2023, Calculated OPM: 89.85%, Source OPM: 22666.00%, Difference: 22576.15%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2024, Calculated OPM: 88.95%, Source OPM: 23872.00%, Difference: 23783.05%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2013, Calculated OPM: 84.37%, Source OPM: 4220.00%, Difference: 4135.63%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2014, Calculated OPM: 83.72%, Source OPM: 4759.00%, Difference: 4675.28%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2015, Calculated OPM: 83.07%, Source OPM: 5412.00%, Difference: 5328.93%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2016, Calculated OPM: 81.64%, Source OPM: 5910.00%, Difference: 5828.36%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2017, Calculated OPM: 80.92%, Source OPM: 6328.00%, Difference: 6247.08%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2018, Calculated OPM: 78.90%, Source OPM: 7499.00%, Difference: 7420.10%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2019, Calculated OPM: 77.41%, Source OPM: 8880.00%, Difference: 8802.59%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2020, Calculated OPM: 75.21%, Source OPM: 9861.00%, Difference: 9785.79%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2021, Calculated OPM: 75.28%, Source OPM: 11626.00%, Difference: 11550.72%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2022, Calculated OPM: 75.49%, Source OPM: 12857.00%, Difference: 12781.51%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2023, Calculated OPM: 76.65%, Source OPM: 14147.00%, Difference: 14070.35%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2024, Calculated OPM: 76.32%, Source OPM: 14659.00%, Difference: 14582.68%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2013, Calculated OPM: 70.59%, Source OPM: -15085.00%, Difference: 15155.59%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2014, Calculated OPM: 66.40%, Source OPM: -13084.00%, Difference: 13150.40%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2015, Calculated OPM: 70.53%, Source OPM: -16120.00%, Difference: 16190.53%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2016, Calculated OPM: 88.12%, Source OPM: -26955.00%, Difference: 27043.12%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2017, Calculated OPM: 104.76%, Source OPM: -37737.00%, Difference: 37841.76%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2018, Calculated OPM: 117.12%, Source OPM: -44906.00%, Difference: 45023.12%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2019, Calculated OPM: 116.38%, Source OPM: -50971.00%, Difference: 51087.38%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2020, Calculated OPM: 100.62%, Source OPM: -45190.00%, Difference: 45290.62%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2021, Calculated OPM: 102.41%, Source OPM: -44805.00%, Difference: 44907.41%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2022, Calculated OPM: 84.69%, Source OPM: -26558.00%, Difference: 26642.69%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2023, Calculated OPM: 72.57%, Source OPM: -17341.00%, Difference: 17413.57%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2024, Calculated OPM: 62.41%, Source OPM: -14152.00%, Difference: 14214.41%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2013, Calculated OPM: 104.46%, Source OPM: -178.00%, Difference: 282.46%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2014, Calculated OPM: 105.19%, Source OPM: -225.00%, Difference: 330.19%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2015, Calculated OPM: 105.24%, Source OPM: -221.00%, Difference: 326.24%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2016, Calculated OPM: 87.34%, Source OPM: 764.00%, Difference: 676.66%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2017, Calculated OPM: 87.78%, Source OPM: 919.00%, Difference: 831.22%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2018, Calculated OPM: 103.79%, Source OPM: -262.00%, Difference: 365.79%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2019, Calculated OPM: 85.05%, Source OPM: 1669.00%, Difference: 1583.95%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2020, Calculated OPM: 84.61%, Source OPM: 1772.00%, Difference: 1687.39%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2021, Calculated OPM: 82.97%, Source OPM: 2072.00%, Difference: 1989.03%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2022, Calculated OPM: 93.66%, Source OPM: 1016.00%, Difference: 922.34%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2023, Calculated OPM: 92.93%, Source OPM: 1264.00%, Difference: 1171.07%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2024, Calculated OPM: 87.42%, Source OPM: 2577.00%, Difference: 2489.58%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2013, Calculated OPM: 96.28%, Source OPM: 745.00%, Difference: 648.72%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2014, Calculated OPM: 93.13%, Source OPM: 1504.00%, Difference: 1410.87%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2015, Calculated OPM: 95.20%, Source OPM: 1655.00%, Difference: 1559.80%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2016, Calculated OPM: 91.17%, Source OPM: 1842.00%, Difference: 1750.83%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2017, Calculated OPM: 95.22%, Source OPM: 1806.00%, Difference: 1710.78%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2018, Calculated OPM: 95.44%, Source OPM: 1771.00%, Difference: 1675.56%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2019, Calculated OPM: 98.70%, Source OPM: 541.00%, Difference: 442.30%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2020, Calculated OPM: 101.52%, Source OPM: -319.00%, Difference: 420.52%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2021, Calculated OPM: 100.47%, Source OPM: -390.00%, Difference: 490.47%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2022, Calculated OPM: 103.40%, Source OPM: -2163.00%, Difference: 2266.40%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2023, Calculated OPM: 103.48%, Source OPM: -1757.00%, Difference: 1860.48%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2024, Calculated OPM: 102.03%, Source OPM: -1829.00%, Difference: 1931.03%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2013, Calculated OPM: 27.88%, Source OPM: 286.00%, Difference: 258.12%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2014, Calculated OPM: 30.95%, Source OPM: 335.00%, Difference: 304.05%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2015, Calculated OPM: 32.33%, Source OPM: 288.00%, Difference: 255.67%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2016, Calculated OPM: 35.28%, Source OPM: 329.00%, Difference: 293.72%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2017, Calculated OPM: 39.46%, Source OPM: 379.00%, Difference: 339.54%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2018, Calculated OPM: 37.93%, Source OPM: 942.00%, Difference: 904.07%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2019, Calculated OPM: 41.70%, Source OPM: -437.00%, Difference: 478.70%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2020, Calculated OPM: 43.81%, Source OPM: -553.00%, Difference: 596.81%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2021, Calculated OPM: 55.16%, Source OPM: -2469.00%, Difference: 2524.16%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2022, Calculated OPM: 51.39%, Source OPM: -839.00%, Difference: 890.39%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2023, Calculated OPM: 42.69%, Source OPM: 2067.00%, Difference: 2024.31%
+2026-07-14 14:10:16,020 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2024, Calculated OPM: 38.55%, Source OPM: 2978.00%, Difference: 2939.45%
+2026-07-14 14:10:16,028 - WARNING - OPM Mismatch - Company ID: JIOFIN, Company Name: Jio Financial Services Ltd, Year: 2023, Calculated OPM: 86.67%, Source OPM: 88.00%, Difference: 1.33%
+2026-07-14 14:10:16,028 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2013, Calculated OPM: 60.92%, Source OPM: -1789.00%, Difference: 1849.92%
+2026-07-14 14:10:16,028 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2014, Calculated OPM: 58.84%, Source OPM: -1379.00%, Difference: 1437.84%
+2026-07-14 14:10:16,028 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2015, Calculated OPM: 72.96%, Source OPM: -3366.00%, Difference: 3438.96%
+2026-07-14 14:10:16,028 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2016, Calculated OPM: 56.57%, Source OPM: -2263.00%, Difference: 2319.57%
+2026-07-14 14:10:16,028 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2017, Calculated OPM: 66.44%, Source OPM: -3965.00%, Difference: 4031.44%
+2026-07-14 14:10:16,028 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2018, Calculated OPM: 66.87%, Source OPM: -4141.00%, Difference: 4207.87%
+2026-07-14 14:10:16,030 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2019, Calculated OPM: 66.23%, Source OPM: -5114.00%, Difference: 5180.23%
+2026-07-14 14:10:16,030 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2020, Calculated OPM: 67.45%, Source OPM: -5005.00%, Difference: 5072.45%
+2026-07-14 14:10:16,030 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2021, Calculated OPM: 90.83%, Source OPM: -9958.00%, Difference: 10048.83%
+2026-07-14 14:10:16,030 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2022, Calculated OPM: 90.98%, Source OPM: -8512.00%, Difference: 8602.98%
+2026-07-14 14:10:16,030 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2023, Calculated OPM: 79.44%, Source OPM: -5746.00%, Difference: 5825.44%
+2026-07-14 14:10:16,030 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2024, Calculated OPM: 83.67%, Source OPM: -13382.00%, Difference: 13465.67%
+2026-07-14 14:10:16,042 - WARNING - OPM Mismatch - Company ID: SUNPHARMA, Company Name: Sun Pharmaceuticals Industries Ltd, Year: 2024, Calculated OPM: 26.84%, Source OPM: 28.00%, Difference: 1.16%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2013, Calculated OPM: 90.71%, Source OPM: 855.00%, Difference: 764.29%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2014, Calculated OPM: 96.11%, Source OPM: 433.00%, Difference: 336.89%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2015, Calculated OPM: 86.33%, Source OPM: 1904.00%, Difference: 1817.67%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2016, Calculated OPM: 80.40%, Source OPM: 3164.00%, Difference: 3083.60%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2017, Calculated OPM: 88.06%, Source OPM: 2219.00%, Difference: 2130.94%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2018, Calculated OPM: 86.84%, Source OPM: 3030.00%, Difference: 2943.16%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2019, Calculated OPM: 100.53%, Source OPM: -151.00%, Difference: 251.53%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2020, Calculated OPM: 88.62%, Source OPM: 4069.00%, Difference: 3980.38%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2021, Calculated OPM: 99.98%, Source OPM: 2.00%, Difference: 97.98%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2022, Calculated OPM: 97.85%, Source OPM: 558.00%, Difference: 460.15%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2023, Calculated OPM: 88.02%, Source OPM: 6521.00%, Difference: 6432.98%
+2026-07-14 14:10:16,050 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2024, Calculated OPM: 76.30%, Source OPM: 16331.00%, Difference: 16254.70%
+2026-07-14 14:11:45,411 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 14:11:56,561 - WARNING - OPM Mismatch - Company ID: ADANIENSOL, Company Name: Adani Energy Solutions Ltd, Year: 2024, Calculated OPM: 34.39%, Source OPM: 30.00%, Difference: 4.39%
+2026-07-14 14:11:56,567 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2013, Calculated OPM: 30.58%, Source OPM: 1353.00%, Difference: 1322.42%
+2026-07-14 14:11:56,567 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2014, Calculated OPM: 31.47%, Source OPM: 2307.00%, Difference: 2275.53%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2015, Calculated OPM: 31.36%, Source OPM: 3097.00%, Difference: 3065.64%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2016, Calculated OPM: 32.61%, Source OPM: 3466.00%, Difference: 3433.39%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2017, Calculated OPM: 53.45%, Source OPM: -5715.00%, Difference: 5768.45%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2018, Calculated OPM: 63.12%, Source OPM: -10277.00%, Difference: 10340.12%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2019, Calculated OPM: 49.39%, Source OPM: -5447.00%, Difference: 5496.39%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2020, Calculated OPM: 55.98%, Source OPM: -9859.00%, Difference: 9914.98%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2021, Calculated OPM: 50.12%, Source OPM: -2510.00%, Difference: 2560.12%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2022, Calculated OPM: 44.47%, Source OPM: 3170.00%, Difference: 3125.53%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2023, Calculated OPM: 34.16%, Source OPM: 13857.00%, Difference: 13822.84%
+2026-07-14 14:11:56,568 - WARNING - OPM Mismatch - Company ID: AXISBANK, Company Name: Axis Bank Ltd, Year: 2024, Calculated OPM: 34.69%, Source OPM: 11952.00%, Difference: 11917.31%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2015, Calculated OPM: 32.49%, Source OPM: 1367.00%, Difference: 1334.51%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2016, Calculated OPM: 32.25%, Source OPM: 1986.00%, Difference: 1953.75%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2017, Calculated OPM: 32.60%, Source OPM: 2867.00%, Difference: 2834.40%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2018, Calculated OPM: 32.28%, Source OPM: 3935.00%, Difference: 3902.72%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2019, Calculated OPM: 29.50%, Source OPM: 6310.00%, Difference: 6280.50%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2020, Calculated OPM: 34.73%, Source OPM: 7608.00%, Difference: 7573.27%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2021, Calculated OPM: 40.64%, Source OPM: 6314.00%, Difference: 6273.36%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2022, Calculated OPM: 37.55%, Source OPM: 9906.00%, Difference: 9868.45%
+2026-07-14 14:11:56,571 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2023, Calculated OPM: 30.65%, Source OPM: 16018.00%, Difference: 15987.35%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BAJFINANCE, Company Name: Bajaj Finance Ltd, Year: 2024, Calculated OPM: 29.29%, Source OPM: 19987.00%, Difference: 19957.71%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2013, Calculated OPM: 30.05%, Source OPM: 1006.00%, Difference: 975.95%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2014, Calculated OPM: 29.78%, Source OPM: 809.00%, Difference: 779.22%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2015, Calculated OPM: 29.98%, Source OPM: 902.00%, Difference: 872.02%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2016, Calculated OPM: 55.44%, Source OPM: -11700.00%, Difference: 11755.44%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2017, Calculated OPM: 43.28%, Source OPM: -4372.00%, Difference: 4415.28%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2018, Calculated OPM: 56.65%, Source OPM: -9197.00%, Difference: 9253.65%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2019, Calculated OPM: 48.79%, Source OPM: -5414.00%, Difference: 5462.79%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2020, Calculated OPM: 51.44%, Source OPM: -11728.00%, Difference: 11779.44%
+2026-07-14 14:11:56,573 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2021, Calculated OPM: 51.23%, Source OPM: -6957.00%, Difference: 7008.23%
+2026-07-14 14:11:56,575 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2022, Calculated OPM: 51.12%, Source OPM: -2948.00%, Difference: 2999.12%
+2026-07-14 14:11:56,575 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2023, Calculated OPM: 40.45%, Source OPM: 6329.00%, Difference: 6288.55%
+2026-07-14 14:11:56,575 - WARNING - OPM Mismatch - Company ID: BANKBARODA, Company Name: Bank of Baroda, Year: 2024, Calculated OPM: 37.49%, Source OPM: 4102.00%, Difference: 4064.51%
+2026-07-14 14:11:56,578 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2013, Calculated OPM: 21.18%, Source OPM: 655.00%, Difference: 633.82%
+2026-07-14 14:11:56,578 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2014, Calculated OPM: 24.35%, Source OPM: -672.00%, Difference: 696.35%
+2026-07-14 14:11:56,578 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2015, Calculated OPM: 23.51%, Source OPM: -621.00%, Difference: 644.51%
+2026-07-14 14:11:56,578 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2016, Calculated OPM: 40.38%, Source OPM: -8008.00%, Difference: 8048.38%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2017, Calculated OPM: 37.85%, Source OPM: -5775.00%, Difference: 5812.85%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2018, Calculated OPM: 61.87%, Source OPM: -13350.00%, Difference: 13411.87%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2019, Calculated OPM: 56.73%, Source OPM: -11590.00%, Difference: 11646.73%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2020, Calculated OPM: 53.88%, Source OPM: -12867.00%, Difference: 12920.88%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2021, Calculated OPM: 61.83%, Source OPM: -18367.00%, Difference: 18428.83%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2022, Calculated OPM: 58.39%, Source OPM: -13657.00%, Difference: 13715.39%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2023, Calculated OPM: 49.80%, Source OPM: -9877.00%, Difference: 9926.80%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CANBK, Company Name: Canara Bank, Year: 2024, Calculated OPM: 41.75%, Source OPM: -7745.00%, Difference: 7786.75%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2013, Calculated OPM: 26.77%, Source OPM: 472.00%, Difference: 445.23%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2014, Calculated OPM: 28.42%, Source OPM: 578.00%, Difference: 549.58%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2015, Calculated OPM: 28.56%, Source OPM: 696.00%, Difference: 667.44%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2016, Calculated OPM: 30.04%, Source OPM: 899.00%, Difference: 868.96%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2017, Calculated OPM: 28.16%, Source OPM: 1143.00%, Difference: 1114.84%
+2026-07-14 14:11:56,580 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2018, Calculated OPM: 26.10%, Source OPM: 1451.00%, Difference: 1424.90%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2019, Calculated OPM: 22.96%, Source OPM: 1888.00%, Difference: 1865.04%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2020, Calculated OPM: 27.79%, Source OPM: 1699.00%, Difference: 1671.21%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2021, Calculated OPM: 30.40%, Source OPM: 2094.00%, Difference: 2063.60%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2022, Calculated OPM: 28.83%, Source OPM: 2924.00%, Difference: 2895.17%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2023, Calculated OPM: 28.10%, Source OPM: 3515.00%, Difference: 3486.90%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CHOLAFIN, Company Name: Cholamandalam Investment & Finance Company Ltd, Year: 2024, Calculated OPM: 28.10%, Source OPM: 4548.00%, Difference: 4519.90%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2013, Calculated OPM: 73.26%, Source OPM: 2214.00%, Difference: 2140.74%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2014, Calculated OPM: 78.90%, Source OPM: 2147.00%, Difference: 2068.10%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2015, Calculated OPM: 80.94%, Source OPM: 2163.00%, Difference: 2082.06%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2016, Calculated OPM: 82.02%, Source OPM: 2480.00%, Difference: 2397.98%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2017, Calculated OPM: 82.66%, Source OPM: 2496.00%, Difference: 2413.34%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2018, Calculated OPM: 81.35%, Source OPM: 2826.00%, Difference: 2744.65%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2019, Calculated OPM: 81.07%, Source OPM: 3097.00%, Difference: 3015.93%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2020, Calculated OPM: 81.29%, Source OPM: 3206.00%, Difference: 3124.71%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2021, Calculated OPM: 77.80%, Source OPM: 4252.00%, Difference: 4174.20%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2022, Calculated OPM: 79.08%, Source OPM: 4553.00%, Difference: 4473.92%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2023, Calculated OPM: 77.91%, Source OPM: 5027.00%, Difference: 4949.09%
+2026-07-14 14:11:56,582 - WARNING - OPM Mismatch - Company ID: CIPLA, Company Name: Cipla Ltd
+, Year: 2024, Calculated OPM: 75.59%, Source OPM: 6291.00%, Difference: 6215.41%
+2026-07-14 14:11:56,584 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2013, Calculated OPM: 73.52%, Source OPM: 18087.00%, Difference: 18013.48%
+2026-07-14 14:11:56,584 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2014, Calculated OPM: 74.84%, Source OPM: 17766.00%, Difference: 17691.16%
+2026-07-14 14:11:56,584 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2015, Calculated OPM: 76.60%, Source OPM: 17343.00%, Difference: 17266.40%
+2026-07-14 14:11:56,584 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2016, Calculated OPM: 75.96%, Source OPM: 18714.00%, Difference: 18638.04%
+2026-07-14 14:11:56,584 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2017, Calculated OPM: 84.07%, Source OPM: 12448.00%, Difference: 12363.93%
+2026-07-14 14:11:56,584 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2018, Calculated OPM: 89.10%, Source OPM: 9288.00%, Difference: 9198.90%
+2026-07-14 14:11:56,585 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2019, Calculated OPM: 74.89%, Source OPM: 25007.00%, Difference: 24932.11%
+2026-07-14 14:11:56,585 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2020, Calculated OPM: 77.54%, Source OPM: 21581.00%, Difference: 21503.46%
+2026-07-14 14:11:56,585 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2021, Calculated OPM: 79.31%, Source OPM: 18628.00%, Difference: 18548.69%
+2026-07-14 14:11:56,585 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2022, Calculated OPM: 77.47%, Source OPM: 24721.00%, Difference: 24643.53%
+2026-07-14 14:11:56,585 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2023, Calculated OPM: 68.01%, Source OPM: 44232.00%, Difference: 44163.99%
+2026-07-14 14:11:56,585 - WARNING - OPM Mismatch - Company ID: COALINDIA, Company Name: Coal India Ltd, Year: 2024, Calculated OPM: 66.29%, Source OPM: 47971.00%, Difference: 47904.71%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2013, Calculated OPM: 35.22%, Source OPM: 3534.00%, Difference: 3498.78%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2014, Calculated OPM: 31.74%, Source OPM: 5602.00%, Difference: 5570.26%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2015, Calculated OPM: 31.90%, Source OPM: 7214.00%, Difference: 7182.10%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2016, Calculated OPM: 31.75%, Source OPM: 9037.00%, Difference: 9005.25%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2017, Calculated OPM: 32.56%, Source OPM: 11374.00%, Difference: 11341.44%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2018, Calculated OPM: 34.63%, Source OPM: 13374.00%, Difference: 13339.37%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2019, Calculated OPM: 33.15%, Source OPM: 16592.00%, Difference: 16558.85%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2020, Calculated OPM: 37.20%, Source OPM: 14593.00%, Difference: 14555.80%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2021, Calculated OPM: 40.81%, Source OPM: 16848.00%, Difference: 16807.19%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2022, Calculated OPM: 41.61%, Source OPM: 20795.00%, Difference: 20753.39%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2023, Calculated OPM: 36.92%, Source OPM: 29932.00%, Difference: 29895.08%
+2026-07-14 14:11:56,596 - WARNING - OPM Mismatch - Company ID: HDFCBANK, Company Name: HDFC Bank Ltd, Year: 2024, Calculated OPM: 61.41%, Source OPM: -44685.00%, Difference: 44746.41%
+2026-07-14 14:11:56,598 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2013, Calculated OPM: 96.27%, Source OPM: 525.00%, Difference: 428.73%
+2026-07-14 14:11:56,598 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2014, Calculated OPM: 96.48%, Source OPM: 605.00%, Difference: 508.52%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2015, Calculated OPM: 96.79%, Source OPM: 874.00%, Difference: 777.21%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2016, Calculated OPM: 94.74%, Source OPM: 953.00%, Difference: 858.26%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2017, Calculated OPM: 96.83%, Source OPM: 972.00%, Difference: 875.17%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2018, Calculated OPM: 96.67%, Source OPM: 1074.00%, Difference: 977.33%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2019, Calculated OPM: 96.87%, Source OPM: 1215.00%, Difference: 1118.13%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2020, Calculated OPM: 96.12%, Source OPM: 1141.00%, Difference: 1044.88%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2021, Calculated OPM: 98.27%, Source OPM: 1235.00%, Difference: 1136.73%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2022, Calculated OPM: 98.84%, Source OPM: 778.00%, Difference: 679.16%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2023, Calculated OPM: 99.89%, Source OPM: 80.00%, Difference: 19.89%
+2026-07-14 14:11:56,599 - WARNING - OPM Mismatch - Company ID: HDFCLIFE, Company Name: HDFC Life Insurance Company Ltd, Year: 2024, Calculated OPM: 99.48%, Source OPM: 531.00%, Difference: 431.52%
+2026-07-14 14:11:56,600 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2014, Calculated OPM: 85.94%, Source OPM: 3553.00%, Difference: 3467.06%
+2026-07-14 14:11:56,601 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2015, Calculated OPM: 87.22%, Source OPM: 3520.00%, Difference: 3432.78%
+2026-07-14 14:11:56,601 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2016, Calculated OPM: 84.45%, Source OPM: 4424.00%, Difference: 4339.55%
+2026-07-14 14:11:56,601 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2017, Calculated OPM: 83.97%, Source OPM: 4585.00%, Difference: 4501.03%
+2026-07-14 14:11:56,602 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2018, Calculated OPM: 83.57%, Source OPM: 5334.00%, Difference: 5250.43%
+2026-07-14 14:11:56,602 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2019, Calculated OPM: 85.21%, Source OPM: 5025.00%, Difference: 4939.79%
+2026-07-14 14:11:56,602 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2020, Calculated OPM: 86.09%, Source OPM: 4070.00%, Difference: 3983.91%
+2026-07-14 14:11:56,602 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2021, Calculated OPM: 86.90%, Source OPM: 4058.00%, Difference: 3971.10%
+2026-07-14 14:11:56,602 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2022, Calculated OPM: 88.98%, Source OPM: 3256.00%, Difference: 3167.02%
+2026-07-14 14:11:56,602 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2023, Calculated OPM: 88.00%, Source OPM: 4099.00%, Difference: 4011.00%
+2026-07-14 14:11:56,602 - WARNING - OPM Mismatch - Company ID: HEROMOTOCO, Company Name: Hero MotoCorp Ltd
+, Year: 2024, Calculated OPM: 86.15%, Source OPM: 5235.00%, Difference: 5148.85%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2013, Calculated OPM: 90.40%, Source OPM: 7699.00%, Difference: 7608.60%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2014, Calculated OPM: 90.85%, Source OPM: 8024.00%, Difference: 7933.15%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2015, Calculated OPM: 91.52%, Source OPM: 8844.00%, Difference: 8752.48%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2016, Calculated OPM: 92.12%, Source OPM: 7778.00%, Difference: 7685.88%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2017, Calculated OPM: 87.71%, Source OPM: 12317.00%, Difference: 12229.29%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2018, Calculated OPM: 88.11%, Source OPM: 13695.00%, Difference: 13606.89%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2019, Calculated OPM: 88.12%, Source OPM: 15511.00%, Difference: 15422.88%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2020, Calculated OPM: 87.89%, Source OPM: 14306.00%, Difference: 14218.11%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2021, Calculated OPM: 86.70%, Source OPM: 17559.00%, Difference: 17472.30%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2022, Calculated OPM: 85.47%, Source OPM: 28347.00%, Difference: 28261.53%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2023, Calculated OPM: 89.85%, Source OPM: 22666.00%, Difference: 22576.15%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDALCO, Company Name: Hindalco Industries Ltd, Year: 2024, Calculated OPM: 88.95%, Source OPM: 23872.00%, Difference: 23783.05%
+2026-07-14 14:11:56,603 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2013, Calculated OPM: 84.37%, Source OPM: 4220.00%, Difference: 4135.63%
+2026-07-14 14:11:56,605 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2014, Calculated OPM: 83.72%, Source OPM: 4759.00%, Difference: 4675.28%
+2026-07-14 14:11:56,606 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2015, Calculated OPM: 83.07%, Source OPM: 5412.00%, Difference: 5328.93%
+2026-07-14 14:11:56,606 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2016, Calculated OPM: 81.64%, Source OPM: 5910.00%, Difference: 5828.36%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2017, Calculated OPM: 80.92%, Source OPM: 6328.00%, Difference: 6247.08%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2018, Calculated OPM: 78.90%, Source OPM: 7499.00%, Difference: 7420.10%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2019, Calculated OPM: 77.41%, Source OPM: 8880.00%, Difference: 8802.59%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2020, Calculated OPM: 75.21%, Source OPM: 9861.00%, Difference: 9785.79%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2021, Calculated OPM: 75.28%, Source OPM: 11626.00%, Difference: 11550.72%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2022, Calculated OPM: 75.49%, Source OPM: 12857.00%, Difference: 12781.51%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2023, Calculated OPM: 76.65%, Source OPM: 14147.00%, Difference: 14070.35%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: HINDUNILVR, Company Name: Hindustan Unilever Ltd
+, Year: 2024, Calculated OPM: 76.32%, Source OPM: 14659.00%, Difference: 14582.68%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2013, Calculated OPM: 70.59%, Source OPM: -15085.00%, Difference: 15155.59%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2014, Calculated OPM: 66.40%, Source OPM: -13084.00%, Difference: 13150.40%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2015, Calculated OPM: 70.53%, Source OPM: -16120.00%, Difference: 16190.53%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2016, Calculated OPM: 88.12%, Source OPM: -26955.00%, Difference: 27043.12%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2017, Calculated OPM: 104.76%, Source OPM: -37737.00%, Difference: 37841.76%
+2026-07-14 14:11:56,607 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2018, Calculated OPM: 117.12%, Source OPM: -44906.00%, Difference: 45023.12%
+2026-07-14 14:11:56,609 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2019, Calculated OPM: 116.38%, Source OPM: -50971.00%, Difference: 51087.38%
+2026-07-14 14:11:56,609 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2020, Calculated OPM: 100.62%, Source OPM: -45190.00%, Difference: 45290.62%
+2026-07-14 14:11:56,609 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2021, Calculated OPM: 102.41%, Source OPM: -44805.00%, Difference: 44907.41%
+2026-07-14 14:11:56,610 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2022, Calculated OPM: 84.69%, Source OPM: -26558.00%, Difference: 26642.69%
+2026-07-14 14:11:56,610 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2023, Calculated OPM: 72.57%, Source OPM: -17341.00%, Difference: 17413.57%
+2026-07-14 14:11:56,610 - WARNING - OPM Mismatch - Company ID: ICICIBANK, Company Name: ICICI Bank Ltd, Year: 2024, Calculated OPM: 62.41%, Source OPM: -14152.00%, Difference: 14214.41%
+2026-07-14 14:11:56,610 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2013, Calculated OPM: 104.46%, Source OPM: -178.00%, Difference: 282.46%
+2026-07-14 14:11:56,610 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2014, Calculated OPM: 105.19%, Source OPM: -225.00%, Difference: 330.19%
+2026-07-14 14:11:56,611 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2015, Calculated OPM: 105.24%, Source OPM: -221.00%, Difference: 326.24%
+2026-07-14 14:11:56,611 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2016, Calculated OPM: 87.34%, Source OPM: 764.00%, Difference: 676.66%
+2026-07-14 14:11:56,611 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2017, Calculated OPM: 87.78%, Source OPM: 919.00%, Difference: 831.22%
+2026-07-14 14:11:56,611 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2018, Calculated OPM: 103.79%, Source OPM: -262.00%, Difference: 365.79%
+2026-07-14 14:11:56,611 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2019, Calculated OPM: 85.05%, Source OPM: 1669.00%, Difference: 1583.95%
+2026-07-14 14:11:56,611 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2020, Calculated OPM: 84.61%, Source OPM: 1772.00%, Difference: 1687.39%
+2026-07-14 14:11:56,611 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2021, Calculated OPM: 82.97%, Source OPM: 2072.00%, Difference: 1989.03%
+2026-07-14 14:11:56,611 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2022, Calculated OPM: 93.66%, Source OPM: 1016.00%, Difference: 922.34%
+2026-07-14 14:11:56,613 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2023, Calculated OPM: 92.93%, Source OPM: 1264.00%, Difference: 1171.07%
+2026-07-14 14:11:56,613 - WARNING - OPM Mismatch - Company ID: ICICIGI, Company Name: ICICI Lombard General Insurance Company Ltd, Year: 2024, Calculated OPM: 87.42%, Source OPM: 2577.00%, Difference: 2489.58%
+2026-07-14 14:11:56,613 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2013, Calculated OPM: 96.28%, Source OPM: 745.00%, Difference: 648.72%
+2026-07-14 14:11:56,613 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2014, Calculated OPM: 93.13%, Source OPM: 1504.00%, Difference: 1410.87%
+2026-07-14 14:11:56,614 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2015, Calculated OPM: 95.20%, Source OPM: 1655.00%, Difference: 1559.80%
+2026-07-14 14:11:56,614 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2016, Calculated OPM: 91.17%, Source OPM: 1842.00%, Difference: 1750.83%
+2026-07-14 14:11:56,614 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2017, Calculated OPM: 95.22%, Source OPM: 1806.00%, Difference: 1710.78%
+2026-07-14 14:11:56,614 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2018, Calculated OPM: 95.44%, Source OPM: 1771.00%, Difference: 1675.56%
+2026-07-14 14:11:56,614 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2019, Calculated OPM: 98.70%, Source OPM: 541.00%, Difference: 442.30%
+2026-07-14 14:11:56,614 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2020, Calculated OPM: 101.52%, Source OPM: -319.00%, Difference: 420.52%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2021, Calculated OPM: 100.47%, Source OPM: -390.00%, Difference: 490.47%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2022, Calculated OPM: 103.40%, Source OPM: -2163.00%, Difference: 2266.40%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2023, Calculated OPM: 103.48%, Source OPM: -1757.00%, Difference: 1860.48%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: ICICIPRULI, Company Name: ICICI Prudential Life Insurance Company Ltd, Year: 2024, Calculated OPM: 102.03%, Source OPM: -1829.00%, Difference: 1931.03%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2013, Calculated OPM: 27.88%, Source OPM: 286.00%, Difference: 258.12%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2014, Calculated OPM: 30.95%, Source OPM: 335.00%, Difference: 304.05%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2015, Calculated OPM: 32.33%, Source OPM: 288.00%, Difference: 255.67%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2016, Calculated OPM: 35.28%, Source OPM: 329.00%, Difference: 293.72%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2017, Calculated OPM: 39.46%, Source OPM: 379.00%, Difference: 339.54%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2018, Calculated OPM: 37.93%, Source OPM: 942.00%, Difference: 904.07%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2019, Calculated OPM: 41.70%, Source OPM: -437.00%, Difference: 478.70%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2020, Calculated OPM: 43.81%, Source OPM: -553.00%, Difference: 596.81%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2021, Calculated OPM: 55.16%, Source OPM: -2469.00%, Difference: 2524.16%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2022, Calculated OPM: 51.39%, Source OPM: -839.00%, Difference: 890.39%
+2026-07-14 14:11:56,615 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2023, Calculated OPM: 42.69%, Source OPM: 2067.00%, Difference: 2024.31%
+2026-07-14 14:11:56,617 - WARNING - OPM Mismatch - Company ID: INDUSINDBK, Company Name: IndusInd Bank Ltd, Year: 2024, Calculated OPM: 38.55%, Source OPM: 2978.00%, Difference: 2939.45%
+2026-07-14 14:11:56,622 - WARNING - OPM Mismatch - Company ID: JIOFIN, Company Name: Jio Financial Services Ltd, Year: 2023, Calculated OPM: 86.67%, Source OPM: 88.00%, Difference: 1.33%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2013, Calculated OPM: 60.92%, Source OPM: -1789.00%, Difference: 1849.92%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2014, Calculated OPM: 58.84%, Source OPM: -1379.00%, Difference: 1437.84%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2015, Calculated OPM: 72.96%, Source OPM: -3366.00%, Difference: 3438.96%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2016, Calculated OPM: 56.57%, Source OPM: -2263.00%, Difference: 2319.57%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2017, Calculated OPM: 66.44%, Source OPM: -3965.00%, Difference: 4031.44%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2018, Calculated OPM: 66.87%, Source OPM: -4141.00%, Difference: 4207.87%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2019, Calculated OPM: 66.23%, Source OPM: -5114.00%, Difference: 5180.23%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2020, Calculated OPM: 67.45%, Source OPM: -5005.00%, Difference: 5072.45%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2021, Calculated OPM: 90.83%, Source OPM: -9958.00%, Difference: 10048.83%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2022, Calculated OPM: 90.98%, Source OPM: -8512.00%, Difference: 8602.98%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2023, Calculated OPM: 79.44%, Source OPM: -5746.00%, Difference: 5825.44%
+2026-07-14 14:11:56,625 - WARNING - OPM Mismatch - Company ID: KOTAKBANK, Company Name: Kotak Mahindra Bank Ltd
+, Year: 2024, Calculated OPM: 83.67%, Source OPM: -13382.00%, Difference: 13465.67%
+2026-07-14 14:11:56,645 - WARNING - OPM Mismatch - Company ID: SUNPHARMA, Company Name: Sun Pharmaceuticals Industries Ltd, Year: 2024, Calculated OPM: 26.84%, Source OPM: 28.00%, Difference: 1.16%
+2026-07-14 14:11:56,657 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2013, Calculated OPM: 90.71%, Source OPM: 855.00%, Difference: 764.29%
+2026-07-14 14:11:56,657 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2014, Calculated OPM: 96.11%, Source OPM: 433.00%, Difference: 336.89%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2015, Calculated OPM: 86.33%, Source OPM: 1904.00%, Difference: 1817.67%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2016, Calculated OPM: 80.40%, Source OPM: 3164.00%, Difference: 3083.60%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2017, Calculated OPM: 88.06%, Source OPM: 2219.00%, Difference: 2130.94%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2018, Calculated OPM: 86.84%, Source OPM: 3030.00%, Difference: 2943.16%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2019, Calculated OPM: 100.53%, Source OPM: -151.00%, Difference: 251.53%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2020, Calculated OPM: 88.62%, Source OPM: 4069.00%, Difference: 3980.38%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2021, Calculated OPM: 99.98%, Source OPM: 2.00%, Difference: 97.98%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2022, Calculated OPM: 97.85%, Source OPM: 558.00%, Difference: 460.15%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2023, Calculated OPM: 88.02%, Source OPM: 6521.00%, Difference: 6432.98%
+2026-07-14 14:11:56,659 - WARNING - OPM Mismatch - Company ID: INDIGO, Company Name: Interglobe Aviation Ltd, Year: 2024, Calculated OPM: 76.30%, Source OPM: 16331.00%, Difference: 16254.70%
+2026-07-14 14:12:33,525 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 14:19:19,107 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 14:20:06,662 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 14:46:15,436 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 14:51:33,284 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 14:53:31,669 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 14:54:39,031 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 15:03:08,384 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 18:20:01,106 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%
+2026-07-14 18:29:31,463 - WARNING - OPM Mismatch - Company ID: COMP2, Company Name: Company Two, Year: 2024, Calculated OPM: 25.50%, Source OPM: 24.00%, Difference: 1.50%

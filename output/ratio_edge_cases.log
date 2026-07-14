@@ -1,0 +1,1274 @@
+--- RATIO ANOMALY DETECTION LOG ---
+company_id | company_name | year | ratio_type | computed_value | source_value | absolute_difference | category
+------------------------------------------------------------------------------------------------------------------------
+ABB | Abbott India Ltd | 2012 | ROCE | 33.23% | 46.00% | 12.77% | Version Difference
+ABB | Abbott India Ltd | 2012 | ROE | 22.41% | 34.90% | 12.49% | Version Difference
+ABB | Abbott India Ltd | 2014 | ROCE | 37.44% | 46.00% | 8.56% | Version Difference
+ABB | Abbott India Ltd | 2014 | ROE | 25.13% | 34.90% | 9.77% | Version Difference
+ABB | Abbott India Ltd | 2014 | ROCE | 37.44% | 46.00% | 8.56% | Version Difference
+ABB | Abbott India Ltd | 2014 | ROE | 25.13% | 34.90% | 9.77% | Version Difference
+ABB | Abbott India Ltd | 2015 | ROCE | 36.71% | 46.00% | 9.29% | Version Difference
+ABB | Abbott India Ltd | 2015 | ROE | 24.44% | 34.90% | 10.46% | Version Difference
+ABB | Abbott India Ltd | 2015 | ROCE | 36.71% | 46.00% | 9.29% | Version Difference
+ABB | Abbott India Ltd | 2015 | ROE | 24.44% | 34.90% | 10.46% | Version Difference
+ABB | Abbott India Ltd | 2016 | ROCE | 33.56% | 46.00% | 12.44% | Version Difference
+ABB | Abbott India Ltd | 2016 | ROE | 21.34% | 34.90% | 13.56% | Version Difference
+ABB | Abbott India Ltd | 2016 | ROCE | 33.56% | 46.00% | 12.44% | Version Difference
+ABB | Abbott India Ltd | 2016 | ROE | 21.34% | 34.90% | 13.56% | Version Difference
+ABB | Abbott India Ltd | 2017 | ROCE | 31.58% | 46.00% | 14.42% | Version Difference
+ABB | Abbott India Ltd | 2017 | ROE | 19.97% | 34.90% | 14.93% | Version Difference
+ABB | Abbott India Ltd | 2017 | ROCE | 31.58% | 46.00% | 14.42% | Version Difference
+ABB | Abbott India Ltd | 2017 | ROE | 19.97% | 34.90% | 14.93% | Version Difference
+ABB | Abbott India Ltd | 2018 | ROCE | 36.92% | 46.00% | 9.08% | Version Difference
+ABB | Abbott India Ltd | 2018 | ROE | 23.69% | 34.90% | 11.21% | Version Difference
+ABB | Abbott India Ltd | 2018 | ROCE | 36.92% | 46.00% | 9.08% | Version Difference
+ABB | Abbott India Ltd | 2018 | ROE | 23.69% | 34.90% | 11.21% | Version Difference
+ABB | Abbott India Ltd | 2019 | ROCE | 34.91% | 46.00% | 11.09% | Version Difference
+ABB | Abbott India Ltd | 2019 | ROE | 22.41% | 34.90% | 12.49% | Version Difference
+ABB | Abbott India Ltd | 2019 | ROCE | 34.91% | 46.00% | 11.09% | Version Difference
+ABB | Abbott India Ltd | 2019 | ROE | 22.41% | 34.90% | 12.49% | Version Difference
+ABB | Abbott India Ltd | 2020 | ROCE | 31.16% | 46.00% | 14.84% | Version Difference
+ABB | Abbott India Ltd | 2020 | ROE | 24.39% | 34.90% | 10.51% | Version Difference
+ABB | Abbott India Ltd | 2020 | ROCE | 31.16% | 46.00% | 14.84% | Version Difference
+ABB | Abbott India Ltd | 2020 | ROE | 24.39% | 34.90% | 10.51% | Version Difference
+ABB | Abbott India Ltd | 2021 | ROCE | 34.26% | 46.00% | 11.74% | Version Difference
+ABB | Abbott India Ltd | 2021 | ROE | 26.56% | 34.90% | 8.34% | Version Difference
+ABB | Abbott India Ltd | 2021 | ROCE | 34.26% | 46.00% | 11.74% | Version Difference
+ABB | Abbott India Ltd | 2021 | ROE | 26.56% | 34.90% | 8.34% | Version Difference
+ABB | Abbott India Ltd | 2022 | ROCE | 36.98% | 46.00% | 9.02% | Version Difference
+ABB | Abbott India Ltd | 2022 | ROE | 28.33% | 34.90% | 6.57% | Version Difference
+ABB | Abbott India Ltd | 2022 | ROCE | 36.98% | 46.00% | 9.02% | Version Difference
+ABB | Abbott India Ltd | 2022 | ROE | 28.33% | 34.90% | 6.57% | Version Difference
+ABB | Abbott India Ltd | 2023 | ROCE | 39.08% | 46.00% | 6.92% | Version Difference
+ABB | Abbott India Ltd | 2023 | ROE | 29.77% | 34.90% | 5.13% | Version Difference
+ABB | Abbott India Ltd | 2023 | ROCE | 39.08% | 46.00% | 6.92% | Version Difference
+ABB | Abbott India Ltd | 2023 | ROE | 29.77% | 34.90% | 5.13% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2014 | ROCE | 0.00% | 9.00% | 9.00% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2014 | ROE | 0.00% | 8.59% | 8.59% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2015 | ROCE | 0.63% | 9.00% | 8.37% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2015 | ROE | -0.65% | 8.59% | 9.24% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2016 | ROE | 13.77% | 8.59% | 5.18% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2017 | ROE | 14.12% | 8.59% | 5.53% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2018 | ROCE | 14.30% | 9.00% | 5.30% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2018 | ROE | 18.87% | 8.59% | 10.28% | Version Difference
+ADANIENSOL | Adani Energy Solutions Ltd | 2021 | ROE | 14.46% | 8.59% | 5.87% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2013 | ROCE | 6.06% | 11.60% | 5.54% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2013 | ROE | 5.69% | 13.64% | 7.95% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2016 | ROE | 7.47% | 13.64% | 6.17% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2017 | ROE | 6.54% | 13.64% | 7.10% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2018 | ROCE | 5.31% | 11.60% | 6.29% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2018 | ROE | 3.94% | 13.64% | 9.70% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2019 | ROE | 3.43% | 13.64% | 10.21% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2020 | ROE | 6.14% | 13.64% | 7.50% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2021 | ROE | 6.10% | 13.64% | 7.54% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2022 | ROCE | 5.45% | 11.60% | 6.15% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2022 | ROE | 3.54% | 13.64% | 10.10% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2023 | ROE | 7.33% | 13.64% | 6.31% | Version Difference
+ADANIENT | Adani Enterprises Ltd | 2024 | ROE | 8.53% | 13.64% | 5.11% | Formula Discrepancy
+ADANIGREEN | Adani Green Energy Ltd | 2017 | ROCE | 2.70% | 96.50% | 93.80% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2017 | ROE | -3.91% | 14.70% | 18.61% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2018 | ROCE | 3.05% | 96.50% | 93.45% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2018 | ROE | -10.29% | 14.70% | 24.99% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2019 | ROCE | 4.10% | 96.50% | 92.40% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2019 | ROE | -24.57% | 14.70% | 39.27% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2020 | ROCE | 5.49% | 96.50% | 91.01% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2020 | ROE | -2.89% | 14.70% | 17.59% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2021 | ROCE | 8.13% | 96.50% | 88.37% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2021 | ROE | 8.27% | 14.70% | 6.43% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2022 | ROCE | 5.72% | 96.50% | 90.78% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2023 | ROCE | 7.05% | 96.50% | 89.45% | Version Difference
+ADANIGREEN | Adani Green Energy Ltd | 2024 | ROCE | 8.94% | 96.50% | 87.56% | Formula Discrepancy
+ADANIPORTS | Adani Ports & Special Economic Zone Ltd | 2013 | ROE | 25.63% | 18.10% | 7.53% | Version Difference
+ADANIPORTS | Adani Ports & Special Economic Zone Ltd | 2022 | ROE | 11.84% | 18.10% | 6.26% | Version Difference
+ADANIPORTS | Adani Ports & Special Economic Zone Ltd | 2023 | ROE | 11.88% | 18.10% | 6.22% | Version Difference
+ADANIPORTS | Adani Ports & Special Economic Zone Ltd | 2013 | ROE | 25.63% | 18.10% | 7.53% | Version Difference
+ADANIPORTS | Adani Ports & Special Economic Zone Ltd | 2022 | ROE | 11.84% | 18.10% | 6.26% | Version Difference
+ADANIPORTS | Adani Ports & Special Economic Zone Ltd | 2023 | ROE | 11.88% | 18.10% | 6.22% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2013 | ROCE | -0.25% | 32.20% | 32.45% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2013 | ROE | -53.46% | 57.10% | 110.56% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2014 | ROCE | 5.51% | 32.20% | 26.69% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2014 | ROE | -4.45% | 57.10% | 61.55% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2015 | ROCE | 8.02% | 32.20% | 24.18% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2015 | ROE | -14.25% | 57.10% | 71.35% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2016 | ROCE | 9.86% | 32.20% | 22.34% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2016 | ROE | 7.38% | 57.10% | 49.72% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2017 | ROCE | -0.65% | 32.20% | 32.85% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2017 | ROE | -205.80% | 57.10% | 262.90% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2018 | ROCE | 6.50% | 32.20% | 25.70% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2018 | ROE | -236.56% | 57.10% | 293.66% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2019 | ROCE | 8.56% | 32.20% | 23.64% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2019 | ROE | -12.76% | 57.10% | 69.86% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2020 | ROCE | 4.94% | 32.20% | 27.26% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2020 | ROE | -35.10% | 57.10% | 92.20% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2021 | ROCE | 11.27% | 32.20% | 20.93% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2021 | ROE | 9.69% | 57.10% | 47.41% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2022 | ROCE | 15.79% | 32.20% | 16.41% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2022 | ROE | 26.61% | 57.10% | 30.49% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2023 | ROCE | 15.24% | 32.20% | 16.96% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2023 | ROE | 35.91% | 57.10% | 21.19% | Version Difference
+ADANIPOWER | Adani Power Ltd | 2024 | ROE | 48.28% | 57.10% | 8.82% | Formula Discrepancy
+AMBUJACEM | Ambuja Cements Ltd | 2012 | ROCE | 22.29% | 12.80% | 9.49% | Version Difference
+AMBUJACEM | Ambuja Cements Ltd | 2012 | ROE | 14.69% | 9.24% | 5.45% | Version Difference
+AMBUJACEM | Ambuja Cements Ltd | 2014 | ROCE | 18.21% | 12.80% | 5.41% | Version Difference
+AMBUJACEM | Ambuja Cements Ltd | 2014 | ROE | 14.77% | 9.24% | 5.53% | Version Difference
+AMBUJACEM | Ambuja Cements Ltd | 2021 | ROCE | 20.56% | 12.80% | 7.76% | Version Difference
+AMBUJACEM | Ambuja Cements Ltd | 2021 | ROE | 14.64% | 9.24% | 5.40% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2014 | ROCE | 12.17% | 17.20% | 5.03% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2015 | ROCE | 11.10% | 17.20% | 6.10% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2016 | ROCE | 8.30% | 17.20% | 8.90% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2016 | ROE | 7.05% | 13.81% | 6.76% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2017 | ROCE | 7.44% | 17.20% | 9.76% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2017 | ROE | 3.95% | 13.81% | 9.86% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2018 | ROCE | 6.98% | 17.20% | 10.22% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2018 | ROE | 1.85% | 13.81% | 11.96% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2019 | ROCE | 9.99% | 17.20% | 7.21% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2019 | ROE | 6.00% | 13.81% | 7.81% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2021 | ROCE | 7.65% | 17.20% | 9.55% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2021 | ROE | 2.98% | 13.81% | 10.83% | Version Difference
+APOLLOHOSP | Apollo Hospitals
+Chain of Indian private hospitals | 2022 | ROE | 19.70% | 13.81% | 5.89% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2017 | ROCE | 36.71% | 41.75% | 5.04% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2017 | ROCE | 36.71% | 41.75% | 5.04% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2018 | ROCE | 35.55% | 41.75% | 6.20% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2018 | ROE | 24.95% | 31.45% | 6.50% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2018 | ROCE | 35.55% | 41.75% | 6.20% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2018 | ROE | 24.95% | 31.45% | 6.50% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2019 | ROCE | 31.66% | 41.75% | 10.09% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2019 | ROE | 23.31% | 31.45% | 8.14% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2019 | ROCE | 31.66% | 41.75% | 10.09% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2019 | ROE | 23.31% | 31.45% | 8.14% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2020 | ROCE | 33.17% | 41.75% | 8.58% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2020 | ROCE | 33.17% | 41.75% | 8.58% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2021 | ROCE | 31.63% | 41.75% | 10.12% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2021 | ROE | 25.04% | 31.45% | 6.41% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2021 | ROCE | 31.63% | 41.75% | 10.12% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2021 | ROE | 25.04% | 31.45% | 6.41% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2022 | ROCE | 27.81% | 41.75% | 13.94% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2022 | ROE | 22.34% | 31.45% | 9.11% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2022 | ROCE | 27.81% | 41.75% | 13.94% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2022 | ROE | 22.34% | 31.45% | 9.11% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2023 | ROCE | 32.54% | 41.75% | 9.21% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2023 | ROE | 26.23% | 31.45% | 5.22% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2023 | ROCE | 32.54% | 41.75% | 9.21% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2023 | ROE | 26.23% | 31.45% | 5.22% | Version Difference
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2024 | ROCE | 35.62% | 41.75% | 6.13% | Formula Discrepancy
+ASIANPAINT | Asian Paints
+Indian Multi-National Paint and Coating Manufacturing Company | 2024 | ROCE | 35.62% | 41.75% | 6.13% | Formula Discrepancy
+BAJAJ-AUTO | Bajaj Auto Ltd | 2013 | ROCE | 52.29% | 33.50% | 18.79% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2013 | ROE | 38.85% | 26.50% | 12.35% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2013 | ROCE | 52.29% | 33.50% | 18.79% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2013 | ROE | 38.85% | 26.50% | 12.35% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2014 | ROCE | 45.53% | 33.50% | 12.03% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2014 | ROE | 33.24% | 26.50% | 6.74% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2014 | ROCE | 45.53% | 33.50% | 12.03% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2014 | ROE | 33.24% | 26.50% | 6.74% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2016 | ROCE | 40.18% | 33.50% | 6.68% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2016 | ROCE | 40.18% | 33.50% | 6.68% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2018 | ROE | 20.66% | 26.50% | 5.84% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2018 | ROE | 20.66% | 26.50% | 5.84% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2019 | ROE | 21.21% | 26.50% | 5.29% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2019 | ROE | 21.21% | 26.50% | 5.29% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2021 | ROCE | 22.81% | 33.50% | 10.69% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2021 | ROE | 17.81% | 26.50% | 8.69% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2021 | ROCE | 22.81% | 33.50% | 10.69% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2021 | ROE | 17.81% | 26.50% | 8.69% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2022 | ROCE | 25.55% | 33.50% | 7.95% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2022 | ROE | 20.65% | 26.50% | 5.85% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2022 | ROCE | 25.55% | 33.50% | 7.95% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2022 | ROE | 20.65% | 26.50% | 5.85% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2023 | ROCE | 26.73% | 33.50% | 6.77% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2023 | ROE | 20.64% | 26.50% | 5.86% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2023 | ROCE | 26.73% | 33.50% | 6.77% | Version Difference
+BAJAJ-AUTO | Bajaj Auto Ltd | 2023 | ROE | 20.64% | 26.50% | 5.86% | Version Difference
+AXISBANK | Axis Bank Ltd | 2017 | ROE | 6.53% | 18.40% | 11.87% | Version Difference
+AXISBANK | Axis Bank Ltd | 2018 | ROCE | 1.64% | 7.06% | 5.42% | Version Difference
+AXISBANK | Axis Bank Ltd | 2018 | ROE | 0.43% | 18.40% | 17.97% | Version Difference
+AXISBANK | Axis Bank Ltd | 2019 | ROE | 6.90% | 18.40% | 11.50% | Version Difference
+AXISBANK | Axis Bank Ltd | 2020 | ROE | 1.88% | 18.40% | 16.52% | Version Difference
+AXISBANK | Axis Bank Ltd | 2021 | ROE | 6.36% | 18.40% | 12.04% | Version Difference
+AXISBANK | Axis Bank Ltd | 2022 | ROE | 11.01% | 18.40% | 7.39% | Version Difference
+AXISBANK | Axis Bank Ltd | 2023 | ROE | 7.38% | 18.40% | 11.02% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2013 | ROE | 28.38% | 11.72% | 16.66% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2014 | ROCE | 15.49% | 21.14% | 5.65% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2014 | ROE | 23.53% | 11.72% | 11.81% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2015 | ROCE | 14.65% | 21.14% | 6.49% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2015 | ROE | 21.72% | 11.72% | 10.00% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2016 | ROCE | 13.45% | 21.14% | 7.69% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2016 | ROE | 20.41% | 11.72% | 8.69% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2017 | ROCE | 13.41% | 21.14% | 7.73% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2017 | ROE | 21.36% | 11.72% | 9.64% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2018 | ROCE | 12.33% | 21.14% | 8.81% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2018 | ROE | 20.39% | 11.72% | 8.67% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2019 | ROCE | 11.99% | 21.14% | 9.15% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2019 | ROE | 22.64% | 11.72% | 10.92% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2020 | ROCE | 11.23% | 21.14% | 9.91% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2020 | ROE | 19.15% | 11.72% | 7.43% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2021 | ROCE | 11.65% | 21.14% | 9.49% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2021 | ROE | 20.56% | 11.72% | 8.84% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2022 | ROCE | 10.38% | 21.14% | 10.76% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2022 | ROE | 20.66% | 11.72% | 8.94% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2023 | ROCE | 11.28% | 21.14% | 9.86% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2023 | ROE | 26.31% | 11.72% | 14.59% | Version Difference
+BAJAJFINSV | Bajaj Finserv Ltd | 2024 | ROCE | 11.45% | 21.14% | 9.69% | Formula Discrepancy
+BAJAJFINSV | Bajaj Finserv Ltd | 2024 | ROE | 25.85% | 11.72% | 14.13% | Formula Discrepancy
+BAJAJHLDNG | Bajaj Holdings & Investment Ltd | 2013 | ROCE | 3.11% | 13.10% | 9.99% | Version Difference
+BAJAJHLDNG | Bajaj Holdings & Investment Ltd | 2014 | ROCE | 3.33% | 13.10% | 9.77% | Version Difference
+BAJAJHLDNG | Bajaj Holdings & Investment Ltd | 2015 | ROCE | 3.83% | 13.10% | 9.27% | Version Difference
+BAJAJHLDNG | Bajaj Holdings & Investment Ltd | 2016 | ROCE | 2.81% | 13.10% | 10.29% | Version Difference
+BAJAJHLDNG | Bajaj Holdings & Investment Ltd | 2017 | ROCE | 3.54% | 13.10% | 9.56% | Version Difference
+BAJAJHLDNG | Bajaj Holdings & Investment Ltd | 2022 | ROE | 9.63% | 14.80% | 5.17% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2015 | ROCE | 4.40% | 11.90% | 7.50% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2016 | ROCE | 4.50% | 11.90% | 7.40% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2017 | ROCE | 4.82% | 11.90% | 7.08% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2018 | ROCE | 4.68% | 11.90% | 7.22% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2018 | ROE | 15.75% | 22.10% | 6.35% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2019 | ROCE | 5.11% | 11.90% | 6.79% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2020 | ROCE | 4.52% | 11.90% | 7.38% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2020 | ROE | 16.28% | 22.10% | 5.82% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2021 | ROCE | 3.56% | 11.90% | 8.34% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2021 | ROE | 11.97% | 22.10% | 10.13% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2022 | ROCE | 4.54% | 11.90% | 7.36% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2022 | ROE | 16.08% | 22.10% | 6.02% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2023 | ROCE | 5.73% | 11.90% | 6.17% | Version Difference
+BAJFINANCE | Bajaj Finance Ltd | 2024 | ROCE | 5.22% | 11.90% | 6.68% | Formula Discrepancy
+BANKBARODA | Bank of Baroda | 2015 | ROE | 9.40% | 16.70% | 7.30% | Version Difference
+BANKBARODA | Bank of Baroda | 2016 | ROCE | -0.04% | 6.33% | 6.37% | Version Difference
+BANKBARODA | Bank of Baroda | 2016 | ROE | -11.84% | 16.70% | 28.54% | Version Difference
+BANKBARODA | Bank of Baroda | 2017 | ROE | 4.31% | 16.70% | 12.39% | Version Difference
+BANKBARODA | Bank of Baroda | 2018 | ROCE | 0.82% | 6.33% | 5.51% | Version Difference
+BANKBARODA | Bank of Baroda | 2018 | ROE | -3.94% | 16.70% | 20.64% | Version Difference
+BANKBARODA | Bank of Baroda | 2019 | ROCE | 1.19% | 6.33% | 5.14% | Version Difference
+BANKBARODA | Bank of Baroda | 2019 | ROE | 2.12% | 16.70% | 14.58% | Version Difference
+BANKBARODA | Bank of Baroda | 2020 | ROCE | 0.96% | 6.33% | 5.37% | Version Difference
+BANKBARODA | Bank of Baroda | 2020 | ROE | 1.29% | 16.70% | 15.41% | Version Difference
+BANKBARODA | Bank of Baroda | 2021 | ROE | 1.97% | 16.70% | 14.73% | Version Difference
+BANKBARODA | Bank of Baroda | 2022 | ROE | 8.64% | 16.70% | 8.06% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2013 | ROCE | 7.95% | 13.10% | 5.15% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2013 | ROE | 4.50% | 14.90% | 10.40% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2014 | ROE | 5.05% | 14.90% | 9.85% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2017 | ROE | 6.29% | 14.90% | 8.61% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2018 | ROCE | 6.96% | 13.10% | 6.14% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2018 | ROE | 3.14% | 14.90% | 11.76% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2019 | ROCE | 4.52% | 13.10% | 8.58% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2019 | ROE | 2.36% | 14.90% | 12.54% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2020 | ROCE | -12.80% | 13.10% | 25.90% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2020 | ROE | -39.75% | 14.90% | 54.65% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2021 | ROCE | 5.26% | 13.10% | 7.84% | Version Difference
+BHARTIARTL | Bharti Airtel Ltd | 2021 | ROE | -20.97% | 14.90% | 35.87% | Version Difference
+BEL | Bharat Electronics Ltd | 2013 | ROCE | 3846.67% | 34.60% | 3812.07% | Version Difference
+BEL | Bharat Electronics Ltd | 2013 | ROE | 15183.33% | 26.30% | 15157.03% | Version Difference
+BEL | Bharat Electronics Ltd | 2014 | ROCE | 4332.14% | 34.60% | 4297.54% | Version Difference
+BEL | Bharat Electronics Ltd | 2014 | ROE | 13600.00% | 26.30% | 13573.70% | Version Difference
+BEL | Bharat Electronics Ltd | 2015 | ROCE | 4606.06% | 34.60% | 4571.46% | Version Difference
+BEL | Bharat Electronics Ltd | 2015 | ROE | 17100.00% | 26.30% | 17073.70% | Version Difference
+BEL | Bharat Electronics Ltd | 2016 | ROCE | 4794.59% | 34.60% | 4759.99% | Version Difference
+BEL | Bharat Electronics Ltd | 2016 | ROE | 11141.67% | 26.30% | 11115.37% | Version Difference
+BEL | Bharat Electronics Ltd | 2017 | ROCE | 4547.73% | 34.60% | 4513.13% | Version Difference
+BEL | Bharat Electronics Ltd | 2017 | ROE | 10153.33% | 26.30% | 10127.03% | Version Difference
+BEL | Bharat Electronics Ltd | 2018 | ROCE | 2484.81% | 34.60% | 2450.21% | Version Difference
+BEL | Bharat Electronics Ltd | 2018 | ROE | 4616.13% | 26.30% | 4589.83% | Version Difference
+BEL | Bharat Electronics Ltd | 2019 | ROCE | 2754.17% | 34.60% | 2719.57% | Version Difference
+BEL | Bharat Electronics Ltd | 2019 | ROE | 3851.02% | 26.30% | 3824.72% | Version Difference
+BEL | Bharat Electronics Ltd | 2020 | ROCE | 2511.11% | 34.60% | 2476.51% | Version Difference
+BEL | Bharat Electronics Ltd | 2020 | ROE | 3318.18% | 26.30% | 3291.88% | Version Difference
+BEL | Bharat Electronics Ltd | 2021 | ROCE | 2733.33% | 34.60% | 2698.73% | Version Difference
+BEL | Bharat Electronics Ltd | 2021 | ROE | 3559.32% | 26.30% | 3533.02% | Version Difference
+BEL | Bharat Electronics Ltd | 2022 | ROCE | 2500.00% | 34.60% | 2465.40% | Version Difference
+BEL | Bharat Electronics Ltd | 2022 | ROE | 3478.26% | 26.30% | 3451.96% | Version Difference
+BEL | Bharat Electronics Ltd | 2023 | ROCE | 3457.89% | 34.60% | 3423.29% | Version Difference
+BEL | Bharat Electronics Ltd | 2023 | ROE | 3981.33% | 26.30% | 3955.03% | Version Difference
+BEL | Bharat Electronics Ltd | 2024 | ROCE | 4155.91% | 34.60% | 4121.31% | Formula Discrepancy
+BEL | Bharat Electronics Ltd | 2024 | ROE | 4744.05% | 26.30% | 4717.75% | Formula Discrepancy
+BHEL | Bharat Heavy Electricals Limited | 2013 | ROCE | 29.05% | 3.28% | 25.77% | Version Difference
+BHEL | Bharat Heavy Electricals Limited | 2013 | ROE | 21.91% | 1.05% | 20.86% | Version Difference
+BHEL | Bharat Heavy Electricals Limited | 2014 | ROCE | 13.76% | 3.28% | 10.48% | Version Difference
+BHEL | Bharat Heavy Electricals Limited | 2014 | ROE | 10.56% | 1.05% | 9.51% | Version Difference
+BHEL | Bharat Heavy Electricals Limited | 2016 | ROCE | -2.46% | 3.28% | 5.74% | Version Difference
+BHEL | Bharat Heavy Electricals Limited | 2020 | ROE | -5.12% | 1.05% | 6.17% | Version Difference
+BHEL | Bharat Heavy Electricals Limited | 2021 | ROCE | -10.12% | 3.28% | 13.40% | Version Difference
+BHEL | Bharat Heavy Electricals Limited | 2021 | ROE | -10.39% | 1.05% | 11.44% | Version Difference
+BOSCHLTD | Bosch Ltd | 2015 | ROCE | 26.41% | 20.60% | 5.81% | Version Difference
+BOSCHLTD | Bosch Ltd | 2017 | ROCE | 27.48% | 20.60% | 6.88% | Version Difference
+BOSCHLTD | Bosch Ltd | 2019 | ROCE | 25.77% | 20.60% | 5.17% | Version Difference
+BOSCHLTD | Bosch Ltd | 2020 | ROCE | 10.65% | 20.60% | 9.95% | Version Difference
+BOSCHLTD | Bosch Ltd | 2020 | ROE | 7.01% | 16.00% | 8.99% | Version Difference
+BOSCHLTD | Bosch Ltd | 2021 | ROCE | 5.88% | 20.60% | 14.72% | Version Difference
+BOSCHLTD | Bosch Ltd | 2021 | ROE | 4.91% | 16.00% | 11.09% | Version Difference
+BOSCHLTD | Bosch Ltd | 2022 | ROCE | 14.21% | 20.60% | 6.39% | Version Difference
+BOSCHLTD | Bosch Ltd | 2024 | ROCE | 26.70% | 20.60% | 6.10% | Formula Discrepancy
+BPCL | Bharat Petroleum Corporation Ltd | 2013 | ROCE | 11.49% | 32.10% | 20.61% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2013 | ROE | 11.54% | 41.90% | 30.36% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2014 | ROCE | 15.49% | 32.10% | 16.61% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2014 | ROE | 20.85% | 41.90% | 21.05% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2015 | ROCE | 18.46% | 32.10% | 13.64% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2015 | ROE | 22.52% | 41.90% | 19.38% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2016 | ROCE | 25.03% | 32.10% | 7.07% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2016 | ROE | 29.10% | 41.90% | 12.80% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2017 | ROCE | 21.63% | 32.10% | 10.47% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2017 | ROE | 30.85% | 41.90% | 11.05% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2018 | ROCE | 20.68% | 32.10% | 11.42% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2018 | ROE | 26.74% | 41.90% | 15.16% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2019 | ROCE | 17.55% | 32.10% | 14.55% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2019 | ROE | 22.00% | 41.90% | 19.90% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2020 | ROCE | 6.17% | 32.10% | 25.93% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2020 | ROE | 10.04% | 41.90% | 31.86% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2021 | ROCE | 22.35% | 32.10% | 9.75% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2021 | ROE | 32.34% | 41.90% | 9.56% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2022 | ROCE | 16.01% | 32.10% | 16.09% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2022 | ROE | 22.51% | 41.90% | 19.39% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2023 | ROCE | 5.34% | 32.10% | 26.76% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2023 | ROE | 3.98% | 41.90% | 37.92% | Version Difference
+BPCL | Bharat Petroleum Corporation Ltd | 2024 | ROE | 35.51% | 41.90% | 6.39% | Formula Discrepancy
+BRITANNIA | Britannia Industries Ltd | 2013 | ROCE | 42.54% | 48.90% | 6.36% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2013 | ROE | 46.59% | 57.10% | 10.51% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2014 | ROCE | 60.86% | 48.90% | 11.96% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2014 | ROE | 49.50% | 57.10% | 7.60% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2015 | ROCE | 68.63% | 48.90% | 19.73% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2016 | ROCE | 55.11% | 48.90% | 6.21% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2016 | ROE | 39.44% | 57.10% | 17.66% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2017 | ROE | 32.83% | 57.10% | 24.27% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2018 | ROCE | 42.31% | 48.90% | 6.59% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2018 | ROE | 29.48% | 57.10% | 27.62% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2019 | ROCE | 40.30% | 48.90% | 8.60% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2019 | ROE | 27.16% | 57.10% | 29.94% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2020 | ROCE | 32.33% | 48.90% | 16.57% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2020 | ROE | 31.66% | 57.10% | 25.44% | Version Difference
+BRITANNIA | Britannia Industries Ltd | 2023 | ROE | 65.53% | 57.10% | 8.43% | Version Difference
+CANBK | Canara Bank | 2013 | ROE | 11.90% | 17.90% | 6.00% | Version Difference
+CANBK | Canara Bank | 2014 | ROCE | 1.54% | 6.63% | 5.09% | Version Difference
+CANBK | Canara Bank | 2014 | ROE | 8.85% | 17.90% | 9.05% | Version Difference
+CANBK | Canara Bank | 2015 | ROCE | 1.58% | 6.63% | 5.05% | Version Difference
+CANBK | Canara Bank | 2015 | ROE | 9.02% | 17.90% | 8.88% | Version Difference
+CANBK | Canara Bank | 2016 | ROCE | 0.44% | 6.63% | 6.19% | Version Difference
+CANBK | Canara Bank | 2016 | ROE | -7.82% | 17.90% | 25.72% | Version Difference
+CANBK | Canara Bank | 2017 | ROE | 4.07% | 17.90% | 13.83% | Version Difference
+CANBK | Canara Bank | 2018 | ROCE | 0.16% | 6.63% | 6.47% | Version Difference
+CANBK | Canara Bank | 2018 | ROE | -10.50% | 17.90% | 28.40% | Version Difference
+CANBK | Canara Bank | 2019 | ROCE | 1.15% | 6.63% | 5.48% | Version Difference
+CANBK | Canara Bank | 2019 | ROE | 1.85% | 17.90% | 16.05% | Version Difference
+CANBK | Canara Bank | 2020 | ROCE | 1.45% | 6.63% | 5.18% | Version Difference
+CANBK | Canara Bank | 2020 | ROE | -4.66% | 17.90% | 22.56% | Version Difference
+CANBK | Canara Bank | 2021 | ROE | 4.74% | 17.90% | 13.16% | Version Difference
+CANBK | Canara Bank | 2022 | ROE | 8.80% | 17.90% | 9.10% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2013 | ROCE | 2.63% | 10.40% | 7.77% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2014 | ROCE | 2.73% | 10.40% | 7.67% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2015 | ROCE | 2.94% | 10.40% | 7.46% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2016 | ROCE | 3.36% | 10.40% | 7.04% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2017 | ROCE | 3.91% | 10.40% | 6.49% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2018 | ROCE | 3.22% | 10.40% | 7.18% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2019 | ROCE | 3.23% | 10.40% | 7.17% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2020 | ROCE | 2.51% | 10.40% | 7.89% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2020 | ROE | 12.85% | 20.20% | 7.35% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2021 | ROCE | 2.87% | 10.40% | 7.53% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2022 | ROCE | 3.70% | 10.40% | 6.70% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2023 | ROCE | 3.43% | 10.40% | 6.97% | Version Difference
+CHOLAFIN | Cholamandalam Investment & Finance Company Ltd | 2024 | ROCE | 3.15% | 10.40% | 7.25% | Formula Discrepancy
+CIPLA | Cipla Ltd | 2015 | ROCE | 14.54% | 22.80% | 8.26% | Version Difference
+CIPLA | Cipla Ltd | 2015 | ROE | 11.38% | 16.80% | 5.42% | Version Difference
+CIPLA | Cipla Ltd | 2016 | ROCE | 11.57% | 22.80% | 11.23% | Version Difference
+CIPLA | Cipla Ltd | 2017 | ROCE | 8.58% | 22.80% | 14.22% | Version Difference
+CIPLA | Cipla Ltd | 2017 | ROE | 8.25% | 16.80% | 8.55% | Version Difference
+CIPLA | Cipla Ltd | 2018 | ROCE | 10.63% | 22.80% | 12.17% | Version Difference
+CIPLA | Cipla Ltd | 2018 | ROE | 9.96% | 16.80% | 6.84% | Version Difference
+CIPLA | Cipla Ltd | 2019 | ROCE | 13.22% | 22.80% | 9.58% | Version Difference
+CIPLA | Cipla Ltd | 2019 | ROE | 9.94% | 16.80% | 6.86% | Version Difference
+CIPLA | Cipla Ltd | 2020 | ROCE | 13.57% | 22.80% | 9.23% | Version Difference
+CIPLA | Cipla Ltd | 2020 | ROE | 9.52% | 16.80% | 7.28% | Version Difference
+CIPLA | Cipla Ltd | 2021 | ROCE | 17.48% | 22.80% | 5.32% | Version Difference
+CIPLA | Cipla Ltd | 2022 | ROCE | 16.40% | 22.80% | 6.40% | Version Difference
+COALINDIA | Coal India Ltd | 2013 | ROE | 35.81% | 52.00% | 16.19% | Version Difference
+COALINDIA | Coal India Ltd | 2014 | ROCE | 70.57% | 63.60% | 6.97% | Version Difference
+COALINDIA | Coal India Ltd | 2014 | ROE | 35.64% | 52.00% | 16.36% | Version Difference
+COALINDIA | Coal India Ltd | 2015 | ROCE | 69.07% | 63.60% | 5.47% | Version Difference
+COALINDIA | Coal India Ltd | 2015 | ROE | 34.02% | 52.00% | 17.98% | Version Difference
+COALINDIA | Coal India Ltd | 2016 | ROCE | 75.99% | 63.60% | 12.39% | Version Difference
+COALINDIA | Coal India Ltd | 2016 | ROE | 40.96% | 52.00% | 11.04% | Version Difference
+COALINDIA | Coal India Ltd | 2017 | ROCE | 71.78% | 63.60% | 8.18% | Version Difference
+COALINDIA | Coal India Ltd | 2017 | ROE | 37.85% | 52.00% | 14.15% | Version Difference
+COALINDIA | Coal India Ltd | 2018 | ROCE | 72.50% | 63.60% | 8.90% | Version Difference
+COALINDIA | Coal India Ltd | 2018 | ROE | 34.88% | 52.00% | 17.12% | Version Difference
+COALINDIA | Coal India Ltd | 2019 | ROCE | 114.99% | 63.60% | 51.39% | Version Difference
+COALINDIA | Coal India Ltd | 2019 | ROE | 66.01% | 52.00% | 14.01% | Version Difference
+COALINDIA | Coal India Ltd | 2020 | ROCE | 79.07% | 63.60% | 15.47% | Version Difference
+COALINDIA | Coal India Ltd | 2021 | ROCE | 51.30% | 63.60% | 12.30% | Version Difference
+COALINDIA | Coal India Ltd | 2021 | ROE | 34.78% | 52.00% | 17.22% | Version Difference
+COALINDIA | Coal India Ltd | 2022 | ROE | 40.28% | 52.00% | 11.72% | Version Difference
+COALINDIA | Coal India Ltd | 2023 | ROCE | 76.46% | 63.60% | 12.86% | Version Difference
+COALINDIA | Coal India Ltd | 2024 | ROE | 45.17% | 52.00% | 6.83% | Formula Discrepancy
+DABUR | Dabur India Ltd | 2013 | ROCE | 31.02% | 22.30% | 8.72% | Version Difference
+DABUR | Dabur India Ltd | 2013 | ROE | 36.56% | 19.20% | 17.36% | Version Difference
+DABUR | Dabur India Ltd | 2014 | ROCE | 35.37% | 22.30% | 13.07% | Version Difference
+DABUR | Dabur India Ltd | 2014 | ROE | 34.49% | 19.20% | 15.29% | Version Difference
+DABUR | Dabur India Ltd | 2015 | ROCE | 33.24% | 22.30% | 10.94% | Version Difference
+DABUR | Dabur India Ltd | 2015 | ROE | 31.84% | 19.20% | 12.64% | Version Difference
+DABUR | Dabur India Ltd | 2016 | ROCE | 32.19% | 22.30% | 9.89% | Version Difference
+DABUR | Dabur India Ltd | 2016 | ROE | 30.06% | 19.20% | 10.86% | Version Difference
+DABUR | Dabur India Ltd | 2017 | ROCE | 28.60% | 22.30% | 6.30% | Version Difference
+DABUR | Dabur India Ltd | 2017 | ROE | 26.41% | 19.20% | 7.21% | Version Difference
+DABUR | Dabur India Ltd | 2019 | ROCE | 28.19% | 22.30% | 5.89% | Version Difference
+DABUR | Dabur India Ltd | 2019 | ROE | 25.67% | 19.20% | 6.47% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2013 | ROCE | 30.94% | 16.50% | 14.44% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2013 | ROE | 24.07% | 12.20% | 11.87% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2014 | ROCE | 33.33% | 16.50% | 16.83% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2014 | ROE | 26.08% | 12.20% | 13.88% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2015 | ROCE | 30.51% | 16.50% | 14.01% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2015 | ROE | 24.37% | 12.20% | 12.17% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2016 | ROCE | 32.25% | 16.50% | 15.75% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2016 | ROE | 26.23% | 12.20% | 14.03% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2017 | ROCE | 25.92% | 16.50% | 9.42% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2017 | ROE | 19.79% | 12.20% | 7.59% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2019 | ROCE | 26.33% | 16.50% | 9.83% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2019 | ROE | 19.45% | 12.20% | 7.25% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2020 | ROCE | 24.85% | 16.50% | 8.35% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2020 | ROE | 18.84% | 12.20% | 6.64% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2021 | ROCE | 28.69% | 16.50% | 12.19% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2021 | ROE | 21.34% | 12.20% | 9.14% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2022 | ROCE | 31.42% | 16.50% | 14.92% | Version Difference
+DIVISLAB | Divis Laboratories Ltd | 2022 | ROE | 25.24% | 12.20% | 13.04% | Version Difference
+DLF | DLF Ltd | 2015 | ROE | 1.85% | 6.95% | 5.10% | Version Difference
+DLF | DLF Ltd | 2016 | ROE | 1.27% | 6.95% | 5.68% | Version Difference
+DLF | DLF Ltd | 2018 | ROCE | 21.90% | 5.74% | 16.16% | Version Difference
+DLF | DLF Ltd | 2018 | ROE | 12.68% | 6.95% | 5.73% | Version Difference
+DLF | DLF Ltd | 2020 | ROE | -1.71% | 6.95% | 8.66% | Version Difference
+DMART | Avenue Supermarts Ltd | 2013 | ROCE | 13.99% | 19.40% | 5.41% | Version Difference
+DMART | Avenue Supermarts Ltd | 2016 | ROE | 21.04% | 14.50% | 6.54% | Version Difference
+DMART | Avenue Supermarts Ltd | 2018 | ROCE | 25.10% | 19.40% | 5.70% | Version Difference
+DMART | Avenue Supermarts Ltd | 2021 | ROCE | 12.13% | 19.40% | 7.27% | Version Difference
+DMART | Avenue Supermarts Ltd | 2021 | ROE | 9.02% | 14.50% | 5.48% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2015 | ROCE | 21.23% | 26.50% | 5.27% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2016 | ROCE | 18.48% | 26.50% | 8.02% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2017 | ROCE | 9.51% | 26.50% | 16.99% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2017 | ROE | 10.54% | 21.40% | 10.86% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2018 | ROCE | 8.10% | 26.50% | 18.40% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2018 | ROE | 7.53% | 21.40% | 13.87% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2019 | ROCE | 13.58% | 26.50% | 12.92% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2019 | ROE | 13.90% | 21.40% | 7.50% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2020 | ROCE | 11.14% | 26.50% | 15.36% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2020 | ROE | 12.99% | 21.40% | 8.41% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2021 | ROCE | 14.42% | 26.50% | 12.08% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2021 | ROE | 11.07% | 21.40% | 10.33% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2022 | ROCE | 13.97% | 26.50% | 12.53% | Version Difference
+DRREDDY | Dr Reddys Laboratories Ltd | 2022 | ROE | 11.36% | 21.40% | 10.04% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2014 | ROCE | 38.97% | 31.10% | 7.87% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2016 | ROCE | 51.12% | 31.10% | 20.02% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2016 | ROE | 36.63% | 24.20% | 12.43% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2017 | ROCE | 44.66% | 31.10% | 13.56% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2017 | ROE | 31.19% | 24.20% | 6.99% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2018 | ROCE | 43.46% | 31.10% | 12.36% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2019 | ROCE | 36.29% | 31.10% | 5.19% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2020 | ROCE | 23.21% | 31.10% | 7.89% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2020 | ROE | 18.30% | 24.20% | 5.90% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2021 | ROCE | 19.04% | 31.10% | 12.06% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2021 | ROE | 11.78% | 24.20% | 12.42% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2022 | ROCE | 17.47% | 31.10% | 13.63% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2022 | ROE | 13.30% | 24.20% | 10.90% | Version Difference
+EICHERMOT | Eicher Motors Ltd | 2023 | ROCE | 25.06% | 31.10% | 6.04% | Version Difference
+GAIL | GAIL (India) Ltd | 2016 | ROCE | 8.30% | 14.70% | 6.40% | Version Difference
+GAIL | GAIL (India) Ltd | 2016 | ROE | 5.15% | 14.00% | 8.85% | Version Difference
+GAIL | GAIL (India) Ltd | 2017 | ROE | 8.58% | 14.00% | 5.42% | Version Difference
+GAIL | GAIL (India) Ltd | 2019 | ROCE | 20.71% | 14.70% | 6.01% | Version Difference
+GAIL | GAIL (India) Ltd | 2020 | ROE | 19.31% | 14.00% | 5.31% | Version Difference
+GAIL | GAIL (India) Ltd | 2022 | ROCE | 21.36% | 14.70% | 6.66% | Version Difference
+GAIL | GAIL (India) Ltd | 2022 | ROE | 19.19% | 14.00% | 5.19% | Version Difference
+GAIL | GAIL (India) Ltd | 2023 | ROCE | 9.21% | 14.70% | 5.49% | Version Difference
+GAIL | GAIL (India) Ltd | 2023 | ROE | 8.62% | 14.00% | 5.38% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2013 | ROCE | 19.28% | 26.49% | 7.21% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2013 | ROE | 25.51% | 6.77% | 18.74% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2014 | ROCE | 18.71% | 26.49% | 7.78% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2014 | ROE | 21.70% | 6.77% | 14.93% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2015 | ROCE | 19.37% | 26.49% | 7.12% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2015 | ROE | 22.64% | 6.77% | 15.87% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2016 | ROCE | 18.09% | 26.49% | 8.40% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2016 | ROE | 19.48% | 6.77% | 12.71% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2017 | ROCE | 19.79% | 26.49% | 6.70% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2017 | ROE | 24.67% | 6.77% | 17.90% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2018 | ROE | 26.11% | 6.77% | 19.34% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2019 | ROE | 32.23% | 6.77% | 25.46% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2020 | ROCE | 17.33% | 26.49% | 9.16% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2020 | ROE | 18.95% | 6.77% | 12.18% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2021 | ROCE | 19.62% | 26.49% | 6.87% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2021 | ROE | 18.23% | 6.77% | 11.46% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2022 | ROCE | 17.17% | 26.49% | 9.32% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2022 | ROE | 15.43% | 6.77% | 8.66% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2023 | ROCE | 15.55% | 26.49% | 10.94% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2023 | ROE | 12.34% | 6.77% | 5.57% | Version Difference
+GODREJCP | Godrej Consumer Products Ltd | 2024 | ROCE | 3.21% | 26.49% | 23.28% | Formula Discrepancy
+GODREJCP | Godrej Consumer Products Ltd | 2024 | ROE | -4.45% | 6.77% | 11.22% | Formula Discrepancy
+GRASIM | Grasim Industries Ltd | 2013 | ROCE | 18.81% | 9.30% | 9.51% | Version Difference
+GRASIM | Grasim Industries Ltd | 2013 | ROE | 19.22% | 6.90% | 12.32% | Version Difference
+GRASIM | Grasim Industries Ltd | 2014 | ROE | 13.67% | 6.90% | 6.77% | Version Difference
+GRASIM | Grasim Industries Ltd | 2016 | ROE | 12.60% | 6.90% | 5.70% | Version Difference
+GRASIM | Grasim Industries Ltd | 2017 | ROCE | 16.39% | 9.30% | 7.09% | Version Difference
+GRASIM | Grasim Industries Ltd | 2017 | ROE | 13.53% | 6.90% | 6.63% | Version Difference
+GRASIM | Grasim Industries Ltd | 2022 | ROE | 14.80% | 6.90% | 7.90% | Version Difference
+GRASIM | Grasim Industries Ltd | 2023 | ROE | 14.07% | 6.90% | 7.17% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2017 | ROCE | 2665.93% | 38.90% | 2627.03% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2017 | ROE | 1966.92% | 28.90% | 1938.02% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2018 | ROCE | 2462.41% | 38.90% | 2423.51% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2018 | ROE | 1528.46% | 28.90% | 1499.56% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2019 | ROCE | 2779.43% | 38.90% | 2740.53% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2019 | ROE | 1763.91% | 28.90% | 1735.01% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2020 | ROCE | 3069.29% | 38.90% | 3030.39% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2020 | ROE | 2059.42% | 28.90% | 2030.52% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2021 | ROCE | 3029.33% | 38.90% | 2990.43% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2021 | ROE | 2249.31% | 28.90% | 2220.41% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2022 | ROCE | 3209.70% | 38.90% | 3170.80% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2022 | ROE | 3324.18% | 28.90% | 3295.28% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2023 | ROCE | 2927.23% | 38.90% | 2888.33% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2023 | ROE | 3283.05% | 28.90% | 3254.15% | Version Difference
+HAL | Hindustan Aeronautics Ltd | 2024 | ROCE | 3180.75% | 38.90% | 3141.85% | Formula Discrepancy
+HAL | Hindustan Aeronautics Ltd | 2024 | ROE | 3816.58% | 28.90% | 3787.68% | Formula Discrepancy
+HAVELLS | Havells India Ltd | 2013 | ROCE | 32.47% | 24.40% | 8.07% | Version Difference
+HAVELLS | Havells India Ltd | 2013 | ROE | 40.29% | 18.00% | 22.29% | Version Difference
+HAVELLS | Havells India Ltd | 2014 | ROE | 26.77% | 18.00% | 8.77% | Version Difference
+HAVELLS | Havells India Ltd | 2015 | ROCE | 29.66% | 24.40% | 5.26% | Version Difference
+HAVELLS | Havells India Ltd | 2016 | ROCE | 50.96% | 24.40% | 26.56% | Version Difference
+HAVELLS | Havells India Ltd | 2016 | ROE | 42.95% | 18.00% | 24.95% | Version Difference
+HCLTECH | HCL Technologies Ltd | 2013 | ROCE | 37.84% | 29.60% | 8.24% | Version Difference
+HCLTECH | HCL Technologies Ltd | 2013 | ROE | 30.69% | 23.30% | 7.39% | Version Difference
+HCLTECH | HCL Technologies Ltd | 2014 | ROCE | 39.05% | 29.60% | 9.45% | Version Difference
+HCLTECH | HCL Technologies Ltd | 2014 | ROE | 33.39% | 23.30% | 10.09% | Version Difference
+HCLTECH | HCL Technologies Ltd | 2015 | ROCE | 37.02% | 29.60% | 7.42% | Version Difference
+HCLTECH | HCL Technologies Ltd | 2015 | ROE | 30.31% | 23.30% | 7.01% | Version Difference
+HCLTECH | HCL Technologies Ltd | 2020 | ROCE | 24.45% | 29.60% | 5.15% | Version Difference
+HCLTECH | HCL Technologies Ltd | 2021 | ROCE | 24.51% | 29.60% | 5.09% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2013 | ROCE | 39.64% | 6.61% | 33.03% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2013 | ROE | 33.43% | 11.40% | 22.03% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2014 | ROCE | 53.68% | 6.61% | 47.07% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2014 | ROE | 37.60% | 11.40% | 26.20% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2015 | ROCE | 39.47% | 6.61% | 32.86% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2015 | ROE | 30.93% | 11.40% | 19.53% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2016 | ROCE | 35.97% | 6.61% | 29.36% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2016 | ROE | 26.33% | 11.40% | 14.93% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2017 | ROCE | 31.36% | 6.61% | 24.75% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2017 | ROE | 23.18% | 11.40% | 11.78% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2018 | ROCE | 33.62% | 6.61% | 27.01% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2018 | ROE | 23.53% | 11.40% | 12.13% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2019 | ROCE | 25.29% | 6.61% | 18.68% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2019 | ROE | 22.65% | 11.40% | 11.25% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2020 | ROCE | 26.91% | 6.61% | 20.30% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2020 | ROE | 19.05% | 11.40% | 7.65% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2021 | ROCE | 22.45% | 6.61% | 15.84% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2022 | ROCE | 13.90% | 6.61% | 7.29% | Version Difference
+HDFCLIFE | HDFC Life Insurance Company Ltd | 2023 | ROCE | 20.64% | 6.61% | 14.03% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2014 | ROCE | 55.76% | 29.10% | 26.66% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2014 | ROE | 37.38% | 22.00% | 15.38% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2015 | ROCE | 54.47% | 29.10% | 25.37% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2015 | ROE | 36.15% | 22.00% | 14.15% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2016 | ROCE | 53.03% | 29.10% | 23.93% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2016 | ROE | 35.23% | 22.00% | 13.23% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2017 | ROCE | 54.03% | 29.10% | 24.93% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2017 | ROE | 34.37% | 22.00% | 12.37% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2018 | ROCE | 48.00% | 29.10% | 18.90% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2018 | ROE | 31.09% | 22.00% | 9.09% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2019 | ROCE | 43.52% | 29.10% | 14.42% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2020 | ROCE | 40.68% | 29.10% | 11.58% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2022 | ROCE | 21.90% | 29.10% | 7.20% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2022 | ROE | 14.70% | 22.00% | 7.30% | Version Difference
+HEROMOTOCO | Hero MotoCorp Ltd | 2023 | ROE | 16.81% | 22.00% | 5.19% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2013 | ROCE | 5.44% | 11.30% | 5.86% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2014 | ROCE | 3.16% | 11.30% | 8.14% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2015 | ROCE | -0.46% | 11.30% | 11.76% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2015 | ROE | 0.68% | 10.20% | 9.52% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2016 | ROCE | 1.20% | 11.30% | 10.10% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2016 | ROE | -1.73% | 10.20% | 11.93% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2017 | ROCE | 4.11% | 11.30% | 7.19% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2017 | ROE | 4.09% | 10.20% | 6.11% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2020 | ROCE | 5.39% | 11.30% | 5.91% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2021 | ROCE | 3.90% | 11.30% | 7.40% | Version Difference
+HINDALCO | Hindalco Industries Ltd | 2022 | ROE | 17.56% | 10.20% | 7.36% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2013 | ROCE | 214.15% | 27.20% | 186.95% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2013 | ROE | 134.00% | 20.20% | 113.80% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2014 | ROCE | 167.65% | 27.20% | 140.45% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2014 | ROE | 111.85% | 20.20% | 91.65% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2015 | ROCE | 185.92% | 27.20% | 158.72% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2015 | ROE | 108.67% | 20.20% | 88.47% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2016 | ROCE | 96.47% | 27.20% | 69.27% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2016 | ROE | 63.15% | 20.20% | 42.95% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2017 | ROCE | 100.74% | 27.20% | 73.54% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2017 | ROE | 66.58% | 20.20% | 46.38% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2018 | ROCE | 105.19% | 27.20% | 77.99% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2018 | ROE | 71.79% | 20.20% | 51.59% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2019 | ROCE | 112.05% | 27.20% | 84.85% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2019 | ROE | 77.03% | 20.20% | 56.83% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2020 | ROCE | 116.53% | 27.20% | 89.33% | Version Difference
+HINDUNILVR | Hindustan Unilever Ltd | 2020 | ROE | 82.10% | 20.20% | 61.90% | Version Difference
+ICICIBANK | ICICI Bank Ltd | 2016 | ROE | 11.61% | 18.80% | 7.19% | Version Difference
+ICICIBANK | ICICI Bank Ltd | 2017 | ROE | 10.84% | 18.80% | 7.96% | Version Difference
+ICICIBANK | ICICI Bank Ltd | 2018 | ROE | 8.23% | 18.80% | 10.57% | Version Difference
+ICICIBANK | ICICI Bank Ltd | 2019 | ROE | 4.98% | 18.80% | 13.82% | Version Difference
+ICICIBANK | ICICI Bank Ltd | 2020 | ROE | 9.13% | 18.80% | 9.67% | Version Difference
+ICICIBANK | ICICI Bank Ltd | 2021 | ROE | 12.92% | 18.80% | 5.88% | Version Difference
+ICICIGI | ICICI Lombard General Insurance Company Ltd | 2013 | ROCE | 50.11% | 22.50% | 27.61% | Version Difference
+ICICIGI | ICICI Lombard General Insurance Company Ltd | 2014 | ROCE | 56.39% | 22.50% | 33.89% | Version Difference
+ICICIGI | ICICI Lombard General Insurance Company Ltd | 2015 | ROCE | 58.80% | 22.50% | 36.30% | Version Difference
+ICICIGI | ICICI Lombard General Insurance Company Ltd | 2018 | ROCE | 55.01% | 22.50% | 32.51% | Version Difference
+ICICIGI | ICICI Lombard General Insurance Company Ltd | 2023 | ROCE | 29.62% | 22.50% | 7.12% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2013 | ROCE | 62.89% | 8.75% | 54.14% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2013 | ROE | 38.25% | 8.07% | 30.18% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2014 | ROCE | 38.81% | 8.75% | 30.06% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2014 | ROE | 35.61% | 8.07% | 27.54% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2015 | ROCE | 32.00% | 8.75% | 23.25% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2015 | ROE | 31.15% | 8.07% | 23.08% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2016 | ROCE | 29.00% | 8.75% | 20.25% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2016 | ROE | 31.00% | 8.07% | 22.93% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2017 | ROCE | 31.11% | 8.75% | 22.36% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2017 | ROE | 26.26% | 8.07% | 18.19% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2018 | ROCE | 29.98% | 8.75% | 21.23% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2018 | ROE | 24.63% | 8.07% | 16.56% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2019 | ROCE | 30.37% | 8.75% | 21.62% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2019 | ROE | 16.58% | 8.07% | 8.51% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2020 | ROCE | 38.49% | 8.75% | 29.74% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2020 | ROE | 14.79% | 8.07% | 6.72% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2021 | ROCE | 28.01% | 8.75% | 19.26% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2022 | ROCE | 40.08% | 8.75% | 31.33% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2023 | ROCE | 35.52% | 8.75% | 26.77% | Version Difference
+ICICIPRULI | ICICI Prudential Life Insurance Company Ltd | 2024 | ROCE | 32.76% | 8.75% | 24.01% | Formula Discrepancy
+INDUSINDBK | IndusInd Bank Ltd | 2021 | ROE | 6.54% | 15.20% | 8.66% | Version Difference
+INDUSINDBK | IndusInd Bank Ltd | 2022 | ROE | 9.67% | 15.20% | 5.53% | Version Difference
+INFY | Infosys Ltd | 2013 | ROCE | 33.70% | 40.00% | 6.30% | Version Difference
+INFY | Infosys Ltd | 2013 | ROE | 24.82% | 31.80% | 6.98% | Version Difference
+INFY | Infosys Ltd | 2014 | ROCE | 33.09% | 40.00% | 6.91% | Version Difference
+INFY | Infosys Ltd | 2014 | ROE | 23.93% | 31.80% | 7.87% | Version Difference
+INFY | Infosys Ltd | 2015 | ROCE | 34.09% | 40.00% | 5.91% | Version Difference
+INFY | Infosys Ltd | 2015 | ROE | 24.39% | 31.80% | 7.41% | Version Difference
+INFY | Infosys Ltd | 2016 | ROCE | 30.35% | 40.00% | 9.65% | Version Difference
+INFY | Infosys Ltd | 2016 | ROE | 21.85% | 31.80% | 9.95% | Version Difference
+INFY | Infosys Ltd | 2017 | ROCE | 28.92% | 40.00% | 11.08% | Version Difference
+INFY | Infosys Ltd | 2017 | ROE | 20.81% | 31.80% | 10.99% | Version Difference
+INFY | Infosys Ltd | 2018 | ROCE | 31.22% | 40.00% | 8.78% | Version Difference
+INFY | Infosys Ltd | 2018 | ROE | 24.69% | 31.80% | 7.11% | Version Difference
+INFY | Infosys Ltd | 2019 | ROCE | 32.40% | 40.00% | 7.60% | Version Difference
+INFY | Infosys Ltd | 2019 | ROE | 23.73% | 31.80% | 8.07% | Version Difference
+INFY | Infosys Ltd | 2020 | ROCE | 31.64% | 40.00% | 8.36% | Version Difference
+INFY | Infosys Ltd | 2020 | ROE | 25.42% | 31.80% | 6.38% | Version Difference
+INFY | Infosys Ltd | 2021 | ROCE | 32.84% | 40.00% | 7.16% | Version Difference
+INFY | Infosys Ltd | 2021 | ROE | 25.44% | 31.80% | 6.36% | Version Difference
+IOC | Indian Oil Corporation | 2013 | ROCE | 7.64% | 21.31% | 13.67% | Version Difference
+IOC | Indian Oil Corporation | 2013 | ROE | 5.75% | 25.44% | 19.69% | Version Difference
+IOC | Indian Oil Corporation | 2014 | ROCE | 9.78% | 21.31% | 11.53% | Version Difference
+IOC | Indian Oil Corporation | 2014 | ROE | 10.26% | 25.44% | 15.18% | Version Difference
+IOC | Indian Oil Corporation | 2015 | ROCE | 8.39% | 21.31% | 12.92% | Version Difference
+IOC | Indian Oil Corporation | 2015 | ROE | 7.08% | 25.44% | 18.36% | Version Difference
+IOC | Indian Oil Corporation | 2016 | ROCE | 14.51% | 21.31% | 6.80% | Version Difference
+IOC | Indian Oil Corporation | 2016 | ROE | 13.80% | 25.44% | 11.64% | Version Difference
+IOC | Indian Oil Corporation | 2017 | ROE | 19.97% | 25.44% | 5.47% | Version Difference
+IOC | Indian Oil Corporation | 2018 | ROE | 19.87% | 25.44% | 5.57% | Version Difference
+IOC | Indian Oil Corporation | 2019 | ROCE | 14.75% | 21.31% | 6.56% | Version Difference
+IOC | Indian Oil Corporation | 2019 | ROE | 15.36% | 25.44% | 10.08% | Version Difference
+IOC | Indian Oil Corporation | 2020 | ROCE | -0.62% | 21.31% | 21.93% | Version Difference
+IOC | Indian Oil Corporation | 2020 | ROE | -1.97% | 25.44% | 27.41% | Version Difference
+IOC | Indian Oil Corporation | 2021 | ROCE | 14.74% | 21.31% | 6.57% | Version Difference
+IOC | Indian Oil Corporation | 2021 | ROE | 19.46% | 25.44% | 5.98% | Version Difference
+IOC | Indian Oil Corporation | 2022 | ROCE | 14.97% | 21.31% | 6.34% | Version Difference
+IOC | Indian Oil Corporation | 2022 | ROE | 19.27% | 25.44% | 6.17% | Version Difference
+IOC | Indian Oil Corporation | 2023 | ROCE | 7.84% | 21.31% | 13.47% | Version Difference
+IOC | Indian Oil Corporation | 2023 | ROE | 8.38% | 25.44% | 17.06% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2015 | ROCE | 48.20% | 53.80% | 5.60% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2015 | ROE | 29.50% | 40.40% | 10.90% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2016 | ROE | 34.87% | 40.40% | 5.53% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2017 | ROCE | 45.49% | 53.80% | 8.31% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2017 | ROE | 29.10% | 40.40% | 11.30% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2018 | ROCE | 36.54% | 53.80% | 17.26% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2018 | ROE | 23.14% | 40.40% | 17.26% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2019 | ROCE | 44.91% | 53.80% | 8.89% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2019 | ROE | 28.85% | 40.40% | 11.55% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2021 | ROCE | 17.33% | 53.80% | 36.47% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2021 | ROE | 12.84% | 40.40% | 27.56% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2022 | ROCE | 45.37% | 53.80% | 8.43% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2022 | ROE | 35.29% | 40.40% | 5.11% | Version Difference
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2024 | ROCE | 46.05% | 53.80% | 7.75% | Formula Discrepancy
+IRCTC | Indian Railway Catering & Tourism Corporation Ltd | 2024 | ROE | 34.40% | 40.40% | 6.00% | Formula Discrepancy
+IRFC | Indian Railway Finance Corporation Ltd | 2016 | ROE | 7.37% | 13.70% | 6.33% | Version Difference
+IRFC | Indian Railway Finance Corporation Ltd | 2017 | ROE | 7.78% | 13.70% | 5.92% | Version Difference
+ITC | ITC Ltd | 2013 | ROCE | 48.21% | 34.76% | 13.45% | Version Difference
+ITC | ITC Ltd | 2014 | ROCE | 47.60% | 34.76% | 12.84% | Version Difference
+ITC | ITC Ltd | 2015 | ROCE | 45.16% | 34.76% | 10.40% | Version Difference
+ITC | ITC Ltd | 2016 | ROE | 22.26% | 29.47% | 7.21% | Version Difference
+ITC | ITC Ltd | 2017 | ROE | 22.57% | 29.47% | 6.90% | Version Difference
+ITC | ITC Ltd | 2018 | ROE | 21.89% | 29.47% | 7.58% | Version Difference
+ITC | ITC Ltd | 2019 | ROE | 21.70% | 29.47% | 7.77% | Version Difference
+ITC | ITC Ltd | 2020 | ROE | 23.89% | 29.47% | 5.58% | Version Difference
+ITC | ITC Ltd | 2021 | ROCE | 29.69% | 34.76% | 5.07% | Version Difference
+ITC | ITC Ltd | 2021 | ROE | 22.18% | 29.47% | 7.29% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2014 | ROCE | 7.32% | 13.20% | 5.88% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2014 | ROE | 8.39% | 14.10% | 5.71% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2015 | ROCE | 2.00% | 13.20% | 11.20% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2015 | ROE | -6.90% | 14.10% | 21.00% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2016 | ROCE | -0.90% | 13.20% | 14.10% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2016 | ROE | -9.52% | 14.10% | 23.62% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2017 | ROCE | 0.52% | 13.20% | 12.68% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2017 | ROE | -8.45% | 14.10% | 22.55% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2018 | ROCE | 2.73% | 13.20% | 10.47% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2018 | ROE | -5.32% | 14.10% | 19.42% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2019 | ROCE | 2.04% | 13.20% | 11.16% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2019 | ROE | -7.52% | 14.10% | 21.62% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2020 | ROCE | 5.04% | 13.20% | 8.16% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2020 | ROE | -1.24% | 14.10% | 15.34% | Version Difference
+JINDALSTEL | Jindal Steel & Power Ltd | 2022 | ROCE | 23.57% | 13.20% | 10.37% | Version Difference
+JSWENERGY | JSW Energy Ltd | 2013 | ROE | 14.52% | 8.40% | 6.12% | Version Difference
+JSWENERGY | JSW Energy Ltd | 2015 | ROCE | 18.02% | 8.59% | 9.43% | Version Difference
+JSWENERGY | JSW Energy Ltd | 2015 | ROE | 18.06% | 8.40% | 9.66% | Version Difference
+JSWENERGY | JSW Energy Ltd | 2016 | ROCE | 14.31% | 8.59% | 5.72% | Version Difference
+JSWENERGY | JSW Energy Ltd | 2016 | ROE | 15.05% | 8.40% | 6.65% | Version Difference
+JSWENERGY | JSW Energy Ltd | 2018 | ROE | 0.77% | 8.40% | 7.63% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2013 | ROE | 5.44% | 11.66% | 6.22% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2014 | ROCE | 7.68% | 13.36% | 5.68% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2014 | ROE | 1.90% | 11.66% | 9.76% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2016 | ROCE | 1.85% | 13.36% | 11.51% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2016 | ROE | -2.54% | 11.66% | 14.20% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2018 | ROE | 21.83% | 11.66% | 10.17% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2019 | ROE | 21.62% | 11.66% | 9.96% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2020 | ROCE | 7.42% | 13.36% | 5.94% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2021 | ROE | 16.84% | 11.66% | 5.18% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2022 | ROCE | 24.88% | 13.36% | 11.52% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2022 | ROE | 31.11% | 11.66% | 19.45% | Version Difference
+JSWSTEEL | JSW Steel Ltd | 2023 | ROE | 6.30% | 11.66% | 5.36% | Version Difference
+LICI | Life Insurance Corporation of India | 2019 | ROCE | 3.03% | 63.79% | 60.76% | Version Difference
+LICI | Life Insurance Corporation of India | 2019 | ROE | 324.32% | 63.61% | 260.71% | Version Difference
+LICI | Life Insurance Corporation of India | 2020 | ROCE | 5.32% | 63.79% | 58.47% | Version Difference
+LICI | Life Insurance Corporation of India | 2020 | ROE | 270.46% | 63.61% | 206.85% | Version Difference
+LICI | Life Insurance Corporation of India | 2021 | ROCE | 176.41% | 63.79% | 112.62% | Version Difference
+LICI | Life Insurance Corporation of India | 2021 | ROE | 43.20% | 63.61% | 20.41% | Version Difference
+LICI | Life Insurance Corporation of India | 2022 | ROCE | 107.05% | 63.79% | 43.26% | Version Difference
+LICI | Life Insurance Corporation of India | 2022 | ROE | 36.38% | 63.61% | 27.23% | Version Difference
+LICI | Life Insurance Corporation of India | 2023 | ROCE | 89.85% | 63.79% | 26.06% | Version Difference
+LICI | Life Insurance Corporation of India | 2023 | ROE | 77.86% | 63.61% | 14.25% | Version Difference
+LICI | Life Insurance Corporation of India | 2024 | ROCE | 56.97% | 63.79% | 6.82% | Formula Discrepancy
+LICI | Life Insurance Corporation of India | 2024 | ROE | 49.45% | 63.61% | 14.16% | Formula Discrepancy
+LODHA | Macrotech Developers Ltd | 2016 | ROE | 17.69% | 10.70% | 6.99% | Version Difference
+LODHA | Macrotech Developers Ltd | 2018 | ROCE | 5.66% | 11.10% | 5.44% | Version Difference
+LODHA | Macrotech Developers Ltd | 2019 | ROE | 42.80% | 10.70% | 32.10% | Version Difference
+LODHA | Macrotech Developers Ltd | 2020 | ROE | 16.30% | 10.70% | 5.60% | Version Difference
+LODHA | Macrotech Developers Ltd | 2021 | ROCE | 5.13% | 11.10% | 5.97% | Version Difference
+LODHA | Macrotech Developers Ltd | 2021 | ROE | 1.04% | 10.70% | 9.66% | Version Difference
+LODHA | Macrotech Developers Ltd | 2023 | ROCE | 4.30% | 11.10% | 6.80% | Version Difference
+LODHA | Macrotech Developers Ltd | 2023 | ROE | 3.87% | 10.70% | 6.83% | Version Difference
+LT | Larsen & Toubro Ltd | 2013 | ROCE | 780.67% | 17.18% | 763.49% | Version Difference
+LT | Larsen & Toubro Ltd | 2013 | ROE | 395.15% | 10.49% | 384.66% | Version Difference
+LT | Larsen & Toubro Ltd | 2014 | ROCE | 812.62% | 17.18% | 795.44% | Version Difference
+LT | Larsen & Toubro Ltd | 2014 | ROE | 303.42% | 10.49% | 292.93% | Version Difference
+LT | Larsen & Toubro Ltd | 2015 | ROCE | 645.41% | 17.18% | 628.23% | Version Difference
+LT | Larsen & Toubro Ltd | 2015 | ROE | 245.11% | 10.49% | 234.62% | Version Difference
+LT | Larsen & Toubro Ltd | 2016 | ROCE | 684.36% | 17.18% | 667.18% | Version Difference
+LT | Larsen & Toubro Ltd | 2016 | ROE | 216.09% | 10.49% | 205.60% | Version Difference
+LT | Larsen & Toubro Ltd | 2017 | ROCE | 499.87% | 17.18% | 482.69% | Version Difference
+LT | Larsen & Toubro Ltd | 2017 | ROE | 206.30% | 10.49% | 195.81% | Version Difference
+LT | Larsen & Toubro Ltd | 2018 | ROCE | 501.37% | 17.18% | 484.19% | Version Difference
+LT | Larsen & Toubro Ltd | 2018 | ROE | 207.36% | 10.49% | 196.87% | Version Difference
+LT | Larsen & Toubro Ltd | 2019 | ROCE | 483.22% | 17.18% | 466.04% | Version Difference
+LT | Larsen & Toubro Ltd | 2019 | ROE | 208.81% | 10.49% | 198.32% | Version Difference
+LT | Larsen & Toubro Ltd | 2020 | ROCE | 397.51% | 17.18% | 380.33% | Version Difference
+LT | Larsen & Toubro Ltd | 2020 | ROE | 201.59% | 10.49% | 191.10% | Version Difference
+LT | Larsen & Toubro Ltd | 2021 | ROCE | 353.84% | 17.18% | 336.66% | Version Difference
+LT | Larsen & Toubro Ltd | 2021 | ROE | 176.90% | 10.49% | 166.41% | Version Difference
+LT | Larsen & Toubro Ltd | 2022 | ROCE | 163.14% | 17.18% | 145.96% | Version Difference
+LT | Larsen & Toubro Ltd | 2022 | ROE | 72.92% | 10.49% | 62.43% | Version Difference
+LT | Larsen & Toubro Ltd | 2023 | ROCE | 146.44% | 17.18% | 129.26% | Version Difference
+LT | Larsen & Toubro Ltd | 2023 | ROE | 75.52% | 10.49% | 65.03% | Version Difference
+LT | Larsen & Toubro Ltd | 2024 | ROCE | 135.95% | 17.18% | 118.77% | Formula Discrepancy
+LT | Larsen & Toubro Ltd | 2024 | ROE | 77.67% | 10.49% | 67.18% | Formula Discrepancy
+LTIM | LTIMindtree Ltd | 2013 | ROCE | 48.95% | 34.10% | 14.85% | Version Difference
+LTIM | LTIMindtree Ltd | 2013 | ROE | 41.97% | 26.04% | 15.93% | Version Difference
+LTIM | LTIMindtree Ltd | 2014 | ROCE | 71.80% | 34.10% | 37.70% | Version Difference
+LTIM | LTIMindtree Ltd | 2014 | ROE | 61.86% | 26.04% | 35.82% | Version Difference
+LTIM | LTIMindtree Ltd | 2015 | ROCE | 42.16% | 34.10% | 8.06% | Version Difference
+LTIM | LTIMindtree Ltd | 2015 | ROE | 37.96% | 26.04% | 11.92% | Version Difference
+LTIM | LTIMindtree Ltd | 2016 | ROCE | 47.75% | 34.10% | 13.65% | Version Difference
+LTIM | LTIMindtree Ltd | 2016 | ROE | 39.34% | 26.04% | 13.30% | Version Difference
+LTIM | LTIMindtree Ltd | 2017 | ROCE | 39.41% | 34.10% | 5.31% | Version Difference
+LTIM | LTIMindtree Ltd | 2019 | ROCE | 41.67% | 34.10% | 7.57% | Version Difference
+LTIM | LTIMindtree Ltd | 2024 | ROCE | 28.39% | 34.10% | 5.71% | Formula Discrepancy
+M&M | Mahindra & Mahindra Ltd | 2013 | ROCE | 16.18% | 26.98% | 10.80% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2014 | ROCE | 15.00% | 26.98% | 11.98% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2015 | ROCE | 11.71% | 26.98% | 15.27% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2016 | ROCE | 13.29% | 26.98% | 13.69% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2017 | ROCE | 12.73% | 26.98% | 14.25% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2018 | ROCE | 15.44% | 26.98% | 11.54% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2019 | ROCE | 12.53% | 26.98% | 14.45% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2020 | ROCE | 6.29% | 26.98% | 20.69% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2020 | ROE | -0.80% | 17.99% | 18.79% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2021 | ROCE | 7.58% | 26.98% | 19.40% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2021 | ROE | 3.64% | 17.99% | 14.35% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2022 | ROCE | 11.53% | 26.98% | 15.45% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2023 | ROCE | 13.38% | 26.98% | 13.60% | Version Difference
+M&M | Mahindra & Mahindra Ltd | 2024 | ROCE | 13.42% | 26.98% | 13.56% | Formula Discrepancy
+MARUTI | Maruti Suzuki India Ltd | 2013 | ROCE | 15.87% | 23.67% | 7.80% | Version Difference
+MARUTI | Maruti Suzuki India Ltd | 2014 | ROCE | 16.67% | 23.67% | 7.00% | Version Difference
+MARUTI | Maruti Suzuki India Ltd | 2020 | ROCE | 14.59% | 23.67% | 9.08% | Version Difference
+MARUTI | Maruti Suzuki India Ltd | 2021 | ROCE | 10.22% | 23.67% | 13.45% | Version Difference
+MARUTI | Maruti Suzuki India Ltd | 2021 | ROE | 8.36% | 15.75% | 7.39% | Version Difference
+MARUTI | Maruti Suzuki India Ltd | 2022 | ROCE | 8.65% | 23.67% | 15.02% | Version Difference
+MARUTI | Maruti Suzuki India Ltd | 2022 | ROE | 7.01% | 15.75% | 8.74% | Version Difference
+MARUTI | Maruti Suzuki India Ltd | 2023 | ROCE | 14.09% | 23.67% | 9.58% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2013 | ROE | 19.75% | 11.80% | 7.95% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2014 | ROCE | 24.23% | 13.70% | 10.53% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2014 | ROE | 37.07% | 11.80% | 25.27% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2015 | ROCE | 25.25% | 13.70% | 11.55% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2015 | ROE | 38.87% | 11.80% | 27.07% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2016 | ROCE | 25.21% | 13.70% | 11.51% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2016 | ROE | 40.35% | 11.80% | 28.55% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2017 | ROE | 26.26% | 11.80% | 14.46% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2018 | ROE | 22.87% | 11.80% | 11.07% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2019 | ROE | 19.14% | 11.80% | 7.34% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2021 | ROCE | 8.22% | 13.70% | 5.48% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2022 | ROCE | 6.71% | 13.70% | 6.99% | Version Difference
+MOTHERSON | Samvardhana Motherson International Ltd | 2022 | ROE | 5.74% | 11.80% | 6.06% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2013 | ROCE | 21.84% | 3.65% | 18.19% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2013 | ROE | 12.50% | 2.44% | 10.06% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2014 | ROCE | 18.28% | 3.65% | 14.63% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2014 | ROE | 8.93% | 2.44% | 6.49% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2016 | ROCE | 11.53% | 3.65% | 7.88% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2016 | ROE | 7.65% | 2.44% | 5.21% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2017 | ROE | -2.70% | 2.44% | 5.14% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2018 | ROCE | 28.84% | 3.65% | 25.19% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2018 | ROE | 24.50% | 2.44% | 22.06% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2019 | ROCE | 28.42% | 3.65% | 24.77% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2019 | ROE | 23.28% | 2.44% | 20.84% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2020 | ROCE | -4.93% | 3.65% | 8.58% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2020 | ROE | -11.21% | 2.44% | 13.65% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2021 | ROCE | 29.54% | 3.65% | 25.89% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2021 | ROE | 26.28% | 2.44% | 23.84% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2022 | ROCE | 82.12% | 3.65% | 78.47% | Version Difference
+NAUKRI | Info Edge (India) Ltd | 2022 | ROE | 74.71% | 2.44% | 72.27% | Version Difference
+NESTLEIND | Nestle India Ltd | 2013 | ROCE | 48.21% | 185.43% | 137.22% | Version Difference
+NESTLEIND | Nestle India Ltd | 2013 | ROE | 47.17% | 135.61% | 88.44% | Version Difference
+NESTLEIND | Nestle India Ltd | 2014 | ROCE | 62.58% | 185.43% | 122.85% | Version Difference
+NESTLEIND | Nestle India Ltd | 2014 | ROE | 41.77% | 135.61% | 93.84% | Version Difference
+NESTLEIND | Nestle India Ltd | 2015 | ROCE | 28.82% | 185.43% | 156.61% | Version Difference
+NESTLEIND | Nestle India Ltd | 2015 | ROE | 19.99% | 135.61% | 115.62% | Version Difference
+NESTLEIND | Nestle India Ltd | 2016 | ROCE | 49.35% | 185.43% | 136.08% | Version Difference
+NESTLEIND | Nestle India Ltd | 2016 | ROE | 30.50% | 135.61% | 105.11% | Version Difference
+NESTLEIND | Nestle India Ltd | 2017 | ROCE | 55.89% | 185.43% | 129.54% | Version Difference
+NESTLEIND | Nestle India Ltd | 2017 | ROE | 35.82% | 135.61% | 99.79% | Version Difference
+NESTLEIND | Nestle India Ltd | 2018 | ROCE | 68.53% | 185.43% | 116.90% | Version Difference
+NESTLEIND | Nestle India Ltd | 2018 | ROE | 43.75% | 135.61% | 91.86% | Version Difference
+NESTLEIND | Nestle India Ltd | 2019 | ROCE | 132.99% | 185.43% | 52.44% | Version Difference
+NESTLEIND | Nestle India Ltd | 2019 | ROE | 102.61% | 135.61% | 33.00% | Version Difference
+NESTLEIND | Nestle India Ltd | 2020 | ROCE | 137.44% | 185.43% | 47.99% | Version Difference
+NESTLEIND | Nestle India Ltd | 2020 | ROE | 103.12% | 135.61% | 32.49% | Version Difference
+NESTLEIND | Nestle India Ltd | 2021 | ROCE | 138.29% | 185.43% | 47.14% | Version Difference
+NESTLEIND | Nestle India Ltd | 2021 | ROE | 108.84% | 135.61% | 26.77% | Version Difference
+NESTLEIND | Nestle India Ltd | 2022 | ROCE | 124.95% | 185.43% | 60.48% | Version Difference
+NESTLEIND | Nestle India Ltd | 2022 | ROE | 97.23% | 135.61% | 38.38% | Version Difference
+NESTLEIND | Nestle India Ltd | 2023 | ROCE | 152.27% | 185.43% | 33.16% | Version Difference
+NESTLEIND | Nestle India Ltd | 2023 | ROE | 121.96% | 135.61% | 13.65% | Version Difference
+NESTLEIND | Nestle India Ltd | 2024 | ROCE | 147.46% | 185.43% | 37.97% | Formula Discrepancy
+NESTLEIND | Nestle India Ltd | 2024 | ROE | 117.75% | 135.61% | 17.86% | Formula Discrepancy
+ONGC | Oil & Natural Gas Corpn Ltd | 2015 | ROCE | 12.90% | 19.71% | 6.81% | Version Difference
+ONGC | Oil & Natural Gas Corpn Ltd | 2016 | ROCE | 9.79% | 19.71% | 9.92% | Version Difference
+ONGC | Oil & Natural Gas Corpn Ltd | 2016 | ROE | 6.62% | 14.32% | 7.70% | Version Difference
+ONGC | Oil & Natural Gas Corpn Ltd | 2018 | ROCE | 14.23% | 19.71% | 5.48% | Version Difference
+ONGC | Oil & Natural Gas Corpn Ltd | 2020 | ROCE | 7.91% | 19.71% | 11.80% | Version Difference
+ONGC | Oil & Natural Gas Corpn Ltd | 2020 | ROE | 5.59% | 14.32% | 8.73% | Version Difference
+ONGC | Oil & Natural Gas Corpn Ltd | 2021 | ROCE | 9.94% | 19.71% | 9.77% | Version Difference
+ONGC | Oil & Natural Gas Corpn Ltd | 2023 | ROCE | 12.05% | 19.71% | 7.66% | Version Difference
+PFC | Power Finance Corporation Ltd | 2017 | ROE | 6.07% | 19.49% | 13.42% | Version Difference
+PFC | Power Finance Corporation Ltd | 2019 | ROE | 26.82% | 19.49% | 7.33% | Version Difference
+PFC | Power Finance Corporation Ltd | 2021 | ROE | 25.86% | 19.49% | 6.37% | Version Difference
+PFC | Power Finance Corporation Ltd | 2022 | ROE | 26.18% | 19.49% | 6.69% | Version Difference
+PFC | Power Finance Corporation Ltd | 2023 | ROE | 25.17% | 19.49% | 5.68% | Version Difference
+PFC | Power Finance Corporation Ltd | 2024 | ROE | 26.16% | 19.49% | 6.67% | Formula Discrepancy
+PIDILITIND | Pidilite Industries Ltd | 2016 | ROCE | 42.46% | 29.70% | 12.76% | Version Difference
+PIDILITIND | Pidilite Industries Ltd | 2016 | ROE | 30.59% | 22.80% | 7.79% | Version Difference
+PIDILITIND | Pidilite Industries Ltd | 2017 | ROCE | 35.36% | 29.70% | 5.66% | Version Difference
+PIDILITIND | Pidilite Industries Ltd | 2018 | ROCE | 37.17% | 29.70% | 7.47% | Version Difference
+PIDILITIND | Pidilite Industries Ltd | 2022 | ROCE | 24.28% | 29.70% | 5.42% | Version Difference
+PIDILITIND | Pidilite Industries Ltd | 2023 | ROCE | 23.29% | 29.70% | 6.41% | Version Difference
+PNB | Punjab National Bank | 2013 | ROCE | 472.97% | 1.63% | 471.34% | Version Difference
+PNB | Punjab National Bank | 2013 | ROE | 812.30% | 8.70% | 803.60% | Version Difference
+PNB | Punjab National Bank | 2013 | ROCE | 472.97% | 1.63% | 471.34% | Version Difference
+PNB | Punjab National Bank | 2013 | ROE | 812.30% | 8.70% | 803.60% | Version Difference
+PNB | Punjab National Bank | 2013 | ROCE | 472.97% | 1.63% | 471.34% | Version Difference
+PNB | Punjab National Bank | 2013 | ROE | 812.30% | 8.70% | 803.60% | Version Difference
+PNB | Punjab National Bank | 2013 | ROCE | 472.97% | 1.63% | 471.34% | Version Difference
+PNB | Punjab National Bank | 2013 | ROE | 812.30% | 8.70% | 803.60% | Version Difference
+PNB | Punjab National Bank | 2013 | ROCE | 472.97% | 1.63% | 471.34% | Version Difference
+PNB | Punjab National Bank | 2013 | ROE | 812.30% | 8.70% | 803.60% | Version Difference
+PNB | Punjab National Bank | 2014 | ROCE | 300.57% | 1.63% | 298.94% | Version Difference
+PNB | Punjab National Bank | 2014 | ROE | 393.36% | 8.70% | 384.66% | Version Difference
+PNB | Punjab National Bank | 2014 | ROCE | 300.57% | 1.63% | 298.94% | Version Difference
+PNB | Punjab National Bank | 2014 | ROE | 393.36% | 8.70% | 384.66% | Version Difference
+PNB | Punjab National Bank | 2014 | ROCE | 300.57% | 1.63% | 298.94% | Version Difference
+PNB | Punjab National Bank | 2014 | ROE | 393.36% | 8.70% | 384.66% | Version Difference
+PNB | Punjab National Bank | 2014 | ROCE | 300.57% | 1.63% | 298.94% | Version Difference
+PNB | Punjab National Bank | 2014 | ROE | 393.36% | 8.70% | 384.66% | Version Difference
+PNB | Punjab National Bank | 2014 | ROCE | 300.57% | 1.63% | 298.94% | Version Difference
+PNB | Punjab National Bank | 2014 | ROE | 393.36% | 8.70% | 384.66% | Version Difference
+PNB | Punjab National Bank | 2015 | ROCE | 197.90% | 1.63% | 196.27% | Version Difference
+PNB | Punjab National Bank | 2015 | ROE | 223.24% | 8.70% | 214.54% | Version Difference
+PNB | Punjab National Bank | 2015 | ROCE | 197.90% | 1.63% | 196.27% | Version Difference
+PNB | Punjab National Bank | 2015 | ROE | 223.24% | 8.70% | 214.54% | Version Difference
+PNB | Punjab National Bank | 2015 | ROCE | 197.90% | 1.63% | 196.27% | Version Difference
+PNB | Punjab National Bank | 2015 | ROE | 223.24% | 8.70% | 214.54% | Version Difference
+PNB | Punjab National Bank | 2015 | ROCE | 197.90% | 1.63% | 196.27% | Version Difference
+PNB | Punjab National Bank | 2015 | ROE | 223.24% | 8.70% | 214.54% | Version Difference
+PNB | Punjab National Bank | 2015 | ROCE | 197.90% | 1.63% | 196.27% | Version Difference
+PNB | Punjab National Bank | 2015 | ROE | 223.24% | 8.70% | 214.54% | Version Difference
+PNB | Punjab National Bank | 2016 | ROCE | 103.12% | 1.63% | 101.49% | Version Difference
+PNB | Punjab National Bank | 2016 | ROE | -163.56% | 8.70% | 172.26% | Version Difference
+PNB | Punjab National Bank | 2016 | ROCE | 103.12% | 1.63% | 101.49% | Version Difference
+PNB | Punjab National Bank | 2016 | ROE | -163.56% | 8.70% | 172.26% | Version Difference
+PNB | Punjab National Bank | 2016 | ROCE | 103.12% | 1.63% | 101.49% | Version Difference
+PNB | Punjab National Bank | 2016 | ROE | -163.56% | 8.70% | 172.26% | Version Difference
+PNB | Punjab National Bank | 2016 | ROCE | 103.12% | 1.63% | 101.49% | Version Difference
+PNB | Punjab National Bank | 2016 | ROE | -163.56% | 8.70% | 172.26% | Version Difference
+PNB | Punjab National Bank | 2016 | ROCE | 103.12% | 1.63% | 101.49% | Version Difference
+PNB | Punjab National Bank | 2016 | ROE | -163.56% | 8.70% | 172.26% | Version Difference
+PNB | Punjab National Bank | 2017 | ROCE | 83.41% | 1.63% | 81.78% | Version Difference
+PNB | Punjab National Bank | 2017 | ROE | 22.21% | 8.70% | 13.51% | Version Difference
+PNB | Punjab National Bank | 2017 | ROCE | 83.41% | 1.63% | 81.78% | Version Difference
+PNB | Punjab National Bank | 2017 | ROE | 22.21% | 8.70% | 13.51% | Version Difference
+PNB | Punjab National Bank | 2017 | ROCE | 83.41% | 1.63% | 81.78% | Version Difference
+PNB | Punjab National Bank | 2017 | ROE | 22.21% | 8.70% | 13.51% | Version Difference
+PNB | Punjab National Bank | 2017 | ROCE | 83.41% | 1.63% | 81.78% | Version Difference
+PNB | Punjab National Bank | 2017 | ROE | 22.21% | 8.70% | 13.51% | Version Difference
+PNB | Punjab National Bank | 2017 | ROCE | 83.41% | 1.63% | 81.78% | Version Difference
+PNB | Punjab National Bank | 2017 | ROE | 22.21% | 8.70% | 13.51% | Version Difference
+PNB | Punjab National Bank | 2018 | ROCE | 22.67% | 1.63% | 21.04% | Version Difference
+PNB | Punjab National Bank | 2018 | ROE | -184.37% | 8.70% | 193.07% | Version Difference
+PNB | Punjab National Bank | 2018 | ROCE | 22.67% | 1.63% | 21.04% | Version Difference
+PNB | Punjab National Bank | 2018 | ROE | -184.37% | 8.70% | 193.07% | Version Difference
+PNB | Punjab National Bank | 2018 | ROCE | 22.67% | 1.63% | 21.04% | Version Difference
+PNB | Punjab National Bank | 2018 | ROE | -184.37% | 8.70% | 193.07% | Version Difference
+PNB | Punjab National Bank | 2018 | ROCE | 22.67% | 1.63% | 21.04% | Version Difference
+PNB | Punjab National Bank | 2018 | ROE | -184.37% | 8.70% | 193.07% | Version Difference
+PNB | Punjab National Bank | 2018 | ROCE | 22.67% | 1.63% | 21.04% | Version Difference
+PNB | Punjab National Bank | 2018 | ROE | -184.37% | 8.70% | 193.07% | Version Difference
+PNB | Punjab National Bank | 2019 | ROCE | 24.32% | 1.63% | 22.69% | Version Difference
+PNB | Punjab National Bank | 2019 | ROE | -128.45% | 8.70% | 137.15% | Version Difference
+PNB | Punjab National Bank | 2019 | ROCE | 24.32% | 1.63% | 22.69% | Version Difference
+PNB | Punjab National Bank | 2019 | ROE | -128.45% | 8.70% | 137.15% | Version Difference
+PNB | Punjab National Bank | 2019 | ROCE | 24.32% | 1.63% | 22.69% | Version Difference
+PNB | Punjab National Bank | 2019 | ROE | -128.45% | 8.70% | 137.15% | Version Difference
+PNB | Punjab National Bank | 2019 | ROCE | 24.32% | 1.63% | 22.69% | Version Difference
+PNB | Punjab National Bank | 2019 | ROE | -128.45% | 8.70% | 137.15% | Version Difference
+PNB | Punjab National Bank | 2019 | ROCE | 24.32% | 1.63% | 22.69% | Version Difference
+PNB | Punjab National Bank | 2019 | ROE | -128.45% | 8.70% | 137.15% | Version Difference
+PNB | Punjab National Bank | 2020 | ROCE | 49.98% | 1.63% | 48.35% | Version Difference
+PNB | Punjab National Bank | 2020 | ROCE | 49.98% | 1.63% | 48.35% | Version Difference
+PNB | Punjab National Bank | 2020 | ROCE | 49.98% | 1.63% | 48.35% | Version Difference
+PNB | Punjab National Bank | 2020 | ROCE | 49.98% | 1.63% | 48.35% | Version Difference
+PNB | Punjab National Bank | 2020 | ROCE | 49.98% | 1.63% | 48.35% | Version Difference
+PNB | Punjab National Bank | 2021 | ROCE | 80.76% | 1.63% | 79.13% | Version Difference
+PNB | Punjab National Bank | 2021 | ROE | 30.39% | 8.70% | 21.69% | Version Difference
+PNB | Punjab National Bank | 2021 | ROCE | 80.76% | 1.63% | 79.13% | Version Difference
+PNB | Punjab National Bank | 2021 | ROE | 30.39% | 8.70% | 21.69% | Version Difference
+PNB | Punjab National Bank | 2021 | ROCE | 80.76% | 1.63% | 79.13% | Version Difference
+PNB | Punjab National Bank | 2021 | ROE | 30.39% | 8.70% | 21.69% | Version Difference
+PNB | Punjab National Bank | 2021 | ROCE | 80.76% | 1.63% | 79.13% | Version Difference
+PNB | Punjab National Bank | 2021 | ROE | 30.39% | 8.70% | 21.69% | Version Difference
+PNB | Punjab National Bank | 2021 | ROCE | 80.76% | 1.63% | 79.13% | Version Difference
+PNB | Punjab National Bank | 2021 | ROE | 30.39% | 8.70% | 21.69% | Version Difference
+PNB | Punjab National Bank | 2022 | ROCE | 82.29% | 1.63% | 80.66% | Version Difference
+PNB | Punjab National Bank | 2022 | ROE | 39.87% | 8.70% | 31.17% | Version Difference
+PNB | Punjab National Bank | 2022 | ROCE | 82.29% | 1.63% | 80.66% | Version Difference
+PNB | Punjab National Bank | 2022 | ROE | 39.87% | 8.70% | 31.17% | Version Difference
+PNB | Punjab National Bank | 2022 | ROCE | 82.29% | 1.63% | 80.66% | Version Difference
+PNB | Punjab National Bank | 2022 | ROE | 39.87% | 8.70% | 31.17% | Version Difference
+PNB | Punjab National Bank | 2022 | ROCE | 82.29% | 1.63% | 80.66% | Version Difference
+PNB | Punjab National Bank | 2022 | ROE | 39.87% | 8.70% | 31.17% | Version Difference
+PNB | Punjab National Bank | 2022 | ROCE | 82.29% | 1.63% | 80.66% | Version Difference
+PNB | Punjab National Bank | 2022 | ROE | 39.87% | 8.70% | 31.17% | Version Difference
+PNB | Punjab National Bank | 2023 | ROCE | 88.22% | 1.63% | 86.59% | Version Difference
+PNB | Punjab National Bank | 2023 | ROE | 30.67% | 8.70% | 21.97% | Version Difference
+PNB | Punjab National Bank | 2023 | ROCE | 88.22% | 1.63% | 86.59% | Version Difference
+PNB | Punjab National Bank | 2023 | ROE | 30.67% | 8.70% | 21.97% | Version Difference
+PNB | Punjab National Bank | 2023 | ROCE | 88.22% | 1.63% | 86.59% | Version Difference
+PNB | Punjab National Bank | 2023 | ROE | 30.67% | 8.70% | 21.97% | Version Difference
+PNB | Punjab National Bank | 2023 | ROCE | 88.22% | 1.63% | 86.59% | Version Difference
+PNB | Punjab National Bank | 2023 | ROE | 30.67% | 8.70% | 21.97% | Version Difference
+PNB | Punjab National Bank | 2023 | ROCE | 88.22% | 1.63% | 86.59% | Version Difference
+PNB | Punjab National Bank | 2023 | ROE | 30.67% | 8.70% | 21.97% | Version Difference
+PNB | Punjab National Bank | 2024 | ROCE | 118.22% | 1.63% | 116.59% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROE | 61.32% | 8.70% | 52.62% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROCE | 118.22% | 1.63% | 116.59% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROE | 61.32% | 8.70% | 52.62% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROCE | 118.22% | 1.63% | 116.59% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROE | 61.32% | 8.70% | 52.62% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROCE | 118.22% | 1.63% | 116.59% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROE | 61.32% | 8.70% | 52.62% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROCE | 118.22% | 1.63% | 116.59% | Formula Discrepancy
+PNB | Punjab National Bank | 2024 | ROE | 61.32% | 8.70% | 52.62% | Formula Discrepancy
+POWERGRID | Power Grid Corporation of India Ltd | 2014 | ROCE | 8.08% | 13.20% | 5.12% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2014 | ROE | 13.11% | 19.00% | 5.89% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2014 | ROCE | 8.08% | 13.20% | 5.12% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2014 | ROE | 13.11% | 19.00% | 5.89% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2015 | ROCE | 7.79% | 13.20% | 5.41% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2015 | ROE | 13.13% | 19.00% | 5.87% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2015 | ROCE | 7.79% | 13.20% | 5.41% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2015 | ROE | 13.13% | 19.00% | 5.87% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2016 | ROE | 13.55% | 19.00% | 5.45% | Version Difference
+POWERGRID | Power Grid Corporation of India Ltd | 2016 | ROE | 13.55% | 19.00% | 5.45% | Version Difference
+RECLTD | REC Ltd | 2018 | ROE | 13.66% | 22.20% | 8.54% | Version Difference
+RECLTD | REC Ltd | 2019 | ROE | 16.62% | 22.20% | 5.58% | Version Difference
+RECLTD | REC Ltd | 2020 | ROE | 14.05% | 22.20% | 8.15% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2013 | ROCE | 25.37% | 13.20% | 12.17% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2013 | ROE | 23.03% | 12.00% | 11.03% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2014 | ROCE | 24.46% | 13.20% | 11.26% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2014 | ROE | 21.69% | 12.00% | 9.69% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2015 | ROCE | 23.25% | 13.20% | 10.05% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2015 | ROE | 20.09% | 12.00% | 8.09% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2016 | ROCE | 21.38% | 13.20% | 8.18% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2016 | ROE | 17.83% | 12.00% | 5.83% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2017 | ROCE | 20.88% | 13.20% | 7.68% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2017 | ROE | 17.20% | 12.00% | 5.20% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2018 | ROCE | 21.88% | 13.20% | 8.68% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2018 | ROE | 17.62% | 12.00% | 5.62% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2019 | ROCE | 21.78% | 13.20% | 8.58% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2019 | ROE | 17.52% | 12.00% | 5.52% | Version Difference
+SBILIFE | SBI Life Insurance Company Ltd | 2020 | ROCE | 20.47% | 13.20% | 7.27% | Version Difference
+SHREECEM | Shree Cement Ltd | 2013 | ROCE | 25.57% | 14.80% | 10.77% | Version Difference
+SHREECEM | Shree Cement Ltd | 2013 | ROE | 26.12% | 12.20% | 13.92% | Version Difference
+SHREECEM | Shree Cement Ltd | 2015 | ROCE | 8.43% | 14.80% | 6.37% | Version Difference
+SHREECEM | Shree Cement Ltd | 2017 | ROE | 17.39% | 12.20% | 5.19% | Version Difference
+SHREECEM | Shree Cement Ltd | 2023 | ROCE | 8.23% | 14.80% | 6.57% | Version Difference
+SHRIRAMFIN | Shriram Finance Ltd | 2022 | ROE | 10.43% | 15.90% | 5.47% | Version Difference
+SIEMENS | Siemens Ltd | 2011 | ROCE | 34.49% | 25.60% | 8.89% | Version Difference
+SIEMENS | Siemens Ltd | 2014 | ROCE | 20.00% | 25.60% | 5.60% | Version Difference
+SIEMENS | Siemens Ltd | 2014 | ROE | 13.78% | 19.10% | 5.32% | Version Difference
+SIEMENS | Siemens Ltd | 2015 | ROCE | 33.41% | 25.60% | 7.81% | Version Difference
+SIEMENS | Siemens Ltd | 2016 | ROCE | 57.84% | 25.60% | 32.24% | Version Difference
+SIEMENS | Siemens Ltd | 2016 | ROE | 42.83% | 19.10% | 23.73% | Version Difference
+SIEMENS | Siemens Ltd | 2018 | ROCE | 16.99% | 25.60% | 8.61% | Version Difference
+SIEMENS | Siemens Ltd | 2018 | ROE | 10.86% | 19.10% | 8.24% | Version Difference
+SIEMENS | Siemens Ltd | 2019 | ROCE | 18.68% | 25.60% | 6.92% | Version Difference
+SIEMENS | Siemens Ltd | 2019 | ROE | 12.14% | 19.10% | 6.96% | Version Difference
+SIEMENS | Siemens Ltd | 2020 | ROCE | 11.23% | 25.60% | 14.37% | Version Difference
+SIEMENS | Siemens Ltd | 2020 | ROE | 8.10% | 19.10% | 11.00% | Version Difference
+SIEMENS | Siemens Ltd | 2021 | ROCE | 14.26% | 25.60% | 11.34% | Version Difference
+SIEMENS | Siemens Ltd | 2021 | ROE | 10.52% | 19.10% | 8.58% | Version Difference
+SIEMENS | Siemens Ltd | 2022 | ROCE | 17.21% | 25.60% | 8.39% | Version Difference
+SIEMENS | Siemens Ltd | 2022 | ROE | 13.29% | 19.10% | 5.81% | Version Difference
+SIEMENS | Siemens Ltd | 2023 | ROCE | 20.08% | 25.60% | 5.52% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2013 | ROCE | 28.58% | 17.30% | 11.28% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2013 | ROE | 23.14% | 16.70% | 6.44% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2018 | ROCE | 8.21% | 17.30% | 9.09% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2018 | ROE | 6.63% | 16.70% | 10.07% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2019 | ROCE | 8.41% | 17.30% | 8.89% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2019 | ROE | 7.75% | 16.70% | 8.95% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2020 | ROCE | 9.92% | 17.30% | 7.38% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2020 | ROE | 9.22% | 16.70% | 7.48% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2021 | ROCE | 5.84% | 17.30% | 11.46% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2021 | ROE | 4.89% | 16.70% | 11.81% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2022 | ROCE | 9.35% | 17.30% | 7.95% | Version Difference
+SUNPHARMA | Sun Pharmaceuticals Industries Ltd | 2022 | ROE | 7.06% | 16.70% | 9.64% | Version Difference
+TATACONSUM | Tata Consumer Products Ltd | 2016 | ROCE | 3.78% | 10.60% | 6.82% | Version Difference
+TATACONSUM | Tata Consumer Products Ltd | 2016 | ROE | -0.59% | 8.32% | 8.91% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2013 | ROE | 26.51% | 49.40% | 22.89% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2014 | ROE | 21.42% | 49.40% | 27.98% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2015 | ROE | 25.01% | 49.40% | 24.39% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2016 | ROCE | 12.82% | 20.10% | 7.28% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2016 | ROE | 14.79% | 49.40% | 34.61% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2017 | ROCE | 9.92% | 20.10% | 10.18% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2017 | ROE | 13.02% | 49.40% | 36.38% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2018 | ROCE | 8.59% | 20.10% | 11.51% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2018 | ROE | 9.53% | 49.40% | 39.87% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2019 | ROCE | -15.40% | 20.10% | 35.50% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2019 | ROE | -47.73% | 49.40% | 97.13% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2020 | ROCE | -1.78% | 20.10% | 21.88% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2020 | ROE | -18.98% | 49.40% | 68.38% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2021 | ROCE | -1.20% | 20.10% | 21.30% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2021 | ROE | -24.25% | 49.40% | 73.65% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2022 | ROCE | 1.21% | 20.10% | 18.89% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2022 | ROE | -25.38% | 49.40% | 74.78% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2023 | ROCE | 7.59% | 20.10% | 12.51% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2023 | ROE | 5.94% | 49.40% | 43.46% | Version Difference
+TATAMOTORS | Tata Motors Ltd | 2024 | ROE | 37.46% | 49.40% | 11.94% | Formula Discrepancy
+TATAPOWER | Tata Power Company Ltd | 2013 | ROE | 1.00% | 11.30% | 10.30% | Version Difference
+TATAPOWER | Tata Power Company Ltd | 2014 | ROE | 0.10% | 11.30% | 11.20% | Version Difference
+TATAPOWER | Tata Power Company Ltd | 2015 | ROE | 3.19% | 11.30% | 8.11% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2013 | ROCE | -0.16% | 7.02% | 7.18% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2013 | ROE | -21.28% | 6.55% | 27.83% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2015 | ROE | -12.56% | 6.55% | 19.11% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2016 | ROE | -1.14% | 6.55% | 7.69% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2017 | ROE | -11.02% | 6.55% | 17.57% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2018 | ROCE | 17.38% | 7.02% | 10.36% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2018 | ROE | 29.15% | 6.55% | 22.60% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2019 | ROCE | 13.85% | 7.02% | 6.83% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2019 | ROE | 13.23% | 6.55% | 6.68% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2021 | ROCE | 13.18% | 7.02% | 6.16% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2022 | ROCE | 29.31% | 7.02% | 22.29% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2022 | ROE | 36.48% | 6.55% | 29.93% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2023 | ROCE | 13.05% | 7.02% | 6.03% | Version Difference
+TATASTEEL | Tata Steel Ltd | 2024 | ROE | -5.33% | 6.55% | 11.88% | Formula Discrepancy
+TCS | Tata Consultancy Services Ltd | 2013 | ROCE | 46.65% | 64.30% | 17.65% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2013 | ROE | 36.52% | 0.52% | 36.00% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2014 | ROCE | 51.40% | 64.30% | 12.90% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2014 | ROE | 39.30% | 0.52% | 38.78% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2015 | ROCE | 51.78% | 64.30% | 12.52% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2015 | ROE | 39.62% | 0.52% | 39.10% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2016 | ROCE | 44.69% | 64.30% | 19.61% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2016 | ROE | 34.24% | 0.52% | 33.72% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2017 | ROCE | 39.94% | 64.30% | 24.36% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2017 | ROE | 30.57% | 0.52% | 30.05% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2018 | ROCE | 39.99% | 64.30% | 24.31% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2018 | ROE | 30.40% | 0.52% | 29.88% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2019 | ROCE | 46.66% | 64.30% | 17.64% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2019 | ROE | 35.29% | 0.52% | 34.77% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2020 | ROCE | 46.77% | 64.30% | 17.53% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2020 | ROE | 38.57% | 0.52% | 38.05% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2021 | ROCE | 47.12% | 64.30% | 17.18% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2021 | ROE | 37.67% | 0.52% | 37.15% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2022 | ROCE | 54.12% | 64.30% | 10.18% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2022 | ROE | 43.13% | 0.52% | 42.61% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2023 | ROCE | 58.80% | 64.30% | 5.50% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2023 | ROE | 46.78% | 0.52% | 46.26% | Version Difference
+TCS | Tata Consultancy Services Ltd | 2024 | ROE | 50.94% | 0.52% | 50.42% | Formula Discrepancy
+TECHM | Tech Mahindra Ltd | 2013 | ROE | 24.09% | 8.63% | 15.46% | Version Difference
+TECHM | Tech Mahindra Ltd | 2013 | ROE | 24.09% | 8.63% | 15.46% | Version Difference
+TECHM | Tech Mahindra Ltd | 2014 | ROCE | 40.81% | 11.90% | 28.91% | Version Difference
+TECHM | Tech Mahindra Ltd | 2014 | ROE | 33.35% | 8.63% | 24.72% | Version Difference
+TECHM | Tech Mahindra Ltd | 2014 | ROCE | 40.81% | 11.90% | 28.91% | Version Difference
+TECHM | Tech Mahindra Ltd | 2014 | ROE | 33.35% | 8.63% | 24.72% | Version Difference
+TECHM | Tech Mahindra Ltd | 2015 | ROCE | 28.48% | 11.90% | 16.58% | Version Difference
+TECHM | Tech Mahindra Ltd | 2015 | ROE | 21.71% | 8.63% | 13.08% | Version Difference
+TECHM | Tech Mahindra Ltd | 2015 | ROCE | 28.48% | 11.90% | 16.58% | Version Difference
+TECHM | Tech Mahindra Ltd | 2015 | ROE | 21.71% | 8.63% | 13.08% | Version Difference
+TECHM | Tech Mahindra Ltd | 2016 | ROCE | 25.21% | 11.90% | 13.31% | Version Difference
+TECHM | Tech Mahindra Ltd | 2016 | ROE | 20.75% | 8.63% | 12.12% | Version Difference
+TECHM | Tech Mahindra Ltd | 2016 | ROCE | 25.21% | 11.90% | 13.31% | Version Difference
+TECHM | Tech Mahindra Ltd | 2016 | ROE | 20.75% | 8.63% | 12.12% | Version Difference
+TECHM | Tech Mahindra Ltd | 2017 | ROCE | 22.37% | 11.90% | 10.47% | Version Difference
+TECHM | Tech Mahindra Ltd | 2017 | ROE | 17.35% | 8.63% | 8.72% | Version Difference
+TECHM | Tech Mahindra Ltd | 2017 | ROCE | 22.37% | 11.90% | 10.47% | Version Difference
+TECHM | Tech Mahindra Ltd | 2017 | ROE | 17.35% | 8.63% | 8.72% | Version Difference
+TECHM | Tech Mahindra Ltd | 2018 | ROCE | 23.73% | 11.90% | 11.83% | Version Difference
+TECHM | Tech Mahindra Ltd | 2018 | ROE | 20.09% | 8.63% | 11.46% | Version Difference
+TECHM | Tech Mahindra Ltd | 2018 | ROCE | 23.73% | 11.90% | 11.83% | Version Difference
+TECHM | Tech Mahindra Ltd | 2018 | ROE | 20.09% | 8.63% | 11.46% | Version Difference
+TECHM | Tech Mahindra Ltd | 2019 | ROCE | 25.47% | 11.90% | 13.57% | Version Difference
+TECHM | Tech Mahindra Ltd | 2019 | ROE | 21.14% | 8.63% | 12.51% | Version Difference
+TECHM | Tech Mahindra Ltd | 2019 | ROCE | 25.47% | 11.90% | 13.57% | Version Difference
+TECHM | Tech Mahindra Ltd | 2019 | ROE | 21.14% | 8.63% | 12.51% | Version Difference
+TECHM | Tech Mahindra Ltd | 2020 | ROCE | 20.60% | 11.90% | 8.70% | Version Difference
+TECHM | Tech Mahindra Ltd | 2020 | ROE | 17.87% | 8.63% | 9.24% | Version Difference
+TECHM | Tech Mahindra Ltd | 2020 | ROCE | 20.60% | 11.90% | 8.70% | Version Difference
+TECHM | Tech Mahindra Ltd | 2020 | ROE | 17.87% | 8.63% | 9.24% | Version Difference
+TECHM | Tech Mahindra Ltd | 2021 | ROCE | 22.07% | 11.90% | 10.17% | Version Difference
+TECHM | Tech Mahindra Ltd | 2021 | ROE | 17.51% | 8.63% | 8.88% | Version Difference
+TECHM | Tech Mahindra Ltd | 2021 | ROCE | 22.07% | 11.90% | 10.17% | Version Difference
+TECHM | Tech Mahindra Ltd | 2021 | ROE | 17.51% | 8.63% | 8.88% | Version Difference
+TECHM | Tech Mahindra Ltd | 2022 | ROCE | 25.81% | 11.90% | 13.91% | Version Difference
+TECHM | Tech Mahindra Ltd | 2022 | ROE | 20.94% | 8.63% | 12.31% | Version Difference
+TECHM | Tech Mahindra Ltd | 2022 | ROCE | 25.81% | 11.90% | 13.91% | Version Difference
+TECHM | Tech Mahindra Ltd | 2022 | ROE | 20.94% | 8.63% | 12.31% | Version Difference
+TECHM | Tech Mahindra Ltd | 2023 | ROCE | 22.08% | 11.90% | 10.18% | Version Difference
+TECHM | Tech Mahindra Ltd | 2023 | ROE | 17.39% | 8.63% | 8.76% | Version Difference
+TECHM | Tech Mahindra Ltd | 2023 | ROCE | 22.08% | 11.90% | 10.18% | Version Difference
+TECHM | Tech Mahindra Ltd | 2023 | ROE | 17.39% | 8.63% | 8.76% | Version Difference
+TITAN | Titan Company Ltd | 2013 | ROCE | 53.65% | 22.70% | 30.95% | Version Difference
+TITAN | Titan Company Ltd | 2014 | ROCE | 32.94% | 22.70% | 10.24% | Version Difference
+TITAN | Titan Company Ltd | 2015 | ROCE | 35.49% | 22.70% | 12.79% | Version Difference
+TITAN | Titan Company Ltd | 2015 | ROE | 26.46% | 32.90% | 6.44% | Version Difference
+TITAN | Titan Company Ltd | 2016 | ROE | 19.25% | 32.90% | 13.65% | Version Difference
+TITAN | Titan Company Ltd | 2017 | ROCE | 16.53% | 22.70% | 6.17% | Version Difference
+TITAN | Titan Company Ltd | 2017 | ROE | 16.47% | 32.90% | 16.43% | Version Difference
+TITAN | Titan Company Ltd | 2018 | ROE | 21.65% | 32.90% | 11.25% | Version Difference
+TITAN | Titan Company Ltd | 2019 | ROE | 22.88% | 32.90% | 10.02% | Version Difference
+TITAN | Titan Company Ltd | 2020 | ROE | 22.39% | 32.90% | 10.51% | Version Difference
+TITAN | Titan Company Ltd | 2021 | ROCE | 11.65% | 22.70% | 11.05% | Version Difference
+TITAN | Titan Company Ltd | 2021 | ROE | 12.99% | 32.90% | 19.91% | Version Difference
+TITAN | Titan Company Ltd | 2022 | ROE | 23.63% | 32.90% | 9.27% | Version Difference
+TITAN | Titan Company Ltd | 2023 | ROE | 27.63% | 32.90% | 5.27% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2013 | ROCE | 29.13% | 23.20% | 5.93% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2013 | ROE | 30.59% | 24.20% | 6.39% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2014 | ROCE | 29.75% | 23.20% | 6.55% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2014 | ROE | 34.89% | 24.20% | 10.69% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2015 | ROE | 30.15% | 24.20% | 5.95% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2016 | ROCE | 43.23% | 23.20% | 20.03% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2016 | ROE | 49.60% | 24.20% | 25.40% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2018 | ROCE | 11.18% | 23.20% | 12.02% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2018 | ROE | 14.67% | 24.20% | 9.53% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2019 | ROCE | 9.90% | 23.20% | 13.30% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2019 | ROE | 9.23% | 24.20% | 14.97% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2020 | ROCE | 15.44% | 23.20% | 7.76% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2021 | ROCE | 17.54% | 23.20% | 5.66% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2022 | ROCE | 14.78% | 23.20% | 8.42% | Version Difference
+TORNTPHARM | Torrent Pharmaceuticals Ltd | 2022 | ROE | 13.05% | 24.20% | 11.15% | Version Difference
+TRENT | Trent Ltd | 2013 | ROCE | 1.21% | 23.80% | 22.59% | Version Difference
+TRENT | Trent Ltd | 2013 | ROE | -2.19% | 27.20% | 29.39% | Version Difference
+TRENT | Trent Ltd | 2014 | ROCE | 2.04% | 23.80% | 21.76% | Version Difference
+TRENT | Trent Ltd | 2014 | ROE | -1.92% | 27.20% | 29.12% | Version Difference
+TRENT | Trent Ltd | 2015 | ROCE | 13.14% | 23.80% | 10.66% | Version Difference
+TRENT | Trent Ltd | 2015 | ROE | 9.07% | 27.20% | 18.13% | Version Difference
+TRENT | Trent Ltd | 2016 | ROCE | 7.40% | 23.80% | 16.40% | Version Difference
+TRENT | Trent Ltd | 2016 | ROE | 3.76% | 27.20% | 23.44% | Version Difference
+TRENT | Trent Ltd | 2017 | ROCE | 8.97% | 23.80% | 14.83% | Version Difference
+TRENT | Trent Ltd | 2017 | ROE | 5.49% | 27.20% | 21.71% | Version Difference
+TRENT | Trent Ltd | 2018 | ROCE | 9.62% | 23.80% | 14.18% | Version Difference
+TRENT | Trent Ltd | 2018 | ROE | 5.45% | 27.20% | 21.75% | Version Difference
+TRENT | Trent Ltd | 2019 | ROCE | 10.09% | 23.80% | 13.71% | Version Difference
+TRENT | Trent Ltd | 2019 | ROE | 5.77% | 27.20% | 21.43% | Version Difference
+TRENT | Trent Ltd | 2020 | ROCE | 15.92% | 23.80% | 7.88% | Version Difference
+TRENT | Trent Ltd | 2020 | ROE | 4.44% | 27.20% | 22.76% | Version Difference
+TRENT | Trent Ltd | 2021 | ROCE | 2.14% | 23.80% | 21.66% | Version Difference
+TRENT | Trent Ltd | 2021 | ROE | -7.83% | 27.20% | 35.03% | Version Difference
+TRENT | Trent Ltd | 2022 | ROCE | 6.15% | 23.80% | 17.65% | Version Difference
+TRENT | Trent Ltd | 2022 | ROE | 1.48% | 27.20% | 25.72% | Version Difference
+TRENT | Trent Ltd | 2023 | ROCE | 13.61% | 23.80% | 10.19% | Version Difference
+TRENT | Trent Ltd | 2023 | ROE | 15.18% | 27.20% | 12.02% | Version Difference
+TRENT | Trent Ltd | 2024 | ROCE | 39.32% | 23.80% | 15.52% | Formula Discrepancy
+TRENT | Trent Ltd | 2024 | ROE | 36.31% | 27.20% | 9.11% | Formula Discrepancy
+INDIGO | Interglobe Aviation Ltd | 2013 | ROCE | 8370.13% | 24.50% | 8345.63% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2014 | ROCE | 4706.52% | 24.50% | 4682.02% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2015 | ROCE | 7375.00% | 24.50% | 7350.50% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2016 | ROCE | 2430.13% | 24.50% | 2405.63% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2017 | ROCE | 1955.33% | 24.50% | 1930.83% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2018 | ROCE | 2645.45% | 24.50% | 2620.95% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2019 | ROCE | 541.94% | 24.50% | 517.44% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2020 | ROCE | 494.49% | 24.50% | 469.99% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2021 | ROCE | -836.65% | 24.50% | 861.15% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2022 | ROCE | -822.66% | 24.50% | 847.16% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2023 | ROCE | 141.19% | 24.50% | 116.69% | Version Difference
+INDIGO | Interglobe Aviation Ltd | 2024 | ROCE | 1112.55% | 24.50% | 1088.05% | Formula Discrepancy
+
+==================================================
+              RATIO ANOMALY REPORT
+==================================================
+Total Anomalies Identified : 1219
+  - ROCE Mismatches (> 5%) : 614
+  - ROE Mismatches (> 5%)  : 605
+
+Category Breakdown:
+  - Version Difference     : 1173
+  - Data Source Issue      : 0
+  - Formula Discrepancy    : 46
+==================================================
