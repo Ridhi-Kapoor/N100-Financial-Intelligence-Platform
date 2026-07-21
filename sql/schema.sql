@@ -4,6 +4,7 @@ PRAGMA foreign_keys = ON;
 -- Drop existing tables to ensure clean initialization (reverse order of dependencies)
 DROP TABLE IF EXISTS stock_prices;
 DROP TABLE IF EXISTS sectors;
+DROP TABLE IF EXISTS peer_percentiles;
 DROP TABLE IF EXISTS peer_groups;
 DROP TABLE IF EXISTS market_cap;
 DROP TABLE IF EXISTS financial_ratios;
@@ -131,6 +132,18 @@ CREATE TABLE IF NOT EXISTS peer_groups (
     peer_group_name TEXT NOT NULL,
     company_id TEXT NOT NULL,
     is_benchmark TEXT,
+    FOREIGN KEY (company_id) REFERENCES companies (id) ON DELETE CASCADE
+);
+
+-- 8b. Peer Percentiles Table
+CREATE TABLE IF NOT EXISTS peer_percentiles (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    company_id TEXT NOT NULL,
+    peer_group_name TEXT NOT NULL,
+    metric TEXT NOT NULL,
+    value REAL,
+    percentile_rank REAL,
+    year TEXT NOT NULL,
     FOREIGN KEY (company_id) REFERENCES companies (id) ON DELETE CASCADE
 );
 
