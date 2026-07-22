@@ -4,3 +4,4 @@ matplotlib
 plotly
 pytest
 python-dotenv
+streamlit

@@ -286,3 +286,71 @@
 2026-07-21 15:39:50,420 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
 2026-07-21 15:39:52,132 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
 2026-07-21 15:39:52,142 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 01:30:11,110 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 01:30:11,110 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 01:30:11,111 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 01:30:11,115 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 01:30:54,515 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
+2026-07-22 01:30:55,836 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
+2026-07-22 01:30:55,842 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 01:35:33,028 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 01:35:33,029 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 01:35:33,030 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 01:35:33,034 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 01:36:16,777 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
+2026-07-22 01:36:18,254 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
+2026-07-22 01:36:18,257 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 01:44:01,372 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 01:44:01,372 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 01:44:01,373 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 01:44:01,378 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 01:44:49,095 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
+2026-07-22 01:44:50,595 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
+2026-07-22 01:44:50,600 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 01:59:45,584 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 01:59:45,586 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 01:59:45,586 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 01:59:45,587 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 22:43:20,254 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 22:43:20,254 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 22:43:20,257 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 22:43:20,261 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 22:44:13,438 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
+2026-07-22 22:44:15,326 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
+2026-07-22 22:44:15,333 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 22:55:34,488 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 22:55:34,488 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 22:55:34,490 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 22:55:34,493 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:14:11,930 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 23:14:11,930 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 23:14:11,932 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 23:14:11,943 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:15:05,322 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
+2026-07-22 23:15:06,547 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
+2026-07-22 23:15:06,551 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:15:21,022 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 23:15:21,023 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 23:15:21,025 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 23:15:21,032 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:16:28,796 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
+2026-07-22 23:16:32,996 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
+2026-07-22 23:16:33,033 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:19:57,758 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 23:19:57,759 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 23:19:57,759 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 23:19:57,762 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:23:58,411 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 23:23:58,411 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 23:23:58,412 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 23:23:58,416 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:24:26,752 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
+2026-07-22 23:24:28,618 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
+2026-07-22 23:24:28,623 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:26:35,548 - INFO - Debt-to-Equity denominator <= 0: 0.0 (equity=0.0, reserves=0.0). Returning None.
+2026-07-22 23:26:35,548 - INFO - Debt-to-Equity denominator <= 0: -30.0 (equity=-50.0, reserves=20.0). Returning None.
+2026-07-22 23:26:35,550 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.10, Sector=Technology
+2026-07-22 23:26:35,552 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.
+2026-07-22 23:27:02,715 - WARNING - High Leverage Flag triggered: Debt-to-Equity=6.00, Sector=Technology
+2026-07-22 23:27:04,219 - WARNING - High Leverage Flag triggered: Debt-to-Equity=5.50, Sector=Technology
+2026-07-22 23:27:04,222 - INFO - Asset Turnover calculation: total_assets is 0. Returning None.

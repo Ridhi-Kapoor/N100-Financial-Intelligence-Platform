@@ -1,27 +1,36 @@
-# Sprint 1 Deliverables Checklist
+# Nifty 100 Financial Intelligence Platform - Deliverables Checklist
 
-This checklist summarizes the deliverables completed and verified during Sprint 1.
+This checklist summarizes the deliverables completed and verified across all project sprints, including Sprint 4 final closure.
 
-## Database & Artifact Output
+---
+
+## 🖥️ Streamlit Multi-Page Dashboard Views (`src/dashboard/views/`)
+* [✓] **01_home.py** - Executive Overview Page (KPI summary cards, 11-sector donut distribution, top 5 quality compounders).
+* [✓] **02_profile.py** - Company Profile & Deep-Dive Page (Autocomplete search, 10-year Revenue & PAT bar charts, dual-axis ROE vs. ROCE trend lines, Pros & Cons analysis, and partial historical data handling).
+* [✓] **03_screener.py** - Quantitative Stock Screener Page (10 filter sliders, 6 strategy presets, risk-return scatter plot, CSV download).
+* [✓] **04_peers.py** - Peer Comparison & Industry Benchmarking Page (11 peer groups, 8-axis Plotly Scatterpolar radar chart, side-by-side KPI table).
+* [✓] **05_trends.py** - Multi-Year Financial Trend Analysis Page (Multi-metric overlay trajectory chart, YoY % change labels, dual Y-axes).
+* [✓] **06_sectors.py** - Sector Analysis Page (Revenue vs. ROE bubble map sized by market cap, sector median KPI bar charts).
+* [✓] **07_capital.py** - Capital Allocation Map Page (Plotly treemap for 8 cash flow allocation patterns).
+* [✓] **08_reports.py** - Annual Reports & Data Export Portal (BSE report PDF link status validation, executive factsheet generator, CSV export center, database audit log).
+
+---
+
+## 🗄️ Database & Artifact Output
 * [✓] **nifty100.db** - Structured SQLite database loaded with clean relational data (located at [nifty100.db](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/data/db/nifty100.db))
 * [✓] **load_audit.csv** - Detailed load summary logs tracking SQLite loading success (located at [load_audit.csv](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/data/output/load_audit.csv))
 * [✓] **validation_failures.csv** - Validation results tracking data quality failures (located at [validation_failures.csv](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/data/output/validation_failures.csv))
 
-## ETL Pipeline Python Modules
-* [✓] **loader.py** - Scan, extract, and preprocess raw Excel sheets into CSVs (located at [loader.py](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/scripts/etl/loader.py))
-* [✓] **normaliser.py** - Standardize tickers, clean formatting inconsistencies, and parse mixed year types (located at [normaliser.py](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/scripts/etl/normaliser.py))
-* [✓] **validator.py** - High-coverage quality checker validation module (located at [validator.py](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/scripts/etl/validator.py))
-* [✓] **load_to_sqlite.py** - Database compiler that builds schemas, checks constraints, injects stubs, and loads datasets (located at [load_to_sqlite.py](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/scripts/etl/load_to_sqlite.py))
+---
 
-## SQL Scripts & Configuration
-* [✓] **schema.sql** - SQL schema script defining tables, data types, and primary/foreign key relationships (located at [schema.sql](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/sql/schema.sql))
-* [✓] **exploratory_queries.sql** - Contains 10 exploratory queries including row count, sampling, and aggregations (located at [exploratory_queries.sql](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/notebooks/exploratory_queries.sql))
-* [✓] **data_quality_audit.sql** - Audit queries to verify data quality and detect issues (located at [data_quality_audit.sql](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/sql/data_quality_audit.sql))
+## 🧪 Tests & Verification
+* [✓] **173 Unit & Integration Tests** - Full pytest suite covering ETL pipelines, CAGR engines, leverage ratio analysis, peer benchmark algorithms, radar percentile scoring models, and screener engine logic.
+* [✓] **Performance SLA Validation** - Verified Company Profile data loading executes in 15–20 ms across all tested companies (well under the 3-second limit).
+* [✓] **Screener Min/Max Boundary Verification** - Tested minimum and maximum filter bounds without runtime errors or crashes.
 
-## Tests & Verification
-* [✓] **66 Unit Tests** - Robust pytest suite covering normalizer, validator, loader, and SQLite database loading operations (located in [tests/etl/](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/tests/etl))
-* [✓] **data_quality_audit.py** - Python script to run quality audits against the database (located at [data_quality_audit.py](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/scripts/data_quality_audit.py))
+---
 
-## Documentation
-* [✓] **SPRINT1_RETROSPECTIVE.md** - Summary of Sprint 1 goals, blockers, solutions, and goals for Sprint 2 (located at [SPRINT1_RETROSPECTIVE.md](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/SPRINT1_RETROSPECTIVE.md))
-* [✓] **PROJECT_SUMMARY.md** - Technical summary of the project architecture, design, and next steps (located at [PROJECT_SUMMARY.md](file:///C:/Users/Ridhi%20Kapoor/Desktop/Projects/Nifty100_Data_Foundation/PROJECT_SUMMARY.md))
+## 📚 Technical Documentation & Reports
+* [✓] **README.md** - Main project overview, installation, dependencies, database setup, launch command `streamlit run src/dashboard/app.py`, project structure, key features, and usage instructions.
+* [✓] **DASHBOARD_DOCUMENTATION.md** - Detailed screen-by-screen documentation explaining purpose, layout structure, interactive controls, and key functionality for all 8 screens.
+* [✓] **SPRINT4_RETROSPECTIVE.md** - Retrospective report detailing UX design choices, data quality & edge cases, performance findings, challenges & resolutions, and taskboard closeout.

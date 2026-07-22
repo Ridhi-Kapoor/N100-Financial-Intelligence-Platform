@@ -1,0 +1,45 @@
+2026-07-22 23:14:36,208 - valuation_analytics - INFO - Executing Valuation Analytics Pipeline...
+2026-07-22 23:14:36,211 - valuation_analytics - INFO - Loading market_cap from Excel: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\market_cap.xlsx
+2026-07-22 23:14:36,304 - valuation_analytics - INFO - Connecting to SQLite database: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db
+2026-07-22 23:14:36,350 - valuation_analytics - INFO - Latest available financial year in market_cap dataset: 2024
+2026-07-22 23:14:36,971 - valuation_analytics - INFO - Sector Median P/E ratios (2024): {'Communication Services': 48.33, 'Consumer Discretionary': 38.005, 'Consumer Staples': 50.95, 'Energy': 44.915, 'Financials': 34.24, 'Healthcare': 47.06, 'Industrials': 47.155, 'Information Technology': 63.63, 'Materials': 55.62, 'Real Estate': 49.105000000000004}
+2026-07-22 23:14:36,993 - valuation_analytics - INFO - Valuation analysis complete for 92 companies. Flags assigned: {'Fair': 48, 'Discount': 30, 'Caution': 14}
+2026-07-22 23:14:36,994 - valuation_analytics - INFO - Exporting valuation summary Excel to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\valuation_summary.xlsx
+2026-07-22 23:14:37,156 - valuation_analytics - INFO - Exporting valuation flags CSV to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\valuation_flags.csv
+2026-07-22 23:14:37,167 - valuation_analytics - INFO - Valuation results successfully saved to disk.
+2026-07-22 23:15:12,339 - valuation_analytics - INFO - Executing Valuation Analytics Pipeline...
+2026-07-22 23:15:12,342 - valuation_analytics - INFO - Loading market_cap from Excel: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\market_cap.xlsx
+2026-07-22 23:15:12,421 - valuation_analytics - INFO - Connecting to SQLite database: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db
+2026-07-22 23:15:12,465 - valuation_analytics - INFO - Latest available financial year in market_cap dataset: 2024
+2026-07-22 23:15:13,002 - valuation_analytics - INFO - Sector Median P/E ratios (2024): {'Communication Services': 48.33, 'Consumer Discretionary': 38.005, 'Consumer Staples': 50.95, 'Energy': 44.915, 'Financials': 34.24, 'Healthcare': 47.06, 'Industrials': 47.155, 'Information Technology': 63.63, 'Materials': 55.62, 'Real Estate': 49.105000000000004}
+2026-07-22 23:15:13,022 - valuation_analytics - INFO - Valuation analysis complete for 92 companies. Flags assigned: {'Fair': 48, 'Discount': 30, 'Caution': 14}
+2026-07-22 23:15:13,024 - valuation_analytics - INFO - Exporting valuation summary Excel to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-47\test_run_valuation_analysis_an0\valuation_summary.xlsx
+2026-07-22 23:15:13,186 - valuation_analytics - INFO - Exporting valuation flags CSV to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-47\test_run_valuation_analysis_an0\valuation_flags.csv
+2026-07-22 23:15:13,194 - valuation_analytics - INFO - Valuation results successfully saved to disk.
+2026-07-22 23:16:29,053 - valuation_analytics - INFO - Executing Valuation Analytics Pipeline...
+2026-07-22 23:16:29,055 - valuation_analytics - INFO - Loading market_cap from Excel: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\market_cap.xlsx
+2026-07-22 23:16:29,244 - valuation_analytics - INFO - Connecting to SQLite database: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db
+2026-07-22 23:16:29,367 - valuation_analytics - INFO - Latest available financial year in market_cap dataset: 2024
+2026-07-22 23:16:30,118 - valuation_analytics - INFO - Sector Median P/E ratios (2024): {'Communication Services': 48.33, 'Consumer Discretionary': 38.005, 'Consumer Staples': 50.95, 'Energy': 44.915, 'Financials': 34.24, 'Healthcare': 47.06, 'Industrials': 47.155, 'Information Technology': 63.63, 'Materials': 55.62, 'Real Estate': 49.105000000000004}
+2026-07-22 23:16:30,133 - valuation_analytics - INFO - Valuation analysis complete for 92 companies. Flags assigned: {'Fair': 48, 'Discount': 30, 'Caution': 14}
+2026-07-22 23:16:30,138 - valuation_analytics - INFO - Exporting valuation summary Excel to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-48\test_run_valuation_analysis_an0\valuation_summary.xlsx
+2026-07-22 23:16:30,347 - valuation_analytics - INFO - Exporting valuation flags CSV to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-48\test_run_valuation_analysis_an0\valuation_flags.csv
+2026-07-22 23:16:30,354 - valuation_analytics - INFO - Valuation results successfully saved to disk.
+2026-07-22 23:24:26,834 - valuation_analytics - INFO - Executing Valuation Analytics Pipeline...
+2026-07-22 23:24:26,834 - valuation_analytics - INFO - Loading market_cap from Excel: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\market_cap.xlsx
+2026-07-22 23:24:26,888 - valuation_analytics - INFO - Connecting to SQLite database: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db
+2026-07-22 23:24:26,966 - valuation_analytics - INFO - Latest available financial year in market_cap dataset: 2024
+2026-07-22 23:24:27,320 - valuation_analytics - INFO - Sector Median P/E ratios (2024): {'Communication Services': 48.33, 'Consumer Discretionary': 38.005, 'Consumer Staples': 50.95, 'Energy': 44.915, 'Financials': 34.24, 'Healthcare': 47.06, 'Industrials': 47.155, 'Information Technology': 63.63, 'Materials': 55.62, 'Real Estate': 49.105000000000004}
+2026-07-22 23:24:27,328 - valuation_analytics - INFO - Valuation analysis complete for 92 companies. Flags assigned: {'Fair': 48, 'Discount': 30, 'Caution': 14}
+2026-07-22 23:24:27,328 - valuation_analytics - INFO - Exporting valuation summary Excel to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-50\test_run_valuation_analysis_an0\valuation_summary.xlsx
+2026-07-22 23:24:27,428 - valuation_analytics - INFO - Exporting valuation flags CSV to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-50\test_run_valuation_analysis_an0\valuation_flags.csv
+2026-07-22 23:24:27,432 - valuation_analytics - INFO - Valuation results successfully saved to disk.
+2026-07-22 23:27:02,771 - valuation_analytics - INFO - Executing Valuation Analytics Pipeline...
+2026-07-22 23:27:02,771 - valuation_analytics - INFO - Loading market_cap from Excel: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\market_cap.xlsx
+2026-07-22 23:27:02,817 - valuation_analytics - INFO - Connecting to SQLite database: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db
+2026-07-22 23:27:02,884 - valuation_analytics - INFO - Latest available financial year in market_cap dataset: 2024
+2026-07-22 23:27:03,113 - valuation_analytics - INFO - Sector Median P/E ratios (2024): {'Communication Services': 48.33, 'Consumer Discretionary': 38.005, 'Consumer Staples': 50.95, 'Energy': 44.915, 'Financials': 34.24, 'Healthcare': 47.06, 'Industrials': 47.155, 'Information Technology': 63.63, 'Materials': 55.62, 'Real Estate': 49.105000000000004}
+2026-07-22 23:27:03,118 - valuation_analytics - INFO - Valuation analysis complete for 92 companies. Flags assigned: {'Fair': 48, 'Discount': 30, 'Caution': 14}
+2026-07-22 23:27:03,118 - valuation_analytics - INFO - Exporting valuation summary Excel to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-51\test_run_valuation_analysis_an0\valuation_summary.xlsx
+2026-07-22 23:27:03,192 - valuation_analytics - INFO - Exporting valuation flags CSV to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-51\test_run_valuation_analysis_an0\valuation_flags.csv
+2026-07-22 23:27:03,195 - valuation_analytics - INFO - Valuation results successfully saved to disk.

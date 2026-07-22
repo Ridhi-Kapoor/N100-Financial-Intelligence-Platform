@@ -97,3 +97,146 @@
 2026-07-21 15:39:06,057 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
 2026-07-21 15:39:06,090 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
 2026-07-21 15:39:06,097 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:30:11,117 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:30:11,163 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:30:11,180 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:30:11,194 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:30:11,211 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:30:11,567 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:30:11,961 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 01:30:11,962 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:30:12,266 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 01:30:12,279 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 01:30:12,554 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 01:30:12,569 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 01:30:12,581 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:35:33,036 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:35:33,080 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:35:33,101 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:35:33,114 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:35:33,131 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:35:33,586 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:35:34,095 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 01:35:34,095 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:35:34,583 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 01:35:34,583 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 01:35:34,912 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 01:35:34,950 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 01:35:34,965 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:44:01,380 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:44:01,423 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:44:01,449 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:44:01,465 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:44:01,479 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:44:01,889 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:44:02,386 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 01:44:02,386 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:44:02,813 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 01:44:02,813 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 01:44:03,072 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 01:44:03,100 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 01:44:03,108 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:59:45,589 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:59:45,617 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:59:45,635 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:59:45,653 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:59:45,674 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:59:46,092 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:59:46,557 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 01:59:46,558 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 01:59:46,987 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 01:59:46,987 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 01:59:47,345 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 01:59:47,373 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 01:59:47,379 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,264 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,543 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,545 - peer_analytics - WARNING - Failed to load peer groups: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2026-07-22 22:43:20,545 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,546 - peer_analytics - WARNING - Failed to load peer groups: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2026-07-22 22:43:20,548 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,548 - peer_analytics - WARNING - Failed to load peer groups: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2026-07-22 22:43:20,553 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,603 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,657 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 22:43:20,657 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,712 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:43:20,715 - peer_analytics - WARNING - Failed to load peer groups: Missing optional dependency 'openpyxl'.  Use pip or conda to install openpyxl.
+2026-07-22 22:55:34,495 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:55:34,538 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:55:34,556 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:55:34,570 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:55:34,596 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:55:35,037 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:55:35,546 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 22:55:35,546 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 22:55:35,986 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 22:55:35,986 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 22:55:36,353 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 22:55:36,386 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 22:55:36,398 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:14:11,945 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:14:11,983 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:14:11,996 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:14:12,008 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:14:12,027 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:14:12,452 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:14:12,948 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 23:14:12,948 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:14:13,411 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 23:14:13,411 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 23:14:13,673 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 23:14:13,712 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 23:14:13,719 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:15:21,035 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:15:21,069 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:15:21,088 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:15:21,106 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:15:21,135 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:15:21,624 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:15:22,222 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 23:15:22,223 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:15:22,737 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 23:15:22,737 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 23:15:22,995 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 23:15:23,027 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 23:15:23,036 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:19:57,763 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:19:57,782 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:19:57,795 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:19:57,806 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:19:57,819 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:19:58,079 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:19:58,411 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 23:19:58,412 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:19:58,687 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 23:19:58,687 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 23:19:58,873 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 23:19:58,892 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 23:19:58,896 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:23:58,417 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:23:58,435 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:23:58,445 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:23:58,453 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:23:58,468 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:23:58,737 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:23:59,038 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 23:23:59,038 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:23:59,326 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 23:23:59,326 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 23:23:59,505 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 23:23:59,523 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 23:23:59,529 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:26:35,553 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:26:35,573 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:26:35,584 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:26:35,594 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:26:35,604 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:26:35,864 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:26:36,161 - peer_analytics - INFO - Computing peer percentiles...
+2026-07-22 23:26:36,161 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
+2026-07-22 23:26:36,439 - peer_analytics - INFO - Connecting to database at C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\db\nifty100.db to populate peer_percentiles...
+2026-07-22 23:26:36,441 - peer_analytics - INFO - Recreating peer_percentiles table...
+2026-07-22 23:26:36,611 - peer_analytics - INFO - Inserting 6460 records into peer_percentiles...
+2026-07-22 23:26:36,630 - peer_analytics - INFO - Verification complete. Total rows in peer_percentiles table: 6460
+2026-07-22 23:26:36,634 - peer_analytics - INFO - Loading peer groups from Excel file: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\data\raw\peer_groups.xlsx
