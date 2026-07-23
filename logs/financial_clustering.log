@@ -1,0 +1,258 @@
+2026-07-23 14:38:39,701 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 14:38:39,701 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 14:38:39,985 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 14:38:40,032 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:38:42,290 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 14:38:42,296 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 14:38:42,302 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 14:38:42,302 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 14:38:42,818 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 14:38:42,818 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 14:39:11,630 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 14:39:12,021 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 14:39:12,064 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:12,070 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:13,735 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 14:39:13,748 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:13,795 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 14:39:13,803 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 14:39:13,831 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:13,832 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 14:39:14,458 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-66\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 14:39:14,461 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 14:39:14,462 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 14:39:14,527 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 14:39:14,537 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:14,566 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 14:39:14,571 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 14:39:14,574 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 14:39:14,574 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 14:39:15,127 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 14:39:15,129 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 14:39:30,638 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 14:39:30,755 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 14:39:30,828 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:30,840 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:32,875 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 14:39:32,883 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:32,952 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 14:39:32,959 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 14:39:32,971 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:32,971 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 14:39:33,991 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-67\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 14:39:33,994 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 14:39:33,994 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 14:39:34,072 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 14:39:34,082 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 14:39:34,146 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 14:39:34,151 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 14:39:34,156 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 14:39:34,156 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 14:39:34,767 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 14:39:34,767 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 15:03:33,242 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 15:03:33,771 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 15:03:59,366 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 15:03:59,454 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 15:04:01,098 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 15:04:01,204 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 15:04:17,848 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 15:04:17,917 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 15:04:19,838 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 15:04:19,929 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 15:04:21,413 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 15:04:21,547 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 15:04:21,600 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 15:04:21,614 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 15:04:23,904 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 15:04:23,920 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 15:04:24,005 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 15:04:24,015 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 15:04:24,039 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 15:04:24,039 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 15:04:25,388 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-69\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 15:04:25,392 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 15:04:25,393 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 15:04:25,454 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 15:04:25,457 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 15:04:25,491 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 15:04:25,495 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 15:04:25,498 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 15:04:25,498 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 15:04:26,069 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 15:04:26,069 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 16:01:48,103 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 16:01:48,173 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 16:01:49,861 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 16:01:49,970 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 16:01:51,760 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 16:01:51,891 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 16:01:51,937 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:01:51,944 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:01:53,983 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 16:01:53,998 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:01:54,081 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 16:01:54,090 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 16:01:54,108 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:01:54,109 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 16:01:55,419 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-70\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 16:01:55,427 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 16:01:55,429 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 16:01:55,526 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 16:01:55,529 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:01:55,566 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 16:01:55,570 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 16:01:55,575 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 16:01:55,575 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 16:01:56,344 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 16:01:56,344 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 16:21:22,728 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 16:21:22,793 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 16:21:24,142 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 16:21:24,199 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 16:21:25,523 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 16:21:25,611 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 16:21:25,657 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:21:25,663 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:21:27,441 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 16:21:27,454 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:21:27,518 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 16:21:27,524 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 16:21:27,543 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:21:27,543 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 16:21:28,687 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-71\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 16:21:28,695 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 16:21:28,697 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 16:21:28,792 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 16:21:28,796 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 16:21:28,831 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 16:21:28,838 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 16:21:28,841 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 16:21:28,841 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 16:21:29,497 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 16:21:29,497 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 23:47:29,871 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:47:29,976 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:47:32,496 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:47:32,618 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:47:34,479 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:47:34,606 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:47:34,704 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:34,725 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:37,750 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:47:37,767 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:37,864 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:47:37,872 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 23:47:37,887 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:37,887 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 23:47:39,419 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-73\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 23:47:39,429 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 23:47:39,430 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:47:39,603 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:47:39,624 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:39,711 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:47:39,718 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 23:47:39,722 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 23:47:39,724 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 23:47:40,970 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 23:47:40,970 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 23:47:50,421 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:47:50,485 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:47:52,060 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:47:52,137 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:47:53,177 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:47:53,284 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:47:53,330 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:53,337 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:55,009 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:47:55,017 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:55,064 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:47:55,069 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 23:47:55,080 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:55,080 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 23:47:55,777 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-74\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 23:47:55,783 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 23:47:55,783 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:47:55,866 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:47:55,868 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:47:55,900 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:47:55,904 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 23:47:55,906 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 23:47:55,907 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 23:47:56,452 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 23:47:56,452 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 23:49:39,711 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:49:39,842 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:49:40,966 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:49:41,036 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:49:41,922 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:49:42,017 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:49:42,084 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:49:42,091 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:49:43,880 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:49:43,891 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:49:43,958 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:49:43,965 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 23:49:43,981 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:49:43,981 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 23:49:44,825 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-75\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 23:49:44,830 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 23:49:44,833 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:49:44,924 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:49:44,931 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:49:44,987 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:49:44,993 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 23:49:44,995 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 23:49:44,995 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 23:49:45,656 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 23:49:45,656 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-23 23:55:57,094 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:55:57,160 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:55:58,385 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:55:58,466 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:55:59,453 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:55:59,564 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:55:59,643 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:55:59,656 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:56:01,743 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:56:01,762 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:56:01,894 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:56:01,908 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-23 23:56:01,927 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:56:01,927 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 23:56:02,891 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-76\test_plot_elbow_curve0\elbow_plot.png
+2026-07-23 23:56:02,897 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-23 23:56:02,899 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-23 23:56:03,116 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-23 23:56:03,125 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-23 23:56:03,182 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-23 23:56:03,186 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-23 23:56:03,189 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-23 23:56:03,189 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-23 23:56:04,048 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-23 23:56:04,048 - INFO - K-Means Financial Clustering pipeline completed successfully.
+2026-07-24 00:03:39,912 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-24 00:03:40,021 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-24 00:03:41,803 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-24 00:03:41,929 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-24 00:03:43,246 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-24 00:03:43,341 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-24 00:03:43,481 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-24 00:03:43,493 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-24 00:03:46,100 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-24 00:03:46,118 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-24 00:03:46,226 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-24 00:03:46,231 - INFO - Derived cluster names: {0: 'Turnaround Candidates', 1: 'High Growth', 2: 'Quality Compounders', 3: 'Capital Intensive', 4: 'Turnaround Candidates (Stable)'}
+2026-07-24 00:03:46,250 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-24 00:03:46,251 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-24 00:03:47,331 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-77\test_plot_elbow_curve0\elbow_plot.png
+2026-07-24 00:03:47,345 - INFO - Starting K-Means Financial Clustering pipeline...
+2026-07-24 00:03:47,347 - INFO - Loading dataset for K-Means Financial Clustering...
+2026-07-24 00:03:47,436 - INFO - Successfully loaded and prepared dataset with 100 company records.
+2026-07-24 00:03:47,436 - INFO - Features standardized with StandardScaler (Mean = 0, Std = 1).
+2026-07-24 00:03:47,479 - INFO - K-Means clustering complete (n_clusters=5, random_state=42).
+2026-07-24 00:03:47,483 - INFO - Derived cluster names: {0: 'High Growth', 1: 'High Growth (Leveraged)', 2: 'Quality Compounders', 3: 'Value Plays', 4: 'Capital Intensive'}
+2026-07-24 00:03:47,487 - INFO - Saved cluster labels (100 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cluster_labels.csv
+2026-07-24 00:03:47,487 - INFO - Evaluating Elbow Method for k=2 to k=10...
+2026-07-24 00:03:48,123 - INFO - Elbow plot saved successfully to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\elbow_plot.png
+2026-07-24 00:03:48,123 - INFO - K-Means Financial Clustering pipeline completed successfully.

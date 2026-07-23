@@ -16,12 +16,10 @@ Features per sheet:
 """
 
 import logging
-import math
 import sqlite3
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, Optional, Tuple, Union
 
-import numpy as np
 import pandas as pd
 import openpyxl
 from openpyxl.styles import Alignment, Border, Font, PatternFill, Side
@@ -42,8 +40,12 @@ logger = logging.getLogger("peer_report_analytics")
 logger.setLevel(logging.INFO)
 
 if not logger.handlers:
-    file_handler = logging.FileHandler(LOG_DIR / "peer_report.log", mode="a", encoding="utf-8")
-    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    file_handler = logging.FileHandler(
+        LOG_DIR / "peer_report.log", mode="a", encoding="utf-8"
+    )
+    formatter = logging.Formatter(
+        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    )
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     console_handler = logging.StreamHandler()
@@ -76,14 +78,22 @@ KPI_MAPPING: Dict[str, Tuple[str, bool]] = {
 }
 
 # Styling definitions
-HEADER_FILL_PRIMARY = PatternFill(start_color="1F4E78", end_color="1F4E78", fill_type="solid")  # Dark Blue
-HEADER_FILL_PERCENTILE = PatternFill(start_color="2E75B6", end_color="2E75B6", fill_type="solid")  # Steel Blue
+HEADER_FILL_PRIMARY = PatternFill(
+    start_color="1F4E78", end_color="1F4E78", fill_type="solid"
+)  # Dark Blue
+HEADER_FILL_PERCENTILE = PatternFill(
+    start_color="2E75B6", end_color="2E75B6", fill_type="solid"
+)  # Steel Blue
 HEADER_FONT = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
 
-BENCHMARK_FILL = PatternFill(start_color="FFE699", end_color="FFE699", fill_type="solid")  # Gold / Amber
+BENCHMARK_FILL = PatternFill(
+    start_color="FFE699", end_color="FFE699", fill_type="solid"
+)  # Gold / Amber
 BENCHMARK_FONT = Font(name="Calibri", size=11, bold=True, color="000000")
 
-SUMMARY_FILL = PatternFill(start_color="D9E1F2", end_color="D9E1F2", fill_type="solid")  # Light Blue-Gray Accent
+SUMMARY_FILL = PatternFill(
+    start_color="D9E1F2", end_color="D9E1F2", fill_type="solid"
+)  # Light Blue-Gray Accent
 SUMMARY_FONT = Font(name="Calibri", size=11, bold=True, color="000000")
 
 # Percentile Rank Conditional Formatting Fills & Fonts
@@ -113,7 +123,9 @@ SUMMARY_BORDER = Border(
 )
 
 
-def load_peer_comparison_dataset(db_path: Optional[Union[str, Path]] = None, year: Union[str, int] = "2024") -> pd.DataFrame:
+def load_peer_comparison_dataset(
+    db_path: Optional[Union[str, Path]] = None, year: Union[str, int] = "2024"
+) -> pd.DataFrame:
     """
     Query database for peer groups and all 20 financial KPIs for target year.
 
@@ -130,7 +142,10 @@ def load_peer_comparison_dataset(db_path: Optional[Union[str, Path]] = None, yea
     conn = sqlite3.connect(path_db)
     try:
         # Load peer groups
-        pg = pd.read_sql("SELECT company_id as id, peer_group_name, is_benchmark FROM peer_groups", conn).drop_duplicates(subset=["id"])
+        pg = pd.read_sql(
+            "SELECT company_id as id, peer_group_name, is_benchmark FROM peer_groups",
+            conn,
+        ).drop_duplicates(subset=["id"])
         pg["id"] = pg["id"].astype(str).str.strip()
 
         # Companies
@@ -157,7 +172,10 @@ def load_peer_comparison_dataset(db_path: Optional[Union[str, Path]] = None, yea
             params=[int(yr_str) if yr_str.isdigit() else 2024],
         ).drop_duplicates(subset=["id"])
         if mc.empty:
-            mc = pd.read_sql("SELECT company_id as id, pe_ratio, pb_ratio, market_cap_crore FROM market_cap", conn).drop_duplicates(subset=["id"], keep="last")
+            mc = pd.read_sql(
+                "SELECT company_id as id, pe_ratio, pb_ratio, market_cap_crore FROM market_cap",
+                conn,
+            ).drop_duplicates(subset=["id"], keep="last")
         mc["id"] = mc["id"].astype(str).str.strip()
 
         # P&L
@@ -167,7 +185,10 @@ def load_peer_comparison_dataset(db_path: Optional[Union[str, Path]] = None, yea
             params=[yr_str],
         ).drop_duplicates(subset=["id"])
         if pl.empty:
-            pl = pd.read_sql("SELECT company_id as id, sales, net_profit, operating_profit, profit_before_tax, interest FROM profitandloss", conn).drop_duplicates(subset=["id"], keep="last")
+            pl = pd.read_sql(
+                "SELECT company_id as id, sales, net_profit, operating_profit, profit_before_tax, interest FROM profitandloss",
+                conn,
+            ).drop_duplicates(subset=["id"], keep="last")
         pl["id"] = pl["id"].astype(str).str.strip()
 
         # Balance Sheet
@@ -177,11 +198,16 @@ def load_peer_comparison_dataset(db_path: Optional[Union[str, Path]] = None, yea
             params=[yr_str],
         ).drop_duplicates(subset=["id"])
         if bs.empty:
-            bs = pd.read_sql("SELECT company_id as id, equity_capital, reserves, borrowings FROM balancesheet", conn).drop_duplicates(subset=["id"], keep="last")
+            bs = pd.read_sql(
+                "SELECT company_id as id, equity_capital, reserves, borrowings FROM balancesheet",
+                conn,
+            ).drop_duplicates(subset=["id"], keep="last")
         bs["id"] = bs["id"].astype(str).str.strip()
 
         # Sectors
-        sec = pd.read_sql("SELECT company_id as id, broad_sector FROM sectors", conn).drop_duplicates(subset=["id"])
+        sec = pd.read_sql(
+            "SELECT company_id as id, broad_sector FROM sectors", conn
+        ).drop_duplicates(subset=["id"])
         sec["id"] = sec["id"].astype(str).str.strip()
 
         # Merge peer group records
@@ -196,7 +222,11 @@ def load_peer_comparison_dataset(db_path: Optional[Union[str, Path]] = None, yea
         roce_list = []
         for _, r in df.iterrows():
             try:
-                pbt = float(r["profit_before_tax"]) if pd.notna(r.get("profit_before_tax")) else 0.0
+                pbt = (
+                    float(r["profit_before_tax"])
+                    if pd.notna(r.get("profit_before_tax"))
+                    else 0.0
+                )
                 int_exp = float(r["interest"]) if pd.notna(r.get("interest")) else 0.0
                 ebit = pbt + int_exp
                 roce_res = calculate_roce(
@@ -254,7 +284,15 @@ def generate_peer_comparison_excel(
         for col_name, (_, higher_is_better) in KPI_MAPPING.items():
             if col_name in grp.columns:
                 series = grp[col_name].astype(float)
-                grp[f"{col_name}_pct_rank"] = series.rank(pct=True, ascending=higher_is_better, method="average", na_option="keep") * 100.0
+                grp[f"{col_name}_pct_rank"] = (
+                    series.rank(
+                        pct=True,
+                        ascending=higher_is_better,
+                        method="average",
+                        na_option="keep",
+                    )
+                    * 100.0
+                )
 
         # 2. Build Column Headers
         headers = ["company_id", "company_name"]
@@ -277,10 +315,14 @@ def generate_peer_comparison_excel(
         for col_idx, col_key in enumerate(headers, start=1):
             cell = ws.cell(row=1, column=col_idx)
             is_pct_header = col_key.endswith("_pct_rank")
-            fill_style = HEADER_FILL_PERCENTILE if is_pct_header else HEADER_FILL_PRIMARY
+            fill_style = (
+                HEADER_FILL_PERCENTILE if is_pct_header else HEADER_FILL_PRIMARY
+            )
             cell.fill = fill_style
             cell.font = HEADER_FONT
-            cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+            cell.alignment = Alignment(
+                horizontal="center", vertical="center", wrap_text=True
+            )
 
         # 3. Write Company Data Rows
         data_rows_start = 2
@@ -298,7 +340,9 @@ def generate_peer_comparison_excel(
             # Percentile Rank Values
             for col_name in KPI_MAPPING:
                 rank_val = row.get(f"{col_name}_pct_rank")
-                row_data.append(float(rank_val) if (pd.notna(rank_val) and rank_val != "") else None)
+                row_data.append(
+                    float(rank_val) if (pd.notna(rank_val) and rank_val != "") else None
+                )
 
             ws.append(row_data)
 
@@ -315,12 +359,22 @@ def generate_peer_comparison_excel(
                     cell.alignment = Alignment(horizontal="left", vertical="center")
                 elif col_key.endswith("_pct_rank"):
                     cell.alignment = Alignment(horizontal="right", vertical="center")
-                    cell.number_format = "0.0%"  # Format as percentage if 0-1, or 0.0 for rank
+                    cell.number_format = (
+                        "0.0%"  # Format as percentage if 0-1, or 0.0 for rank
+                    )
                     if cell.value is not None:
                         cell.number_format = "0.0"
                 else:
                     cell.alignment = Alignment(horizontal="right", vertical="center")
-                    if col_key in ["sales", "net_profit", "operating_profit", "market_cap_crore", "free_cash_flow_cr", "cash_from_operations_cr", "capex_cr"]:
+                    if col_key in [
+                        "sales",
+                        "net_profit",
+                        "operating_profit",
+                        "market_cap_crore",
+                        "free_cash_flow_cr",
+                        "cash_from_operations_cr",
+                        "capex_cr",
+                    ]:
                         cell.number_format = "#,##0.00"
                     else:
                         cell.number_format = "0.00"
@@ -356,7 +410,9 @@ def generate_peer_comparison_excel(
         # Calculate medians for Percentile Ranks
         for col_name in KPI_MAPPING:
             rank_col = f"{col_name}_pct_rank"
-            med_rank = grp[rank_col].dropna().median() if rank_col in grp.columns else None
+            med_rank = (
+                grp[rank_col].dropna().median() if rank_col in grp.columns else None
+            )
             summary_data.append(float(med_rank) if (pd.notna(med_rank)) else None)
 
         ws.append(summary_data)
@@ -377,7 +433,15 @@ def generate_peer_comparison_excel(
                 cell.number_format = "0.0"
             else:
                 cell.alignment = Alignment(horizontal="right", vertical="center")
-                if col_key in ["sales", "net_profit", "operating_profit", "market_cap_crore", "free_cash_flow_cr", "cash_from_operations_cr", "capex_cr"]:
+                if col_key in [
+                    "sales",
+                    "net_profit",
+                    "operating_profit",
+                    "market_cap_crore",
+                    "free_cash_flow_cr",
+                    "cash_from_operations_cr",
+                    "capex_cr",
+                ]:
                     cell.number_format = "#,##0.00"
                 else:
                     cell.number_format = "0.00"
@@ -396,7 +460,9 @@ def generate_peer_comparison_excel(
 
     # Save workbook
     wb.save(out_file)
-    logger.info(f"Peer comparison Excel report successfully created at: {out_file.resolve()}")
+    logger.info(
+        f"Peer comparison Excel report successfully created at: {out_file.resolve()}"
+    )
     return out_file
 
 

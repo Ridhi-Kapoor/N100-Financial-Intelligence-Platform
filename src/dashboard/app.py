@@ -21,11 +21,12 @@ st.set_page_config(
     page_title="Nifty 100 Analytics",
     page_icon="⚡",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="expanded",
 )
 
 # Custom Global Styling for Premium UI
-st.markdown("""
+st.markdown(
+    """
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
     
@@ -65,20 +66,29 @@ st.markdown("""
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     }
 </style>
-""", unsafe_allow_html=True)
+""",
+    unsafe_allow_html=True,
+)
 
 # Navigation definition for all 8 views
 views_dir = DASHBOARD_DIR / "views"
 
-pg = st.navigation([
-    st.Page(str(views_dir / "01_home.py"), title="Executive Overview", icon="🏠", default=True),
-    st.Page(str(views_dir / "02_profile.py"), title="Company Profile", icon="🏢"),
-    st.Page(str(views_dir / "03_screener.py"), title="Stock Screener", icon="🔍"),
-    st.Page(str(views_dir / "04_peers.py"), title="Peer Comparison", icon="⚖️"),
-    st.Page(str(views_dir / "05_trends.py"), title="Financial Trends", icon="📈"),
-    st.Page(str(views_dir / "06_sectors.py"), title="Sector Analysis", icon="📊"),
-    st.Page(str(views_dir / "07_capital.py"), title="Capital Structure", icon="💰"),
-    st.Page(str(views_dir / "08_reports.py"), title="Reports & Export", icon="📄"),
-])
+pg = st.navigation(
+    [
+        st.Page(
+            str(views_dir / "01_home.py"),
+            title="Executive Overview",
+            icon="🏠",
+            default=True,
+        ),
+        st.Page(str(views_dir / "02_profile.py"), title="Company Profile", icon="🏢"),
+        st.Page(str(views_dir / "03_screener.py"), title="Stock Screener", icon="🔍"),
+        st.Page(str(views_dir / "04_peers.py"), title="Peer Comparison", icon="⚖️"),
+        st.Page(str(views_dir / "05_trends.py"), title="Financial Trends", icon="📈"),
+        st.Page(str(views_dir / "06_sectors.py"), title="Sector Analysis", icon="📊"),
+        st.Page(str(views_dir / "07_capital.py"), title="Capital Structure", icon="💰"),
+        st.Page(str(views_dir / "08_reports.py"), title="Reports & Export", icon="📄"),
+    ]
+)
 
 pg.run()

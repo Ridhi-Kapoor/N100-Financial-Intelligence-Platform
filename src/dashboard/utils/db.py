@@ -22,7 +22,7 @@ def get_db_path() -> Path:
         current_dir.parents[2] / "data" / "db" / "nifty100.db",
         current_dir.parents[1] / "data" / "db" / "nifty100.db",
         Path.cwd() / "data" / "db" / "nifty100.db",
-        Path("data/db/nifty100.db").resolve()
+        Path("data/db/nifty100.db").resolve(),
     ]
     for candidate in candidates:
         if candidate.exists():
@@ -65,7 +65,9 @@ def get_companies() -> pd.DataFrame:
 
 
 @st.cache_data(ttl=600)
-def get_ratios(ticker: Optional[str] = None, year: Optional[Union[str, int]] = None) -> pd.DataFrame:
+def get_ratios(
+    ticker: Optional[str] = None, year: Optional[Union[str, int]] = None
+) -> pd.DataFrame:
     """
     Fetch financial ratios for a given ticker or all companies, optionally filtered by year.
     Returns Pandas DataFrame.
@@ -155,7 +157,9 @@ def get_peers(group_name: Optional[str] = None) -> pd.DataFrame:
         """
         df = run_query(query, (group_name,))
         if df.empty:
-            df = run_query("SELECT * FROM peer_groups WHERE peer_group_name = ?", (group_name,))
+            df = run_query(
+                "SELECT * FROM peer_groups WHERE peer_group_name = ?", (group_name,)
+            )
         return df
     else:
         query = """

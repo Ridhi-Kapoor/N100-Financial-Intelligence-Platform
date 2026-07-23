@@ -4,7 +4,6 @@ Unit tests for src/analytics/peer_report.py module.
 
 from pathlib import Path
 import openpyxl
-import pytest
 
 from src.analytics.peer_report import (
     load_peer_comparison_dataset,

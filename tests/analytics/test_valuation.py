@@ -2,7 +2,6 @@
 Unit tests for Day 26 Valuation Analytics Module (src/analytics/valuation.py).
 """
 
-from pathlib import Path
 import numpy as np
 import pandas as pd
 import pytest
@@ -38,7 +37,13 @@ def test_calculate_fcf_yield_negative_and_invalid():
 
 def test_calculate_sector_median_pe():
     data = {
-        "broad_sector": ["Financials", "Financials", "Financials", "Technology", "Technology"],
+        "broad_sector": [
+            "Financials",
+            "Financials",
+            "Financials",
+            "Technology",
+            "Technology",
+        ],
         "pe_ratio": [20.0, 30.0, 40.0, 50.0, 70.0],
     }
     df = pd.DataFrame(data)
@@ -106,6 +111,8 @@ def test_run_valuation_analysis_and_export(tmp_path):
     assert len(df_flags) == (df_summary["Valuation Flag"] != "Fair").sum()
 
     # Test file export
-    excel_path, csv_path = export_valuation_results(df_summary, df_flags, output_dir=tmp_path)
+    excel_path, csv_path = export_valuation_results(
+        df_summary, df_flags, output_dir=tmp_path
+    )
     assert excel_path.exists()
     assert csv_path.exists()

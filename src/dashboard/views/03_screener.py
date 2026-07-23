@@ -10,7 +10,6 @@ import sys
 from pathlib import Path
 import streamlit as st
 import pandas as pd
-import numpy as np
 import plotly.express as px
 
 # Resolve project imports
@@ -117,7 +116,7 @@ PRESET_CONFIGS_MAP = {
         "pb_max": 8.0,
         "div_yield_min": 0.0,
         "icr_min": 1.0,
-    }
+    },
 }
 
 
@@ -129,8 +128,14 @@ def fetch_screener_base_data() -> pd.DataFrame:
 
 
 # Page Header
-st.markdown('<h1 class="gradient-header">🔍 Quantitative Stock Screener</h1>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">Multi-Factor Screening Engine with Strategy Presets & Live Sector Overrides</p>', unsafe_allow_html=True)
+st.markdown(
+    '<h1 class="gradient-header">🔍 Quantitative Stock Screener</h1>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<p class="sub-header">Multi-Factor Screening Engine with Strategy Presets & Live Sector Overrides</p>',
+    unsafe_allow_html=True,
+)
 
 # ---------------------------------------------------------
 # Sidebar Controls & Preset Buttons
@@ -147,33 +152,57 @@ for key, default_val in DEFAULT_SLIDERS.items():
 col_p1, col_p2 = st.sidebar.columns(2)
 
 with col_p1:
-    if st.button("🏆 Quality", use_container_width=True, help="High return on equity, strong margins & low debt"):
+    if st.button(
+        "🏆 Quality",
+        use_container_width=True,
+        help="High return on equity, strong margins & low debt",
+    ):
         for k, v in PRESET_CONFIGS_MAP["Quality"].items():
             st.session_state[k] = float(v)
         st.rerun()
 
-    if st.button("🚀 Growth", use_container_width=True, help="High revenue & earnings 5-year CAGR"):
+    if st.button(
+        "🚀 Growth",
+        use_container_width=True,
+        help="High revenue & earnings 5-year CAGR",
+    ):
         for k, v in PRESET_CONFIGS_MAP["Growth"].items():
             st.session_state[k] = float(v)
         st.rerun()
 
-    if st.button("🛡️ Debt-Free", use_container_width=True, help="Near-zero leverage & strong cash flow"):
+    if st.button(
+        "🛡️ Debt-Free",
+        use_container_width=True,
+        help="Near-zero leverage & strong cash flow",
+    ):
         for k, v in PRESET_CONFIGS_MAP["Debt-Free"].items():
             st.session_state[k] = float(v)
         st.rerun()
 
 with col_p2:
-    if st.button("💎 Value", use_container_width=True, help="Low P/E, low P/B & healthy profitability"):
+    if st.button(
+        "💎 Value",
+        use_container_width=True,
+        help="Low P/E, low P/B & healthy profitability",
+    ):
         for k, v in PRESET_CONFIGS_MAP["Value"].items():
             st.session_state[k] = float(v)
         st.rerun()
 
-    if st.button("💰 Dividend", use_container_width=True, help="High dividend yield & stable balance sheet"):
+    if st.button(
+        "💰 Dividend",
+        use_container_width=True,
+        help="High dividend yield & stable balance sheet",
+    ):
         for k, v in PRESET_CONFIGS_MAP["Dividend"].items():
             st.session_state[k] = float(v)
         st.rerun()
 
-    if st.button("🔄 Turnaround", use_container_width=True, help="Improving leverage profile & profit recovery"):
+    if st.button(
+        "🔄 Turnaround",
+        use_container_width=True,
+        help="Improving leverage profile & profit recovery",
+    ):
         for k, v in PRESET_CONFIGS_MAP["Turnaround"].items():
             st.session_state[k] = float(v)
         st.rerun()
@@ -193,7 +222,7 @@ roe_min = st.sidebar.slider(
     max_value=100.0,
     key="roe_min",
     step=1.0,
-    help="Minimum Return on Equity percentage"
+    help="Minimum Return on Equity percentage",
 )
 
 de_max = st.sidebar.slider(
@@ -202,7 +231,7 @@ de_max = st.sidebar.slider(
     max_value=5.0,
     key="de_max",
     step=0.1,
-    help="Maximum Debt-to-Equity ratio (waived for Financial sector)"
+    help="Maximum Debt-to-Equity ratio (waived for Financial sector)",
 )
 
 fcf_min = st.sidebar.slider(
@@ -211,7 +240,7 @@ fcf_min = st.sidebar.slider(
     max_value=10000.0,
     key="fcf_min",
     step=100.0,
-    help="Minimum Free Cash Flow in Crores"
+    help="Minimum Free Cash Flow in Crores",
 )
 
 rev_cagr_min = st.sidebar.slider(
@@ -220,7 +249,7 @@ rev_cagr_min = st.sidebar.slider(
     max_value=50.0,
     key="rev_cagr_min",
     step=1.0,
-    help="Minimum 5-Year Revenue CAGR percentage"
+    help="Minimum 5-Year Revenue CAGR percentage",
 )
 
 pat_cagr_min = st.sidebar.slider(
@@ -229,7 +258,7 @@ pat_cagr_min = st.sidebar.slider(
     max_value=50.0,
     key="pat_cagr_min",
     step=1.0,
-    help="Minimum 5-Year Net Profit (PAT) CAGR percentage"
+    help="Minimum 5-Year Net Profit (PAT) CAGR percentage",
 )
 
 opm_min = st.sidebar.slider(
@@ -238,7 +267,7 @@ opm_min = st.sidebar.slider(
     max_value=60.0,
     key="opm_min",
     step=1.0,
-    help="Minimum Operating Profit Margin percentage"
+    help="Minimum Operating Profit Margin percentage",
 )
 
 pe_max = st.sidebar.slider(
@@ -247,7 +276,7 @@ pe_max = st.sidebar.slider(
     max_value=150.0,
     key="pe_max",
     step=1.0,
-    help="Maximum Price-to-Earnings ratio"
+    help="Maximum Price-to-Earnings ratio",
 )
 
 pb_max = st.sidebar.slider(
@@ -256,7 +285,7 @@ pb_max = st.sidebar.slider(
     max_value=50.0,
     key="pb_max",
     step=0.5,
-    help="Maximum Price-to-Book ratio"
+    help="Maximum Price-to-Book ratio",
 )
 
 div_yield_min = st.sidebar.slider(
@@ -265,7 +294,7 @@ div_yield_min = st.sidebar.slider(
     max_value=10.0,
     key="div_yield_min",
     step=0.1,
-    help="Minimum Dividend Yield percentage"
+    help="Minimum Dividend Yield percentage",
 )
 
 icr_min = st.sidebar.slider(
@@ -274,7 +303,7 @@ icr_min = st.sidebar.slider(
     max_value=50.0,
     key="icr_min",
     step=0.5,
-    help="Minimum Interest Coverage Ratio (waived for debt-free companies)"
+    help="Minimum Interest Coverage Ratio (waived for debt-free companies)",
 )
 
 # ---------------------------------------------------------
@@ -307,7 +336,9 @@ df_filtered = apply_screener_filters(df_base, filter_config)
 
 # Ensure proper sorting by composite quality score
 if not df_filtered.empty and "composite_quality_score" in df_filtered.columns:
-    df_filtered = df_filtered.sort_values(by="composite_quality_score", ascending=False).reset_index(drop=True)
+    df_filtered = df_filtered.sort_values(
+        by="composite_quality_score", ascending=False
+    ).reset_index(drop=True)
 
 # ---------------------------------------------------------
 # Main Page Content & Visuals
@@ -320,16 +351,26 @@ with m1:
     st.metric("Filtered Companies", f"{len(df_filtered)}", f"out of {len(df_base)}")
 
 with m2:
-    avg_roe_val = df_filtered["return_on_equity_pct"].mean() if not df_filtered.empty else 0.0
-    st.metric("Avg Filtered ROE", f"{avg_roe_val:.2f}%" if not df_filtered.empty else "N/A")
+    avg_roe_val = (
+        df_filtered["return_on_equity_pct"].mean() if not df_filtered.empty else 0.0
+    )
+    st.metric(
+        "Avg Filtered ROE", f"{avg_roe_val:.2f}%" if not df_filtered.empty else "N/A"
+    )
 
 with m3:
     med_pe_val = df_filtered["pe_ratio"].median() if not df_filtered.empty else 0.0
-    st.metric("Median Filtered P/E", f"{med_pe_val:.2f}x" if not df_filtered.empty else "N/A")
+    st.metric(
+        "Median Filtered P/E", f"{med_pe_val:.2f}x" if not df_filtered.empty else "N/A"
+    )
 
 with m4:
-    avg_qs = df_filtered["composite_quality_score"].mean() if not df_filtered.empty else 0.0
-    st.metric("Avg Quality Score", f"{avg_qs:.1f} / 100" if not df_filtered.empty else "N/A")
+    avg_qs = (
+        df_filtered["composite_quality_score"].mean() if not df_filtered.empty else 0.0
+    )
+    st.metric(
+        "Avg Quality Score", f"{avg_qs:.1f} / 100" if not df_filtered.empty else "N/A"
+    )
 
 st.markdown("---")
 
@@ -343,21 +384,31 @@ with col_btn:
     if not df_filtered.empty:
         # Prepare CSV download
         export_cols = [
-            "company_id", "company_name", "broad_sector", "composite_quality_score",
-            "return_on_equity_pct", "debt_to_equity", "free_cash_flow_cr",
-            "revenue_cagr_5yr", "pat_cagr_5yr", "operating_profit_margin_pct",
-            "pe_ratio", "pb_ratio", "dividend_yield_pct", "interest_coverage"
+            "company_id",
+            "company_name",
+            "broad_sector",
+            "composite_quality_score",
+            "return_on_equity_pct",
+            "debt_to_equity",
+            "free_cash_flow_cr",
+            "revenue_cagr_5yr",
+            "pat_cagr_5yr",
+            "operating_profit_margin_pct",
+            "pe_ratio",
+            "pb_ratio",
+            "dividend_yield_pct",
+            "interest_coverage",
         ]
         export_cols_clean = [c for c in export_cols if c in df_filtered.columns]
         csv_bytes = df_filtered[export_cols_clean].to_csv(index=False).encode("utf-8")
-        
+
         st.download_button(
             label="📥 Download CSV",
             data=csv_bytes,
             file_name="nifty100_screener_results.csv",
             mime="text/csv",
             use_container_width=True,
-            help="Export currently filtered company list to CSV"
+            help="Export currently filtered company list to CSV",
         )
 
 # Visual Scatter Plot if data is non-empty
@@ -374,15 +425,15 @@ if not df_filtered.empty:
             "company_id": True,
             "composite_quality_score": ":.1f",
             "pe_ratio": ":.1f",
-            "free_cash_flow_cr": ":,.0f"
+            "free_cash_flow_cr": ":,.0f",
         },
         labels={
             "debt_to_equity": "Debt-to-Equity Ratio",
             "return_on_equity_pct": "Return on Equity (ROE %)",
             "broad_sector": "Sector",
-            "composite_quality_score": "Quality Score"
+            "composite_quality_score": "Quality Score",
         },
-        title="Screened Universe: ROE vs Leverage (Bubble Size = Composite Quality Score)"
+        title="Screened Universe: ROE vs Leverage (Bubble Size = Composite Quality Score)",
     )
     fig_scatter.update_layout(
         paper_bgcolor="rgba(0,0,0,0)",
@@ -390,7 +441,7 @@ if not df_filtered.empty:
         font=dict(color="#e2e8f0"),
         xaxis=dict(gridcolor="#1e293b"),
         yaxis=dict(gridcolor="#1e293b"),
-        margin=dict(t=40, b=20, l=20, r=20)
+        margin=dict(t=40, b=20, l=20, r=20),
     )
     st.plotly_chart(fig_scatter, use_container_width=True)
 
@@ -399,10 +450,10 @@ if not df_filtered.empty:
     # Show: Company ID, Company Name, Sector, Composite Score, and all filtered metrics
     # ---------------------------------------------------------
     st.markdown("#### 📋 Detailed Results Table")
-    
+
     # Prepare display DataFrame
     df_display = df_filtered.copy()
-    
+
     # Format and rename for clean presentation
     display_columns = {
         "company_id": "Company ID",
@@ -418,10 +469,12 @@ if not df_filtered.empty:
         "pe_ratio": "P/E Ratio",
         "pb_ratio": "P/B Ratio",
         "dividend_yield_pct": "Dividend Yield (%)",
-        "interest_coverage": "Interest Coverage"
+        "interest_coverage": "Interest Coverage",
     }
-    
-    available_display_cols = [col for col in display_columns.keys() if col in df_display.columns]
+
+    available_display_cols = [
+        col for col in display_columns.keys() if col in df_display.columns
+    ]
     df_table = df_display[available_display_cols].rename(columns=display_columns)
 
     st.dataframe(
@@ -429,27 +482,45 @@ if not df_filtered.empty:
         use_container_width=True,
         hide_index=True,
         column_config={
-            "Company ID": st.column_config.TextColumn("Company ID", help="NSE Ticker Symbol"),
+            "Company ID": st.column_config.TextColumn(
+                "Company ID", help="NSE Ticker Symbol"
+            ),
             "Company Name": st.column_config.TextColumn("Company Name"),
             "Sector": st.column_config.TextColumn("Sector"),
-            "Composite Score": st.column_config.NumberColumn("Composite Score", format="%.1f / 100"),
+            "Composite Score": st.column_config.NumberColumn(
+                "Composite Score", format="%.1f / 100"
+            ),
             "ROE (%)": st.column_config.NumberColumn("ROE (%)", format="%.2f%%"),
-            "Debt-to-Equity": st.column_config.NumberColumn("Debt-to-Equity", format="%.2f"),
-            "Free Cash Flow (Cr)": st.column_config.NumberColumn("Free Cash Flow (Cr)", format="₹%,.0f Cr"),
-            "Revenue CAGR (5Y)": st.column_config.NumberColumn("Revenue CAGR (5Y)", format="%.2f%%"),
-            "PAT CAGR (5Y)": st.column_config.NumberColumn("PAT CAGR (5Y)", format="%.2f%%"),
+            "Debt-to-Equity": st.column_config.NumberColumn(
+                "Debt-to-Equity", format="%.2f"
+            ),
+            "Free Cash Flow (Cr)": st.column_config.NumberColumn(
+                "Free Cash Flow (Cr)", format="₹%,.0f Cr"
+            ),
+            "Revenue CAGR (5Y)": st.column_config.NumberColumn(
+                "Revenue CAGR (5Y)", format="%.2f%%"
+            ),
+            "PAT CAGR (5Y)": st.column_config.NumberColumn(
+                "PAT CAGR (5Y)", format="%.2f%%"
+            ),
             "OPM (%)": st.column_config.NumberColumn("OPM (%)", format="%.2f%%"),
             "P/E Ratio": st.column_config.NumberColumn("P/E Ratio", format="%.2fx"),
             "P/B Ratio": st.column_config.NumberColumn("P/B Ratio", format="%.2fx"),
-            "Dividend Yield (%)": st.column_config.NumberColumn("Dividend Yield (%)", format="%.2f%%"),
-            "Interest Coverage": st.column_config.NumberColumn("Interest Coverage", format="%.2fx")
-        }
+            "Dividend Yield (%)": st.column_config.NumberColumn(
+                "Dividend Yield (%)", format="%.2f%%"
+            ),
+            "Interest Coverage": st.column_config.NumberColumn(
+                "Interest Coverage", format="%.2fx"
+            ),
+        },
     )
 
 else:
     # Graceful handling for empty results
     st.warning("⚠️ No companies match all your selected filter criteria.")
-    st.info("💡 **Tips to expand results:**\n"
-            "- Click one of the **Strategy Presets** in the sidebar (e.g. *Quality* or *Value*).\n"
-            "- Relax strict slider thresholds like **Minimum ROE** or **Maximum Debt-to-Equity**.\n"
-            "- Click **Reset All Filters** to view all Nifty 100 companies.")
+    st.info(
+        "💡 **Tips to expand results:**\n"
+        "- Click one of the **Strategy Presets** in the sidebar (e.g. *Quality* or *Value*).\n"
+        "- Relax strict slider thresholds like **Minimum ROE** or **Maximum Debt-to-Equity**.\n"
+        "- Click **Reset All Filters** to view all Nifty 100 companies."
+    )

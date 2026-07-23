@@ -1,0 +1,49 @@
+2026-07-23 14:31:21,656 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 14:31:24,587 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 14:32:24,971 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 14:32:29,247 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 14:32:52,365 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\portfolio\portfolio_summary.pdf
+2026-07-23 14:33:11,772 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 14:33:11,803 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 14:33:16,116 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 14:33:56,125 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 14:33:56,154 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 14:34:01,012 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 14:34:09,862 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\reports\portfolio\portfolio_summary.pdf
+2026-07-23 14:35:29,863 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-64\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 14:36:36,006 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-65\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 14:40:32,733 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 14:40:32,741 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 14:40:36,091 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 14:43:23,829 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-67\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 15:05:50,192 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 15:05:50,210 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 15:05:57,200 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 15:09:44,320 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-69\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 16:02:53,571 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 16:02:53,580 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 16:02:56,177 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 16:04:24,350 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-70\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 16:22:27,760 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 16:22:27,776 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 16:22:30,600 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 16:24:53,812 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-71\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 23:49:05,752 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 23:49:05,761 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 23:49:11,762 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 23:49:23,229 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 23:49:23,245 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 23:49:25,764 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 23:50:57,309 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 23:50:57,322 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 23:51:00,581 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 23:51:17,965 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-73\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 23:51:37,997 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-74\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 23:52:54,169 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-75\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-23 23:57:01,958 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 23:57:01,976 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-23 23:57:03,648 - INFO - Loaded portfolio data for 100 companies.
+2026-07-23 23:58:52,276 - INFO - Successfully generated Portfolio Summary PDF (100 pages) at: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-76\test_generate_portfolio_summar0\portfolio_summary.pdf
+2026-07-24 00:05:03,290 - INFO - Loaded portfolio data for 100 companies.
+2026-07-24 00:05:03,329 - INFO - Starting Portfolio Summary PDF Generation...
+2026-07-24 00:05:08,829 - INFO - Loaded portfolio data for 100 companies.

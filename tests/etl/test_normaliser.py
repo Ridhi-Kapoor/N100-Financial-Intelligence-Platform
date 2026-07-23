@@ -1,34 +1,41 @@
-import pytest
 from scripts.etl.normaliser import normalize_year, normalize_ticker
-
 
 # ----------------------------
 # normalize_year()
 # ----------------------------
 
+
 def test_year_fy18():
     assert normalize_year("FY18") == 2018
+
 
 def test_year_fy19():
     assert normalize_year("FY19") == 2019
 
+
 def test_year_2022():
     assert normalize_year("2022") == 2022
+
 
 def test_year_2023():
     assert normalize_year("2023") == 2023
 
+
 def test_ticker_lower_ns():
     assert normalize_ticker("tcs.ns") == "TCS"
+
 
 def test_ticker_digits():
     assert normalize_ticker("abc123") == "ABC123"
 
+
 def test_ticker_newline():
     assert normalize_ticker("INFY\n") == "INFY"
 
+
 def test_ticker_tab():
     assert normalize_ticker("\tTCS") == "TCS"
+
 
 def test_year_fy20():
     assert normalize_year("FY20") == 2020
@@ -65,6 +72,7 @@ def test_year_spaces():
 # ----------------------------
 # normalize_ticker()
 # ----------------------------
+
 
 def test_ticker_lowercase():
     assert normalize_ticker("tcs") == "TCS"

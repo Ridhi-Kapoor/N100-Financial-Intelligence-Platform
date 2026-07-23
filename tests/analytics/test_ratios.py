@@ -13,8 +13,6 @@ Covers the following test cases:
 9. Sector benchmark calculation for Financials
 """
 
-import math
-import os
 from pathlib import Path
 import numpy as np
 import pandas as pd
@@ -67,26 +65,32 @@ def test_opm_mismatch():
     initial_size = LOG_FILE.stat().st_size if LOG_FILE.exists() else 0
 
     # Case 1: Difference is within 1% (e.g. 0.8% difference) -> Should return True and NOT log
-    assert validate_operating_profit_margin(
-        calculated_opm=24.8,
-        source_opm=24.0,
-        company_id="COMP1",
-        company_name="Company One",
-        year=2024,
-    ) is True
+    assert (
+        validate_operating_profit_margin(
+            calculated_opm=24.8,
+            source_opm=24.0,
+            company_id="COMP1",
+            company_name="Company One",
+            year=2024,
+        )
+        is True
+    )
 
     # Check that no log was written (size did not change)
     current_size = LOG_FILE.stat().st_size if LOG_FILE.exists() else 0
     assert current_size == initial_size
 
     # Case 2: Difference is greater than 1% (e.g. 1.5% difference) -> Should return False and log
-    assert validate_operating_profit_margin(
-        calculated_opm=25.5,
-        source_opm=24.0,
-        company_id="COMP2",
-        company_name="Company Two",
-        year=2024,
-    ) is False
+    assert (
+        validate_operating_profit_margin(
+            calculated_opm=25.5,
+            source_opm=24.0,
+            company_id="COMP2",
+            company_name="Company Two",
+            year=2024,
+        )
+        is False
+    )
 
     # Check that mismatch log was appended (size increased)
     new_size = LOG_FILE.stat().st_size if LOG_FILE.exists() else 0
@@ -100,7 +104,6 @@ def test_opm_mismatch():
     assert "25.5" in log_content
     assert "24.0" in log_content
     assert "1.5" in log_content
-
 
 
 def test_roe_normal():
@@ -130,9 +133,7 @@ def test_roce_calculation_including_financials():
 
     # Financials sector - should return tuple (roce, benchmark_status)
     # Case A: No benchmark provided -> status is None
-    result_fin_no_bench = calculate_roce(
-        200.0, 100.0, 300.0, 100.0, "Financials"
-    )
+    result_fin_no_bench = calculate_roce(200.0, 100.0, 300.0, 100.0, "Financials")
     assert isinstance(result_fin_no_bench, tuple)
     assert result_fin_no_bench[0] == pytest.approx(40.0)
     assert result_fin_no_bench[1] is None

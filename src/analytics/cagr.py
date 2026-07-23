@@ -74,7 +74,9 @@ def calculate_cagr(
         return None, "INSUFFICIENT"
 
     if n_val <= 0:
-        cagr_logger.warning(f"CAGR calculation failed: Number of years n={n_val} must be greater than 0.")
+        cagr_logger.warning(
+            f"CAGR calculation failed: Number of years n={n_val} must be greater than 0."
+        )
         return None, "INSUFFICIENT"
 
     if beg_val == 0.0:
@@ -145,7 +147,7 @@ def compute_dataframe_cagr(
             end_val = lookup.get((cid, yr_end))
             yr_beg = yr_end - n_years
             beg_val = lookup.get((cid, yr_beg))
-            
+
             if beg_val is None or end_val is None:
                 cagr_values.append(None)
                 cagr_flags.append("INSUFFICIENT")

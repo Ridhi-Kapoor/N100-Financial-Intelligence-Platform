@@ -2,9 +2,7 @@
 Unit tests for the financial sector ratios and anomaly detection engine.
 """
 
-import os
 from pathlib import Path
-import pytest
 from src.analytics.ratios import get_high_leverage_flag
 from src.analytics.run_ratio_engine import categorize_anomaly
 
@@ -62,7 +60,7 @@ def test_log_generation(tmp_path):
     test_log = tmp_path / "ratio_edge_cases.log"
     with open(test_log, "w", encoding="utf-8") as f:
         f.write("TEST_ANOMALY")
-    
+
     assert test_log.exists()
     with open(test_log, "r", encoding="utf-8") as f:
         content = f.read()

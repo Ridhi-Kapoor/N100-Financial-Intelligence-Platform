@@ -229,12 +229,7 @@ def calculate_roce(
     """
     is_financial = broad_sector == "Financials"
 
-    if (
-        ebit is None
-        or equity_capital is None
-        or reserves is None
-        or borrowings is None
-    ):
+    if ebit is None or equity_capital is None or reserves is None or borrowings is None:
         return (None, None) if is_financial else None
 
     try:
@@ -259,9 +254,7 @@ def calculate_roce(
                 bench_val = float(benchmark_roce)
                 if not math.isnan(bench_val):
                     benchmark_status = (
-                        "Above Benchmark"
-                        if roce >= bench_val
-                        else "Below Benchmark"
+                        "Above Benchmark" if roce >= bench_val else "Below Benchmark"
                     )
             except (ValueError, TypeError):
                 pass
@@ -295,11 +288,7 @@ def calculate_roa(
     except (ValueError, TypeError):
         return None
 
-    if (
-        assets_val == 0.0
-        or math.isnan(assets_val)
-        or math.isnan(np_val)
-    ):
+    if assets_val == 0.0 or math.isnan(assets_val) or math.isnan(np_val):
         return None
 
     return (np_val / assets_val) * 100.0
@@ -341,7 +330,9 @@ leverage_logger = logging.getLogger("leverage_efficiency")
 leverage_logger.setLevel(logging.INFO)
 LEVERAGE_LOG_FILE = LOG_DIR / "leverage_efficiency.log"
 if not leverage_logger.handlers:
-    leverage_file_handler = logging.FileHandler(LEVERAGE_LOG_FILE, mode="a", encoding="utf-8")
+    leverage_file_handler = logging.FileHandler(
+        LEVERAGE_LOG_FILE, mode="a", encoding="utf-8"
+    )
     leverage_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
     leverage_file_handler.setFormatter(leverage_formatter)
     leverage_logger.addHandler(leverage_file_handler)
@@ -477,7 +468,11 @@ def calculate_interest_coverage_ratio(
         )
         return None, None
 
-    if math.isnan(op_profit_val) or math.isnan(other_inc_val) or math.isnan(interest_val):
+    if (
+        math.isnan(op_profit_val)
+        or math.isnan(other_inc_val)
+        or math.isnan(interest_val)
+    ):
         return None, None
 
     if interest_val == 0.0:
@@ -598,8 +593,9 @@ def calculate_asset_turnover(
         return None
 
     if assets_val == 0.0:
-        leverage_logger.info("Asset Turnover calculation: total_assets is 0. Returning None.")
+        leverage_logger.info(
+            "Asset Turnover calculation: total_assets is 0. Returning None."
+        )
         return None
 
     return sales_val / assets_val
-

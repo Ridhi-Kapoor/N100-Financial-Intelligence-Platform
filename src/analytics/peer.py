@@ -11,7 +11,7 @@ import logging
 import math
 import sqlite3
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, Optional, Tuple, Union
 import pandas as pd
 
 from src.analytics.ratios import calculate_roce
@@ -29,8 +29,12 @@ logger = logging.getLogger("peer_analytics")
 logger.setLevel(logging.INFO)
 
 if not logger.handlers:
-    file_handler = logging.FileHandler(LOG_DIR / "peer_analytics.log", mode="a", encoding="utf-8")
-    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    file_handler = logging.FileHandler(
+        LOG_DIR / "peer_analytics.log", mode="a", encoding="utf-8"
+    )
+    formatter = logging.Formatter(
+        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    )
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     console_handler = logging.StreamHandler()
@@ -42,7 +46,10 @@ METRIC_DEFINITIONS: Dict[str, Tuple[str, bool]] = {
     "ROE": ("return_on_equity_pct", True),
     "ROCE": ("roce", True),
     "Net Profit Margin": ("net_profit_margin_pct", True),
-    "Debt-to-Equity": ("debt_to_equity", False),  # Inverse ranking: lower value -> higher percentile rank
+    "Debt-to-Equity": (
+        "debt_to_equity",
+        False,
+    ),  # Inverse ranking: lower value -> higher percentile rank
     "Free Cash Flow": ("free_cash_flow_cr", True),
     "PAT CAGR 5Y": ("pat_cagr_5yr", True),
     "Revenue CAGR 5Y": ("revenue_cagr_5yr", True),
@@ -52,7 +59,10 @@ METRIC_DEFINITIONS: Dict[str, Tuple[str, bool]] = {
 }
 
 
-def load_peer_groups(excel_path: Optional[Union[str, Path]] = None, db_path: Optional[Union[str, Path]] = None) -> pd.DataFrame:
+def load_peer_groups(
+    excel_path: Optional[Union[str, Path]] = None,
+    db_path: Optional[Union[str, Path]] = None,
+) -> pd.DataFrame:
     """
     Load peer group assignments from Excel or SQLite database.
 
@@ -77,14 +87,19 @@ def load_peer_groups(excel_path: Optional[Union[str, Path]] = None, db_path: Opt
         logger.info(f"Loading peer groups from database table: {path_db}")
         conn = sqlite3.connect(path_db)
         try:
-            df = pd.read_sql("SELECT company_id, peer_group_name, is_benchmark FROM peer_groups", conn)
+            df = pd.read_sql(
+                "SELECT company_id, peer_group_name, is_benchmark FROM peer_groups",
+                conn,
+            )
             df["company_id"] = df["company_id"].astype(str).str.strip()
             df["peer_group_name"] = df["peer_group_name"].astype(str).str.strip()
             return df
         finally:
             conn.close()
 
-    raise FileNotFoundError(f"Peer group source not found at '{path_xl}' or '{path_db}'.")
+    raise FileNotFoundError(
+        f"Peer group source not found at '{path_xl}' or '{path_db}'."
+    )
 
 
 def get_company_peer_group(
@@ -116,7 +131,9 @@ def get_company_peer_group(
             logger.warning(f"Failed to load peer groups: {e}")
             return "No peer group assigned"
 
-    match = peer_groups_df[peer_groups_df["company_id"].astype(str).str.strip() == cid_clean]
+    match = peer_groups_df[
+        peer_groups_df["company_id"].astype(str).str.strip() == cid_clean
+    ]
     if match.empty:
         return "No peer group assigned"
 
@@ -133,8 +150,13 @@ def compute_roce_series(conn: sqlite3.Connection) -> pd.DataFrame:
     Returns:
         pd.DataFrame with columns: 'company_id', 'year', 'roce'.
     """
-    pl_df = pd.read_sql("SELECT company_id, year, profit_before_tax, interest FROM profitandloss", conn)
-    bs_df = pd.read_sql("SELECT company_id, year, equity_capital, reserves, borrowings FROM balancesheet", conn)
+    pl_df = pd.read_sql(
+        "SELECT company_id, year, profit_before_tax, interest FROM profitandloss", conn
+    )
+    bs_df = pd.read_sql(
+        "SELECT company_id, year, equity_capital, reserves, borrowings FROM balancesheet",
+        conn,
+    )
     sec_df = pd.read_sql("SELECT company_id, broad_sector FROM sectors", conn)
 
     # De-duplicate inputs
@@ -148,8 +170,14 @@ def compute_roce_series(conn: sqlite3.Connection) -> pd.DataFrame:
     roce_list = []
     for _, row in merged.iterrows():
         try:
-            pbt = float(row["profit_before_tax"]) if pd.notna(row.get("profit_before_tax")) else 0.0
-            interest_exp = float(row["interest"]) if pd.notna(row.get("interest")) else 0.0
+            pbt = (
+                float(row["profit_before_tax"])
+                if pd.notna(row.get("profit_before_tax"))
+                else 0.0
+            )
+            interest_exp = (
+                float(row["interest"]) if pd.notna(row.get("interest")) else 0.0
+            )
             ebit = pbt + interest_exp
             roce_res = calculate_roce(
                 ebit=ebit,
@@ -167,7 +195,9 @@ def compute_roce_series(conn: sqlite3.Connection) -> pd.DataFrame:
             roce_list.append(None)
 
     merged["roce"] = roce_list
-    return merged[["company_id", "year", "roce"]].drop_duplicates(subset=["company_id", "year"])
+    return merged[["company_id", "year", "roce"]].drop_duplicates(
+        subset=["company_id", "year"]
+    )
 
 
 def compute_peer_percentiles(
@@ -190,12 +220,15 @@ def compute_peer_percentiles(
     conn = sqlite3.connect(path_db)
     try:
         # Load financial ratios table
-        fr_df = pd.read_sql("""
+        fr_df = pd.read_sql(
+            """
             SELECT company_id, year, net_profit_margin_pct, return_on_equity_pct,
                    debt_to_equity, interest_coverage, asset_turnover, free_cash_flow_cr,
                    revenue_cagr_5yr, pat_cagr_5yr, eps_cagr_5yr
             FROM financial_ratios
-        """, conn)
+        """,
+            conn,
+        )
 
         fr_df["company_id"] = fr_df["company_id"].astype(str).str.strip()
         fr_df["year"] = fr_df["year"].astype(str).str.strip()
@@ -225,20 +258,32 @@ def compute_peer_percentiles(
                     # Use pandas rank(pct=True)
                     # higher_is_better=True => ascending=True (higher value gets higher percentile rank)
                     # higher_is_better=False => ascending=False (lower value gets higher percentile rank)
-                    ranks = series.rank(pct=True, ascending=higher_is_better, method="average", na_option="keep") * 100.0
+                    ranks = (
+                        series.rank(
+                            pct=True,
+                            ascending=higher_is_better,
+                            method="average",
+                            na_option="keep",
+                        )
+                        * 100.0
+                    )
 
-                    for cid, raw_val, pct_rank in zip(group_df["company_id"], series, ranks):
+                    for cid, raw_val, pct_rank in zip(
+                        group_df["company_id"], series, ranks
+                    ):
                         val_out = float(raw_val) if pd.notna(raw_val) else None
                         rank_out = float(pct_rank) if pd.notna(pct_rank) else None
 
-                        records.append({
-                            "company_id": str(cid).strip(),
-                            "peer_group_name": str(peer_group).strip(),
-                            "metric": metric_name,
-                            "value": val_out,
-                            "percentile_rank": rank_out,
-                            "year": str(year).strip(),
-                        })
+                        records.append(
+                            {
+                                "company_id": str(cid).strip(),
+                                "peer_group_name": str(peer_group).strip(),
+                                "metric": metric_name,
+                                "value": val_out,
+                                "percentile_rank": rank_out,
+                                "year": str(year).strip(),
+                            }
+                        )
 
         df_result = pd.DataFrame(records)
         return df_result
@@ -298,17 +343,22 @@ def populate_peer_percentiles_table(
         ]
 
         logger.info(f"Inserting {len(insert_tuples)} records into peer_percentiles...")
-        cursor.executemany("""
+        cursor.executemany(
+            """
             INSERT INTO peer_percentiles (
                 company_id, peer_group_name, metric, value, percentile_rank, year
             ) VALUES (?, ?, ?, ?, ?, ?)
-        """, insert_tuples)
+        """,
+            insert_tuples,
+        )
 
         conn.commit()
 
         cursor.execute("SELECT COUNT(*) FROM peer_percentiles;")
         inserted_count = cursor.fetchone()[0]
-        logger.info(f"Verification complete. Total rows in peer_percentiles table: {inserted_count}")
+        logger.info(
+            f"Verification complete. Total rows in peer_percentiles table: {inserted_count}"
+        )
         return inserted_count
     except Exception as e:
         conn.rollback()
@@ -340,7 +390,9 @@ def get_peer_percentiles_for_company(
         otherwise a DataFrame containing peer percentiles.
     """
     cid_clean = str(company_id).strip()
-    peer_group = get_company_peer_group(cid_clean, excel_path=excel_path, db_path=db_path)
+    peer_group = get_company_peer_group(
+        cid_clean, excel_path=excel_path, db_path=db_path
+    )
 
     if peer_group == "No peer group assigned":
         return "No peer group assigned"
@@ -373,7 +425,9 @@ def main() -> None:
     """Main execution block."""
     logger.info("Executing Peer Analytics Pipeline...")
     row_count = populate_peer_percentiles_table()
-    logger.info(f"Peer percentiles pipeline finished successfully. Total records populated: {row_count}")
+    logger.info(
+        f"Peer percentiles pipeline finished successfully. Total records populated: {row_count}"
+    )
 
 
 if __name__ == "__main__":

@@ -1,0 +1,528 @@
+Company ID,Company Name,Previous Year,Previous Pattern,Current Year,Current Pattern,Change Description
+ABB,Abbott India Ltd,2016,Reinvestor,2017,Shareholder Returns,Reinvestor → Shareholder Returns
+ABB,Abbott India Ltd,2017,Shareholder Returns,2018,Reinvestor,Shareholder Returns → Reinvestor
+ABB,Abbott India Ltd,2018,Reinvestor,2019,Shareholder Returns,Reinvestor → Shareholder Returns
+ABB,Abbott India Ltd,2022,Shareholder Returns,2023,Reinvestor,Shareholder Returns → Reinvestor
+ABB,Abbott India Ltd,2023,Reinvestor,2024,Shareholder Returns,Reinvestor → Shareholder Returns
+ADANIENSOL,Adani Energy Solutions Ltd,2014,Cash Accumulator,2015,Growth Funded by Debt,Cash Accumulator → Growth Funded by Debt
+ADANIENSOL,Adani Energy Solutions Ltd,2015,Growth Funded by Debt,2016,Shareholder Returns,Growth Funded by Debt → Shareholder Returns
+ADANIENSOL,Adani Energy Solutions Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+ADANIENSOL,Adani Energy Solutions Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+ADANIENSOL,Adani Energy Solutions Ltd,2022,Shareholder Returns,2023,Mixed,Shareholder Returns → Mixed
+ADANIENSOL,Adani Energy Solutions Ltd,2023,Mixed,2024,Shareholder Returns,Mixed → Shareholder Returns
+ADANIENT,Adani Enterprises Ltd,2013,Mixed,2014,Shareholder Returns,Mixed → Shareholder Returns
+ADANIENT,Adani Enterprises Ltd,2014,Shareholder Returns,2015,Mixed,Shareholder Returns → Mixed
+ADANIENT,Adani Enterprises Ltd,2015,Mixed,2016,Shareholder Returns,Mixed → Shareholder Returns
+ADANIENT,Adani Enterprises Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+ADANIENT,Adani Enterprises Ltd,2018,Mixed,2019,Liquidating Assets,Mixed → Liquidating Assets
+ADANIENT,Adani Enterprises Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+ADANIENT,Adani Enterprises Ltd,2020,Shareholder Returns,2021,Mixed,Shareholder Returns → Mixed
+ADANIENT,Adani Enterprises Ltd,2022,Mixed,2023,Shareholder Returns,Mixed → Shareholder Returns
+ADANIENT,Adani Enterprises Ltd,2023,Shareholder Returns,2024,Mixed,Shareholder Returns → Mixed
+ADANIGREEN,Adani Green Energy Ltd,2022,Mixed,2023,Shareholder Returns,Mixed → Shareholder Returns
+ADANIGREEN,Adani Green Energy Ltd,2023,Shareholder Returns,2024,Mixed,Shareholder Returns → Mixed
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,2015,Shareholder Returns,2016,Mixed,Shareholder Returns → Mixed
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,2016,Mixed,2017,Shareholder Returns,Mixed → Shareholder Returns
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,2018,Shareholder Returns,2019,Mixed,Shareholder Returns → Mixed
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,2019,Mixed,2020,Shareholder Returns,Mixed → Shareholder Returns
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,2020,Shareholder Returns,2021,Mixed,Shareholder Returns → Mixed
+ADANIPORTS,Adani Ports & Special Economic Zone Ltd,2021,Mixed,2022,Shareholder Returns,Mixed → Shareholder Returns
+ADANIPOWER,Adani Power Ltd,2014,Mixed,2015,Reinvestor,Mixed → Reinvestor
+ADANIPOWER,Adani Power Ltd,2015,Reinvestor,2016,Shareholder Returns,Reinvestor → Shareholder Returns
+ADANIPOWER,Adani Power Ltd,2016,Shareholder Returns,2017,Reinvestor,Shareholder Returns → Reinvestor
+ADANIPOWER,Adani Power Ltd,2020,Reinvestor,2021,Shareholder Returns,Reinvestor → Shareholder Returns
+ADANIPOWER,Adani Power Ltd,2021,Shareholder Returns,2022,Liquidating Assets,Shareholder Returns → Liquidating Assets
+AMBUJACEM,Ambuja Cements Ltd,2012,Shareholder Returns,2013,Reinvestor,Shareholder Returns → Reinvestor
+AMBUJACEM,Ambuja Cements Ltd,2013,Reinvestor,2014,Shareholder Returns,Reinvestor → Shareholder Returns
+AMBUJACEM,Ambuja Cements Ltd,2017,Shareholder Returns,2018,Reinvestor,Shareholder Returns → Reinvestor
+AMBUJACEM,Ambuja Cements Ltd,2018,Reinvestor,2019,Shareholder Returns,Reinvestor → Shareholder Returns
+AMBUJACEM,Ambuja Cements Ltd,2021,Shareholder Returns,2023,Mixed,Shareholder Returns → Mixed
+APOLLOHOSP,Apollo Hospitals,2013,Mixed,2014,Shareholder Returns,Mixed → Shareholder Returns
+APOLLOHOSP,Apollo Hospitals,2014,Shareholder Returns,2015,Mixed,Shareholder Returns → Mixed
+APOLLOHOSP,Apollo Hospitals,2017,Mixed,2018,Shareholder Returns,Mixed → Shareholder Returns
+ASIANPAINT,Asian Paints,2014,Shareholder Returns,2015,Reinvestor,Shareholder Returns → Reinvestor
+ASIANPAINT,Asian Paints,2015,Reinvestor,2016,Shareholder Returns,Reinvestor → Shareholder Returns
+ASIANPAINT,Asian Paints,2016,Shareholder Returns,2017,Reinvestor,Shareholder Returns → Reinvestor
+ASIANPAINT,Asian Paints,2017,Reinvestor,2018,Shareholder Returns,Reinvestor → Shareholder Returns
+ASIANPAINT,Asian Paints,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+ASIANPAINT,Asian Paints,2023,Reinvestor,2024,Shareholder Returns,Reinvestor → Shareholder Returns
+ATGL,Adani Total Gas Ltd,2018,Mixed,2019,Liquidating Assets,Mixed → Liquidating Assets
+ATGL,Adani Total Gas Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+ATGL,Adani Total Gas Ltd,2020,Shareholder Returns,2021,Mixed,Shareholder Returns → Mixed
+ATGL,Adani Total Gas Ltd,2023,Mixed,2024,Shareholder Returns,Mixed → Shareholder Returns
+AXISBANK,Axis Bank Ltd,2014,Mixed,2015,Growth Funded by Debt,Mixed → Growth Funded by Debt
+AXISBANK,Axis Bank Ltd,2015,Growth Funded by Debt,2016,Distress Signal,Growth Funded by Debt → Distress Signal
+AXISBANK,Axis Bank Ltd,2016,Distress Signal,2017,Shareholder Returns,Distress Signal → Shareholder Returns
+AXISBANK,Axis Bank Ltd,2017,Shareholder Returns,2018,Growth Funded by Debt,Shareholder Returns → Growth Funded by Debt
+AXISBANK,Axis Bank Ltd,2018,Growth Funded by Debt,2019,Mixed,Growth Funded by Debt → Mixed
+AXISBANK,Axis Bank Ltd,2023,Mixed,2024,Growth Funded by Debt,Mixed → Growth Funded by Debt
+BAJAJ-AUTO,Bajaj Auto Ltd,2013,Reinvestor,2014,Shareholder Returns,Reinvestor → Shareholder Returns
+BAJAJ-AUTO,Bajaj Auto Ltd,2014,Shareholder Returns,2015,Reinvestor,Shareholder Returns → Reinvestor
+BAJAJ-AUTO,Bajaj Auto Ltd,2017,Reinvestor,2018,Shareholder Returns,Reinvestor → Shareholder Returns
+BAJAJ-AUTO,Bajaj Auto Ltd,2018,Shareholder Returns,2019,Reinvestor,Shareholder Returns → Reinvestor
+BAJAJ-AUTO,Bajaj Auto Ltd,2019,Reinvestor,2020,Liquidating Assets,Reinvestor → Liquidating Assets
+BAJAJ-AUTO,Bajaj Auto Ltd,2020,Liquidating Assets,2021,Reinvestor,Liquidating Assets → Reinvestor
+BAJAJ-AUTO,Bajaj Auto Ltd,2021,Reinvestor,2022,Liquidating Assets,Reinvestor → Liquidating Assets
+BAJAJ-AUTO,Bajaj Auto Ltd,2023,Liquidating Assets,2024,Reinvestor,Liquidating Assets → Reinvestor
+BAJAJFINSV,Bajaj Finserv Ltd,2015,Distress Signal,2016,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+BAJAJFINSV,Bajaj Finserv Ltd,2016,Growth Funded by Debt,2017,Distress Signal,Growth Funded by Debt → Distress Signal
+BAJAJFINSV,Bajaj Finserv Ltd,2017,Distress Signal,2018,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+BAJAJFINSV,Bajaj Finserv Ltd,2020,Growth Funded by Debt,2021,Mixed,Growth Funded by Debt → Mixed
+BAJAJFINSV,Bajaj Finserv Ltd,2021,Mixed,2022,Distress Signal,Mixed → Distress Signal
+BAJAJFINSV,Bajaj Finserv Ltd,2022,Distress Signal,2023,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,2015,Reinvestor,2016,Liquidating Assets,Reinvestor → Liquidating Assets
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,2016,Liquidating Assets,2017,Pre-Revenue,Liquidating Assets → Pre-Revenue
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,2017,Pre-Revenue,2018,Reinvestor,Pre-Revenue → Reinvestor
+BAJFINANCE,Bajaj Finance Ltd,2017,Growth Funded by Debt,2018,Distress Signal,Growth Funded by Debt → Distress Signal
+BAJFINANCE,Bajaj Finance Ltd,2018,Distress Signal,2019,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+BAJFINANCE,Bajaj Finance Ltd,2021,Growth Funded by Debt,2022,Distress Signal,Growth Funded by Debt → Distress Signal
+BAJFINANCE,Bajaj Finance Ltd,2022,Distress Signal,2023,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+BANKBARODA,Bank of Baroda,2013,Shareholder Returns,2014,Mixed,Shareholder Returns → Mixed
+BANKBARODA,Bank of Baroda,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+BANKBARODA,Bank of Baroda,2015,Shareholder Returns,2016,Pre-Revenue,Shareholder Returns → Pre-Revenue
+BANKBARODA,Bank of Baroda,2016,Pre-Revenue,2017,Shareholder Returns,Pre-Revenue → Shareholder Returns
+BANKBARODA,Bank of Baroda,2017,Shareholder Returns,2018,Growth Funded by Debt,Shareholder Returns → Growth Funded by Debt
+BANKBARODA,Bank of Baroda,2019,Growth Funded by Debt,2020,Mixed,Growth Funded by Debt → Mixed
+BANKBARODA,Bank of Baroda,2020,Mixed,2021,Pre-Revenue,Mixed → Pre-Revenue
+BANKBARODA,Bank of Baroda,2021,Pre-Revenue,2022,Reinvestor,Pre-Revenue → Reinvestor
+BANKBARODA,Bank of Baroda,2022,Reinvestor,2023,Pre-Revenue,Reinvestor → Pre-Revenue
+BANKBARODA,Bank of Baroda,2023,Pre-Revenue,2024,Growth Funded by Debt,Pre-Revenue → Growth Funded by Debt
+BEL,Bharat Electronics Ltd,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+BEL,Bharat Electronics Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+BEL,Bharat Electronics Ltd,2017,Mixed,2018,Pre-Revenue,Mixed → Pre-Revenue
+BEL,Bharat Electronics Ltd,2018,Pre-Revenue,2019,Reinvestor,Pre-Revenue → Reinvestor
+BEL,Bharat Electronics Ltd,2019,Reinvestor,2020,Shareholder Returns,Reinvestor → Shareholder Returns
+BEL,Bharat Electronics Ltd,2022,Shareholder Returns,2023,Liquidating Assets,Shareholder Returns → Liquidating Assets
+BEL,Bharat Electronics Ltd,2023,Liquidating Assets,2024,Shareholder Returns,Liquidating Assets → Shareholder Returns
+BHARTIARTL,Bharti Airtel Ltd,2013,Shareholder Returns,2014,Mixed,Shareholder Returns → Mixed
+BHARTIARTL,Bharti Airtel Ltd,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+BHARTIARTL,Bharti Airtel Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+BHARTIARTL,Bharti Airtel Ltd,2020,Mixed,2021,Reinvestor,Mixed → Reinvestor
+BHARTIARTL,Bharti Airtel Ltd,2021,Reinvestor,2022,Shareholder Returns,Reinvestor → Shareholder Returns
+BHEL,Bharat Heavy Electricals Limited,2014,Mixed,2015,Liquidating Assets,Mixed → Liquidating Assets
+BHEL,Bharat Heavy Electricals Limited,2016,Liquidating Assets,2017,Shareholder Returns,Liquidating Assets → Shareholder Returns
+BHEL,Bharat Heavy Electricals Limited,2017,Shareholder Returns,2018,Liquidating Assets,Shareholder Returns → Liquidating Assets
+BHEL,Bharat Heavy Electricals Limited,2018,Liquidating Assets,2019,Mixed,Liquidating Assets → Mixed
+BHEL,Bharat Heavy Electricals Limited,2019,Mixed,2020,Distress Signal,Mixed → Distress Signal
+BHEL,Bharat Heavy Electricals Limited,2020,Distress Signal,2021,Reinvestor,Distress Signal → Reinvestor
+BHEL,Bharat Heavy Electricals Limited,2021,Reinvestor,2022,Shareholder Returns,Reinvestor → Shareholder Returns
+BHEL,Bharat Heavy Electricals Limited,2022,Shareholder Returns,2023,Distress Signal,Shareholder Returns → Distress Signal
+BOSCHLTD,Bosch Ltd,2012,Reinvestor,2013,Shareholder Returns,Reinvestor → Shareholder Returns
+BOSCHLTD,Bosch Ltd,2015,Shareholder Returns,2016,Reinvestor,Shareholder Returns → Reinvestor
+BOSCHLTD,Bosch Ltd,2016,Reinvestor,2017,Liquidating Assets,Reinvestor → Liquidating Assets
+BOSCHLTD,Bosch Ltd,2017,Liquidating Assets,2018,Shareholder Returns,Liquidating Assets → Shareholder Returns
+BOSCHLTD,Bosch Ltd,2018,Shareholder Returns,2019,Liquidating Assets,Shareholder Returns → Liquidating Assets
+BOSCHLTD,Bosch Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+BOSCHLTD,Bosch Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+BOSCHLTD,Bosch Ltd,2022,Reinvestor,2023,Liquidating Assets,Reinvestor → Liquidating Assets
+BPCL,Bharat Petroleum Corporation Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+BPCL,Bharat Petroleum Corporation Ltd,2017,Mixed,2018,Shareholder Returns,Mixed → Shareholder Returns
+BPCL,Bharat Petroleum Corporation Ltd,2018,Shareholder Returns,2019,Mixed,Shareholder Returns → Mixed
+BPCL,Bharat Petroleum Corporation Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+BRITANNIA,Britannia Industries Ltd,2013,Liquidating Assets,2014,Shareholder Returns,Liquidating Assets → Shareholder Returns
+BRITANNIA,Britannia Industries Ltd,2014,Shareholder Returns,2015,Reinvestor,Shareholder Returns → Reinvestor
+BRITANNIA,Britannia Industries Ltd,2015,Reinvestor,2016,Shareholder Returns,Reinvestor → Shareholder Returns
+BRITANNIA,Britannia Industries Ltd,2016,Shareholder Returns,2017,Reinvestor,Shareholder Returns → Reinvestor
+BRITANNIA,Britannia Industries Ltd,2017,Reinvestor,2018,Shareholder Returns,Reinvestor → Shareholder Returns
+BRITANNIA,Britannia Industries Ltd,2019,Shareholder Returns,2020,Mixed,Shareholder Returns → Mixed
+BRITANNIA,Britannia Industries Ltd,2020,Mixed,2021,Liquidating Assets,Mixed → Liquidating Assets
+BRITANNIA,Britannia Industries Ltd,2022,Liquidating Assets,2023,Shareholder Returns,Liquidating Assets → Shareholder Returns
+BRITANNIA,Britannia Industries Ltd,2023,Shareholder Returns,2024,Liquidating Assets,Shareholder Returns → Liquidating Assets
+CANBK,Canara Bank,2015,Shareholder Returns,2016,Reinvestor,Shareholder Returns → Reinvestor
+CANBK,Canara Bank,2016,Reinvestor,2017,Mixed,Reinvestor → Mixed
+CANBK,Canara Bank,2017,Mixed,2018,Growth Funded by Debt,Mixed → Growth Funded by Debt
+CANBK,Canara Bank,2018,Growth Funded by Debt,2019,Shareholder Returns,Growth Funded by Debt → Shareholder Returns
+CANBK,Canara Bank,2019,Shareholder Returns,2020,Growth Funded by Debt,Shareholder Returns → Growth Funded by Debt
+CANBK,Canara Bank,2020,Growth Funded by Debt,2021,Mixed,Growth Funded by Debt → Mixed
+CANBK,Canara Bank,2022,Mixed,2023,Growth Funded by Debt,Mixed → Growth Funded by Debt
+CANBK,Canara Bank,2023,Growth Funded by Debt,2024,Reinvestor,Growth Funded by Debt → Reinvestor
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2013,Distress Signal,2014,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2021,Growth Funded by Debt,2022,Distress Signal,Growth Funded by Debt → Distress Signal
+CHOLAFIN,Cholamandalam Investment & Finance Company Ltd,2022,Distress Signal,2023,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+CIPLA,Cipla Ltd,2013,Mixed,2014,Shareholder Returns,Mixed → Shareholder Returns
+CIPLA,Cipla Ltd,2014,Shareholder Returns,2015,Mixed,Shareholder Returns → Mixed
+CIPLA,Cipla Ltd,2016,Mixed,2017,Shareholder Returns,Mixed → Shareholder Returns
+CIPLA,Cipla Ltd,2019,Shareholder Returns,2020,Liquidating Assets,Shareholder Returns → Liquidating Assets
+CIPLA,Cipla Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+CIPLA,Cipla Ltd,2023,Shareholder Returns,2024,Reinvestor,Shareholder Returns → Reinvestor
+COALINDIA,Coal India Ltd,2013,Reinvestor,2014,Liquidating Assets,Reinvestor → Liquidating Assets
+COALINDIA,Coal India Ltd,2017,Liquidating Assets,2018,Shareholder Returns,Liquidating Assets → Shareholder Returns
+COALINDIA,Coal India Ltd,2018,Shareholder Returns,2019,Reinvestor,Shareholder Returns → Reinvestor
+COALINDIA,Coal India Ltd,2019,Reinvestor,2020,Liquidating Assets,Reinvestor → Liquidating Assets
+COALINDIA,Coal India Ltd,2021,Liquidating Assets,2022,Shareholder Returns,Liquidating Assets → Shareholder Returns
+COALINDIA,Coal India Ltd,2023,Shareholder Returns,2024,Reinvestor,Shareholder Returns → Reinvestor
+DABUR,Dabur India Ltd,2014,Shareholder Returns,2015,Reinvestor,Shareholder Returns → Reinvestor
+DABUR,Dabur India Ltd,2018,Reinvestor,2019,Liquidating Assets,Reinvestor → Liquidating Assets
+DABUR,Dabur India Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+DABUR,Dabur India Ltd,2022,Shareholder Returns,2023,Reinvestor,Shareholder Returns → Reinvestor
+DABUR,Dabur India Ltd,2023,Reinvestor,2024,Shareholder Returns,Reinvestor → Shareholder Returns
+DIVISLAB,Divis Laboratories Ltd,2016,Reinvestor,2017,Mixed,Reinvestor → Mixed
+DIVISLAB,Divis Laboratories Ltd,2017,Mixed,2018,Reinvestor,Mixed → Reinvestor
+DIVISLAB,Divis Laboratories Ltd,2020,Reinvestor,2021,Liquidating Assets,Reinvestor → Liquidating Assets
+DIVISLAB,Divis Laboratories Ltd,2021,Liquidating Assets,2022,Reinvestor,Liquidating Assets → Reinvestor
+DIVISLAB,Divis Laboratories Ltd,2022,Reinvestor,2023,Shareholder Returns,Reinvestor → Shareholder Returns
+DIVISLAB,Divis Laboratories Ltd,2023,Shareholder Returns,2024,Reinvestor,Shareholder Returns → Reinvestor
+DLF,DLF Ltd,2015,Liquidating Assets,2016,Shareholder Returns,Liquidating Assets → Shareholder Returns
+DLF,DLF Ltd,2016,Shareholder Returns,2017,Distress Signal,Shareholder Returns → Distress Signal
+DLF,DLF Ltd,2017,Distress Signal,2018,Reinvestor,Distress Signal → Reinvestor
+DLF,DLF Ltd,2018,Reinvestor,2019,Cash Accumulator,Reinvestor → Cash Accumulator
+DLF,DLF Ltd,2019,Cash Accumulator,2020,Liquidating Assets,Cash Accumulator → Liquidating Assets
+DLF,DLF Ltd,2022,Liquidating Assets,2023,Shareholder Returns,Liquidating Assets → Shareholder Returns
+DLF,DLF Ltd,2023,Shareholder Returns,2024,Mixed,Shareholder Returns → Mixed
+DMART,Avenue Supermarts Ltd,2017,Mixed,2018,Liquidating Assets,Mixed → Liquidating Assets
+DMART,Avenue Supermarts Ltd,2018,Liquidating Assets,2019,Mixed,Liquidating Assets → Mixed
+DMART,Avenue Supermarts Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+DMART,Avenue Supermarts Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+DMART,Avenue Supermarts Ltd,2022,Reinvestor,2023,Shareholder Returns,Reinvestor → Shareholder Returns
+DRREDDY,Dr Reddys Laboratories Ltd,2013,Reinvestor,2014,Shareholder Returns,Reinvestor → Shareholder Returns
+DRREDDY,Dr Reddys Laboratories Ltd,2023,Shareholder Returns,2024,Reinvestor,Shareholder Returns → Reinvestor
+EICHERMOT,Eicher Motors Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+EICHERMOT,Eicher Motors Ltd,2017,Mixed,2018,Shareholder Returns,Mixed → Shareholder Returns
+EICHERMOT,Eicher Motors Ltd,2018,Shareholder Returns,2019,Reinvestor,Shareholder Returns → Reinvestor
+EICHERMOT,Eicher Motors Ltd,2020,Reinvestor,2021,Shareholder Returns,Reinvestor → Shareholder Returns
+EICHERMOT,Eicher Motors Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+GAIL,GAIL (India) Ltd,2013,Mixed,2014,Reinvestor,Mixed → Reinvestor
+GAIL,GAIL (India) Ltd,2014,Reinvestor,2015,Shareholder Returns,Reinvestor → Shareholder Returns
+GAIL,GAIL (India) Ltd,2019,Shareholder Returns,2020,Mixed,Shareholder Returns → Mixed
+GAIL,GAIL (India) Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+GAIL,GAIL (India) Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+GAIL,GAIL (India) Ltd,2022,Reinvestor,2023,Mixed,Reinvestor → Mixed
+GAIL,GAIL (India) Ltd,2023,Mixed,2024,Shareholder Returns,Mixed → Shareholder Returns
+GODREJCP,Godrej Consumer Products Ltd,2013,Mixed,2014,Shareholder Returns,Mixed → Shareholder Returns
+GODREJCP,Godrej Consumer Products Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+GODREJCP,Godrej Consumer Products Ltd,2017,Mixed,2018,Shareholder Returns,Mixed → Shareholder Returns
+GODREJCP,Godrej Consumer Products Ltd,2018,Shareholder Returns,2019,Liquidating Assets,Shareholder Returns → Liquidating Assets
+GODREJCP,Godrej Consumer Products Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+GODREJCP,Godrej Consumer Products Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+GODREJCP,Godrej Consumer Products Ltd,2022,Reinvestor,2023,Shareholder Returns,Reinvestor → Shareholder Returns
+GODREJCP,Godrej Consumer Products Ltd,2023,Shareholder Returns,2024,Mixed,Shareholder Returns → Mixed
+GRASIM,Grasim Industries Ltd,2013,Mixed,2014,Shareholder Returns,Mixed → Shareholder Returns
+GRASIM,Grasim Industries Ltd,2017,Shareholder Returns,2018,Distress Signal,Shareholder Returns → Distress Signal
+GRASIM,Grasim Industries Ltd,2018,Distress Signal,2019,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+GRASIM,Grasim Industries Ltd,2019,Growth Funded by Debt,2020,Shareholder Returns,Growth Funded by Debt → Shareholder Returns
+GRASIM,Grasim Industries Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+GRASIM,Grasim Industries Ltd,2022,Reinvestor,2023,Growth Funded by Debt,Reinvestor → Growth Funded by Debt
+HAL,Hindustan Aeronautics Ltd,2018,Mixed,2019,Distress Signal,Mixed → Distress Signal
+HAL,Hindustan Aeronautics Ltd,2019,Distress Signal,2020,Mixed,Distress Signal → Mixed
+HAL,Hindustan Aeronautics Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+HAVELLS,Havells India Ltd,2015,Shareholder Returns,2016,Reinvestor,Shareholder Returns → Reinvestor
+HAVELLS,Havells India Ltd,2016,Reinvestor,2017,Shareholder Returns,Reinvestor → Shareholder Returns
+HAVELLS,Havells India Ltd,2018,Shareholder Returns,2019,Liquidating Assets,Shareholder Returns → Liquidating Assets
+HAVELLS,Havells India Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+HAVELLS,Havells India Ltd,2020,Shareholder Returns,2021,Mixed,Shareholder Returns → Mixed
+HAVELLS,Havells India Ltd,2021,Mixed,2022,Shareholder Returns,Mixed → Shareholder Returns
+HAVELLS,Havells India Ltd,2022,Shareholder Returns,2023,Liquidating Assets,Shareholder Returns → Liquidating Assets
+HAVELLS,Havells India Ltd,2023,Liquidating Assets,2024,Shareholder Returns,Liquidating Assets → Shareholder Returns
+HCLTECH,HCL Technologies Ltd,2013,Shareholder Returns,2014,Reinvestor,Shareholder Returns → Reinvestor
+HCLTECH,HCL Technologies Ltd,2016,Reinvestor,2017,Shareholder Returns,Reinvestor → Shareholder Returns
+HCLTECH,HCL Technologies Ltd,2017,Shareholder Returns,2018,Reinvestor,Shareholder Returns → Reinvestor
+HCLTECH,HCL Technologies Ltd,2019,Reinvestor,2020,Shareholder Returns,Reinvestor → Shareholder Returns
+HCLTECH,HCL Technologies Ltd,2021,Shareholder Returns,2022,Liquidating Assets,Shareholder Returns → Liquidating Assets
+HCLTECH,HCL Technologies Ltd,2022,Liquidating Assets,2023,Shareholder Returns,Liquidating Assets → Shareholder Returns
+HDFCBANK,HDFC Bank Ltd,2013,Growth Funded by Debt,2014,Mixed,Growth Funded by Debt → Mixed
+HDFCBANK,HDFC Bank Ltd,2014,Mixed,2015,Growth Funded by Debt,Mixed → Growth Funded by Debt
+HDFCBANK,HDFC Bank Ltd,2016,Growth Funded by Debt,2017,Shareholder Returns,Growth Funded by Debt → Shareholder Returns
+HDFCBANK,HDFC Bank Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+HDFCBANK,HDFC Bank Ltd,2018,Mixed,2019,Growth Funded by Debt,Mixed → Growth Funded by Debt
+HDFCBANK,HDFC Bank Ltd,2020,Growth Funded by Debt,2021,Shareholder Returns,Growth Funded by Debt → Shareholder Returns
+HDFCBANK,HDFC Bank Ltd,2021,Shareholder Returns,2022,Growth Funded by Debt,Shareholder Returns → Growth Funded by Debt
+HDFCBANK,HDFC Bank Ltd,2022,Growth Funded by Debt,2023,Mixed,Growth Funded by Debt → Mixed
+HDFCBANK,HDFC Bank Ltd,2023,Mixed,2024,Liquidating Assets,Mixed → Liquidating Assets
+HDFCLIFE,HDFC Life Insurance Company Ltd,2019,Shareholder Returns,2020,Mixed,Shareholder Returns → Mixed
+HDFCLIFE,HDFC Life Insurance Company Ltd,2021,Mixed,2022,Shareholder Returns,Mixed → Shareholder Returns
+HDFCLIFE,HDFC Life Insurance Company Ltd,2022,Shareholder Returns,2023,Mixed,Shareholder Returns → Mixed
+HDFCLIFE,HDFC Life Insurance Company Ltd,2023,Mixed,2024,Shareholder Returns,Mixed → Shareholder Returns
+HEROMOTOCO,Hero MotoCorp Ltd,2014,Shareholder Returns,2015,Liquidating Assets,Shareholder Returns → Liquidating Assets
+HEROMOTOCO,Hero MotoCorp Ltd,2015,Liquidating Assets,2016,Shareholder Returns,Liquidating Assets → Shareholder Returns
+HEROMOTOCO,Hero MotoCorp Ltd,2018,Shareholder Returns,2019,Liquidating Assets,Shareholder Returns → Liquidating Assets
+HEROMOTOCO,Hero MotoCorp Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+HEROMOTOCO,Hero MotoCorp Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+HEROMOTOCO,Hero MotoCorp Ltd,2023,Reinvestor,2024,Shareholder Returns,Reinvestor → Shareholder Returns
+HINDALCO,Hindalco Industries Ltd,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+HINDALCO,Hindalco Industries Ltd,2015,Shareholder Returns,2016,Reinvestor,Shareholder Returns → Reinvestor
+HINDALCO,Hindalco Industries Ltd,2016,Reinvestor,2017,Shareholder Returns,Reinvestor → Shareholder Returns
+HINDALCO,Hindalco Industries Ltd,2017,Shareholder Returns,2018,Liquidating Assets,Shareholder Returns → Liquidating Assets
+HINDALCO,Hindalco Industries Ltd,2018,Liquidating Assets,2019,Shareholder Returns,Liquidating Assets → Shareholder Returns
+HINDALCO,Hindalco Industries Ltd,2019,Shareholder Returns,2020,Mixed,Shareholder Returns → Mixed
+HINDALCO,Hindalco Industries Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+HINDUNILVR,Hindustan Unilever Ltd,2013,Liquidating Assets,2014,Reinvestor,Liquidating Assets → Reinvestor
+HINDUNILVR,Hindustan Unilever Ltd,2014,Reinvestor,2015,Liquidating Assets,Reinvestor → Liquidating Assets
+HINDUNILVR,Hindustan Unilever Ltd,2015,Liquidating Assets,2016,Shareholder Returns,Liquidating Assets → Shareholder Returns
+HINDUNILVR,Hindustan Unilever Ltd,2018,Shareholder Returns,2019,Reinvestor,Shareholder Returns → Reinvestor
+HINDUNILVR,Hindustan Unilever Ltd,2019,Reinvestor,2020,Liquidating Assets,Reinvestor → Liquidating Assets
+HINDUNILVR,Hindustan Unilever Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+HINDUNILVR,Hindustan Unilever Ltd,2022,Shareholder Returns,2023,Reinvestor,Shareholder Returns → Reinvestor
+HINDUNILVR,Hindustan Unilever Ltd,2023,Reinvestor,2024,Shareholder Returns,Reinvestor → Shareholder Returns
+ICICIBANK,ICICI Bank Ltd,2014,Mixed,2015,Growth Funded by Debt,Mixed → Growth Funded by Debt
+ICICIBANK,ICICI Bank Ltd,2015,Growth Funded by Debt,2016,Mixed,Growth Funded by Debt → Mixed
+ICICIBANK,ICICI Bank Ltd,2016,Mixed,2017,Shareholder Returns,Mixed → Shareholder Returns
+ICICIBANK,ICICI Bank Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+ICICIBANK,ICICI Bank Ltd,2018,Mixed,2019,Shareholder Returns,Mixed → Shareholder Returns
+ICICIBANK,ICICI Bank Ltd,2019,Shareholder Returns,2020,Mixed,Shareholder Returns → Mixed
+ICICIBANK,ICICI Bank Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+ICICIBANK,ICICI Bank Ltd,2021,Shareholder Returns,2022,Mixed,Shareholder Returns → Mixed
+ICICIBANK,ICICI Bank Ltd,2022,Mixed,2023,Growth Funded by Debt,Mixed → Growth Funded by Debt
+ICICIBANK,ICICI Bank Ltd,2023,Growth Funded by Debt,2024,Mixed,Growth Funded by Debt → Mixed
+ICICIGI,ICICI Lombard General Insurance Company Ltd,2015,Mixed,2016,Shareholder Returns,Mixed → Shareholder Returns
+ICICIGI,ICICI Lombard General Insurance Company Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+ICICIGI,ICICI Lombard General Insurance Company Ltd,2017,Mixed,2018,Shareholder Returns,Mixed → Shareholder Returns
+ICICIGI,ICICI Lombard General Insurance Company Ltd,2021,Shareholder Returns,2022,Liquidating Assets,Shareholder Returns → Liquidating Assets
+ICICIGI,ICICI Lombard General Insurance Company Ltd,2022,Liquidating Assets,2023,Shareholder Returns,Liquidating Assets → Shareholder Returns
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2014,Mixed,2015,Reinvestor,Mixed → Reinvestor
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2015,Reinvestor,2016,Liquidating Assets,Reinvestor → Liquidating Assets
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2016,Liquidating Assets,2017,Shareholder Returns,Liquidating Assets → Shareholder Returns
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2020,Shareholder Returns,2021,Mixed,Shareholder Returns → Mixed
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2021,Mixed,2022,Shareholder Returns,Mixed → Shareholder Returns
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2022,Shareholder Returns,2023,Reinvestor,Shareholder Returns → Reinvestor
+ICICIPRULI,ICICI Prudential Life Insurance Company Ltd,2023,Reinvestor,2024,Mixed,Reinvestor → Mixed
+INDIGO,Interglobe Aviation Ltd,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+INDIGO,Interglobe Aviation Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+INDIGO,Interglobe Aviation Ltd,2018,Mixed,2019,Shareholder Returns,Mixed → Shareholder Returns
+INDIGO,Interglobe Aviation Ltd,2019,Shareholder Returns,2020,Reinvestor,Shareholder Returns → Reinvestor
+INDIGO,Interglobe Aviation Ltd,2020,Reinvestor,2021,Mixed,Reinvestor → Mixed
+INDIGO,Interglobe Aviation Ltd,2021,Mixed,2022,Liquidating Assets,Mixed → Liquidating Assets
+INDIGO,Interglobe Aviation Ltd,2022,Liquidating Assets,2023,Reinvestor,Liquidating Assets → Reinvestor
+INDIGO,Interglobe Aviation Ltd,2023,Reinvestor,2024,Shareholder Returns,Reinvestor → Shareholder Returns
+INDUSINDBK,IndusInd Bank Ltd,2016,Growth Funded by Debt,2017,Shareholder Returns,Growth Funded by Debt → Shareholder Returns
+INDUSINDBK,IndusInd Bank Ltd,2017,Shareholder Returns,2018,Growth Funded by Debt,Shareholder Returns → Growth Funded by Debt
+INDUSINDBK,IndusInd Bank Ltd,2019,Growth Funded by Debt,2020,Distress Signal,Growth Funded by Debt → Distress Signal
+INDUSINDBK,IndusInd Bank Ltd,2020,Distress Signal,2021,Shareholder Returns,Distress Signal → Shareholder Returns
+INDUSINDBK,IndusInd Bank Ltd,2022,Shareholder Returns,2023,Growth Funded by Debt,Shareholder Returns → Growth Funded by Debt
+INDUSINDBK,IndusInd Bank Ltd,2023,Growth Funded by Debt,2024,Pre-Revenue,Growth Funded by Debt → Pre-Revenue
+INFY,Infosys Ltd,2014,Reinvestor,2015,Liquidating Assets,Reinvestor → Liquidating Assets
+INFY,Infosys Ltd,2015,Liquidating Assets,2016,Reinvestor,Liquidating Assets → Reinvestor
+INFY,Infosys Ltd,2017,Reinvestor,2018,Liquidating Assets,Reinvestor → Liquidating Assets
+INFY,Infosys Ltd,2018,Liquidating Assets,2019,Reinvestor,Liquidating Assets → Reinvestor
+INFY,Infosys Ltd,2019,Reinvestor,2020,Shareholder Returns,Reinvestor → Shareholder Returns
+INFY,Infosys Ltd,2022,Shareholder Returns,2023,Reinvestor,Shareholder Returns → Reinvestor
+IOC,Indian Oil Corporation,2013,Mixed,2014,Shareholder Returns,Mixed → Shareholder Returns
+IOC,Indian Oil Corporation,2018,Shareholder Returns,2019,Mixed,Shareholder Returns → Mixed
+IOC,Indian Oil Corporation,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,2015,Reinvestor,2016,Liquidating Assets,Reinvestor → Liquidating Assets
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,2018,Liquidating Assets,2019,Shareholder Returns,Liquidating Assets → Shareholder Returns
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,2019,Shareholder Returns,2020,Liquidating Assets,Shareholder Returns → Liquidating Assets
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+IRCTC,Indian Railway Catering & Tourism Corporation Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+IRFC,Indian Railway Finance Corporation Ltd,2021,Distress Signal,2022,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+IRFC,Indian Railway Finance Corporation Ltd,2022,Growth Funded by Debt,2023,Distress Signal,Growth Funded by Debt → Distress Signal
+IRFC,Indian Railway Finance Corporation Ltd,2023,Distress Signal,2024,Shareholder Returns,Distress Signal → Shareholder Returns
+ITC,ITC Ltd,2014,Reinvestor,2015,Shareholder Returns,Reinvestor → Shareholder Returns
+ITC,ITC Ltd,2018,Shareholder Returns,2019,Reinvestor,Shareholder Returns → Reinvestor
+ITC,ITC Ltd,2020,Reinvestor,2021,Liquidating Assets,Reinvestor → Liquidating Assets
+ITC,ITC Ltd,2021,Liquidating Assets,2022,Shareholder Returns,Liquidating Assets → Shareholder Returns
+ITC,ITC Ltd,2022,Shareholder Returns,2023,Reinvestor,Shareholder Returns → Reinvestor
+ITC,ITC Ltd,2023,Reinvestor,2024,Liquidating Assets,Reinvestor → Liquidating Assets
+JINDALSTEL,Jindal Steel & Power Ltd,2015,Mixed,2016,Reinvestor,Mixed → Reinvestor
+JINDALSTEL,Jindal Steel & Power Ltd,2020,Reinvestor,2021,Shareholder Returns,Reinvestor → Shareholder Returns
+JINDALSTEL,Jindal Steel & Power Ltd,2023,Shareholder Returns,2024,Mixed,Shareholder Returns → Mixed
+JIOFIN,Jio Financial Services Ltd,2023,Shareholder Returns,2024,Mixed,Shareholder Returns → Mixed
+JSWENERGY,JSW Energy Ltd,2019,Shareholder Returns,2020,Liquidating Assets,Shareholder Returns → Liquidating Assets
+JSWENERGY,JSW Energy Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+JSWENERGY,JSW Energy Ltd,2022,Shareholder Returns,2023,Mixed,Shareholder Returns → Mixed
+JSWSTEEL,JSW Steel Ltd,2013,Shareholder Returns,2014,Mixed,Shareholder Returns → Mixed
+JSWSTEEL,JSW Steel Ltd,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+JSWSTEEL,JSW Steel Ltd,2015,Shareholder Returns,2016,Reinvestor,Shareholder Returns → Reinvestor
+JSWSTEEL,JSW Steel Ltd,2016,Reinvestor,2017,Shareholder Returns,Reinvestor → Shareholder Returns
+JSWSTEEL,JSW Steel Ltd,2018,Shareholder Returns,2019,Mixed,Shareholder Returns → Mixed
+JSWSTEEL,JSW Steel Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+KOTAKBANK,Kotak Mahindra Bank Ltd,2013,Mixed,2014,Shareholder Returns,Mixed → Shareholder Returns
+KOTAKBANK,Kotak Mahindra Bank Ltd,2014,Shareholder Returns,2015,Mixed,Shareholder Returns → Mixed
+KOTAKBANK,Kotak Mahindra Bank Ltd,2017,Mixed,2018,Growth Funded by Debt,Mixed → Growth Funded by Debt
+KOTAKBANK,Kotak Mahindra Bank Ltd,2018,Growth Funded by Debt,2019,Mixed,Growth Funded by Debt → Mixed
+KOTAKBANK,Kotak Mahindra Bank Ltd,2019,Mixed,2020,Shareholder Returns,Mixed → Shareholder Returns
+KOTAKBANK,Kotak Mahindra Bank Ltd,2020,Shareholder Returns,2021,Reinvestor,Shareholder Returns → Reinvestor
+KOTAKBANK,Kotak Mahindra Bank Ltd,2021,Reinvestor,2022,Mixed,Reinvestor → Mixed
+KOTAKBANK,Kotak Mahindra Bank Ltd,2022,Mixed,2023,Growth Funded by Debt,Mixed → Growth Funded by Debt
+KOTAKBANK,Kotak Mahindra Bank Ltd,2023,Growth Funded by Debt,2024,Mixed,Growth Funded by Debt → Mixed
+LICI,Life Insurance Corporation of India,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+LICI,Life Insurance Corporation of India,2020,Shareholder Returns,2021,Liquidating Assets,Shareholder Returns → Liquidating Assets
+LICI,Life Insurance Corporation of India,2021,Liquidating Assets,2022,Distress Signal,Liquidating Assets → Distress Signal
+LICI,Life Insurance Corporation of India,2022,Distress Signal,2023,Shareholder Returns,Distress Signal → Shareholder Returns
+LICI,Life Insurance Corporation of India,2023,Shareholder Returns,2024,Reinvestor,Shareholder Returns → Reinvestor
+LODHA,Macrotech Developers Ltd,2016,Mixed,2017,Shareholder Returns,Mixed → Shareholder Returns
+LODHA,Macrotech Developers Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+LODHA,Macrotech Developers Ltd,2018,Mixed,2019,Growth Funded by Debt,Mixed → Growth Funded by Debt
+LODHA,Macrotech Developers Ltd,2019,Growth Funded by Debt,2020,Liquidating Assets,Growth Funded by Debt → Liquidating Assets
+LODHA,Macrotech Developers Ltd,2023,Liquidating Assets,2024,Mixed,Liquidating Assets → Mixed
+LT,Larsen & Toubro Ltd,2016,Growth Funded by Debt,2017,Mixed,Growth Funded by Debt → Mixed
+LT,Larsen & Toubro Ltd,2017,Mixed,2018,Distress Signal,Mixed → Distress Signal
+LT,Larsen & Toubro Ltd,2018,Distress Signal,2019,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+LT,Larsen & Toubro Ltd,2019,Growth Funded by Debt,2020,Mixed,Growth Funded by Debt → Mixed
+LT,Larsen & Toubro Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+LT,Larsen & Toubro Ltd,2023,Shareholder Returns,2024,Liquidating Assets,Shareholder Returns → Liquidating Assets
+LTIM,LTIMindtree Ltd,2013,Shareholder Returns,2014,Liquidating Assets,Shareholder Returns → Liquidating Assets
+LTIM,LTIMindtree Ltd,2014,Liquidating Assets,2015,Reinvestor,Liquidating Assets → Reinvestor
+LTIM,LTIMindtree Ltd,2015,Reinvestor,2016,Shareholder Returns,Reinvestor → Shareholder Returns
+LTIM,LTIMindtree Ltd,2017,Shareholder Returns,2018,Reinvestor,Shareholder Returns → Reinvestor
+LTIM,LTIMindtree Ltd,2019,Reinvestor,2020,Shareholder Returns,Reinvestor → Shareholder Returns
+LTIM,LTIMindtree Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+LTIM,LTIMindtree Ltd,2023,Reinvestor,2024,Shareholder Returns,Reinvestor → Shareholder Returns
+M&M,Mahindra & Mahindra Ltd,2014,Growth Funded by Debt,2015,Mixed,Growth Funded by Debt → Mixed
+M&M,Mahindra & Mahindra Ltd,2018,Mixed,2019,Growth Funded by Debt,Mixed → Growth Funded by Debt
+M&M,Mahindra & Mahindra Ltd,2020,Growth Funded by Debt,2021,Mixed,Growth Funded by Debt → Mixed
+M&M,Mahindra & Mahindra Ltd,2021,Mixed,2022,Shareholder Returns,Mixed → Shareholder Returns
+M&M,Mahindra & Mahindra Ltd,2022,Shareholder Returns,2023,Growth Funded by Debt,Shareholder Returns → Growth Funded by Debt
+MARUTI,Maruti Suzuki India Ltd,2018,Shareholder Returns,2019,Reinvestor,Shareholder Returns → Reinvestor
+MARUTI,Maruti Suzuki India Ltd,2020,Reinvestor,2021,Shareholder Returns,Reinvestor → Shareholder Returns
+MARUTI,Maruti Suzuki India Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+MARUTI,Maruti Suzuki India Ltd,2022,Reinvestor,2023,Shareholder Returns,Reinvestor → Shareholder Returns
+MOTHERSON,Samvardhana Motherson International Ltd,2014,Shareholder Returns,2015,Mixed,Shareholder Returns → Mixed
+MOTHERSON,Samvardhana Motherson International Ltd,2015,Mixed,2016,Shareholder Returns,Mixed → Shareholder Returns
+MOTHERSON,Samvardhana Motherson International Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+MOTHERSON,Samvardhana Motherson International Ltd,2017,Mixed,2018,Shareholder Returns,Mixed → Shareholder Returns
+MOTHERSON,Samvardhana Motherson International Ltd,2023,Shareholder Returns,2024,Mixed,Shareholder Returns → Mixed
+NAUKRI,Info Edge (India) Ltd,2013,Reinvestor,2014,Mixed,Reinvestor → Mixed
+NAUKRI,Info Edge (India) Ltd,2015,Mixed,2016,Reinvestor,Mixed → Reinvestor
+NAUKRI,Info Edge (India) Ltd,2019,Reinvestor,2020,Liquidating Assets,Reinvestor → Liquidating Assets
+NAUKRI,Info Edge (India) Ltd,2020,Liquidating Assets,2021,Mixed,Liquidating Assets → Mixed
+NESTLEIND,Nestle India Ltd,2018,Shareholder Returns,2019,Liquidating Assets,Shareholder Returns → Liquidating Assets
+NESTLEIND,Nestle India Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+NHPC,NHPC Ltd,2013,Reinvestor,2014,Shareholder Returns,Reinvestor → Shareholder Returns
+NHPC,NHPC Ltd,2019,Shareholder Returns,2020,Mixed,Shareholder Returns → Mixed
+NHPC,NHPC Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+NTPC,NTPC Ltd,2013,Mixed,2014,Shareholder Returns,Mixed → Shareholder Returns
+NTPC,NTPC Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+NTPC,NTPC Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+ONGC,Oil & Natural Gas Corpn Ltd,2013,Shareholder Returns,2014,Mixed,Shareholder Returns → Mixed
+ONGC,Oil & Natural Gas Corpn Ltd,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+ONGC,Oil & Natural Gas Corpn Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+ONGC,Oil & Natural Gas Corpn Ltd,2018,Mixed,2019,Shareholder Returns,Mixed → Shareholder Returns
+PFC,Power Finance Corporation Ltd,2014,Distress Signal,2015,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+PFC,Power Finance Corporation Ltd,2016,Growth Funded by Debt,2017,Mixed,Growth Funded by Debt → Mixed
+PFC,Power Finance Corporation Ltd,2017,Mixed,2018,Distress Signal,Mixed → Distress Signal
+PFC,Power Finance Corporation Ltd,2018,Distress Signal,2019,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+PFC,Power Finance Corporation Ltd,2020,Growth Funded by Debt,2021,Distress Signal,Growth Funded by Debt → Distress Signal
+PFC,Power Finance Corporation Ltd,2021,Distress Signal,2022,Reinvestor,Distress Signal → Reinvestor
+PFC,Power Finance Corporation Ltd,2022,Reinvestor,2023,Growth Funded by Debt,Reinvestor → Growth Funded by Debt
+PIDILITIND,Pidilite Industries Ltd,2013,Shareholder Returns,2014,Reinvestor,Shareholder Returns → Reinvestor
+PIDILITIND,Pidilite Industries Ltd,2014,Reinvestor,2015,Shareholder Returns,Reinvestor → Shareholder Returns
+PIDILITIND,Pidilite Industries Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+PIDILITIND,Pidilite Industries Ltd,2017,Mixed,2018,Liquidating Assets,Mixed → Liquidating Assets
+PIDILITIND,Pidilite Industries Ltd,2018,Liquidating Assets,2019,Reinvestor,Liquidating Assets → Reinvestor
+PIDILITIND,Pidilite Industries Ltd,2019,Reinvestor,2020,Liquidating Assets,Reinvestor → Liquidating Assets
+PIDILITIND,Pidilite Industries Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+PIDILITIND,Pidilite Industries Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+PIDILITIND,Pidilite Industries Ltd,2022,Reinvestor,2023,Shareholder Returns,Reinvestor → Shareholder Returns
+PNB,Punjab National Bank,2013,Pre-Revenue,2014,Mixed,Pre-Revenue → Mixed
+PNB,Punjab National Bank,2016,Mixed,2017,Liquidating Assets,Mixed → Liquidating Assets
+PNB,Punjab National Bank,2017,Liquidating Assets,2018,Distress Signal,Liquidating Assets → Distress Signal
+PNB,Punjab National Bank,2018,Distress Signal,2019,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+PNB,Punjab National Bank,2020,Growth Funded by Debt,2021,Mixed,Growth Funded by Debt → Mixed
+PNB,Punjab National Bank,2023,Mixed,2024,Growth Funded by Debt,Mixed → Growth Funded by Debt
+POWERGRID,Power Grid Corporation of India Ltd,2018,Mixed,2019,Shareholder Returns,Mixed → Shareholder Returns
+POWERGRID,Power Grid Corporation of India Ltd,2021,Shareholder Returns,2022,Liquidating Assets,Shareholder Returns → Liquidating Assets
+POWERGRID,Power Grid Corporation of India Ltd,2022,Liquidating Assets,2023,Shareholder Returns,Liquidating Assets → Shareholder Returns
+RECLTD,REC Ltd,2015,Distress Signal,2016,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+RECLTD,REC Ltd,2016,Growth Funded by Debt,2017,Shareholder Returns,Growth Funded by Debt → Shareholder Returns
+RECLTD,REC Ltd,2017,Shareholder Returns,2018,Distress Signal,Shareholder Returns → Distress Signal
+RECLTD,REC Ltd,2021,Distress Signal,2022,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+RELIANCE,Reliance Industries Ltd,2015,Mixed,2016,Shareholder Returns,Mixed → Shareholder Returns
+RELIANCE,Reliance Industries Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+RELIANCE,Reliance Industries Ltd,2017,Mixed,2018,Shareholder Returns,Mixed → Shareholder Returns
+RELIANCE,Reliance Industries Ltd,2018,Shareholder Returns,2019,Mixed,Shareholder Returns → Mixed
+RELIANCE,Reliance Industries Ltd,2019,Mixed,2020,Shareholder Returns,Mixed → Shareholder Returns
+RELIANCE,Reliance Industries Ltd,2020,Shareholder Returns,2021,Mixed,Shareholder Returns → Mixed
+RELIANCE,Reliance Industries Ltd,2023,Mixed,2024,Shareholder Returns,Mixed → Shareholder Returns
+SBILIFE,SBI Life Insurance Company Ltd,2013,Shareholder Returns,2014,Reinvestor,Shareholder Returns → Reinvestor
+SBILIFE,SBI Life Insurance Company Ltd,2014,Reinvestor,2015,Shareholder Returns,Reinvestor → Shareholder Returns
+SBILIFE,SBI Life Insurance Company Ltd,2020,Shareholder Returns,2021,Mixed,Shareholder Returns → Mixed
+SBILIFE,SBI Life Insurance Company Ltd,2021,Mixed,2022,Shareholder Returns,Mixed → Shareholder Returns
+SBIN,State Bank of India,2013,Shareholder Returns,2014,Mixed,Shareholder Returns → Mixed
+SBIN,State Bank of India,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+SBIN,State Bank of India,2015,Shareholder Returns,2016,Mixed,Shareholder Returns → Mixed
+SBIN,State Bank of India,2016,Mixed,2017,Reinvestor,Mixed → Reinvestor
+SBIN,State Bank of India,2017,Reinvestor,2018,Distress Signal,Reinvestor → Distress Signal
+SBIN,State Bank of India,2018,Distress Signal,2019,Cash Accumulator,Distress Signal → Cash Accumulator
+SBIN,State Bank of India,2019,Cash Accumulator,2020,Mixed,Cash Accumulator → Mixed
+SBIN,State Bank of India,2021,Mixed,2022,Shareholder Returns,Mixed → Shareholder Returns
+SBIN,State Bank of India,2022,Shareholder Returns,2023,Growth Funded by Debt,Shareholder Returns → Growth Funded by Debt
+SBIN,State Bank of India,2023,Growth Funded by Debt,2024,Reinvestor,Growth Funded by Debt → Reinvestor
+SHREECEM,Shree Cement Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+SHREECEM,Shree Cement Ltd,2018,Mixed,2019,Shareholder Returns,Mixed → Shareholder Returns
+SHREECEM,Shree Cement Ltd,2019,Shareholder Returns,2020,Mixed,Shareholder Returns → Mixed
+SHREECEM,Shree Cement Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+SHRIRAMFIN,Shriram Finance Ltd,2017,Growth Funded by Debt,2018,Distress Signal,Growth Funded by Debt → Distress Signal
+SHRIRAMFIN,Shriram Finance Ltd,2018,Distress Signal,2019,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+SHRIRAMFIN,Shriram Finance Ltd,2022,Growth Funded by Debt,2023,Distress Signal,Growth Funded by Debt → Distress Signal
+SHRIRAMFIN,Shriram Finance Ltd,2023,Distress Signal,2024,Growth Funded by Debt,Distress Signal → Growth Funded by Debt
+SIEMENS,Siemens Ltd,2017,Liquidating Assets,2018,Reinvestor,Liquidating Assets → Reinvestor
+SIEMENS,Siemens Ltd,2018,Reinvestor,2019,Shareholder Returns,Reinvestor → Shareholder Returns
+SIEMENS,Siemens Ltd,2019,Shareholder Returns,2020,Liquidating Assets,Shareholder Returns → Liquidating Assets
+SIEMENS,Siemens Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+SIEMENS,Siemens Ltd,2021,Shareholder Returns,2022,Reinvestor,Shareholder Returns → Reinvestor
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2013,Reinvestor,2014,Mixed,Reinvestor → Mixed
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2014,Mixed,2015,Shareholder Returns,Mixed → Shareholder Returns
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2016,Shareholder Returns,2017,Reinvestor,Shareholder Returns → Reinvestor
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2017,Reinvestor,2018,Shareholder Returns,Reinvestor → Shareholder Returns
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2018,Shareholder Returns,2019,Reinvestor,Shareholder Returns → Reinvestor
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2019,Reinvestor,2020,Shareholder Returns,Reinvestor → Shareholder Returns
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2020,Shareholder Returns,2021,Liquidating Assets,Shareholder Returns → Liquidating Assets
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2021,Liquidating Assets,2022,Shareholder Returns,Liquidating Assets → Shareholder Returns
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2022,Shareholder Returns,2023,Mixed,Shareholder Returns → Mixed
+SUNPHARMA,Sun Pharmaceuticals Industries Ltd,2023,Mixed,2024,Shareholder Returns,Mixed → Shareholder Returns
+TATACONSUM,Tata Consumer Products Ltd,2013,Cash Accumulator,2014,Reinvestor,Cash Accumulator → Reinvestor
+TATACONSUM,Tata Consumer Products Ltd,2014,Reinvestor,2015,Shareholder Returns,Reinvestor → Shareholder Returns
+TATACONSUM,Tata Consumer Products Ltd,2015,Shareholder Returns,2016,Liquidating Assets,Shareholder Returns → Liquidating Assets
+TATACONSUM,Tata Consumer Products Ltd,2017,Liquidating Assets,2018,Reinvestor,Liquidating Assets → Reinvestor
+TATACONSUM,Tata Consumer Products Ltd,2018,Reinvestor,2019,Liquidating Assets,Reinvestor → Liquidating Assets
+TATACONSUM,Tata Consumer Products Ltd,2019,Liquidating Assets,2020,Shareholder Returns,Liquidating Assets → Shareholder Returns
+TATACONSUM,Tata Consumer Products Ltd,2023,Shareholder Returns,2024,Mixed,Shareholder Returns → Mixed
+TATAMOTORS,Tata Motors Ltd,2014,Shareholder Returns,2015,Mixed,Shareholder Returns → Mixed
+TATAMOTORS,Tata Motors Ltd,2015,Mixed,2016,Shareholder Returns,Mixed → Shareholder Returns
+TATAMOTORS,Tata Motors Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+TATAMOTORS,Tata Motors Ltd,2021,Mixed,2022,Reinvestor,Mixed → Reinvestor
+TATAMOTORS,Tata Motors Ltd,2022,Reinvestor,2023,Shareholder Returns,Reinvestor → Shareholder Returns
+TATAPOWER,Tata Power Company Ltd,2016,Shareholder Returns,2017,Mixed,Shareholder Returns → Mixed
+TATAPOWER,Tata Power Company Ltd,2017,Mixed,2018,Shareholder Returns,Mixed → Shareholder Returns
+TATAPOWER,Tata Power Company Ltd,2020,Shareholder Returns,2021,Liquidating Assets,Shareholder Returns → Liquidating Assets
+TATAPOWER,Tata Power Company Ltd,2021,Liquidating Assets,2022,Shareholder Returns,Liquidating Assets → Shareholder Returns
+TATAPOWER,Tata Power Company Ltd,2022,Shareholder Returns,2023,Mixed,Shareholder Returns → Mixed
+TATAPOWER,Tata Power Company Ltd,2023,Mixed,2024,Shareholder Returns,Mixed → Shareholder Returns
+TATASTEEL,Tata Steel Ltd,2013,Reinvestor,2014,Mixed,Reinvestor → Mixed
+TATASTEEL,Tata Steel Ltd,2014,Mixed,2015,Reinvestor,Mixed → Reinvestor
+TATASTEEL,Tata Steel Ltd,2017,Reinvestor,2018,Mixed,Reinvestor → Mixed
+TATASTEEL,Tata Steel Ltd,2018,Mixed,2019,Shareholder Returns,Mixed → Shareholder Returns
+TATASTEEL,Tata Steel Ltd,2023,Shareholder Returns,2024,Reinvestor,Shareholder Returns → Reinvestor
+TCS,Tata Consultancy Services Ltd,2017,Reinvestor,2018,Liquidating Assets,Reinvestor → Liquidating Assets
+TCS,Tata Consultancy Services Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+TCS,Tata Consultancy Services Ltd,2022,Shareholder Returns,2023,Liquidating Assets,Shareholder Returns → Liquidating Assets
+TECHM,Tech Mahindra Ltd,2013,Mixed,2014,Liquidating Assets,Mixed → Liquidating Assets
+TECHM,Tech Mahindra Ltd,2014,Liquidating Assets,2015,Reinvestor,Liquidating Assets → Reinvestor
+TECHM,Tech Mahindra Ltd,2015,Reinvestor,2016,Shareholder Returns,Reinvestor → Shareholder Returns
+TECHM,Tech Mahindra Ltd,2017,Shareholder Returns,2018,Reinvestor,Shareholder Returns → Reinvestor
+TECHM,Tech Mahindra Ltd,2018,Reinvestor,2019,Shareholder Returns,Reinvestor → Shareholder Returns
+TECHM,Tech Mahindra Ltd,2019,Shareholder Returns,2020,Liquidating Assets,Shareholder Returns → Liquidating Assets
+TECHM,Tech Mahindra Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+TECHM,Tech Mahindra Ltd,2021,Shareholder Returns,2022,Liquidating Assets,Shareholder Returns → Liquidating Assets
+TECHM,Tech Mahindra Ltd,2022,Liquidating Assets,2023,Shareholder Returns,Liquidating Assets → Shareholder Returns
+TITAN,Titan Company Ltd,2013,Reinvestor,2014,Growth Funded by Debt,Reinvestor → Growth Funded by Debt
+TITAN,Titan Company Ltd,2014,Growth Funded by Debt,2015,Reinvestor,Growth Funded by Debt → Reinvestor
+TITAN,Titan Company Ltd,2016,Reinvestor,2017,Shareholder Returns,Reinvestor → Shareholder Returns
+TITAN,Titan Company Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+TITAN,Titan Company Ltd,2018,Mixed,2019,Reinvestor,Mixed → Reinvestor
+TITAN,Titan Company Ltd,2019,Reinvestor,2020,Mixed,Reinvestor → Mixed
+TITAN,Titan Company Ltd,2020,Mixed,2021,Shareholder Returns,Mixed → Shareholder Returns
+TITAN,Titan Company Ltd,2021,Shareholder Returns,2022,Mixed,Shareholder Returns → Mixed
+TITAN,Titan Company Ltd,2023,Mixed,2024,Reinvestor,Mixed → Reinvestor
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2015,Mixed,2016,Shareholder Returns,Mixed → Shareholder Returns
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2018,Mixed,2019,Shareholder Returns,Mixed → Shareholder Returns
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2019,Shareholder Returns,2020,Liquidating Assets,Shareholder Returns → Liquidating Assets
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2020,Liquidating Assets,2021,Shareholder Returns,Liquidating Assets → Shareholder Returns
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2022,Shareholder Returns,2023,Mixed,Shareholder Returns → Mixed
+TORNTPHARM,Torrent Pharmaceuticals Ltd,2023,Mixed,2024,Shareholder Returns,Mixed → Shareholder Returns
+TRENT,Trent Ltd,2013,Mixed,2014,Pre-Revenue,Mixed → Pre-Revenue
+TRENT,Trent Ltd,2014,Pre-Revenue,2015,Growth Funded by Debt,Pre-Revenue → Growth Funded by Debt
+TRENT,Trent Ltd,2015,Growth Funded by Debt,2016,Shareholder Returns,Growth Funded by Debt → Shareholder Returns
+TRENT,Trent Ltd,2017,Shareholder Returns,2018,Reinvestor,Shareholder Returns → Reinvestor
+TRENT,Trent Ltd,2018,Reinvestor,2019,Mixed,Reinvestor → Mixed
+TRENT,Trent Ltd,2020,Mixed,2021,Liquidating Assets,Mixed → Liquidating Assets
+TRENT,Trent Ltd,2022,Liquidating Assets,2023,Shareholder Returns,Liquidating Assets → Shareholder Returns
+TRENT,Trent Ltd,2023,Shareholder Returns,2024,Reinvestor,Shareholder Returns → Reinvestor
+TVSMOTOR,TVS Motor Company Ltd,2014,Shareholder Returns,2015,Mixed,Shareholder Returns → Mixed
+TVSMOTOR,TVS Motor Company Ltd,2015,Mixed,2016,Shareholder Returns,Mixed → Shareholder Returns
+TVSMOTOR,TVS Motor Company Ltd,2017,Shareholder Returns,2018,Mixed,Shareholder Returns → Mixed
+TVSMOTOR,TVS Motor Company Ltd,2018,Mixed,2019,Growth Funded by Debt,Mixed → Growth Funded by Debt
+TVSMOTOR,TVS Motor Company Ltd,2019,Growth Funded by Debt,2020,Mixed,Growth Funded by Debt → Mixed
+TVSMOTOR,TVS Motor Company Ltd,2021,Mixed,2022,Growth Funded by Debt,Mixed → Growth Funded by Debt

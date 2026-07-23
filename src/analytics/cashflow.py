@@ -88,7 +88,9 @@ def calculate_cfo_quality_score(
     """
     valid_ratios = [r for r in cfo_pat_ratios if r is not None and not math.isnan(r)]
     if len(valid_ratios) < 5:
-        cf_logger.info(f"Insufficient ratios for CFO Quality Score: only {len(valid_ratios)} valid ratios provided.")
+        cf_logger.info(
+            f"Insufficient ratios for CFO Quality Score: only {len(valid_ratios)} valid ratios provided."
+        )
         return None, None
 
     avg_score = sum(valid_ratios) / 5.0
@@ -262,7 +264,7 @@ def classify_capital_allocation(
                         is_high_cfo_pat = True
             except (ValueError, TypeError):
                 pass
-        
+
         if is_high_cfo_pat:
             label = "Shareholder Returns"
         else:

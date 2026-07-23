@@ -48,8 +48,12 @@ logger = logging.getLogger("valuation_analytics")
 logger.setLevel(logging.INFO)
 
 if not logger.handlers:
-    file_handler = logging.FileHandler(LOG_DIR / "valuation_analytics.log", mode="a", encoding="utf-8")
-    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    file_handler = logging.FileHandler(
+        LOG_DIR / "valuation_analytics.log", mode="a", encoding="utf-8"
+    )
+    formatter = logging.Formatter(
+        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    )
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     console_handler = logging.StreamHandler()
@@ -57,16 +61,24 @@ if not logger.handlers:
     logger.addHandler(console_handler)
 
 # Openpyxl Styles
-HEADER_FILL = PatternFill(start_color="1F4E78", end_color="1F4E78", fill_type="solid")  # Dark Blue
+HEADER_FILL = PatternFill(
+    start_color="1F4E78", end_color="1F4E78", fill_type="solid"
+)  # Dark Blue
 HEADER_FONT = Font(name="Calibri", size=11, bold=True, color="FFFFFF")
 
-CAUTION_FILL = PatternFill(start_color="FFC7CE", end_color="FFC7CE", fill_type="solid")  # Soft Red
+CAUTION_FILL = PatternFill(
+    start_color="FFC7CE", end_color="FFC7CE", fill_type="solid"
+)  # Soft Red
 CAUTION_FONT = Font(name="Calibri", size=11, color="9C0006", bold=True)
 
-DISCOUNT_FILL = PatternFill(start_color="C6EFCE", end_color="C6EFCE", fill_type="solid")  # Soft Green
+DISCOUNT_FILL = PatternFill(
+    start_color="C6EFCE", end_color="C6EFCE", fill_type="solid"
+)  # Soft Green
 DISCOUNT_FONT = Font(name="Calibri", size=11, color="006100", bold=True)
 
-FAIR_FILL = PatternFill(start_color="FFEB9C", end_color="FFEB9C", fill_type="solid")  # Soft Yellow
+FAIR_FILL = PatternFill(
+    start_color="FFEB9C", end_color="FFEB9C", fill_type="solid"
+)  # Soft Yellow
 FAIR_FONT = Font(name="Calibri", size=11, color="9C6500", bold=True)
 
 REGULAR_FONT = Font(name="Calibri", size=11)
@@ -102,7 +114,9 @@ def calculate_fcf_yield(
         fcf_val = float(free_cash_flow)
         mcap_val = float(market_cap_crore)
     except (ValueError, TypeError) as e:
-        logger.warning(f"FCF Yield calculation failed due to invalid type: fcf={free_cash_flow}, mcap={market_cap_crore}. Error: {e}")
+        logger.warning(
+            f"FCF Yield calculation failed due to invalid type: fcf={free_cash_flow}, mcap={market_cap_crore}. Error: {e}"
+        )
         return None
 
     if math.isnan(fcf_val) or math.isnan(mcap_val) or mcap_val <= 0:
@@ -126,7 +140,9 @@ def calculate_sector_median_pe(
         Dictionary mapping sector name to its median P/E ratio as a float.
     """
     if df.empty or sector_col not in df.columns or pe_col not in df.columns:
-        logger.warning(f"Unable to calculate sector median P/E: required columns '{sector_col}' or '{pe_col}' missing.")
+        logger.warning(
+            f"Unable to calculate sector median P/E: required columns '{sector_col}' or '{pe_col}' missing."
+        )
         return {}
 
     valid_df = df.copy()
@@ -226,10 +242,16 @@ def calculate_5yr_median_pe(
     Returns:
         Median P/E ratio over the 5-year window, or None if insufficient data.
     """
-    if df_market_cap.empty or "company_id" not in df_market_cap.columns or "pe_ratio" not in df_market_cap.columns:
+    if (
+        df_market_cap.empty
+        or "company_id" not in df_market_cap.columns
+        or "pe_ratio" not in df_market_cap.columns
+    ):
         return None
 
-    comp_df = df_market_cap[df_market_cap["company_id"].astype(str).str.strip() == str(company_id).strip()].copy()
+    comp_df = df_market_cap[
+        df_market_cap["company_id"].astype(str).str.strip() == str(company_id).strip()
+    ].copy()
     if comp_df.empty:
         return None
 
@@ -244,7 +266,9 @@ def calculate_5yr_median_pe(
         latest_year = int(comp_df["year_num"].max())
 
     min_year = latest_year - (years_back - 1)
-    window_df = comp_df[(comp_df["year_num"] >= min_year) & (comp_df["year_num"] <= latest_year)]
+    window_df = comp_df[
+        (comp_df["year_num"] >= min_year) & (comp_df["year_num"] <= latest_year)
+    ]
 
     if window_df.empty:
         return None
@@ -302,11 +326,16 @@ def load_valuation_datasets(
 
     # 3. Fallback to processed CSV files for missing tables
     def read_csv_safe(file_path: Path) -> pd.DataFrame:
+        """Safely load a processed CSV file skipping metadata headers if present."""
         if not file_path.exists():
             return pd.DataFrame()
         with open(file_path, "r", encoding="utf-8") as f:
             first_line = f.readline()
-        if first_line.startswith("id,") or first_line.startswith("company_id,") or "id," in first_line:
+        if (
+            first_line.startswith("id,")
+            or first_line.startswith("company_id,")
+            or "id," in first_line
+        ):
             df = pd.read_csv(file_path)
         else:
             df = pd.read_csv(file_path, header=1)
@@ -325,7 +354,11 @@ def load_valuation_datasets(
         df_rat = read_csv_safe(path_proc / "financial_ratios.csv")
 
     # Standardize company key names across DataFrames
-    if not df_comp.empty and "id" in df_comp.columns and "company_id" not in df_comp.columns:
+    if (
+        not df_comp.empty
+        and "id" in df_comp.columns
+        and "company_id" not in df_comp.columns
+    ):
         df_comp.rename(columns={"id": "company_id"}, inplace=True)
 
     for df_item in [df_mc, df_comp, df_sec, df_cf, df_rat]:
@@ -361,34 +394,70 @@ def run_valuation_analysis(
         Tuple of (df_summary, df_flags)
     """
     logger.info("Executing Valuation Analytics Pipeline...")
-    df_mc, df_comp, df_sec, df_cf, df_rat = load_valuation_datasets(db_path, raw_dir, processed_dir)
+    df_mc, df_comp, df_sec, df_cf, df_rat = load_valuation_datasets(
+        db_path, raw_dir, processed_dir
+    )
 
     if df_mc.empty or df_sec.empty:
-        raise ValueError("Critical valuation datasets (market_cap or sectors) could not be loaded.")
+        raise ValueError(
+            "Critical valuation datasets (market_cap or sectors) could not be loaded."
+        )
 
     # 1. Determine latest available year in market_cap
     latest_year = int(df_mc["year"].dropna().max())
     logger.info(f"Latest available financial year in market_cap dataset: {latest_year}")
 
     # 2. Filter latest year market cap metrics
-    df_mc_latest = df_mc[df_mc["year"] == latest_year].drop_duplicates(subset=["company_id"]).copy()
+    df_mc_latest = (
+        df_mc[df_mc["year"] == latest_year]
+        .drop_duplicates(subset=["company_id"])
+        .copy()
+    )
 
     # 3. Clean company metadata & sector assignments
-    df_sec_clean = df_sec.drop_duplicates(subset=["company_id"])[["company_id", "broad_sector"]].copy()
+    df_sec_clean = df_sec.drop_duplicates(subset=["company_id"])[
+        ["company_id", "broad_sector"]
+    ].copy()
 
     if not df_comp.empty and "company_name" in df_comp.columns:
-        df_comp_clean = df_comp.drop_duplicates(subset=["company_id"])[["company_id", "company_name"]].copy()
+        df_comp_clean = df_comp.drop_duplicates(subset=["company_id"])[
+            ["company_id", "company_name"]
+        ].copy()
     else:
-        df_comp_clean = pd.DataFrame({"company_id": df_sec_clean["company_id"], "company_name": df_sec_clean["company_id"]})
+        df_comp_clean = pd.DataFrame(
+            {
+                "company_id": df_sec_clean["company_id"],
+                "company_name": df_sec_clean["company_id"],
+            }
+        )
 
     # Merge base company records with sector and latest market_cap metrics
     base_df = pd.merge(df_sec_clean, df_comp_clean, on="company_id", how="inner")
-    base_df = pd.merge(base_df, df_mc_latest[["company_id", "market_cap_crore", "pe_ratio", "pb_ratio", "ev_ebitda"]], on="company_id", how="left")
+    base_df = pd.merge(
+        base_df,
+        df_mc_latest[
+            ["company_id", "market_cap_crore", "pe_ratio", "pb_ratio", "ev_ebitda"]
+        ],
+        on="company_id",
+        how="left",
+    )
 
     # 4. Calculate FCF for the latest year
     # Use calculate_free_cash_flow from cashflow dataset with fallback to financial_ratios.free_cash_flow_cr
-    df_cf_latest = df_cf[df_cf["year"] == latest_year].drop_duplicates(subset=["company_id"]).copy() if not df_cf.empty else pd.DataFrame()
-    df_rat_latest = df_rat[df_rat["year"] == latest_year].drop_duplicates(subset=["company_id"]).copy() if not df_rat.empty else pd.DataFrame()
+    df_cf_latest = (
+        df_cf[df_cf["year"] == latest_year]
+        .drop_duplicates(subset=["company_id"])
+        .copy()
+        if not df_cf.empty
+        else pd.DataFrame()
+    )
+    df_rat_latest = (
+        df_rat[df_rat["year"] == latest_year]
+        .drop_duplicates(subset=["company_id"])
+        .copy()
+        if not df_rat.empty
+        else pd.DataFrame()
+    )
 
     fcf_records = []
     for cid in base_df["company_id"]:
@@ -399,7 +468,11 @@ def run_valuation_analysis(
             inv_act = row_cf.get("investing_activity")
             fcf_val = calculate_free_cash_flow(op_act, inv_act)
 
-        if fcf_val is None and not df_rat_latest.empty and cid in df_rat_latest["company_id"].values:
+        if (
+            fcf_val is None
+            and not df_rat_latest.empty
+            and cid in df_rat_latest["company_id"].values
+        ):
             row_rat = df_rat_latest[df_rat_latest["company_id"] == cid].iloc[0]
             raw_fcf = row_rat.get("free_cash_flow_cr")
             if pd.notna(raw_fcf):
@@ -415,25 +488,33 @@ def run_valuation_analysis(
 
     # 5. Calculate FCF Yield (%)
     base_df["fcf_yield_pct"] = base_df.apply(
-        lambda r: calculate_fcf_yield(r["free_cash_flow"], r["market_cap_crore"]), axis=1
+        lambda r: calculate_fcf_yield(r["free_cash_flow"], r["market_cap_crore"]),
+        axis=1,
     )
 
     # 6. Calculate 5-Year Median P/E for each company
     pe_5yr_dict = {}
     for cid in base_df["company_id"]:
-        pe_5yr_dict[cid] = calculate_5yr_median_pe(df_mc, cid, latest_year=latest_year, years_back=5)
+        pe_5yr_dict[cid] = calculate_5yr_median_pe(
+            df_mc, cid, latest_year=latest_year, years_back=5
+        )
 
     base_df["pe_5yr_median"] = base_df["company_id"].map(pe_5yr_dict)
 
     # 7. Calculate Sector Median P/E for the latest year
-    sector_medians = calculate_sector_median_pe(base_df, sector_col="broad_sector", pe_col="pe_ratio")
+    sector_medians = calculate_sector_median_pe(
+        base_df, sector_col="broad_sector", pe_col="pe_ratio"
+    )
     logger.info(f"Sector Median P/E ratios ({latest_year}): {sector_medians}")
 
     base_df["sector_median_pe"] = base_df["broad_sector"].map(sector_medians)
 
     # 8. Calculate PE vs Sector Median (%) & Valuation Flags
     base_df["pe_vs_sector_median_pct"] = base_df.apply(
-        lambda r: calculate_pe_vs_sector_median_pct(r["pe_ratio"], r["sector_median_pe"]), axis=1
+        lambda r: calculate_pe_vs_sector_median_pct(
+            r["pe_ratio"], r["sector_median_pe"]
+        ),
+        axis=1,
     )
     base_df["valuation_flag"] = base_df.apply(
         lambda r: assign_valuation_flag(r["pe_ratio"], r["sector_median_pe"]), axis=1
@@ -469,12 +550,21 @@ def run_valuation_analysis(
     df_summary = base_df.rename(columns=rename_map)[summary_cols].copy()
 
     # Round numerical metrics to 2 decimal places for clean presentation
-    numeric_cols = ["P/E", "P/B", "EV/EBITDA", "FCF Yield (%)", "5-Year Median P/E", "PE vs Sector Median (%)"]
+    numeric_cols = [
+        "P/E",
+        "P/B",
+        "EV/EBITDA",
+        "FCF Yield (%)",
+        "5-Year Median P/E",
+        "PE vs Sector Median (%)",
+    ]
     for col in numeric_cols:
         df_summary[col] = pd.to_numeric(df_summary[col], errors="coerce").round(2)
 
     # Filter for companies flagged as Caution or Discount
-    df_flags = df_summary[df_summary["Valuation Flag"].isin(["Caution", "Discount"])].copy()
+    df_flags = df_summary[
+        df_summary["Valuation Flag"].isin(["Caution", "Discount"])
+    ].copy()
 
     logger.info(
         f"Valuation analysis complete for {len(df_summary)} companies. "
@@ -526,7 +616,9 @@ def export_valuation_results(
         cell = ws.cell(row=1, column=col_idx)
         cell.fill = HEADER_FILL
         cell.font = HEADER_FONT
-        cell.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
+        cell.alignment = Alignment(
+            horizontal="center", vertical="center", wrap_text=True
+        )
         cell.border = THIN_BORDER
 
     ws.row_dimensions[1].height = 28
@@ -599,15 +691,23 @@ def main() -> None:
 
         print("\nPipeline Summary:")
         print(f"- Total Companies Evaluated: {len(df_summary)}")
-        print(f"- Caution Flagged Companies: {(df_summary['Valuation Flag'] == 'Caution').sum()}")
-        print(f"- Discount Flagged Companies: {(df_summary['Valuation Flag'] == 'Discount').sum()}")
-        print(f"- Fair Flagged Companies: {(df_summary['Valuation Flag'] == 'Fair').sum()}")
+        print(
+            f"- Caution Flagged Companies: {(df_summary['Valuation Flag'] == 'Caution').sum()}"
+        )
+        print(
+            f"- Discount Flagged Companies: {(df_summary['Valuation Flag'] == 'Discount').sum()}"
+        )
+        print(
+            f"- Fair Flagged Companies: {(df_summary['Valuation Flag'] == 'Fair').sum()}"
+        )
         print("\nGenerated Output Files:")
         print(f"  [1] Excel Summary: {excel_path.resolve()}")
         print(f"  [2] CSV Flags:     {csv_path.resolve()}")
         print("=" * 60)
     except Exception as e:
-        logger.error(f"Error in Valuation Analytics Module execution: {e}", exc_info=True)
+        logger.error(
+            f"Error in Valuation Analytics Module execution: {e}", exc_info=True
+        )
         print(f"Execution Error: {e}")
 
 

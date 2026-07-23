@@ -12,7 +12,6 @@ import sys
 from pathlib import Path
 import streamlit as st
 import pandas as pd
-import numpy as np
 import plotly.graph_objects as go
 
 # Resolve project imports
@@ -30,7 +29,7 @@ if str(PROJECT_ROOT) not in sys.path:
 
 from src.dashboard.utils.db import get_peers, get_db_path
 from src.screener.presets import load_and_score_data
-from src.analytics.radar import load_radar_data, RADAR_METRIC_LABELS
+from src.analytics.radar import load_radar_data
 
 # List of all 11 peer groups in Nifty 100
 PEER_GROUPS_LIST = [
@@ -44,7 +43,7 @@ PEER_GROUPS_LIST = [
     "Power & Utilities",
     "Steel",
     "FMCG",
-    "Consumer Finance"
+    "Consumer Finance",
 ]
 
 RADAR_SCORE_COLS = [
@@ -55,7 +54,7 @@ RADAR_SCORE_COLS = [
     "FCF_Score",
     "PAT_CAGR_5Y_score",
     "Revenue_CAGR_5Y_score",
-    "Composite_Quality_Score"
+    "Composite_Quality_Score",
 ]
 
 
@@ -72,8 +71,14 @@ def load_peer_comparison_datasets():
 
 
 # Page Header
-st.markdown('<h1 class="gradient-header">⚖️ Peer Comparison & Industry Benchmarking</h1>', unsafe_allow_html=True)
-st.markdown('<p class="sub-header">Evaluate fundamental performance, radar metrics & side-by-side KPIs across 11 industry peer groups</p>', unsafe_allow_html=True)
+st.markdown(
+    '<h1 class="gradient-header">⚖️ Peer Comparison & Industry Benchmarking</h1>',
+    unsafe_allow_html=True,
+)
+st.markdown(
+    '<p class="sub-header">Evaluate fundamental performance, radar metrics & side-by-side KPIs across 11 industry peer groups</p>',
+    unsafe_allow_html=True,
+)
 
 # ---------------------------------------------------------
 # Load Datasets
@@ -91,28 +96,38 @@ col_sel1, col_sel2 = st.columns([1, 1])
 
 # Available peer groups from DB
 available_db_groups = df_peers_all["peer_group_name"].dropna().unique().tolist()
-ordered_groups = [g for g in PEER_GROUPS_LIST if g in available_db_groups] + [g for g in available_db_groups if g not in PEER_GROUPS_LIST]
+ordered_groups = [g for g in PEER_GROUPS_LIST if g in available_db_groups] + [
+    g for g in available_db_groups if g not in PEER_GROUPS_LIST
+]
 
 with col_sel1:
     selected_peer_group = st.selectbox(
         "📂 Select Industry Peer Group (11 Groups):",
         options=ordered_groups,
         index=0,
-        help="Choose one of the 11 Nifty 100 industry peer groups."
+        help="Choose one of the 11 Nifty 100 industry peer groups.",
     )
 
 # Filter companies belonging to selected peer group
-df_pg_members = df_peers_all[df_peers_all["peer_group_name"] == selected_peer_group].copy()
+df_pg_members = df_peers_all[
+    df_peers_all["peer_group_name"] == selected_peer_group
+].copy()
 
 if df_pg_members.empty:
-    st.warning(f"No constituents found for peer group '{selected_peer_group}'. Please select another group.")
+    st.warning(
+        f"No constituents found for peer group '{selected_peer_group}'. Please select another group."
+    )
     st.stop()
 
 # Identify Benchmark Company in peer group
 benchmark_match = df_pg_members[
     df_pg_members["is_benchmark"].astype(str).str.lower().isin(["true", "1", "yes"])
 ]
-benchmark_ticker = benchmark_match["company_id"].iloc[0] if not benchmark_match.empty else df_pg_members["company_id"].iloc[0]
+benchmark_ticker = (
+    benchmark_match["company_id"].iloc[0]
+    if not benchmark_match.empty
+    else df_pg_members["company_id"].iloc[0]
+)
 
 # Build dropdown choices for company selector
 company_options = []
@@ -139,7 +154,7 @@ with col_sel2:
         "🏢 Select Company to Compare:",
         options=company_options,
         index=default_idx,
-        help="Select a specific company in the peer group for 8-axis radar comparison."
+        help="Select a specific company in the peer group for 8-axis radar comparison.",
     )
 
 selected_company_id = company_ticker_map[selected_company_label]
@@ -154,25 +169,37 @@ df_peer_merged = pd.merge(
     df_pg_members[["company_id", "peer_group_name", "is_benchmark"]],
     df_scored_all,
     on="company_id",
-    how="left"
+    how="left",
 )
 
 # Also merge radar percentile scores if missing
 if not df_radar_all.empty:
-    radar_cols_needed = ["id"] + [c for c in RADAR_SCORE_COLS if c not in df_peer_merged.columns or df_peer_merged[c].isna().any()]
+    radar_cols_needed = ["id"] + [
+        c
+        for c in RADAR_SCORE_COLS
+        if c not in df_peer_merged.columns or df_peer_merged[c].isna().any()
+    ]
     if len(radar_cols_needed) > 1:
         df_radar_sub = df_radar_all[radar_cols_needed].drop_duplicates(subset=["id"])
-        df_peer_merged = df_peer_merged.merge(df_radar_sub, left_on="company_id", right_on="id", how="left")
+        df_peer_merged = df_peer_merged.merge(
+            df_radar_sub, left_on="company_id", right_on="id", how="left"
+        )
 
 # Fill missing company names
-df_peer_merged["company_name"] = df_peer_merged["company_name"].fillna(df_peer_merged["company_id"])
+df_peer_merged["company_name"] = df_peer_merged["company_name"].fillna(
+    df_peer_merged["company_id"]
+)
 
 # Extract target company row
 target_rows = df_peer_merged[df_peer_merged["company_id"] == selected_company_id]
 
 if target_rows.empty:
-    st.warning(f"Financial record for target company '{selected_company_id}' is unavailable.")
-    target_row = pd.Series({"company_id": selected_company_id, "company_name": selected_company_id})
+    st.warning(
+        f"Financial record for target company '{selected_company_id}' is unavailable."
+    )
+    target_row = pd.Series(
+        {"company_id": selected_company_id, "company_name": selected_company_id}
+    )
 else:
     target_row = target_rows.iloc[0]
 
@@ -186,7 +213,9 @@ benchmark_row = benchmark_rows.iloc[0] if not benchmark_rows.empty else target_r
 pg_name_str = selected_peer_group
 target_name_str = target_row.get("company_name", selected_company_id)
 
-st.markdown(f"### 📊 Key Performance Comparison: `{target_name_str}` vs. `{pg_name_str}`")
+st.markdown(
+    f"### 📊 Key Performance Comparison: `{target_name_str}` vs. `{pg_name_str}`"
+)
 
 kc1, kc2, kc3, kc4 = st.columns(4)
 
@@ -195,28 +224,42 @@ with kc1:
     peer_avg_roe = df_peer_merged["return_on_equity_pct"].mean()
     t_roe_str = f"{target_roe:.2f}%" if pd.notna(target_roe) else "N/A"
     p_roe_str = f"{peer_avg_roe:.2f}%" if pd.notna(peer_avg_roe) else "N/A"
-    st.metric("ROE (%)", t_roe_str, delta=f"Peer Avg: {p_roe_str}", delta_color="normal")
+    st.metric(
+        "ROE (%)", t_roe_str, delta=f"Peer Avg: {p_roe_str}", delta_color="normal"
+    )
 
 with kc2:
     target_qs = target_row.get("composite_quality_score")
     peer_avg_qs = df_peer_merged["composite_quality_score"].mean()
     t_qs_str = f"{target_qs:.1f}" if pd.notna(target_qs) else "N/A"
     p_qs_str = f"{peer_avg_qs:.1f}" if pd.notna(peer_avg_qs) else "N/A"
-    st.metric("Composite Quality Score", t_qs_str, delta=f"Peer Avg: {p_qs_str}", delta_color="normal")
+    st.metric(
+        "Composite Quality Score",
+        t_qs_str,
+        delta=f"Peer Avg: {p_qs_str}",
+        delta_color="normal",
+    )
 
 with kc3:
     target_de = target_row.get("debt_to_equity")
     peer_avg_de = df_peer_merged["debt_to_equity"].mean()
     t_de_str = f"{target_de:.2f}" if pd.notna(target_de) else "N/A"
     p_de_str = f"{peer_avg_de:.2f}" if pd.notna(peer_avg_de) else "N/A"
-    st.metric("Debt-to-Equity", t_de_str, delta=f"Peer Avg: {p_de_str}", delta_color="inverse")
+    st.metric(
+        "Debt-to-Equity", t_de_str, delta=f"Peer Avg: {p_de_str}", delta_color="inverse"
+    )
 
 with kc4:
     target_fcf = target_row.get("free_cash_flow_cr")
     peer_avg_fcf = df_peer_merged["free_cash_flow_cr"].mean()
     t_fcf_str = f"₹{target_fcf:,.0f} Cr" if pd.notna(target_fcf) else "N/A"
     p_fcf_str = f"₹{peer_avg_fcf:,.0f} Cr" if pd.notna(peer_avg_fcf) else "N/A"
-    st.metric("Free Cash Flow (Cr)", t_fcf_str, delta=f"Peer Avg: {p_fcf_str}", delta_color="normal")
+    st.metric(
+        "Free Cash Flow (Cr)",
+        t_fcf_str,
+        delta=f"Peer Avg: {p_fcf_str}",
+        delta_color="normal",
+    )
 
 st.markdown("---")
 
@@ -227,7 +270,7 @@ col_radar_left, col_radar_right = st.columns([3, 2])
 
 with col_radar_left:
     st.subheader(f"🎯 8-Axis Radar Performance Profile ({selected_company_id})")
-    
+
     # Define 8 radar axes
     radar_labels = [
         "ROE",
@@ -237,11 +280,12 @@ with col_radar_left:
         "FCF Score",
         "PAT CAGR 5Y",
         "Revenue CAGR 5Y",
-        "Composite Quality"
+        "Composite Quality",
     ]
-    
+
     # Helper to retrieve score safely (0 to 100)
     def get_score_vector(row_series):
+        """Retrieve 0-100 radar metric score vector safely."""
         scores = []
         for col in RADAR_SCORE_COLS:
             val = row_series.get(col)
@@ -252,7 +296,7 @@ with col_radar_left:
         return scores
 
     target_scores = get_score_vector(target_row)
-    
+
     # Calculate peer group average scores
     peer_scores_list = []
     for col in RADAR_SCORE_COLS:
@@ -261,83 +305,83 @@ with col_radar_left:
             peer_scores_list.append(float(vals.mean()))
         else:
             peer_scores_list.append(50.0)
-            
+
     benchmark_scores = get_score_vector(benchmark_row)
-    
+
     # Close loops for polar plot (append first element to end)
     r_target = target_scores + target_scores[:1]
     r_peer = peer_scores_list + peer_scores_list[:1]
     r_bench = benchmark_scores + benchmark_scores[:1]
     theta_labels = radar_labels + radar_labels[:1]
-    
+
     # Build Plotly Scatterpolar chart
     fig_radar = go.Figure()
-    
+
     # 1. Target Company Trace (Filled Polygon)
-    fig_radar.add_trace(go.Scatterpolar(
-        r=r_target,
-        theta=theta_labels,
-        fill="toself",
-        name=f"{target_name_str} ({selected_company_id})",
-        line=dict(color="#38bdf8", width=3),
-        fillcolor="rgba(56, 189, 248, 0.35)",
-        hovertemplate="<b>%{theta} Score</b>: %{r:.1f} / 100<extra></extra>"
-    ))
-    
+    fig_radar.add_trace(
+        go.Scatterpolar(
+            r=r_target,
+            theta=theta_labels,
+            fill="toself",
+            name=f"{target_name_str} ({selected_company_id})",
+            line=dict(color="#38bdf8", width=3),
+            fillcolor="rgba(56, 189, 248, 0.35)",
+            hovertemplate="<b>%{theta} Score</b>: %{r:.1f} / 100<extra></extra>",
+        )
+    )
+
     # 2. Peer Group Average Trace (Dashed Polygon)
-    fig_radar.add_trace(go.Scatterpolar(
-        r=r_peer,
-        theta=theta_labels,
-        fill="toself",
-        name=f"{selected_peer_group} Average",
-        line=dict(color="#f43f5e", width=2, dash="dash"),
-        fillcolor="rgba(244, 63, 94, 0.15)",
-        hovertemplate="<b>%{theta} Peer Avg</b>: %{r:.1f} / 100<extra></extra>"
-    ))
-    
+    fig_radar.add_trace(
+        go.Scatterpolar(
+            r=r_peer,
+            theta=theta_labels,
+            fill="toself",
+            name=f"{selected_peer_group} Average",
+            line=dict(color="#f43f5e", width=2, dash="dash"),
+            fillcolor="rgba(244, 63, 94, 0.15)",
+            hovertemplate="<b>%{theta} Peer Avg</b>: %{r:.1f} / 100<extra></extra>",
+        )
+    )
+
     # 3. Benchmark Company Trace (Dotted Polygon if target is not benchmark)
     if selected_company_id != benchmark_ticker:
-        fig_radar.add_trace(go.Scatterpolar(
-            r=r_bench,
-            theta=theta_labels,
-            fill="none",
-            name=f"⭐ Benchmark: {benchmark_ticker}",
-            line=dict(color="#34d399", width=2, dash="dot"),
-            hovertemplate="<b>%{theta} Benchmark</b>: %{r:.1f} / 100<extra></extra>"
-        ))
-        
+        fig_radar.add_trace(
+            go.Scatterpolar(
+                r=r_bench,
+                theta=theta_labels,
+                fill="none",
+                name=f"⭐ Benchmark: {benchmark_ticker}",
+                line=dict(color="#34d399", width=2, dash="dot"),
+                hovertemplate="<b>%{theta} Benchmark</b>: %{r:.1f} / 100<extra></extra>",
+            )
+        )
+
     fig_radar.update_layout(
         polar=dict(
             radialaxis=dict(
                 visible=True,
                 range=[0, 100],
                 gridcolor="#334155",
-                tickfont=dict(color="#94a3b8", size=9)
+                tickfont=dict(color="#94a3b8", size=9),
             ),
             angularaxis=dict(
                 gridcolor="#334155",
-                tickfont=dict(color="#f8fafc", size=11, weight="bold")
+                tickfont=dict(color="#f8fafc", size=11, weight="bold"),
             ),
-            bgcolor="rgba(0,0,0,0)"
+            bgcolor="rgba(0,0,0,0)",
         ),
         paper_bgcolor="rgba(0,0,0,0)",
         plot_bgcolor="rgba(0,0,0,0)",
         font=dict(color="#e2e8f0"),
-        legend=dict(
-            orientation="h",
-            yanchor="bottom",
-            y=1.12,
-            xanchor="center",
-            x=0.5
-        ),
-        margin=dict(t=50, b=30, l=40, r=40)
+        legend=dict(orientation="h", yanchor="bottom", y=1.12, xanchor="center", x=0.5),
+        margin=dict(t=50, b=30, l=40, r=40),
     )
-    
+
     st.plotly_chart(fig_radar, use_container_width=True)
 
 with col_radar_right:
     st.subheader("💡 Radar Metric Insights")
-    st.markdown(f"""
+    st.markdown("""
     The radar chart evaluates fundamental parameters on a normalized **0-100 percentile scale** relative to all Nifty 100 companies:
     
     - **ROE & ROCE**: Capital efficiency and return on invested equity/capital.
@@ -347,9 +391,11 @@ with col_radar_right:
     - **CAGRs (5Y)**: 5-year compounding trajectory for revenue and PAT.
     - **Composite Quality**: Overall weighted multi-factor financial strength score.
     """)
-    
-    st.info(f"**Benchmark Company for {selected_peer_group}:**\n\n"
-            f"⭐ **{benchmark_ticker}** ({df_peer_merged[df_peer_merged['company_id']==benchmark_ticker]['company_name'].values[0] if not df_peer_merged[df_peer_merged['company_id']==benchmark_ticker].empty else benchmark_ticker})")
+
+    st.info(
+        f"**Benchmark Company for {selected_peer_group}:**\n\n"
+        f"⭐ **{benchmark_ticker}** ({df_peer_merged[df_peer_merged['company_id']==benchmark_ticker]['company_name'].values[0] if not df_peer_merged[df_peer_merged['company_id']==benchmark_ticker].empty else benchmark_ticker})"
+    )
 
 st.markdown("---")
 
@@ -380,21 +426,28 @@ kpi_columns_map = {
     "free_cash_flow_cr": "FCF (₹ Cr)",
     "revenue_cagr_5yr": "Rev CAGR (5Y)",
     "pat_cagr_5yr": "PAT CAGR (5Y)",
-    "pe_ratio": "P/E Ratio"
+    "pe_ratio": "P/E Ratio",
 }
 
 available_kpi_cols = [c for c in kpi_columns_map.keys() if c in df_kpi_table.columns]
 df_table_render = df_kpi_table[available_kpi_cols].rename(columns=kpi_columns_map)
 
 # Sort table to place Benchmark row at top or highlighted position
-df_table_render = df_table_render.sort_values(by="Benchmark", ascending=False).reset_index(drop=True)
+df_table_render = df_table_render.sort_values(
+    by="Benchmark", ascending=False
+).reset_index(drop=True)
+
 
 # Highlight benchmark row using Pandas Styler
 def highlight_benchmark_row(row):
+    """Apply CSS highlighting style to the benchmark company row."""
     is_b = str(row.get("Benchmark", "")).startswith("⭐")
     if is_b:
-        return ["background-color: rgba(56, 189, 248, 0.25); font-weight: bold; border-left: 4px solid #38bdf8"] * len(row)
+        return [
+            "background-color: rgba(56, 189, 248, 0.25); font-weight: bold; border-left: 4px solid #38bdf8"
+        ] * len(row)
     return [""] * len(row)
+
 
 styled_kpi_df = df_table_render.style.apply(highlight_benchmark_row, axis=1)
 
@@ -405,17 +458,27 @@ st.dataframe(
     column_config={
         "Ticker": st.column_config.TextColumn("Ticker", help="NSE Ticker Symbol"),
         "Company Name": st.column_config.TextColumn("Company Name"),
-        "Benchmark": st.column_config.TextColumn("Benchmark", help="Peer group benchmark designation"),
-        "Composite Score": st.column_config.NumberColumn("Composite Score", format="%.1f / 100"),
+        "Benchmark": st.column_config.TextColumn(
+            "Benchmark", help="Peer group benchmark designation"
+        ),
+        "Composite Score": st.column_config.NumberColumn(
+            "Composite Score", format="%.1f / 100"
+        ),
         "ROE (%)": st.column_config.NumberColumn("ROE (%)", format="%.2f%%"),
         "ROCE (%)": st.column_config.NumberColumn("ROCE (%)", format="%.2f%%"),
         "NPM (%)": st.column_config.NumberColumn("NPM (%)", format="%.2f%%"),
-        "Debt-to-Equity": st.column_config.NumberColumn("Debt-to-Equity", format="%.2f"),
+        "Debt-to-Equity": st.column_config.NumberColumn(
+            "Debt-to-Equity", format="%.2f"
+        ),
         "FCF (₹ Cr)": st.column_config.NumberColumn("FCF (₹ Cr)", format="₹%,.0f Cr"),
-        "Rev CAGR (5Y)": st.column_config.NumberColumn("Rev CAGR (5Y)", format="%.2f%%"),
-        "PAT CAGR (5Y)": st.column_config.NumberColumn("PAT CAGR (5Y)", format="%.2f%%"),
-        "P/E Ratio": st.column_config.NumberColumn("P/E Ratio", format="%.2fx")
-    }
+        "Rev CAGR (5Y)": st.column_config.NumberColumn(
+            "Rev CAGR (5Y)", format="%.2f%%"
+        ),
+        "PAT CAGR (5Y)": st.column_config.NumberColumn(
+            "PAT CAGR (5Y)", format="%.2f%%"
+        ),
+        "P/E Ratio": st.column_config.NumberColumn("P/E Ratio", format="%.2fx"),
+    },
 )
 
 # ---------------------------------------------------------
@@ -431,5 +494,5 @@ with col_exp2:
         data=csv_peer_bytes,
         file_name=f"{selected_peer_group.lower().replace(' ', '_')}_peer_kpis.csv",
         mime="text/csv",
-        use_container_width=True
+        use_container_width=True,
     )

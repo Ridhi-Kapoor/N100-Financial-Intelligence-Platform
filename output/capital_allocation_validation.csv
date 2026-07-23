@@ -1,0 +1,6 @@
+Check Category,Value / Count,Details,Status
+Total Records,1152,Total company-year records in dataset across 100 companies.,PASSED
+Master Companies Coverage,92/92,All 92 master companies present in dataset.,PASSED
+"Duplicate (company_id, year) Records",0,No duplicate records found.,PASSED
+Missing Capital Allocation Labels,2,"Missing/Unknown labels in 2 records: HDFCLIFE-2013, HDFCLIFE-2014",WARNING
+Company Year Range Gaps,5,"5 companies have missing intermediate years: ['ABB', 'AMBUJACEM', 'BOSCHLTD', 'EICHERMOT', 'SIEMENS']",WARNING

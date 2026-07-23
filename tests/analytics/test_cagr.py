@@ -14,8 +14,6 @@ Covers the following test cases:
 10. Invalid input (non-numeric, NaN, etc.)
 """
 
-import math
-import numpy as np
 import pandas as pd
 import pytest
 
@@ -98,8 +96,10 @@ def test_dataframe_revenue_cagr():
             "sales": [100.0, 110.0, 120.0, 133.1],
         }
     )
-    vals, flags = compute_dataframe_cagr(df, "sales", 3, "revenue_cagr_3yr", "revenue_cagr_3yr_flag")
-    
+    vals, flags = compute_dataframe_cagr(
+        df, "sales", 3, "revenue_cagr_3yr", "revenue_cagr_3yr_flag"
+    )
+
     # 2020 should have 3yr CAGR from 2017: (133.1 / 100.0) ** (1/3) - 1 = 10%
     assert vals[3] == pytest.approx(10.0)
     assert flags[3] is None
@@ -118,8 +118,10 @@ def test_dataframe_pat_cagr():
             "net_profit": [100.0, 120.0, 80.0, -10.0],
         }
     )
-    vals, flags = compute_dataframe_cagr(df, "net_profit", 3, "pat_cagr_3yr", "pat_cagr_3yr_flag")
-    
+    vals, flags = compute_dataframe_cagr(
+        df, "net_profit", 3, "pat_cagr_3yr", "pat_cagr_3yr_flag"
+    )
+
     # 2020 is Positive -> Negative -> None, DECLINE_TO_LOSS
     assert vals[3] is None
     assert flags[3] == "DECLINE_TO_LOSS"
@@ -133,8 +135,10 @@ def test_dataframe_eps_cagr():
             "eps": [-2.0, -1.0, 1.0, 5.0],
         }
     )
-    vals, flags = compute_dataframe_cagr(df, "eps", 3, "eps_cagr_3yr", "eps_cagr_3yr_flag")
-    
+    vals, flags = compute_dataframe_cagr(
+        df, "eps", 3, "eps_cagr_3yr", "eps_cagr_3yr_flag"
+    )
+
     # 2020 is Negative -> Positive -> None, TURNAROUND
     assert vals[3] is None
     assert flags[3] == "TURNAROUND"

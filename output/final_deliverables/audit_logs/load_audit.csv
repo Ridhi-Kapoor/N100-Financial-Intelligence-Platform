@@ -1,0 +1,11 @@
+table_name,source_file,row_count,load_status
+companies,companies.csv,100,Success
+profitandloss,profitandloss.csv,1276,Success
+balancesheet,balancesheet.csv,1312,Success
+cashflow,cashflow.csv,1187,Success
+analysis,analysis.csv,20,Success
+financial_ratios,financial_ratios.csv,1184,Success
+market_cap,market_cap.csv,552,Success
+peer_groups,peer_groups.csv,56,Success
+sectors,sectors.csv,92,Success
+stock_prices,stock_prices.csv,5520,Success

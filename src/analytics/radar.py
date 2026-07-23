@@ -25,9 +25,10 @@ import logging
 import math
 import sqlite3
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Union
+from typing import Dict, List, Optional, Union
 
 import matplotlib
+
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
@@ -48,8 +49,12 @@ logger = logging.getLogger("radar_analytics")
 logger.setLevel(logging.INFO)
 
 if not logger.handlers:
-    file_handler = logging.FileHandler(LOG_DIR / "radar_analytics.log", mode="a", encoding="utf-8")
-    formatter = logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+    file_handler = logging.FileHandler(
+        LOG_DIR / "radar_analytics.log", mode="a", encoding="utf-8"
+    )
+    formatter = logging.Formatter(
+        "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    )
     file_handler.setFormatter(formatter)
     logger.addHandler(file_handler)
     console_handler = logging.StreamHandler()
@@ -68,7 +73,9 @@ RADAR_METRIC_LABELS = [
 ]
 
 
-def load_radar_data(db_path: Optional[Union[str, Path]] = None, year: Union[str, int] = "2024") -> pd.DataFrame:
+def load_radar_data(
+    db_path: Optional[Union[str, Path]] = None, year: Union[str, int] = "2024"
+) -> pd.DataFrame:
     """
     Load company financials, calculate missing ROCE, and compute normalized 0-100 percentile scores for 8 radar metrics.
 
@@ -85,7 +92,10 @@ def load_radar_data(db_path: Optional[Union[str, Path]] = None, year: Union[str,
     conn = sqlite3.connect(path_db)
     try:
         # 1. Base companies
-        comps = pd.read_sql("SELECT id, company_name, roce_percentage, roe_percentage FROM companies", conn)
+        comps = pd.read_sql(
+            "SELECT id, company_name, roce_percentage, roe_percentage FROM companies",
+            conn,
+        )
         comps["id"] = comps["id"].astype(str).str.strip()
 
         # 2. Financial ratios for target year (or latest available)
@@ -105,7 +115,9 @@ def load_radar_data(db_path: Optional[Union[str, Path]] = None, year: Union[str,
             fr["id"] = fr["id"].astype(str).str.strip()
 
         # 3. Peer groups
-        pg = pd.read_sql("SELECT company_id as id, peer_group_name FROM peer_groups", conn).drop_duplicates(subset=["id"])
+        pg = pd.read_sql(
+            "SELECT company_id as id, peer_group_name FROM peer_groups", conn
+        ).drop_duplicates(subset=["id"])
         pg["id"] = pg["id"].astype(str).str.strip()
 
         # 4. P&L, Balance Sheet, Sectors for ROCE calculation
@@ -123,7 +135,9 @@ def load_radar_data(db_path: Optional[Union[str, Path]] = None, year: Union[str,
         ).drop_duplicates(subset=["id"])
         bs["id"] = bs["id"].astype(str).str.strip()
 
-        sec = pd.read_sql("SELECT company_id as id, broad_sector FROM sectors", conn).drop_duplicates(subset=["id"])
+        sec = pd.read_sql(
+            "SELECT company_id as id, broad_sector FROM sectors", conn
+        ).drop_duplicates(subset=["id"])
         sec["id"] = sec["id"].astype(str).str.strip()
 
         # Merge all into single DataFrame
@@ -137,7 +151,11 @@ def load_radar_data(db_path: Optional[Union[str, Path]] = None, year: Union[str,
         roce_list = []
         for _, r in merged.iterrows():
             try:
-                pbt = float(r["profit_before_tax"]) if pd.notna(r.get("profit_before_tax")) else 0.0
+                pbt = (
+                    float(r["profit_before_tax"])
+                    if pd.notna(r.get("profit_before_tax"))
+                    else 0.0
+                )
                 int_exp = float(r["interest"]) if pd.notna(r.get("interest")) else 0.0
                 ebit = pbt + int_exp
                 roce_res = calculate_roce(
@@ -148,39 +166,75 @@ def load_radar_data(db_path: Optional[Union[str, Path]] = None, year: Union[str,
                     broad_sector=r.get("broad_sector"),
                 )
                 val = roce_res[0] if isinstance(roce_res, tuple) else roce_res
-                if (val is None or math.isnan(val)) and pd.notna(r.get("roce_percentage")):
+                if (val is None or math.isnan(val)) and pd.notna(
+                    r.get("roce_percentage")
+                ):
                     val = float(r["roce_percentage"])
                 roce_list.append(val)
             except Exception:
-                roce_list.append(float(r["roce_percentage"]) if pd.notna(r.get("roce_percentage")) else None)
+                roce_list.append(
+                    float(r["roce_percentage"])
+                    if pd.notna(r.get("roce_percentage"))
+                    else None
+                )
 
         merged["roce"] = roce_list
 
         # Fallback for ROE if return_on_equity_pct is NaN but roe_percentage is present
-        merged["roe"] = merged["return_on_equity_pct"].combine_first(merged["roe_percentage"])
+        merged["roe"] = merged["return_on_equity_pct"].combine_first(
+            merged["roe_percentage"]
+        )
 
         # Compute 0-100 percentile scores for all 8 radar axes
         # Higher value -> Higher score (except Debt-to-Equity where lower value -> higher score)
-        merged["ROE_score"] = merged["roe"].rank(pct=True, ascending=True, method="average", na_option="keep") * 100.0
-        merged["ROCE_score"] = merged["roce"].rank(pct=True, ascending=True, method="average", na_option="keep") * 100.0
+        merged["ROE_score"] = (
+            merged["roe"].rank(
+                pct=True, ascending=True, method="average", na_option="keep"
+            )
+            * 100.0
+        )
+        merged["ROCE_score"] = (
+            merged["roce"].rank(
+                pct=True, ascending=True, method="average", na_option="keep"
+            )
+            * 100.0
+        )
         merged["Net_Profit_Margin_score"] = (
-            merged["net_profit_margin_pct"].rank(pct=True, ascending=True, method="average", na_option="keep") * 100.0
+            merged["net_profit_margin_pct"].rank(
+                pct=True, ascending=True, method="average", na_option="keep"
+            )
+            * 100.0
         )
         # Debt-to-Equity: Inverse ranking (lower D/E is better -> higher percentile score)
         merged["Debt_to_Equity_score"] = (
-            merged["debt_to_equity"].rank(pct=True, ascending=False, method="average", na_option="keep") * 100.0
+            merged["debt_to_equity"].rank(
+                pct=True, ascending=False, method="average", na_option="keep"
+            )
+            * 100.0
         )
         merged["FCF_Score"] = (
-            merged["free_cash_flow_cr"].rank(pct=True, ascending=True, method="average", na_option="keep") * 100.0
+            merged["free_cash_flow_cr"].rank(
+                pct=True, ascending=True, method="average", na_option="keep"
+            )
+            * 100.0
         )
         merged["PAT_CAGR_5Y_score"] = (
-            merged["pat_cagr_5yr"].rank(pct=True, ascending=True, method="average", na_option="keep") * 100.0
+            merged["pat_cagr_5yr"].rank(
+                pct=True, ascending=True, method="average", na_option="keep"
+            )
+            * 100.0
         )
         merged["Revenue_CAGR_5Y_score"] = (
-            merged["revenue_cagr_5yr"].rank(pct=True, ascending=True, method="average", na_option="keep") * 100.0
+            merged["revenue_cagr_5yr"].rank(
+                pct=True, ascending=True, method="average", na_option="keep"
+            )
+            * 100.0
         )
         merged["Composite_Quality_Score"] = (
-            merged["composite_quality_score"].rank(pct=True, ascending=True, method="average", na_option="keep") * 100.0
+            merged["composite_quality_score"].rank(
+                pct=True, ascending=True, method="average", na_option="keep"
+            )
+            * 100.0
         )
 
         score_cols = [
@@ -223,7 +277,11 @@ def generate_company_radar_chart(
     """
     company_id = str(company_row["id"]).strip()
     company_name = str(company_row.get("company_name", company_id)).strip()
-    peer_group = str(company_row.get("peer_group_name")).strip() if pd.notna(company_row.get("peer_group_name")) else None
+    peer_group = (
+        str(company_row.get("peer_group_name")).strip()
+        if pd.notna(company_row.get("peer_group_name"))
+        else None
+    )
 
     score_cols = [
         "ROE_score",
@@ -265,7 +323,9 @@ def generate_company_radar_chart(
 
     # Draw metric labels with padding
     ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(RADAR_METRIC_LABELS, fontsize=10, fontweight="bold", color="#111111")
+    ax.set_xticklabels(
+        RADAR_METRIC_LABELS, fontsize=10, fontweight="bold", color="#111111"
+    )
 
     # Draw radial y-ticks (0 to 100)
     ax.set_rlabel_position(22.5)
@@ -273,21 +333,46 @@ def generate_company_radar_chart(
     plt.ylim(0, 105)
 
     # Plot Company Polygon
-    ax.plot(angles, comp_values, color="#1f77b4", linewidth=2.5, linestyle="-", label=f"{company_name} ({company_id})")
+    ax.plot(
+        angles,
+        comp_values,
+        color="#1f77b4",
+        linewidth=2.5,
+        linestyle="-",
+        label=f"{company_name} ({company_id})",
+    )
     ax.fill(angles, comp_values, color="#1f77b4", alpha=0.32)
 
     # Plot Reference Overlay (Peer Avg or Nifty 100 Avg)
-    ax.plot(angles, ref_values, color=ref_color, linewidth=2.0, linestyle="--", label=ref_label)
+    ax.plot(
+        angles,
+        ref_values,
+        color=ref_color,
+        linewidth=2.0,
+        linestyle="--",
+        label=ref_label,
+    )
 
     # Chart Title and Subtitle
-    peer_sub = f"Peer Group: {peer_group}" if peer_group else "Standalone Company (Benchmark: Nifty 100)"
+    peer_sub = (
+        f"Peer Group: {peer_group}"
+        if peer_group
+        else "Standalone Company (Benchmark: Nifty 100)"
+    )
     title_text = f"{company_name} ({company_id})\n"
     ax.set_title(title_text, fontsize=14, fontweight="bold", pad=25, color="#111111")
 
     plt.suptitle(peer_sub, fontsize=10, fontstyle="italic", y=0.92, color="#444444")
 
     # Legend placement
-    plt.legend(loc="upper right", bbox_to_anchor=(1.25, 1.12), frameon=True, facecolor="#ffffff", edgecolor="#cccccc", fontsize=9.5)
+    plt.legend(
+        loc="upper right",
+        bbox_to_anchor=(1.25, 1.12),
+        frameon=True,
+        facecolor="#ffffff",
+        edgecolor="#cccccc",
+        fontsize=9.5,
+    )
 
     # Save chart PNG
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -340,7 +425,9 @@ def generate_all_radar_charts(
     # Calculate Nifty 100 Market Average
     nifty_average = df[score_cols].mean()
 
-    logger.info(f"Generating radar charts for {len(df)} companies into: {out_dir.resolve()}...")
+    logger.info(
+        f"Generating radar charts for {len(df)} companies into: {out_dir.resolve()}..."
+    )
 
     generated_files = []
     for idx, row in df.iterrows():
@@ -353,7 +440,9 @@ def generate_all_radar_charts(
             )
             generated_files.append(png_path)
         except Exception as e:
-            logger.error(f"Failed generating radar chart for company {row.get('id')}: {e}")
+            logger.error(
+                f"Failed generating radar chart for company {row.get('id')}: {e}"
+            )
 
     logger.info(f"Successfully generated {len(generated_files)} radar chart PNG files.")
     return generated_files
@@ -363,7 +452,9 @@ def main() -> None:
     """Main execution block."""
     logger.info("Starting Radar Chart Generation Pipeline...")
     generated = generate_all_radar_charts()
-    logger.info(f"Pipeline complete! Generated {len(generated)} radar charts in 'reports/radar_charts/'.")
+    logger.info(
+        f"Pipeline complete! Generated {len(generated)} radar charts in 'reports/radar_charts/'."
+    )
 
 
 if __name__ == "__main__":

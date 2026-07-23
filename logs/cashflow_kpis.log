@@ -1,0 +1,92 @@
+2026-07-23 01:19:15,501 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 01:19:15,675 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 01:19:36,234 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 01:19:36,269 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 01:19:36,811 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 01:19:37,006 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 01:19:37,532 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\cashflow_intelligence.xlsx
+2026-07-23 01:19:37,534 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\Desktop\Projects\Nifty100_Data_Foundation\output\distress_alerts.csv
+2026-07-23 01:19:50,368 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 01:19:50,400 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 01:19:50,927 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 01:19:51,106 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 01:19:51,558 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-57\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 01:19:51,558 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-57\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 01:19:56,213 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 01:19:56,255 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 01:19:56,754 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 01:19:56,922 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 01:19:57,167 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-58\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 01:19:57,167 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-58\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 14:16:38,431 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 14:16:38,465 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 14:16:39,102 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 14:16:39,340 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 14:16:39,709 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-59\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 14:16:39,709 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-59\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 14:17:55,057 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 14:17:55,097 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 14:17:55,934 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 14:17:56,143 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 14:17:56,466 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-61\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 14:17:56,466 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-61\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 14:26:37,589 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 14:26:37,625 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 14:26:38,336 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 14:26:38,582 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 14:26:38,907 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-63\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 14:26:38,907 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-63\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 14:39:28,337 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 14:39:28,388 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 14:39:29,798 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 14:39:30,113 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 14:39:30,631 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-67\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 14:39:30,631 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-67\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 15:04:16,257 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 15:04:16,291 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 15:04:17,022 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 15:04:17,269 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 15:04:17,709 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-69\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 15:04:17,709 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-69\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 16:01:46,701 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 16:01:46,738 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 16:01:47,422 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 16:01:47,673 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 16:01:47,975 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-70\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 16:01:47,975 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-70\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 16:21:21,367 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 16:21:21,404 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 16:21:22,054 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 16:21:22,320 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 16:21:22,603 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-71\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 16:21:22,605 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-71\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 23:47:27,231 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 23:47:27,347 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 23:47:28,862 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 23:47:29,232 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 23:47:29,662 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-73\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 23:47:29,662 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-73\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 23:47:48,977 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 23:47:49,008 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 23:47:49,759 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 23:47:50,056 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 23:47:50,301 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-74\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 23:47:50,301 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-74\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 23:49:38,817 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 23:49:38,853 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 23:49:39,252 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 23:49:39,371 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 23:49:39,567 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-75\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 23:49:39,567 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-75\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-23 23:55:56,261 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-23 23:55:56,288 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-23 23:55:56,664 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-23 23:55:56,787 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-23 23:55:56,975 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-76\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-23 23:55:56,975 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-76\test_generate_cashflow_intelli0\distress_alerts.csv
+2026-07-24 00:03:38,490 - INFO - Starting Day 31 Cash Flow Intelligence Report generation...
+2026-07-24 00:03:38,538 - INFO - Loaded 92 companies for Cash Flow Intelligence processing.
+2026-07-24 00:03:39,131 - INFO - Insufficient ratios for CFO Quality Score: only 2 valid ratios provided.
+2026-07-24 00:03:39,404 - WARNING - FCF Conversion calculation failed: Operating Profit is 0.
+2026-07-24 00:03:39,750 - INFO - Saved Cash Flow Intelligence matrix (92 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-77\test_generate_cashflow_intelli0\cashflow_intelligence.xlsx
+2026-07-24 00:03:39,750 - INFO - Saved Distress Alerts report (13 rows) to: C:\Users\Ridhi Kapoor\AppData\Local\Temp\pytest-of-Ridhi Kapoor\pytest-77\test_generate_cashflow_intelli0\distress_alerts.csv

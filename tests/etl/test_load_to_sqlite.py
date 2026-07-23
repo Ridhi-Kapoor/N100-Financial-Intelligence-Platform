@@ -19,13 +19,13 @@ def temp_workspace(tmp_path) -> Generator[dict, None, None]:
     # Create directory structure
     db_dir = tmp_path / "data" / "db"
     db_dir.mkdir(parents=True, exist_ok=True)
-    
+
     processed_dir = tmp_path / "data" / "processed"
     processed_dir.mkdir(parents=True, exist_ok=True)
-    
+
     output_dir = tmp_path / "data" / "output"
     output_dir.mkdir(parents=True, exist_ok=True)
-    
+
     sql_dir = tmp_path / "sql"
     sql_dir.mkdir(parents=True, exist_ok=True)
 
@@ -198,14 +198,14 @@ def temp_workspace(tmp_path) -> Generator[dict, None, None]:
         "companies.csv",
         "id,company_name,face_value\n"
         "ABB,Abbott India Ltd,10.0\n"
-        "TCS,Tata Consultancy Services,1.0\n"
+        "TCS,Tata Consultancy Services,1.0\n",
     )
-    
+
     write_csv_file(
         "profitandloss.csv",
         "id,company_id,year,sales,net_profit\n"
         "1,ABB,2024,1000.0,150.0\n"
-        "2,TCS,2024,5000.0,900.0\n"
+        "2,TCS,2024,5000.0,900.0\n",
     )
 
     # Dummy content for other tables so the loader does not complain about missing files
@@ -222,11 +222,17 @@ def temp_workspace(tmp_path) -> Generator[dict, None, None]:
     ]
     for tbl in other_tables:
         if tbl == "stock_prices":
-            write_csv_file(f"{tbl}.csv", "id,company_id,date,close_price\n1,ABB,2024-01-01,150.0\n")
+            write_csv_file(
+                f"{tbl}.csv", "id,company_id,date,close_price\n1,ABB,2024-01-01,150.0\n"
+            )
         elif tbl == "sectors":
-            write_csv_file(f"{tbl}.csv", "id,company_id,broad_sector\n1,ABB,Industrials\n")
+            write_csv_file(
+                f"{tbl}.csv", "id,company_id,broad_sector\n1,ABB,Industrials\n"
+            )
         elif tbl == "peer_groups":
-            write_csv_file(f"{tbl}.csv", "id,peer_group_name,company_id\n1,Private Banks,ABB\n")
+            write_csv_file(
+                f"{tbl}.csv", "id,peer_group_name,company_id\n1,Private Banks,ABB\n"
+            )
         else:
             write_csv_file(f"{tbl}.csv", dummy_headers + "1,ABB,2024\n")
 
@@ -279,7 +285,7 @@ def test_row_counts_verification(temp_workspace):
         "id,company_id,year,sales,net_profit\n"
         "1,ABB,2024,1000.0,150.0\n"
         "2,TCS,2024,5000.0,900.0\n"
-        "3,TCS,2023,4500.0,800.0\n"
+        "3,TCS,2023,4500.0,800.0\n",
     )
 
     res = load_all_data(
@@ -323,8 +329,7 @@ def test_empty_csv_file(temp_workspace):
     """Tests loading with an empty CSV file or CSV containing only headers."""
     # Write profitandloss.csv with only headers
     temp_workspace["write_csv"](
-        "profitandloss.csv",
-        "id,company_id,year,sales,net_profit\n"
+        "profitandloss.csv", "id,company_id,year,sales,net_profit\n"
     )
 
     res = load_all_data(
@@ -371,7 +376,7 @@ def test_foreign_key_validation(temp_workspace):
             "VALUES ('INVALID_TICKER', '2024', 500)"
         )
     conn_enforced.close()
-    
+
     # 2. Test manual insertion with FK check disabled, then running validation check.
     # Set isolation_level=None to ensure auto-commit (no active transaction blocks pragma change)
     conn_bypass = sqlite3.connect(temp_workspace["db_path"], isolation_level=None)
@@ -387,7 +392,7 @@ def test_foreign_key_validation(temp_workspace):
     cursor = conn_check.cursor()
     cursor.execute("PRAGMA foreign_key_check;")
     violations = cursor.fetchall()
-    
+
     # Verify that a violation is detected
     assert len(violations) > 0
     # violation tuple format: (table_name, rowid, parent_table, fkid)
@@ -403,7 +408,7 @@ def test_read_csv_header_skipping(temp_workspace):
         "companies.csv",
         "Bluestock Fintech - Companies Title,Unnamed: 1,Unnamed: 2\n"
         "id,company_name,face_value\n"
-        "ABB,Abbott India Ltd,10.0\n"
+        "ABB,Abbott India Ltd,10.0\n",
     )
 
     headers, rows = read_csv(

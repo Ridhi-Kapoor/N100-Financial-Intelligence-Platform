@@ -1,0 +1,651 @@
+Company ID,Type,Rule ID,Generated Text,Confidence Score (%)
+ABB,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+ABB,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,62.5
+ABB,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+ABB,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,86.5
+ABB,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,73.3
+ABB,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,76.6
+ABB,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,78.0
+ABB,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,81.1
+ABB,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+ADANIENSOL,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,65.7
+ADANIENSOL,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,67.5
+ADANIENSOL,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.1
+ADANIENSOL,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,80.0
+ADANIENSOL,Con,CON_3,Company's Operating Profit Margin has deteriorated for 3 consecutive years.,79.0
+ADANIENSOL,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,63.0
+ADANIENSOL,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",91.7
+ADANIENT,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,68.0
+ADANIENT,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,98.7
+ADANIENT,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,93.9
+ADANIENT,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,73.8
+ADANIENT,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,100.0
+ADANIENT,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",94.2
+ADANIGREEN,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,100.0
+ADANIGREEN,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+ADANIGREEN,Con,CON_1,Company carries high financial leverage with a Debt-to-Equity ratio exceeding 2.0.,100.0
+ADANIGREEN,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+ADANIGREEN,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+ADANIPORTS,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,76.0
+ADANIPORTS,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,69.2
+ADANIPORTS,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+ADANIPORTS,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,69.7
+ADANIPORTS,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,67.0
+ADANIPORTS,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,82.0
+ADANIPORTS,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",61.0
+ADANIPOWER,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,88.9
+ADANIPOWER,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,95.0
+ADANIPOWER,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,62.2
+ADANIPOWER,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,76.5
+ADANIPOWER,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,86.2
+ADANIPOWER,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,99.1
+ADANIPOWER,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+AMBUJACEM,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+AMBUJACEM,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,88.3
+AMBUJACEM,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,70.7
+AMBUJACEM,Con,CON_12,Company has delivered sluggish 5-year revenue growth below 5% CAGR.,64.4
+APOLLOHOSP,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,80.0
+APOLLOHOSP,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,84.2
+APOLLOHOSP,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,63.0
+APOLLOHOSP,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,89.9
+APOLLOHOSP,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,92.2
+APOLLOHOSP,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,70.0
+ASIANPAINT,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+ASIANPAINT,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+ASIANPAINT,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,61.0
+ASIANPAINT,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+ASIANPAINT,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,79.0
+ASIANPAINT,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,71.9
+ASIANPAINT,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,82.0
+ASIANPAINT,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,70.9
+ASIANPAINT,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,65.5
+ATGL,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,77.8
+ATGL,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,72.2
+ATGL,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,65.8
+ATGL,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,79.1
+ATGL,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,64.2
+ATGL,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,70.0
+AXISBANK,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+AXISBANK,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,89.5
+AXISBANK,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,100.0
+AXISBANK,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,97.4
+AXISBANK,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,68.8
+AXISBANK,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+BAJAJ-AUTO,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+BAJAJ-AUTO,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,80.0
+BAJAJ-AUTO,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+BAJAJ-AUTO,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,64.5
+BAJAJ-AUTO,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,61.8
+BAJAJ-AUTO,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,68.3
+BAJAJFINSV,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,96.9
+BAJAJFINSV,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,71.9
+BAJAJFINSV,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,78.0
+BAJAJFINSV,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,65.6
+BAJAJFINSV,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,71.2
+BAJAJFINSV,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,64.2
+BAJAJFINSV,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+BAJAJFINSV,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,78.2
+BAJAJFINSV,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+BAJAJHLDNG,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+BAJAJHLDNG,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,93.2
+BAJAJHLDNG,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+BAJAJHLDNG,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+BAJAJHLDNG,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,67.9
+BAJAJHLDNG,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,70.4
+BAJAJHLDNG,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,78.5
+BAJAJHLDNG,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,100.0
+BAJAJHLDNG,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+BAJFINANCE,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,67.1
+BAJFINANCE,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,78.7
+BAJFINANCE,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+BAJFINANCE,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,74.0
+BAJFINANCE,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+BAJFINANCE,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,85.1
+BAJFINANCE,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,67.5
+BAJFINANCE,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+BAJFINANCE,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+BANKBARODA,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,65.0
+BANKBARODA,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+BANKBARODA,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,100.0
+BANKBARODA,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,100.0
+BANKBARODA,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,79.3
+BANKBARODA,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,100.0
+BANKBARODA,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,71.0
+BANKBARODA,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+BEL,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+BEL,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+BEL,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+BEL,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,100.0
+BEL,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,68.1
+BEL,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+BHARTIARTL,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+BHARTIARTL,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,87.5
+BHARTIARTL,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,81.0
+BHARTIARTL,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,100.0
+BHARTIARTL,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,97.8
+BHARTIARTL,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,73.7
+BHARTIARTL,Con,CON_1,Company carries high financial leverage with a Debt-to-Equity ratio exceeding 2.0.,68.8
+BHARTIARTL,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",61.0
+BHEL,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,68.9
+BHEL,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,80.2
+BHEL,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",99.2
+BHEL,Con,CON_12,Company has delivered sluggish 5-year revenue growth below 5% CAGR.,100.0
+BHEL,Pro,PRO_FALLBACK,Company maintains positive operating profitability and established operational presence.,65.0
+BOSCHLTD,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+BOSCHLTD,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+BOSCHLTD,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+BOSCHLTD,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,72.0
+BOSCHLTD,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,81.3
+BOSCHLTD,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,63.8
+BOSCHLTD,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,83.9
+BOSCHLTD,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+BPCL,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,97.3
+BPCL,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,68.7
+BPCL,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,71.4
+BPCL,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,66.5
+BPCL,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,86.1
+BPCL,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,86.0
+BPCL,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,82.3
+BPCL,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+BRITANNIA,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+BRITANNIA,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,80.0
+BRITANNIA,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,80.6
+BRITANNIA,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,91.5
+BRITANNIA,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,79.4
+BRITANNIA,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,66.6
+BRITANNIA,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,71.2
+BRITANNIA,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+CANBK,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+CANBK,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,66.4
+CANBK,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,100.0
+CANBK,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,100.0
+CANBK,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,80.8
+CANBK,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,100.0
+CANBK,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,70.1
+CANBK,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+CHOLAFIN,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,61.0
+CHOLAFIN,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,73.9
+CHOLAFIN,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+CHOLAFIN,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,65.0
+CHOLAFIN,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,81.2
+CHOLAFIN,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,74.6
+CHOLAFIN,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.1
+CHOLAFIN,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+CHOLAFIN,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,95.0
+CHOLAFIN,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+CIPLA,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,85.0
+CIPLA,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+CIPLA,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,64.1
+CIPLA,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,95.3
+CIPLA,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,62.5
+CIPLA,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,73.7
+CIPLA,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,79.8
+CIPLA,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,88.3
+CIPLA,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+COALINDIA,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+COALINDIA,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+COALINDIA,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+COALINDIA,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,71.2
+COALINDIA,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,71.0
+COALINDIA,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,63.7
+COALINDIA,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,73.5
+COALINDIA,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+DABUR,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+DABUR,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+DABUR,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,83.2
+DABUR,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,76.5
+DABUR,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,64.8
+DABUR,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,65.9
+DIVISLAB,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,84.8
+DIVISLAB,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,90.0
+DIVISLAB,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+DIVISLAB,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,64.5
+DIVISLAB,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+DIVISLAB,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,75.0
+DIVISLAB,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,69.4
+DIVISLAB,Con,CON_3,Company's Operating Profit Margin has deteriorated for 3 consecutive years.,95.0
+DIVISLAB,Con,CON_9,Company's Earnings Per Share (EPS) has declined over 3 consecutive years.,100.0
+DLF,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+DLF,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,72.0
+DLF,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,72.5
+DLF,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,70.3
+DLF,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,72.8
+DLF,Con,CON_12,Company has delivered sluggish 5-year revenue growth below 5% CAGR.,100.0
+DMART,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,71.0
+DMART,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,64.5
+DMART,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+DMART,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,75.5
+DMART,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,63.7
+DMART,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,90.0
+DRREDDY,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,75.3
+DRREDDY,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+DRREDDY,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,64.5
+DRREDDY,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,65.1
+DRREDDY,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+DRREDDY,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,77.7
+DRREDDY,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,76.1
+DRREDDY,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+EICHERMOT,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,95.6
+EICHERMOT,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,80.0
+EICHERMOT,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,61.5
+EICHERMOT,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+EICHERMOT,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,67.5
+EICHERMOT,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,80.6
+EICHERMOT,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.5
+EICHERMOT,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,70.0
+EICHERMOT,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,65.3
+GAIL,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,90.0
+GAIL,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,83.6
+GAIL,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,68.5
+GAIL,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,64.8
+GAIL,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+GODREJCP,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,86.2
+GODREJCP,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+GODREJCP,Con,CON_4,Company reported a net loss in the latest financial year.,90.0
+GODREJCP,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",81.2
+GRASIM,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,74.0
+GRASIM,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,85.5
+GRASIM,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,87.2
+GRASIM,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,79.3
+GRASIM,Con,CON_9,Company's Earnings Per Share (EPS) has declined over 3 consecutive years.,100.0
+GRASIM,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,62.1
+GRASIM,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",86.5
+HAL,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+HAL,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,70.5
+HAL,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,69.7
+HAL,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+HAL,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,65.5
+HAL,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,83.3
+HAL,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,86.7
+HAL,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,75.4
+HAVELLS,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,90.4
+HAVELLS,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,85.0
+HAVELLS,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,85.4
+HAVELLS,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,72.0
+HAVELLS,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,64.5
+HAVELLS,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+HCLTECH,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+HCLTECH,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+HCLTECH,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+HCLTECH,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,95.0
+HCLTECH,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,66.9
+HCLTECH,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,65.3
+HCLTECH,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+HDFCBANK,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,73.9
+HDFCBANK,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,65.8
+HDFCBANK,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,61.5
+HDFCBANK,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,61.0
+HDFCBANK,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.9
+HDFCBANK,Con,CON_6,"Company has weak Interest Coverage Ratio (<1.5), indicating potential debt servicing pressure.",67.0
+HDFCBANK,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,67.0
+HDFCBANK,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+HDFCLIFE,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,93.4
+HDFCLIFE,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,72.3
+HDFCLIFE,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+HDFCLIFE,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+HDFCLIFE,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,85.4
+HDFCLIFE,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,100.0
+HDFCLIFE,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,70.2
+HEROMOTOCO,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,99.4
+HEROMOTOCO,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+HEROMOTOCO,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+HEROMOTOCO,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+HEROMOTOCO,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,87.5
+HEROMOTOCO,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,75.0
+HEROMOTOCO,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,61.0
+HEROMOTOCO,Con,CON_12,Company has delivered sluggish 5-year revenue growth below 5% CAGR.,74.2
+HINDALCO,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+HINDALCO,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+HINDALCO,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+HINDALCO,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,63.7
+HINDALCO,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+HINDUNILVR,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+HINDUNILVR,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+HINDUNILVR,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+HINDUNILVR,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+HINDUNILVR,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,98.0
+HINDUNILVR,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,69.3
+HINDUNILVR,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.5
+HINDUNILVR,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,65.2
+ICICIBANK,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,64.5
+ICICIBANK,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,100.0
+ICICIBANK,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,100.0
+ICICIBANK,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,71.8
+ICICIBANK,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,100.0
+ICICIBANK,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,70.0
+ICICIBANK,Con,CON_6,"Company has weak Interest Coverage Ratio (<1.5), indicating potential debt servicing pressure.",69.0
+ICICIBANK,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,67.2
+ICICIBANK,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+ICICIGI,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,80.0
+ICICIGI,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+ICICIGI,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+ICICIGI,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+ICICIGI,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,64.0
+ICICIGI,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,61.0
+ICICIGI,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,93.5
+ICICIGI,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+ICICIPRULI,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,94.7
+ICICIPRULI,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+ICICIPRULI,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,63.7
+ICICIPRULI,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,91.0
+ICICIPRULI,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,97.7
+ICICIPRULI,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,63.8
+INDIGO,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+INDIGO,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+INDIGO,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,68.6
+INDIGO,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+INDIGO,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,100.0
+INDIGO,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,82.6
+INDIGO,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,100.0
+INDIGO,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,100.0
+INDIGO,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,100.0
+INDIGO,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+INDUSINDBK,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,61.0
+INDUSINDBK,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+INDUSINDBK,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,63.1
+INDUSINDBK,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,61.8
+INDUSINDBK,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,74.2
+INDUSINDBK,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,69.9
+INDUSINDBK,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,80.0
+INDUSINDBK,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,66.2
+INDUSINDBK,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+INFY,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+INFY,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,80.0
+INFY,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+INFY,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.9
+INFY,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+IOC,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,68.7
+IOC,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+IOC,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,61.0
+IOC,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,70.3
+IOC,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,70.0
+IOC,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,70.2
+IOC,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,78.1
+IOC,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+IRCTC,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+IRCTC,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+IRCTC,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,65.9
+IRCTC,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,73.5
+IRCTC,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,73.8
+IRCTC,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+IRCTC,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,73.5
+IRCTC,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,86.9
+IRCTC,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,76.8
+IRCTC,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,100.0
+IRCTC,Con,CON_3,Company's Operating Profit Margin has deteriorated for 3 consecutive years.,91.0
+IRFC,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,68.1
+IRFC,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+IRFC,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,64.9
+IRFC,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,65.5
+IRFC,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,70.2
+IRFC,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,66.3
+IRFC,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,70.8
+IRFC,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+IRFC,Con,CON_6,"Company has weak Interest Coverage Ratio (<1.5), indicating potential debt servicing pressure.",68.6
+IRFC,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,72.8
+IRFC,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+ITC,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+ITC,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+ITC,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+ITC,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,78.0
+ITC,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+ITC,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,92.0
+ITC,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,63.2
+ITC,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,79.6
+ITC,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+JINDALSTEL,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,85.0
+JINDALSTEL,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,70.0
+JINDALSTEL,Con,CON_12,Company has delivered sluggish 5-year revenue growth below 5% CAGR.,78.0
+JIOFIN,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+JIOFIN,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+JIOFIN,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+JIOFIN,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,95.5
+JIOFIN,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,83.5
+JSWENERGY,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,95.0
+JSWENERGY,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,93.0
+JSWENERGY,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,61.0
+JSWENERGY,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,70.2
+JSWENERGY,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,83.5
+JSWENERGY,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,64.2
+JSWENERGY,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",82.7
+JSWENERGY,Con,CON_12,Company has delivered sluggish 5-year revenue growth below 5% CAGR.,61.6
+JSWSTEEL,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,76.3
+JSWSTEEL,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+JSWSTEEL,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,61.2
+JSWSTEEL,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,78.0
+JSWSTEEL,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",62.1
+KOTAKBANK,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,61.0
+KOTAKBANK,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,68.7
+KOTAKBANK,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,68.0
+KOTAKBANK,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,70.3
+KOTAKBANK,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,70.0
+KOTAKBANK,Con,CON_6,"Company has weak Interest Coverage Ratio (<1.5), indicating potential debt servicing pressure.",70.3
+KOTAKBANK,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,66.4
+KOTAKBANK,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+LICI,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+LICI,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+LICI,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+LICI,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,100.0
+LICI,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+LICI,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,100.0
+LICI,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+LODHA,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,93.1
+LODHA,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,61.5
+LODHA,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,91.1
+LODHA,Con,CON_12,Company has delivered sluggish 5-year revenue growth below 5% CAGR.,99.1
+LT,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+LT,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,68.0
+LT,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.4
+LT,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+LT,Con,CON_3,Company's Operating Profit Margin has deteriorated for 3 consecutive years.,69.0
+LT,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,66.8
+LTIM,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+LTIM,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+LTIM,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,90.7
+LTIM,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,67.2
+LTIM,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,91.9
+LTIM,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,71.0
+LTIM,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,68.3
+LTIM,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,66.8
+M&M,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,73.7
+M&M,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,62.4
+M&M,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,74.2
+M&M,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+M&M,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",71.4
+MARUTI,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,95.0
+MARUTI,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+MARUTI,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+MARUTI,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,64.5
+MARUTI,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,81.2
+MARUTI,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.2
+MARUTI,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,91.6
+MARUTI,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+MOTHERSON,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,94.6
+MOTHERSON,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,80.0
+MOTHERSON,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,72.0
+MOTHERSON,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.5
+MOTHERSON,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+NAUKRI,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,97.8
+NAUKRI,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+NAUKRI,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+NAUKRI,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,64.2
+NAUKRI,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,64.5
+NAUKRI,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,89.0
+NAUKRI,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,85.5
+NAUKRI,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,79.0
+NESTLEIND,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+NESTLEIND,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+NESTLEIND,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+NESTLEIND,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,89.5
+NESTLEIND,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,61.0
+NESTLEIND,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,61.0
+NESTLEIND,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+NHPC,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+NHPC,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,97.5
+NHPC,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,71.2
+NHPC,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,76.5
+NHPC,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,68.8
+NHPC,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,67.1
+NHPC,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,67.0
+NHPC,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",80.0
+NHPC,Con,CON_12,Company has delivered sluggish 5-year revenue growth below 5% CAGR.,78.0
+NTPC,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,66.0
+NTPC,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,68.0
+NTPC,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,65.2
+NTPC,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,80.0
+NTPC,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",72.7
+ONGC,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+ONGC,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,71.4
+ONGC,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,65.5
+ONGC,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,65.9
+ONGC,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,66.5
+PFC,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,85.5
+PFC,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,78.0
+PFC,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,67.3
+PFC,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,80.0
+PFC,Con,CON_6,"Company has weak Interest Coverage Ratio (<1.5), indicating potential debt servicing pressure.",83.4
+PFC,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,61.0
+PFC,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+PIDILITIND,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,96.2
+PIDILITIND,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+PIDILITIND,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,73.5
+PIDILITIND,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,62.5
+PIDILITIND,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,91.4
+PIDILITIND,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+PNB,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+PNB,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,61.8
+PNB,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,70.0
+PNB,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,85.1
+PNB,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",68.9
+POWERGRID,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+POWERGRID,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+POWERGRID,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,83.5
+POWERGRID,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,65.5
+POWERGRID,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,71.2
+POWERGRID,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+POWERGRID,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",61.0
+RECLTD,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,72.0
+RECLTD,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,100.0
+RECLTD,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,69.3
+RECLTD,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,69.6
+RECLTD,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+RECLTD,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,66.8
+RECLTD,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+RELIANCE,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,67.6
+RELIANCE,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,83.0
+RELIANCE,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,61.2
+SBILIFE,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,71.4
+SBILIFE,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+SBILIFE,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,78.5
+SBILIFE,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+SBILIFE,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,85.3
+SBILIFE,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,100.0
+SBILIFE,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+SBIN,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+SBIN,Pro,PRO_3,Company is virtually debt-free with a Debt-to-Equity ratio of 0 in the latest year.,95.0
+SBIN,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,100.0
+SBIN,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,75.0
+SBIN,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,100.0
+SBIN,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,100.0
+SBIN,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,71.5
+SHREECEM,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+SHREECEM,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,79.8
+SHREECEM,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,61.5
+SHREECEM,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,75.8
+SHREECEM,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+SHRIRAMFIN,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,67.1
+SHRIRAMFIN,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,66.0
+SHRIRAMFIN,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,65.2
+SHRIRAMFIN,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,72.4
+SHRIRAMFIN,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,67.4
+SHRIRAMFIN,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,100.0
+SHRIRAMFIN,Con,CON_6,"Company has weak Interest Coverage Ratio (<1.5), indicating potential debt servicing pressure.",81.5
+SHRIRAMFIN,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",100.0
+SIEMENS,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,83.3
+SIEMENS,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+SIEMENS,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+SIEMENS,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,69.3
+SIEMENS,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,73.8
+SIEMENS,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,73.0
+SIEMENS,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+SUNPHARMA,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,74.6
+SUNPHARMA,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,95.0
+SUNPHARMA,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,64.5
+SUNPHARMA,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,66.8
+SUNPHARMA,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+SUNPHARMA,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,67.0
+SUNPHARMA,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,88.9
+SUNPHARMA,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,80.6
+SUNPHARMA,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,79.2
+SUNPHARMA,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+TATACONSUM,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+TATACONSUM,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,61.9
+TATACONSUM,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,62.4
+TATACONSUM,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,85.3
+TATACONSUM,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,82.0
+TATACONSUM,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,68.5
+TATACONSUM,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,66.2
+TATAMOTORS,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,81.2
+TATAMOTORS,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,100.0
+TATAMOTORS,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,86.7
+TATAMOTORS,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,80.0
+TATAPOWER,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+TATAPOWER,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,61.0
+TATAPOWER,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,67.6
+TATAPOWER,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",71.2
+TATASTEEL,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+TATASTEEL,Con,CON_3,Company's Operating Profit Margin has deteriorated for 3 consecutive years.,97.0
+TATASTEEL,Con,CON_4,Company reported a net loss in the latest financial year.,90.0
+TATASTEEL,Con,CON_5,Company's top-line revenue has declined for 2 or more consecutive years.,74.1
+TATASTEEL,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,73.8
+TATASTEEL,Con,CON_9,Company's Earnings Per Share (EPS) has declined over 3 consecutive years.,100.0
+TATASTEEL,Con,CON_10,Company generates low Return on Capital Employed (ROCE below 10%).,68.9
+TATASTEEL,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",91.2
+TCS,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,100.0
+TCS,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+TCS,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,63.0
+TCS,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,100.0
+TCS,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,79.0
+TCS,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,63.9
+TCS,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+TECHM,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,85.7
+TECHM,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,100.0
+TECHM,Pro,PRO_7,Company possesses strong debt service capacity with Interest Coverage Ratio above 10.,73.9
+TECHM,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,100.0
+TECHM,Con,CON_3,Company's Operating Profit Margin has deteriorated for 3 consecutive years.,83.0
+TECHM,Con,CON_7,"Company's Dividend Payout Ratio exceeds 100% of net profits, which may be unsustainable.",85.0
+TECHM,Con,CON_9,Company's Earnings Per Share (EPS) has declined over 3 consecutive years.,100.0
+TITAN,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,98.1
+TITAN,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,70.0
+TITAN,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,71.8
+TITAN,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,61.0
+TITAN,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,64.0
+TITAN,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,69.0
+TITAN,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,89.6
+TITAN,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,61.0
+TITAN,Con,CON_1,Company carries high financial leverage with a Debt-to-Equity ratio exceeding 2.0.,63.4
+TITAN,Con,CON_8,Company's Debt-to-Equity ratio has been steadily increasing over 3 consecutive years.,93.8
+TITAN,Con,CON_11,"Company maintains high Net Debt to EBITDA ratio (>3.0x), signaling elevated leverage risk.",67.2
+TORNTPHARM,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,98.9
+TORNTPHARM,Pro,PRO_2,Company has generated positive Free Cash Flow for 5+ consecutive years.,75.0
+TORNTPHARM,Pro,PRO_5,Company demonstrates robust profitability with Operating Profit Margin exceeding 25%.,69.0
+TORNTPHARM,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,75.9
+TORNTPHARM,Pro,PRO_8,Company offers an attractive dividend yield backed by positive Free Cash Flow.,78.5
+TORNTPHARM,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,90.8
+TORNTPHARM,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,83.0
+TORNTPHARM,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,95.5
+TORNTPHARM,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,73.3
+TORNTPHARM,Con,CON_FALLBACK,Valuation multiples and revenue growth trajectory require ongoing monitoring.,65.0
+TRENT,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,80.3
+TRENT,Pro,PRO_4,Company has delivered strong revenue growth with a 5-year CAGR above 15%.,100.0
+TRENT,Pro,PRO_6,Company has delivered exceptional profit growth with a 5-year PAT CAGR above 20%.,100.0
+TRENT,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,100.0
+TRENT,Pro,PRO_10,Company's Return on Equity (ROE) has consistently improved over 3 consecutive years.,100.0
+TRENT,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,100.0
+TRENT,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,72.4
+TRENT,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,70.0
+TVSMOTOR,Pro,PRO_1,Company has maintained a healthy ROE above 20% over multiple years.,89.2
+TVSMOTOR,Pro,PRO_9,Company has consistently expanded per-share earnings with a 5-year EPS CAGR above 15%.,68.3
+TVSMOTOR,Pro,PRO_11,Company exhibits operating leverage expansion with steady revenue and profit trajectory.,68.2
+TVSMOTOR,Pro,PRO_12,Company is expanding its total asset base while actively reducing overall debt.,98.3
+TVSMOTOR,Con,CON_2,Company has experienced negative Free Cash Flow for 3 consecutive years.,80.0

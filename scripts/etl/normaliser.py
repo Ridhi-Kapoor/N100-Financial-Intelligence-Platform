@@ -10,24 +10,27 @@ def normalize_year(value):
 
     value_str = str(value).strip().upper()
 
-    # Match 4-digit years like 2020, Mar 2020, FY2020, etc.
-    match = re.search(r'(20\d{2})', value_str)
+    # Match 4-digit years like 2020, 1995, Mar 2020, FY2020, etc.
+    match = re.search(r'((?:19|20)\d{2})', value_str)
     if match:
         return int(match.group(1))
 
     # Match FY20 or similar 2-digit financial years
     match = re.search(r'FY(\d{2})', value_str)
     if match:
-        return 2000 + int(match.group(1))
+        yr = int(match.group(1))
+        return (1900 + yr) if yr > 50 else (2000 + yr)
 
     # Match formats like Mar-13 or 13-Mar
     match = re.search(r'-(\d{2})$', value_str)
     if match:
-        return 2000 + int(match.group(1))
+        yr = int(match.group(1))
+        return (1900 + yr) if yr > 50 else (2000 + yr)
     
     match = re.search(r'^(\d{2})-', value_str)
     if match:
-        return 2000 + int(match.group(1))
+        yr = int(match.group(1))
+        return (1900 + yr) if yr > 50 else (2000 + yr)
 
     # Preserve TTM
     if value_str == "TTM":

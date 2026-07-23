@@ -4,13 +4,11 @@ Unit tests for src/analytics/radar.py module.
 
 from pathlib import Path
 import pandas as pd
-import pytest
 
 from src.analytics.radar import (
     load_radar_data,
     generate_company_radar_chart,
     generate_all_radar_charts,
-    RADAR_METRIC_LABELS,
 )
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent

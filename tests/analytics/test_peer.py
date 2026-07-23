@@ -5,7 +5,6 @@ Unit tests for src/analytics/peer.py module.
 import sqlite3
 from pathlib import Path
 import pandas as pd
-import pytest
 
 from src.analytics.peer import (
     load_peer_groups,
@@ -35,7 +34,9 @@ def test_unassigned_company_message():
     unassigned = get_company_peer_group("ZOMATO", excel_path=EXCEL_PATH)
     assert unassigned == "No peer group assigned"
 
-    res = get_peer_percentiles_for_company("ZOMATO", db_path=DB_PATH, excel_path=EXCEL_PATH)
+    res = get_peer_percentiles_for_company(
+        "ZOMATO", db_path=DB_PATH, excel_path=EXCEL_PATH
+    )
     assert res == "No peer group assigned"
 
 
@@ -49,7 +50,14 @@ def test_compute_peer_percentiles_schema_and_counts():
     """Verify compute_peer_percentiles returns valid columns and non-empty data."""
     df = compute_peer_percentiles(db_path=DB_PATH, excel_path=EXCEL_PATH)
     assert not df.empty
-    expected_cols = {"company_id", "peer_group_name", "metric", "value", "percentile_rank", "year"}
+    expected_cols = {
+        "company_id",
+        "peer_group_name",
+        "metric",
+        "value",
+        "percentile_rank",
+        "year",
+    }
     assert expected_cols.issubset(set(df.columns))
 
     metrics_present = set(df["metric"].unique())
@@ -60,7 +68,9 @@ def test_compute_peer_percentiles_schema_and_counts():
 def test_debt_to_equity_inverse_ranking():
     """Verify Debt-to-Equity inverse percentile ranking (lower value -> higher rank)."""
     df = compute_peer_percentiles(db_path=DB_PATH, excel_path=EXCEL_PATH)
-    de_df = df[df["metric"] == "Debt-to-Equity"].dropna(subset=["value", "percentile_rank"])
+    de_df = df[df["metric"] == "Debt-to-Equity"].dropna(
+        subset=["value", "percentile_rank"]
+    )
 
     # Group by peer group and year, check correlation or order
     for (pg, yr), grp in de_df.groupby(["peer_group_name", "year"]):
@@ -88,7 +98,9 @@ def test_populate_peer_percentiles_table():
 
 def test_get_peer_percentiles_for_company():
     """Verify fetching peer percentiles DataFrame for a specific assigned company."""
-    res = get_peer_percentiles_for_company("HDFCBANK", year="2024", db_path=DB_PATH, excel_path=EXCEL_PATH)
+    res = get_peer_percentiles_for_company(
+        "HDFCBANK", year="2024", db_path=DB_PATH, excel_path=EXCEL_PATH
+    )
     assert isinstance(res, pd.DataFrame)
     assert not res.empty
     assert (res["company_id"] == "HDFCBANK").all()

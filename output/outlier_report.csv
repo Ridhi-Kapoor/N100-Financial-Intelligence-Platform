@@ -1,0 +1,10 @@
+Company ID,Company Name,Broad Sector,KPI Name,KPI Value,Sector Mean,Sector Standard Deviation,Z-score,Outlier Flag
+INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,ROE (%),892.5683,86.7241,232.1045,3.4719,High Outlier
+INDIGO,Interglobe Aviation Ltd,Consumer Discretionary,Asset Turnover,56.3863,5.1578,14.7522,3.4726,High Outlier
+ADANIGREEN,Adani Green Energy Ltd,Energy,ROCE (%),96.5,21.9621,22.9553,3.2471,High Outlier
+ADANIGREEN,Adani Green Energy Ltd,Energy,Debt / Equity,6.5953,1.4887,1.618,3.1562,High Outlier
+PNB,Punjab National Bank,Financials,ROE (%),61.3206,18.8652,12.7403,3.3324,High Outlier
+LICI,Life Insurance Corporation of India,Financials,ROCE (%),63.79,11.7135,12.363,4.2123,High Outlier
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Financials,NPM (%),432.7262,38.4169,87.6631,4.498,High Outlier
+PNB,Punjab National Bank,Financials,Asset Turnover,1.507,0.1935,0.3029,4.3366,High Outlier
+BAJAJHLDNG,Bajaj Holdings & Investment Ltd,Financials,Interest Coverage,3764.5,334.3683,932.5254,3.6783,High Outlier

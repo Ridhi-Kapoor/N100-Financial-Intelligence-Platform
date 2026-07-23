@@ -3,44 +3,31 @@ Unit tests for the Data Quality Validator.
 """
 
 import pandas as pd
-import pytest
-from pathlib import Path
 from scripts.etl.validator import (
     DataValidator,
-    ValidationFailure,
     Severity,
     check_pk_not_null,
     check_duplicate_pks,
     check_foreign_key_violations,
-    check_missing_financial_year,
-    check_missing_mandatory_fields,
-    check_negative_sales,
-    check_invalid_ticker,
-    check_duplicate_company_year,
-    check_opm_out_of_range,
-    check_balance_sheet_mismatch,
-    check_zero_sales,
-    check_negative_net_profit,
-    check_negative_assets,
-    check_future_financial_year,
-    check_missing_sector,
-    check_missing_industry
 )
+
 
 # Helper function to generate a baseline valid DataFrame
 def get_valid_df() -> pd.DataFrame:
-    return pd.DataFrame({
-        "ticker": ["TCS", "INFY", "RELIANCE"],
-        "year": [2021, 2022, 2023],
-        "sales": [1000.0, 2000.0, 3000.0],
-        "opm": [0.25, 0.20, 0.18],
-        "total_assets": [5000.0, 6000.0, 7000.0],
-        "total_liabilities": [3000.0, 3500.0, 4000.0],
-        "total_equity": [2000.0, 2500.0, 3000.0],
-        "net_profit": [200.0, 300.0, 400.0],
-        "sector": ["Technology", "Technology", "Energy"],
-        "industry": ["IT Services", "IT Services", "Oil & Gas"]
-    })
+    return pd.DataFrame(
+        {
+            "ticker": ["TCS", "INFY", "RELIANCE"],
+            "year": [2021, 2022, 2023],
+            "sales": [1000.0, 2000.0, 3000.0],
+            "opm": [0.25, 0.20, 0.18],
+            "total_assets": [5000.0, 6000.0, 7000.0],
+            "total_liabilities": [3000.0, 3500.0, 4000.0],
+            "total_equity": [2000.0, 2500.0, 3000.0],
+            "net_profit": [200.0, 300.0, 400.0],
+            "sector": ["Technology", "Technology", "Energy"],
+            "industry": ["IT Services", "IT Services", "Oil & Gas"],
+        }
+    )
 
 
 # 1. Valid dataset
@@ -61,7 +48,7 @@ def test_valid_dataset():
         net_profit_col="net_profit",
         sector_col="sector",
         industry_col="industry",
-        current_year=2026
+        current_year=2026,
     )
     assert len(failures) == 0
     assert len(validator.get_failures()) == 0
@@ -135,7 +122,7 @@ def test_fk_violation():
         mandatory_cols=["ticker"],
         fk_col="ticker",
         parent_keys=parent_keys,
-        parent_table_name="companies"
+        parent_table_name="companies",
     )
     dq03_failures = [f for f in failures if f.rule_id == "DQ-03"]
     assert len(dq03_failures) == 1
@@ -192,7 +179,7 @@ def test_negative_sales():
         pk_cols="ticker",
         year_col="year",
         mandatory_cols=["ticker"],
-        sales_col="sales"
+        sales_col="sales",
     )
     dq06_failures = [f for f in failures if f.rule_id == "DQ-06"]
     assert len(dq06_failures) == 1
@@ -254,7 +241,7 @@ def test_invalid_opm():
         pk_cols="ticker",
         year_col="year",
         mandatory_cols=["ticker"],
-        opm_col="opm"
+        opm_col="opm",
     )
     dq09_failures = [f for f in failures if f.rule_id == "DQ-09"]
     assert len(dq09_failures) == 1
@@ -275,7 +262,7 @@ def test_balance_mismatch():
         mandatory_cols=["ticker"],
         assets_col="total_assets",
         liabilities_col="total_liabilities",
-        equity_col="total_equity"
+        equity_col="total_equity",
     )
     dq10_failures = [f for f in failures if f.rule_id == "DQ-10"]
     assert len(dq10_failures) == 1
@@ -294,7 +281,7 @@ def test_zero_sales():
         pk_cols="ticker",
         year_col="year",
         mandatory_cols=["ticker"],
-        sales_col="sales"
+        sales_col="sales",
     )
     dq11_failures = [f for f in failures if f.rule_id == "DQ-11"]
     assert len(dq11_failures) == 1
@@ -313,7 +300,7 @@ def test_negative_profit():
         pk_cols="ticker",
         year_col="year",
         mandatory_cols=["ticker"],
-        net_profit_col="net_profit"
+        net_profit_col="net_profit",
     )
     dq12_failures = [f for f in failures if f.rule_id == "DQ-12"]
     assert len(dq12_failures) == 1
@@ -332,7 +319,7 @@ def test_negative_assets():
         pk_cols="ticker",
         year_col="year",
         mandatory_cols=["ticker"],
-        assets_col="total_assets"
+        assets_col="total_assets",
     )
     dq13_failures = [f for f in failures if f.rule_id == "DQ-13"]
     assert len(dq13_failures) == 1
@@ -351,7 +338,7 @@ def test_future_year():
         pk_cols="ticker",
         year_col="year",
         mandatory_cols=["ticker"],
-        current_year=2026
+        current_year=2026,
     )
     dq14_failures = [f for f in failures if f.rule_id == "DQ-14"]
     assert len(dq14_failures) == 1
@@ -370,7 +357,7 @@ def test_missing_sector():
         pk_cols="ticker",
         year_col="year",
         mandatory_cols=["ticker"],
-        sector_col="sector"
+        sector_col="sector",
     )
     dq15_failures = [f for f in failures if f.rule_id == "DQ-15"]
     assert len(dq15_failures) == 1
@@ -389,7 +376,7 @@ def test_missing_industry():
         pk_cols="ticker",
         year_col="year",
         mandatory_cols=["ticker"],
-        industry_col="industry"
+        industry_col="industry",
     )
     dq16_failures = [f for f in failures if f.rule_id == "DQ-16"]
     assert len(dq16_failures) == 1
@@ -407,18 +394,23 @@ def test_export_csv(tmp_path):
         table_name="financials",
         pk_cols="ticker",
         year_col="year",
-        mandatory_cols=["ticker"]
+        mandatory_cols=["ticker"],
     )
     output_file = tmp_path / "failures.csv"
     validator.export_failures(output_file)
-    
+
     assert output_file.exists()
-    
+
     # Read back and verify columns
     failures_df = pd.read_csv(output_file)
     expected_cols = [
-        "Rule ID", "Severity", "Table Name", 
-        "Row Number", "Column Name", "Failed Value", "Error Message"
+        "Rule ID",
+        "Severity",
+        "Table Name",
+        "Row Number",
+        "Column Name",
+        "Failed Value",
+        "Error Message",
     ]
     assert list(failures_df.columns) == expected_cols
     assert len(failures_df) > 0
@@ -434,17 +426,22 @@ def test_no_validation_failures(tmp_path):
         table_name="financials",
         pk_cols="ticker",
         year_col="year",
-        mandatory_cols=["ticker"]
+        mandatory_cols=["ticker"],
     )
     output_file = tmp_path / "no_failures.csv"
     validator.export_failures(output_file)
-    
+
     assert output_file.exists()
     failures_df = pd.read_csv(output_file)
     assert len(failures_df) == 0
     expected_cols = [
-        "Rule ID", "Severity", "Table Name", 
-        "Row Number", "Column Name", "Failed Value", "Error Message"
+        "Rule ID",
+        "Severity",
+        "Table Name",
+        "Row Number",
+        "Column Name",
+        "Failed Value",
+        "Error Message",
     ]
     assert list(failures_df.columns) == expected_cols
 
@@ -471,7 +468,9 @@ def test_standalone_duplicate_pks():
 # 23. Standalone function test: check_foreign_key_violations
 def test_standalone_fk_violations():
     df = pd.DataFrame({"fk": [10, 20, 30]})
-    failures = check_foreign_key_violations(df, "fk", {10, 20}, "parent_table", "test_table")
+    failures = check_foreign_key_violations(
+        df, "fk", {10, 20}, "parent_table", "test_table"
+    )
     assert len(failures) == 1
     assert failures[0].rule_id == "DQ-03"
     assert failures[0].row_number == 3
